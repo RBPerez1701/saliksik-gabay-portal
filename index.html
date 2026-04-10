@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Saliksik-Gabay Teaching Models Portal</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="container">
+      <p class="eyebrow">Schools Division of Bulacan</p>
+      <h1>Saliksik-Gabay Teaching Models Portal</h1>
+      <p class="subtext">
+        A free, searchable website prototype for classroom-based action research technical assistance.
+      </p>
+    </div>
+  </header>
+
+  <main class="container main-grid">
+    <aside class="sidebar">
+      <section class="card">
+        <h2 class="section-title">Search teaching models</h2>
+        <input id="searchInput" type="text" placeholder="Search by model, keyword, or learning area" />
+        <p class="helper-text">
+          Start with a few sample entries now, then add the rest of your teaching models later.
+        </p>
+      </section>
+
+      <section class="card">
+        <div class="sidebar-head">
+          <h2 class="section-title">Teaching models</h2>
+          <span id="modelCount" class="pill"></span>
+        </div>
+        <div id="modelList" class="model-list"></div>
+      </section>
+    </aside>
+
+    <section class="content">
+      <section class="hero card">
+        <div>
+          <p class="eyebrow eyebrow-dark">Selected model</p>
+          <h2 id="modelName"></h2>
+          <p id="modelSummary" class="summary"></p>
+          <p id="learningArea" class="learning-area"></p>
+        </div>
+        <div id="tagList" class="tag-list"></div>
+      </section>
+
+      <section class="card">
+        <div id="tabButtons" class="tab-buttons"></div>
+      </section>
+
+      <section class="card section-card">
+        <h3 id="activeTabTitle"></h3>
+        <div id="sectionContent"></div>
+      </section>
+
+      <section class="card note-card">
+        <h3>How you will update this later</h3>
+        <ol>
+          <li>Open the file named <strong>models.js</strong> in your GitHub repository.</li>
+          <li>Duplicate one sample model entry.</li>
+          <li>Replace the text with the new teaching model details.</li>
+          <li>Commit the change. GitHub Pages republishes the site.</li>
+        </ol>
+      </section>
+    </section>
+  </main>
+
+  <script src="models.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
