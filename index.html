@@ -8,12 +8,16 @@
 </head>
 <body>
   <header class="topbar">
-    <div class="container">
-      <p class="eyebrow">Schools Division of Bulacan</p>
-      <h1>Saliksik-Gabay Teaching Models Portal</h1>
-      <p class="subtext">
-        A free, searchable website prototype for classroom-based action research technical assistance.
-      </p>
+    <div class="container brand-row">
+      <div class="brand-logos">
+        <img src="assets/deped-seal.png" alt="Department of Education seal" class="seal" />
+        <img src="assets/sdo-bulacan-seal.png" alt="Schools Division of Bulacan seal" class="seal" />
+      </div>
+      <div class="brand-copy">
+        <p class="eyebrow">Schools Division of Bulacan</p>
+        <h1>Saliksik-Gabay Teaching Models Portal</h1>
+        <p class="subtext">A searchable, evidence-linked website for classroom-based action research technical assistance.</p>
+      </div>
     </div>
   </header>
 
@@ -22,9 +26,7 @@
       <section class="card">
         <h2 class="section-title">Search teaching models</h2>
         <input id="searchInput" type="text" placeholder="Search by model, keyword, or learning area" />
-        <p class="helper-text">
-          Start with a few sample entries now, then add the rest of your teaching models later.
-        </p>
+        <p class="helper-text">Use the search box to find models by topic, skill, subject area, or intervention concern.</p>
       </section>
 
       <section class="card">
@@ -33,6 +35,12 @@
           <span id="modelCount" class="pill"></span>
         </div>
         <div id="modelList" class="model-list"></div>
+      </section>
+
+      <section class="card about-card">
+        <h2 class="section-title">About this portal</h2>
+        <p>This portal presents evidence-linked teaching models intended to support teacher-researchers in selecting, justifying, and applying suitable interventions for classroom-based action research.</p>
+        <p>Each entry follows a standardized format drawn from the innovation material: model overview, situations for use, core features, baseline data needed, how to use it, action research application, implementation flow, evidence from related studies, data to gather, indicators of success, and references.</p>
       </section>
     </aside>
 
@@ -55,7 +63,15 @@
         <h3 id="activeTabTitle"></h3>
         <div id="sectionContent"></div>
       </section>
+    </section>
   </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>Saliksik-Gabay Teaching Models Portal</p>
+      <p>Schools Division of Bulacan</p>
+    </div>
+  </footer>
 
   <script src="models.js"></script>
   <script src="script.js"></script>

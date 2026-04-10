@@ -1,22 +1,16 @@
-# Saliksik-Gabay Teaching Models Portal
+# Saliksik-Gabay Teaching Models Portal - Version 2
 
-This folder is already prepared for GitHub Pages.
+This package contains the updated Version 2 files for your GitHub Pages website.
 
-## Files inside
-- `index.html` - the main page of the website
-- `styles.css` - the design of the site
-- `models.js` - where the teaching models are stored
-- `script.js` - the search and tab functions
+## What is included
+- fuller teaching model entries based on the uploaded innovation material
+- complete reference tabs for the sample models
+- implementation flow figures inside the website
+- official seals in the site header
 
-## What to upload to GitHub
-Upload all files in this folder to one repository.
-
-## How to add more teaching models later
-1. Open `models.js`
-2. Copy one whole model object
-3. Paste it below the last one
-4. Replace the text with the new model details
-5. Commit changes
-
-## Important note
-Do not rename `index.html`. GitHub Pages needs it as the main page.
+## Files
+- `index.html` - main website page
+- `styles.css` - site design
+- `models.js` - teaching model content
+- `script.js` - search and tab behavior
+- `assets/` - seals and figure images
