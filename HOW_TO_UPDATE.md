@@ -1,28 +1,8 @@
-# How to Update the Teaching Models Later
+Replace the old website files in your GitHub repository with the files from this Version 2 package.
 
-Open `models.js`.
-
-Each teaching model follows this structure:
-
-- id
-- modelName
-- learningArea
-- tags
-- summary
-- sections
-
-Inside `sections`, keep these exact labels:
-- Model Overview
-- When to Use It
-- Core Features
-- Baseline Data Needed
-- How to Use It
-- Action Research Application
-- Implementation Flow
-- Evidence From Related Studies
-- Data to Gather
-- Indicators of Success
-- References
-
-Tip:
-Use one of the sample models as your template so you only replace the text.
+Recommended method:
+1. Open your repository.
+2. Upload all files from this folder.
+3. Allow GitHub to replace files with the same names.
+4. Commit changes.
+5. Refresh your live website after GitHub republishes it.
