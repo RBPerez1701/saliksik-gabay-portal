@@ -26,11 +26,11 @@ const guideSteps = [
     ],
     fields: [
       { key: "problem", label: "What specific problem will you study?", hint: "State who is affected and which gap the baseline supports. Identify what still needs to be verified.", area: true },
-      { key: "role", label: "Proponent role", options: ["Teacher", "School head", "Supervisor"] },
+      { key: "role", label: "Proponent role", placeholder: "e.g., Master Teacher I or Administrative Officer II", hint: "Enter your position or current designation." },
       { key: "standard", label: "Professional standard or indicator", hint: "Use the suggestion as a starting point and confirm the indicator for your role and career stage." },
       { key: "kra", label: "Applicable KRA or performance objective", hint: "Use the wording in your current performance tool." },
-      { key: "agenda", label: "DepEd research agenda theme", options: ["Teaching and Learning", "Child Protection", "Human Resource Development", "Governance"] },
-      { key: "crossTheme", label: "Cross-cutting theme, if applicable", options: ["Gender and Development", "Disaster Risk Reduction and Management", "Inclusive Education"] },
+      { key: "agenda", label: "DepEd research agenda theme", options: ["Teaching and Learning", "Child Protection", "Human Resource Development", "Governance"], otherLabel: "Specify the research agenda theme" },
+      { key: "crossTheme", label: "Cross-cutting theme, if applicable", options: ["Gender and Development", "Disaster Risk Reduction and Management", "Inclusive Education"], otherLabel: "Specify the cross-cutting theme" },
       { key: "roleFit", label: "How can you address this problem in your role?", area: true },
       { key: "significance", label: "Who could benefit and how?", area: true },
       { key: "scope", label: "What will the study cover, and what are its limits?", area: true }
@@ -38,14 +38,14 @@ const guideSteps = [
   },
   {
     title: "Literature review",
-    intro: "Bring the sources you find. Review whether each source supports, qualifies, or challenges your proposed response.",
+    intro: "Summarize the relevant findings from previous studies or available literature. You may add individual source details if useful.",
     tips: [
       "Look for credible studies that examine your problem or a possible response. Check who participated, what was compared, and how the outcome was measured.",
       "Include relevant findings that qualify or challenge the approach. Explain which conditions match your setting and what may need adapting.",
       "Group sources by idea, compare their findings, and end with the gap your study will address. Record enough citation details to find and cite each source again."
     ],
     fields: [
-      { key: "literatureSynthesis", label: "Across these sources, what approach looks promising and what remains uncertain?", hint: "Explain where the findings agree or differ, and what this means for your setting.", area: true }
+      { key: "literatureSynthesis", label: "What did previous studies or available literature find?", hint: "Summarize the relevant findings and explain what they suggest for your study or proposed response.", area: true }
     ],
     group: "sources"
   },
@@ -106,7 +106,7 @@ const guideSteps = [
       "Ask your research coordinator to review the draft. Confirm the proposal format, endorsements, declarations, and submission instructions for the current call."
     ],
     fields: [
-      { key: "format", label: "Proposal format", choices: { actionEn: "Action Research — English", actionFil: "Action Research — Filipino", appliedEn: "Applied Research — English" } },
+      { key: "format", label: "Proposal format", choices: { actionEn: "Action Research — English", actionFil: "Action Research — Filipino", appliedEn: "Applied Research — English" }, otherLabel: "Specify the proposal format", otherHint: "Word will use a general proposal outline. You can adapt the headings and formatting after download." },
       { key: "title", label: "Working title" },
       { key: "author", label: "Proponent name(s)", hint: "Optional for a working draft." },
       { key: "school", label: "School or office" }
@@ -116,13 +116,13 @@ const guideSteps = [
 
 const guideGroups = {
   sources: {
-    title: "Sources you found", item: "Source",
+    title: "Individual sources", item: "Source", optional: true,
     fields: [
       { key: "citation", label: "Citation or source details", hint: "Record the author, year, and title." },
       { key: "location", label: "Link, DOI, or publication details" },
       { key: "context", label: "Who or what did the study examine?", hint: "Consider the participants, setting, and design." },
       { key: "finding", label: "What did the study find?", hint: "Record the finding that matters to your problem or possible response.", area: true },
-      { key: "support", label: "What does this source say about your possible response?", options: ["Supports it", "Supports it with conditions", "Challenges it", "Informs the problem only", "Evidence is unclear"] },
+      { key: "support", label: "What does this source say about your possible response?", options: ["Supports it", "Supports it with conditions", "Challenges it", "Informs the problem only", "Evidence is unclear"], otherLabel: "Describe what this source says" },
       { key: "limitations", label: "What limits how well this finding applies to your setting?", area: true },
       { key: "application", label: "What would you use, adapt, or reconsider based on this source?", area: true }
     ]
@@ -152,6 +152,11 @@ const roleStandards = {
   Supervisor: "PPSS Strand 3.3 · Culture of research"
 };
 
+function guideFieldValue(record, key) {
+  const value = record[key] === "other" ? record[key + "Other"] : record[key];
+  return value?.trim() || "";
+}
+
 function guideDecisionInputs(draft) {
   const { answers, groups } = draft;
   const keys = [
@@ -160,8 +165,11 @@ function guideDecisionInputs(draft) {
     "design", "participants", "sampling", "procedure", "hypothesis"
   ];
   const groupValues = Object.entries(guideGroups).map(([key, group]) =>
-    groups[key].map((row) => group.fields.map(({ key: field }) => row[field] || "")));
-  return JSON.stringify([answers.format === "appliedEn", keys.map((key) => answers[key] || ""), groupValues]);
+    groups[key].map((row) => group.fields.map(({ key: field, otherLabel }) => otherLabel ? guideFieldValue(row, field) : row[field] || "")));
+  const format = answers.format === "other" ? guideFieldValue(answers, "format") : answers.format === "appliedEn";
+  const decision = [format, keys.map((key) => key === "agenda" ? guideFieldValue(answers, key) : answers[key] || ""), groupValues];
+  if (answers.crossTheme === "other") decision.push(guideFieldValue(answers, "crossTheme"));
+  return JSON.stringify(decision);
 }
 
 function guideReview(draft) {
@@ -170,20 +178,14 @@ function guideReview(draft) {
   if (!a.group || !a.period || !a.baselineSource || !a.baselineMetric || !a.baseline) {
     issues.push("Add the group, period, source, skill or outcome, and baseline finding.");
   }
-  if (!a.problem || !a.role || !a.standard || !a.kra || !a.agenda || !a.roleFit) {
+  if (!a.problem || !a.role?.trim() || !a.standard || !a.kra || !guideFieldValue(a, "agenda") || !a.roleFit) {
     issues.push("Complete the problem, role, professional standard, performance objective, agenda theme, and role fit.");
   }
-  if (!g.sources.length || !a.literatureSynthesis) {
-    issues.push("Review at least one source and explain what the literature suggests for your setting.");
-  }
-  g.sources.forEach((source, i) => {
-    if (!source.citation || !source.context || !source.finding || !source.support || !source.limitations || !source.application) {
-      issues.push(`Source ${i + 1} needs more detail on the evidence, its relevance, or its limits.`);
-    }
-  });
+  if (!a.literatureSynthesis?.trim()) issues.push("Summarize the findings from previous studies or available literature.");
   if (!a.framework || !a.selection) issues.push("Explain the framework and justify the approach you chose.");
-  if (a.format !== "appliedEn" && !a.implementation) issues.push("Describe how often and for how long you will carry out the intervention.");
-  if (a.format !== "appliedEn" && g.options.filter((option) => option.strategy).length < 2) {
+  const isActionResearch = a.format === "actionEn" || a.format === "actionFil";
+  if (isActionResearch && !a.implementation) issues.push("Describe how often and for how long you will carry out the intervention.");
+  if (isActionResearch && g.options.filter((option) => option.strategy).length < 2) {
     issues.push("Consider an alternative so you can explain why your chosen intervention is feasible.");
   }
   g.options.forEach((option, i) => {
@@ -197,6 +199,7 @@ function guideReview(draft) {
   });
   if (!a.design || !a.participants || !a.sampling || !a.procedure) issues.push("Review the design, participants or units, selection, and data collection procedure.");
   if (!a.ethics || !a.timeline || !a.utilization) issues.push("Complete the ethics, work plan, and use of findings.");
+  if (a.format === "other" && !guideFieldValue(a, "format")) issues.push("Specify the proposal format you plan to use.");
   if (!a.title) issues.push("Give the proposal a working title.");
   if (reviewed && reviewed !== guideDecisionInputs(draft)) {
     issues.unshift("The evidence or design changed after your last review. Recheck how the problem, response, questions, and methods fit together.");

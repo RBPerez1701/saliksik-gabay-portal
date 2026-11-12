@@ -13,6 +13,11 @@ function emptyDraft() {
   return { step: 0, answers: { format: "actionEn" }, groups: { sources: [], options: [], questions: [] }, reviewed: "" };
 }
 
+function savedFields(fields, record) {
+  const keys = fields.flatMap(({ key, otherLabel }) => otherLabel ? [key, key + "Other"] : [key]);
+  return Object.fromEntries(keys.filter((key) => typeof record?.[key] === "string").map((key) => [key, record[key]]));
+}
+
 function loadDraft() {
   const initial = emptyDraft();
   try {
@@ -20,14 +25,12 @@ function loadDraft() {
     if (!raw || typeof raw !== "object") return initial;
     if (Number.isInteger(raw.step) && guideSteps[raw.step]) initial.step = raw.step;
     for (const step of guideSteps) {
-      for (const { key } of step.fields) {
-        if (typeof raw.answers?.[key] === "string") initial.answers[key] = raw.answers[key];
-      }
+      Object.assign(initial.answers, savedFields(step.fields, raw.answers));
     }
     for (const [key, group] of Object.entries(guideGroups)) {
       if (!Array.isArray(raw.groups?.[key])) continue;
       initial.groups[key] = raw.groups[key].filter((row) => row && typeof row === "object").map((row) =>
-        Object.fromEntries(group.fields.map(({ key: field }) => [field, typeof row[field] === "string" ? row[field] : ""])));
+        savedFields(group.fields, row));
     }
     if (typeof raw.reviewed === "string") initial.reviewed = raw.reviewed;
   } catch {
@@ -74,7 +77,7 @@ function link(label, url) {
 function fieldGrid(fields, data, prefix = "") {
   const grid = node("div", "", "guide-form-grid");
   for (const field of fields) {
-    const { key, label, hint, placeholder, area, choices, options } = field;
+    const { key, label, hint, placeholder, area, choices, options, otherLabel, otherHint } = field;
     const id = prefix + key;
     const wrapper = node("div", "", area ? "guide-field wide" : "guide-field");
     const caption = node("label", label);
@@ -85,6 +88,7 @@ function fieldGrid(fields, data, prefix = "") {
     if (entries) {
       if (!choices) control.add(new Option("Choose an option", ""));
       for (const [value, description] of Object.entries(entries)) control.add(new Option(description, value));
+      if (otherLabel) control.add(new Option("Other (specify)", "other"));
     }
     if (placeholder) control.placeholder = placeholder;
     if (area) control.rows = 3;
@@ -102,6 +106,30 @@ function fieldGrid(fields, data, prefix = "") {
       control.setAttribute("aria-describedby", helper.id);
       wrapper.append(helper);
     }
+    if (entries && otherLabel) {
+      const otherKey = key + "Other";
+      const other = node("div", "", "guide-field");
+      const otherCaption = node("label", otherLabel);
+      const input = node("input");
+      input.id = id + "-other";
+      input.value = data[otherKey] || "";
+      otherCaption.htmlFor = input.id;
+      other.append(otherCaption, input);
+      if (otherHint) {
+        const helper = node("small", otherHint);
+        helper.id = input.id + "-hint";
+        input.setAttribute("aria-describedby", helper.id);
+        other.append(helper);
+      }
+      other.hidden = control.value !== "other";
+      control.addEventListener("change", () => { other.hidden = control.value !== "other"; });
+      input.addEventListener("input", () => {
+        data[otherKey] = input.value;
+        saveDraft();
+        if (!prefix && key === "format") renderReview();
+      });
+      wrapper.append(other);
+    }
     grid.append(wrapper);
   }
   return grid;
@@ -113,7 +141,15 @@ function callout(content) {
 
 function renderStandardSuggestion() {
   const container = document.getElementById("standardSuggestion");
-  const suggestion = roleStandards[draft.answers.role];
+  if (!container) return;
+  const role = draft.answers.role?.trim() || "";
+  const roleTypes = [
+    [/\b(?:school head|principal)\b/i, "School head"],
+    [/\bsupervisor\b/i, "Supervisor"],
+    [/^(?:(?:master|special science|senior high school|substitute)\s+)?teacher\b/i, "Teacher"]
+  ];
+  const type = roleTypes.find(([pattern]) => pattern.test(role))?.[1];
+  const suggestion = roleStandards[type];
   container.replaceChildren();
   container.hidden = !suggestion;
   if (!suggestion) return;
@@ -127,7 +163,7 @@ function renderStandardSuggestion() {
 }
 
 function renderGroup(key) {
-  const { title, item, fields } = guideGroups[key];
+  const { title, item, fields, optional } = guideGroups[key];
   const rows = draft.groups[key];
   const section = node("section", "", "guide-group");
   section.id = key + "Group";
@@ -148,7 +184,7 @@ function renderGroup(key) {
     fieldset.append(node("legend", `${item} ${index + 1}`), fieldGrid(fields, row, prefix), remove);
     section.append(fieldset);
   });
-  const add = button(`Add ${item === "Option" ? "an" : "a"} ${item.toLowerCase()}`, () => {
+  const add = button(`Add ${item === "Option" ? "an" : "a"} ${item.toLowerCase()}${optional ? " (optional)" : ""}`, () => {
     rows.push({});
     saveDraft();
     section.replaceWith(renderGroup(key));
@@ -189,7 +225,7 @@ function modelFinder() {
       : "No matching model. Try a broader term or enter your own approach below.";
     for (const model of matches.slice(0, 5)) {
       const row = node("li");
-      row.append(link(model.modelName, `index.html?model=${encodeURIComponent(model.id)}`), node("span", model.summary, "guide-muted"));
+      row.append(link(model.modelName, `teaching-models.html?model=${encodeURIComponent(model.id)}`), node("span", model.summary, "guide-muted"));
       row.append(button("Add as an option", () => {
         const options = draft.groups.options;
         let index = options.findIndex((option) => option.strategy === model.modelName);
@@ -319,7 +355,7 @@ function showStep(index, moveFocus = true) {
   if (step.group === "sources") {
     const resources = node("p", "Search for completed DepEd studies in ", "guide-muted");
     resources.append(link("E-Saliksik", "https://e-saliksik.deped.gov.ph/"), document.createTextNode(" or use a research database or journal you can access."));
-    guideForm.append(resources, renderGroup(step.group), fields);
+    guideForm.append(fields, resources, renderGroup(step.group));
   } else {
     guideForm.append(fields);
     if (step.group === "options") guideForm.append(modelFinder());

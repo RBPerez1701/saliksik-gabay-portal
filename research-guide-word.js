@@ -7,6 +7,8 @@ function proposalSections(draft) {
   const { answers: a, groups: g } = draft;
   const isFilipino = a.format === "actionFil";
   const isApplied = a.format === "appliedEn";
+  const isCustom = a.format === "other";
+  const fieldValue = typeof guideFieldValue === "function" ? guideFieldValue : (record, key) => record[key];
   const [rationale, questions, hypothesis, significance, scope, method, design, participants, sampling, intervention, instruments, collection, ethics, analysis, timeline, costs, utilization, references, appendices] =
     proposalHeadings[isFilipino ? "actionFil" : "actionEn"];
   const section = (heading, paragraphs, level = 1) => ({ heading, paragraphs: paragraphs.filter(Boolean), level });
@@ -18,16 +20,16 @@ function proposalSections(draft) {
     label(isFilipino ? "Batayan ng paghahambing" : "Benchmark or comparison", a.benchmark),
     label(isFilipino ? "Suliranin" : "Problem", a.problem),
     label(isFilipino ? "Pamantayan at tungkulin" : "Professional alignment", [a.role, a.standard, a.kra, a.roleFit].filter(Boolean).join(" · ")),
-    label(isFilipino ? "Adyenda ng pananaliksik" : "Research agenda", [a.agenda, a.crossTheme].filter(Boolean).join(" · "))
+    label(isFilipino ? "Adyenda ng pananaliksik" : "Research agenda", [fieldValue(a, "agenda"), fieldValue(a, "crossTheme")].filter(Boolean).join(" · "))
   ];
   const literature = [
     a.literatureSynthesis,
-    ...g.sources.map((row) => [row.citation, row.context, row.finding, row.support, row.limitations, row.application].filter(Boolean).join(" — "))
+    ...g.sources.map((row) => [row.citation, row.context, row.finding, fieldValue(row, "support"), row.limitations, row.application].filter(Boolean).join(" — "))
   ];
   const optionNotes = g.options.map((row) => [row.strategy, row.support, row.feasibility].filter(Boolean).join(" — "));
   const aligned = (key) => g.questions.flatMap((row, index) => row[key] ? [`${index + 1}. ${row[key]}`] : []);
-  const opening = isApplied
-    ? [section("Introduction", baseline), section("Review of Related Literature and Studies", literature, 2), section("Conceptual Framework", [a.framework, a.selection, ...optionNotes], 2)]
+  const opening = isApplied || isCustom
+    ? [section("Introduction", baseline), section("Review of Related Literature and Studies", literature, 2), section("Conceptual Framework", isApplied ? [a.framework, a.selection, ...optionNotes] : [a.framework], 2)]
     : [section(rationale, [...baseline, label(isFilipino ? "Sintesis ng literatura" : "Literature synthesis", literature[0]), ...literature.slice(1), label(isFilipino ? "Konseptuwal na balangkas" : "Conceptual framework", a.framework)])];
   const sections = [
     ...opening,
@@ -39,7 +41,7 @@ function proposalSections(draft) {
     section(design, [a.design], 2),
     section(participants, [a.participants], 2),
     section(sampling, [a.sampling], 2),
-    ...(isApplied ? [section("Sources of Data", aligned("data"), 2)] : [section(intervention, [a.selection, a.implementation, ...optionNotes], 2)]),
+    ...(isApplied ? [section("Sources of Data", aligned("data"), 2)] : [section(isCustom ? "Proposed Approach" : intervention, [a.selection, a.implementation, ...optionNotes], 2)]),
     section(isApplied ? "Instruments" : instruments, isApplied ? aligned("instrument") : g.questions.flatMap((row, index) => {
       const items = [row.data, row.instrument].filter(Boolean);
       return items.length ? [`${index + 1}. ${items.join(" — ")}`] : [];
@@ -55,7 +57,11 @@ function proposalSections(draft) {
   ];
   return sections.map((entry) => ({
     ...entry,
-    paragraphs: entry.paragraphs.length || entry.heading === method ? entry.paragraphs : [isFilipino ? "[Kumpletuhin ang bahaging ito.]" : "[Complete this section.]"]
+    paragraphs: entry.paragraphs.length || entry.heading === method ? entry.paragraphs : [
+      entry.heading === references
+        ? (isFilipino ? "[Idagdag ang mga sangguniang binanggit sa burador.]" : "[Add references for the works cited in the draft.]")
+        : (isFilipino ? "[Kumpletuhin ang bahaging ito.]" : "[Complete this section.]")
+    ]
   }));
 }
 
@@ -78,6 +84,7 @@ function createProposalWord(draft, zip) {
   const body = [
     paragraph(a.title || (phil ? "Pamagat ng Panukala" : "Working Proposal Title"), "Title"),
     paragraph(phil ? "Burador ng Panukalang Pananaliksik" : "Research Proposal Draft", "Subtitle"),
+    ...(a.format === "other" && a.formatOther?.trim() ? [paragraph(a.formatOther.trim(), "Subtitle")] : []),
     ...(a.author ? [paragraph(a.author, "Subtitle")] : []),
     ...(a.school ? [paragraph(a.school, "Subtitle")] : []),
     pageBreak,

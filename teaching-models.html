@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Teaching Models | Saliksik-Gabay</title>
+  <link rel="stylesheet" href="styles.css?v=portal5" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a><header class="topbar"><div class="container brand-row"><div class="brand-logos"><img src="assets/deped-seal.png" alt="Department of Education seal" class="seal"><img src="assets/sdo-bulacan-seal.png" alt="Schools Division of Bulacan seal" class="seal"></div><div class="brand-copy"><p class="eyebrow">Schools Division of Bulacan</p><h1>Saliksik-Gabay</h1><p class="subtext">Teaching resources and research support</p></div></div></header>
+
+  <nav class="portal-nav container" aria-label="Portal sections"><a href="index.html">Home</a><a href="teaching-models.html" aria-current="page">Teaching Models</a><a href="proposal-process.html">Proposal Writing Process</a><a href="research-guide.html">Proposal Builder</a><a href="research-management.html">Research Management</a></nav>
+
+  <main id="main" class="container main-grid">
+    <button id="browseModels" class="browse-toggle" type="button"
+      aria-controls="modelBrowser" aria-expanded="false">Browse teaching models</button>
+    <aside id="modelBrowser" class="sidebar card" aria-labelledby="browserTitle">
+      <div class="sidebar-head">
+        <h2 id="browserTitle" class="section-title">Teaching models</h2>
+        <span id="modelCount" class="pill" role="status"></span>
+      </div>
+      <label class="visually-hidden" for="searchInput">Search teaching models</label>
+      <input id="searchInput" type="search" placeholder="Search by model or topic" aria-controls="modelList" />
+      <div id="modelList" class="model-list"></div>
+    </aside>
+
+    <article class="content card" aria-labelledby="modelName">
+      <header class="model-heading">
+        <h2 id="modelName" tabindex="-1"></h2>
+      </header>
+      <aside class="model-context" aria-label="Model details">
+        <p id="modelSummary" class="summary"></p>
+        <p id="learningArea" class="learning-area"></p>
+        <div id="tagList" class="tag-list"></div>
+      </aside>
+      <nav class="section-navigation" aria-label="Model sections">
+        <div id="tabButtons" class="tab-buttons"></div>
+        <div class="section-picker">
+          <label for="sectionSelect">Jump to section</label>
+          <select id="sectionSelect" aria-controls="sectionContent"></select>
+        </div>
+      </nav>
+      <section class="section-card" aria-labelledby="activeTabTitle">
+        <h3 id="activeTabTitle"></h3>
+        <div id="sectionContent"></div>
+      </section>
+    </article>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>Saliksik-Gabay</p>
+      <p>Schools Division of Bulacan</p>
+    </div>
+  </footer>
+
+  <script src="models.js"></script>
+  <script src="script.js?v=research-guide"></script>
+</body>
+</html>
