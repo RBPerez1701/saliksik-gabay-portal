@@ -165,22 +165,19 @@ function renderBlock(block) {
   }
 
   if (block.type === "references") {
-    const ol = document.createElement("ol");
+    const ol = document.createElement("ul");
     ol.className = "reference-list";
     (block.items || []).forEach((item) => {
       const li = document.createElement("li");
-      const span = document.createElement("span");
-      span.textContent = item.text || "";
-      li.appendChild(span);
-      if (item.url) {
-        li.appendChild(document.createTextNode(" "));
-        const a = document.createElement("a");
-        a.href = item.url;
-        a.textContent = item.url;
-        a.target = "_blank";
-        a.rel = "noopener noreferrer";
-        li.appendChild(a);
-      }
+      item.segments.forEach(({ text, italic }) => {
+        if (italic) {
+          const emphasis = document.createElement("em");
+          emphasis.textContent = text;
+          li.appendChild(emphasis);
+        } else {
+          li.appendChild(document.createTextNode(text));
+        }
+      });
       ol.appendChild(li);
     });
     wrapper.appendChild(ol);
