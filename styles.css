@@ -446,3 +446,9 @@ h1 {
 .portal-feedback:hover {background:var(--accent-soft);}
 @media(max-width:700px){.brand-row{flex-wrap:wrap;}.portal-feedback{margin:0 0 0 auto;font-size:12px;padding:8px 12px;}.brand-copy{flex:1;min-width:0;}}
 @media(max-width:700px){.brand-row{display:grid;grid-template-columns:auto minmax(0,1fr);gap:10px 12px;}.portal-feedback{grid-column:1 / -1;justify-self:end;margin:0;}.brand-copy{min-width:0;}}
+
+/* Catalogue category filter */
+.filter-label{display:block;font-weight:700;margin:12px 0 6px}
+#categoryFilter{width:100%;min-height:44px;padding:10px;border:1px solid #cbd8e9;border-radius:12px;background:white;color:#17243b;font:inherit;margin-bottom:12px}
+.sidebar-head{flex-wrap:wrap}
+.reference-list{overflow-wrap:anywhere}

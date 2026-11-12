@@ -1,4 +1,8 @@
 
+const categoryFilter = document.getElementById("categoryFilter");
+for (const category of [...new Set(MODELS.map(model => model.category))]) {
+  const option = document.createElement("option"); option.value = category; option.textContent = category; categoryFilter.appendChild(option);
+}
 const searchInput = document.getElementById("searchInput");
 const browseModels = document.getElementById("browseModels");
 const modelBrowser = document.getElementById("modelBrowser");
@@ -22,7 +26,7 @@ let activeTab = "Model Overview";
 function setBrowserOpen(open) {
   if (!browseModels) return;
   browseModels.setAttribute("aria-expanded", String(open));
-  browseModels.textContent = open ? "Hide teaching models" : "Browse teaching models";
+  browseModels.textContent = open ? "Hide models and frameworks" : "Browse models and frameworks";
 }
 
 function flattenForSearch(value) {
@@ -37,27 +41,27 @@ function flattenForSearch(value) {
 
 function searchModels(query) {
   const q = query.trim().toLowerCase();
-  if (!q) return [...MODELS];
+  
 
   return MODELS.filter((model) => {
     const joined = [
-      model.modelName,
+      model.modelName, model.category,
       model.learningArea,
       model.summary,
       ...(model.tags || []),
       flattenForSearch(model.sections || {})
     ].join(" ").toLowerCase();
-    return joined.includes(q);
+    return (!categoryFilter.value || model.category === categoryFilter.value) && joined.includes(q);
   });
 }
 
 function renderModelList() {
   modelList.innerHTML = "";
   const matchLabel = filteredModels.length === 1 ? "match" : "matches";
-  modelCount.textContent = filteredModels.length + " " + (searchInput.value.trim() ? matchLabel : "loaded");
+  modelCount.textContent = filteredModels.length + " " + ((searchInput.value.trim() || categoryFilter.value) ? matchLabel : "loaded");
 
   if (filteredModels.length === 0) {
-    modelList.innerHTML = '<p class="empty-state">No matching model found.</p>';
+    modelList.innerHTML = '<p class="empty-state">No matching entries.</p>';
     return;
   }
 
@@ -99,7 +103,7 @@ function updateModelSelection() {
 function renderHeader(model) {
   modelName.textContent = model.modelName;
   modelSummary.textContent = model.summary;
-  learningArea.textContent = "Learning area or use context: " + model.learningArea;
+  learningArea.textContent = "Category: " + model.category + " · Context: " + model.learningArea;
 
   tagList.innerHTML = "";
   (model.tags || []).forEach((tag) => {
@@ -252,11 +256,24 @@ function renderModel(model) {
   renderSection(model);
 }
 
-searchInput.addEventListener("input", (event) => {
-  filteredModels = searchModels(event.target.value);
+function applyFilters() {
+  filteredModels = searchModels(searchInput.value);
+  let selected = filteredModels.find(model => model.id === selectedModelId) || filteredModels[0];
+  selectedModelId = selected?.id || "";
+  activeTab = "Model Overview";
   renderModelList();
   modelList.scrollTop = 0;
-});
+  if (selected) renderModel(selected);
+  else {
+    modelName.textContent = "No matching entries";
+    modelSummary.textContent = "Try another category or a broader search term.";
+    learningArea.textContent = "";
+    for (const element of [tagList, tabButtons, sectionSelect, sectionContent]) element.replaceChildren();
+    activeTabTitle.textContent = "";
+  }
+}
+searchInput.addEventListener("input", applyFilters);
+categoryFilter.addEventListener("change", applyFilters);
 
 browseModels?.addEventListener("click", () => {
   const open = browseModels.getAttribute("aria-expanded") !== "true";
@@ -273,7 +290,7 @@ modelBrowser?.addEventListener("keydown", (event) => {
 
 sectionSelect?.addEventListener("change", (event) => {
   const model = MODELS.find((item) => item.id === selectedModelId);
-  selectSection(model, event.target.value);
+  if (model) selectSection(model, event.target.value);
 });
 
 renderModelList();

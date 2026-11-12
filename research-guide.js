@@ -197,12 +197,12 @@ function renderGroup(key) {
 
 function modelFinder() {
   const section = node("section", "", "guide-model-search");
-  const caption = node("label", "Search teaching models for possible strategies");
+  const caption = node("label", "Search models and frameworks for possible approaches");
   caption.htmlFor = "guideModelQuery";
   const search = node("input");
   search.type = "search";
   search.id = caption.htmlFor;
-  search.placeholder = "Try reading, argumentation, or assessment";
+  search.placeholder = "Try reading, leadership, finance, or DRRM";
   search.value = modelQuery;
   const results = node("ul");
   const status = node("p", "", "guide-muted");
@@ -217,12 +217,12 @@ function modelFinder() {
       return;
     }
     const matches = MODELS.filter((model) => {
-      const index = [model.modelName, model.summary, model.learningArea, ...(model.tags || [])].join(" ").toLowerCase();
+      const index = [model.modelName, model.summary, model.category, model.learningArea, ...(model.tags || [])].join(" ").toLowerCase();
       return words.every((word) => index.includes(word));
     });
     status.textContent = matches.length
-      ? `Showing ${Math.min(5, matches.length)} of ${matches.length} matching models.`
-      : "No matching model. Try a broader term or enter your own approach below.";
+      ? `Showing ${Math.min(5, matches.length)} of ${matches.length} matching entries.`
+      : "No matching entry. Try a broader term or enter your own approach below.";
     for (const model of matches.slice(0, 5)) {
       const row = node("li");
       row.append(link(model.modelName, `teaching-models.html?model=${encodeURIComponent(model.id)}`), node("span", model.summary, "guide-muted"));

@@ -293,7 +293,8 @@ const MODELS = [
           ]
         }
       ]
-    }
+    },
+    "category": "Teaching and Learning"
   },
   {
     "id": "nea",
@@ -695,7 +696,8 @@ const MODELS = [
           ]
         }
       ]
-    }
+    },
+    "category": "Teaching and Learning"
   },
   {
     "id": "six-thinking-hats",
@@ -1114,7 +1116,8 @@ const MODELS = [
           ]
         }
       ]
-    }
+    },
+    "category": "Teaching and Learning"
   },
   {
     "id": "udl",
@@ -1500,7 +1503,8 @@ const MODELS = [
           ]
         }
       ]
-    }
+    },
+    "category": "Teaching and Learning"
   },
   {
     "id": "response-to-intervention",
@@ -1880,7 +1884,8 @@ const MODELS = [
           ]
         }
       ]
-    }
+    },
+    "category": "Teaching and Learning"
   },
   {
     "id": "inquiry-based-learning",
@@ -2283,7 +2288,8 @@ const MODELS = [
           ]
         }
       ]
-    }
+    },
+    "category": "Teaching and Learning"
   },
   {
     "id": "argument-driven-inquiry",
@@ -2750,7 +2756,8 @@ const MODELS = [
           ]
         }
       ]
-    }
+    },
+    "category": "Teaching and Learning"
   },
   {
     "id": "irec",
@@ -3096,7 +3103,8 @@ const MODELS = [
           ]
         }
       ]
-    }
+    },
+    "category": "Teaching and Learning"
   },
   {
     "id": "project-based-learning",
@@ -3461,7 +3469,8 @@ const MODELS = [
           ]
         }
       ]
-    }
+    },
+    "category": "Teaching and Learning"
   },
   {
     "id": "flipped-classroom",
@@ -3896,7 +3905,8 @@ const MODELS = [
           ]
         }
       ]
-    }
+    },
+    "category": "Teaching and Learning"
   },
   {
     "id": "parent-child-interaction-therapy",
@@ -4217,7 +4227,8 @@ const MODELS = [
           ]
         }
       ]
-    }
+    },
+    "category": "Teaching and Learning"
   },
   {
     "id": "parent-implemented-interventions",
@@ -4515,7 +4526,8 @@ const MODELS = [
           ]
         }
       ]
-    }
+    },
+    "category": "Teaching and Learning"
   },
   {
     "id": "instruction-feedback-proficiency",
@@ -4784,7 +4796,8 @@ const MODELS = [
           ]
         }
       ]
-    }
+    },
+    "category": "Teaching and Learning"
   },
   {
     "id": "proficiency-based-learning",
@@ -5122,7 +5135,8 @@ const MODELS = [
           ]
         }
       ]
-    }
+    },
+    "category": "Teaching and Learning"
   },
   {
     "id": "orton-gillingham",
@@ -5475,7 +5489,8 @@ const MODELS = [
           ]
         }
       ]
-    }
+    },
+    "category": "Teaching and Learning"
   },
   {
     "id": "scarborough-reading-rope",
@@ -5820,7 +5835,8 @@ const MODELS = [
           ]
         }
       ]
-    }
+    },
+    "category": "Teaching and Learning"
   },
   {
     "id": "zpd-and-scaffolding",
@@ -6004,7 +6020,8 @@ const MODELS = [
           ]
         }
       ]
-    }
+    },
+    "category": "Teaching and Learning"
   },
   {
     "id": "van-hiele",
@@ -6357,7 +6374,8 @@ const MODELS = [
           ]
         }
       ]
-    }
+    },
+    "category": "Teaching and Learning"
   },
   {
     "id": "explore-before-explain",
@@ -6701,7 +6719,8 @@ const MODELS = [
           ]
         }
       ]
-    }
+    },
+    "category": "Teaching and Learning"
   },
   {
     "id": "solo-taxonomy",
@@ -7013,7 +7032,8 @@ const MODELS = [
           ]
         }
       ]
-    }
+    },
+    "category": "Teaching and Learning"
   },
   {
     "id": "dick-and-carey",
@@ -7295,7 +7315,8 @@ const MODELS = [
           ]
         }
       ]
-    }
+    },
+    "category": "Teaching and Learning"
   },
   {
     "id": "backward-design",
@@ -7617,7 +7638,8 @@ const MODELS = [
           ]
         }
       ]
-    }
+    },
+    "category": "Teaching and Learning"
   },
   {
     "id": "addie",
@@ -7931,7 +7953,8 @@ const MODELS = [
           ]
         }
       ]
-    }
+    },
+    "category": "Teaching and Learning"
   },
   {
     "id": "reciprocal-teaching",
@@ -8277,7 +8300,8 @@ const MODELS = [
           ]
         }
       ]
-    }
+    },
+    "category": "Teaching and Learning"
   },
   {
     "id": "collaborative-summarizing",
@@ -8593,7 +8617,8 @@ const MODELS = [
           ]
         }
       ]
-    }
+    },
+    "category": "Teaching and Learning"
   },
   {
     "id": "jigsaw",
@@ -9008,7 +9033,8 @@ const MODELS = [
           ]
         }
       ]
-    }
+    },
+    "category": "Teaching and Learning"
   },
   {
     "id": "assessment-for-learning",
@@ -9383,7 +9409,8 @@ const MODELS = [
           ]
         }
       ]
-    }
+    },
+    "category": "Teaching and Learning"
   },
   {
     "id": "assessment-as-learning",
@@ -9741,7 +9768,8 @@ const MODELS = [
           ]
         }
       ]
-    }
+    },
+    "category": "Teaching and Learning"
   },
   {
     "id": "grasps",
@@ -10076,7 +10104,8 @@ const MODELS = [
           ]
         }
       ]
-    }
+    },
+    "category": "Teaching and Learning"
   },
   {
     "id": "leveled-literacy-intervention",
@@ -10394,7 +10423,8 @@ const MODELS = [
           ]
         }
       ]
-    }
+    },
+    "category": "Teaching and Learning"
   },
   {
     "id": "guided-reading",
@@ -10720,7 +10750,8 @@ const MODELS = [
           ]
         }
       ]
-    }
+    },
+    "category": "Teaching and Learning"
   },
   {
     "id": "elaboration-theory",
@@ -11120,7 +11151,8 @@ const MODELS = [
           ]
         }
       ]
-    }
+    },
+    "category": "Teaching and Learning"
   },
   {
     "id": "hannafin-and-peck",
@@ -11441,7 +11473,8 @@ const MODELS = [
           ]
         }
       ]
-    }
+    },
+    "category": "Teaching and Learning"
   },
   {
     "id": "models-based-physical-education",
@@ -11833,7 +11866,8 @@ const MODELS = [
           ]
         }
       ]
-    }
+    },
+    "category": "Teaching and Learning"
   },
   {
     "id": "reading-apprenticeship",
@@ -12179,7 +12213,8 @@ const MODELS = [
           ]
         }
       ]
-    }
+    },
+    "category": "Teaching and Learning"
   },
   {
     "id": "design-thinking",
@@ -12566,7 +12601,8 @@ const MODELS = [
           ]
         }
       ]
-    }
+    },
+    "category": "Teaching and Learning"
   },
   {
     "id": "mtss-for-english-learners",
@@ -12920,7 +12956,8 @@ const MODELS = [
           ]
         }
       ]
-    }
+    },
+    "category": "Teaching and Learning"
   },
   {
     "id": "simple-view-of-reading",
@@ -13306,7 +13343,8 @@ const MODELS = [
           ]
         }
       ]
-    }
+    },
+    "category": "Teaching and Learning"
   },
   {
     "id": "raft",
@@ -13637,7 +13675,8 @@ const MODELS = [
           ]
         }
       ]
-    }
+    },
+    "category": "Teaching and Learning"
   },
   {
     "id": "moral-philosophical",
@@ -13941,6 +13980,1849 @@ const MODELS = [
                 {
                   "text": ". Central Philippine University. https://repository.cpu.edu.ph/handle/20.500.12852/637",
                   "italic": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "category": "Teaching and Learning"
+  },
+  {
+    "id": "plc",
+    "modelName": "Professional Learning Communities (PLC)",
+    "category": "Educational Management",
+    "learningArea": "Educational Management",
+    "tags": [
+      "Educational Management",
+      "Framework or approach",
+      "Research planning"
+    ],
+    "summary": "A collaborative approach organized around learning, collective inquiry, and evidence of results.",
+    "sections": {
+      "Model Overview": [
+        {
+          "type": "paragraph",
+          "text": "A collaborative approach organized around learning, collective inquiry, and evidence of results."
+        },
+        {
+          "type": "paragraph",
+          "text": "School applications below are suggested adaptations for planning research, not claims that the approach has been tested in your school."
+        }
+      ],
+      "Core Features": [
+        {
+          "type": "list",
+          "items": [
+            "Focus on learning",
+            "Collaborative work",
+            "Attention to results"
+          ]
+        }
+      ],
+      "Possible School Application": [
+        {
+          "type": "paragraph",
+          "text": "A grade-level team jointly examines reading errors, designs a short response, and reviews learner work."
+        }
+      ],
+      "Baseline Evidence and Measures": [
+        {
+          "type": "paragraph",
+          "text": "Comparable reading tasks, meeting outputs, implementation records, and teacher reflections."
+        },
+        {
+          "type": "paragraph",
+          "text": "Collect a baseline before implementation. Define comparable follow-up measures and document context and implementation changes."
+        }
+      ],
+      "Suggested Implementation Flow": [
+        {
+          "type": "sequence",
+          "items": [
+            "Identify the local problem and collect baseline evidence.",
+            "Read the original source and select relevant components.",
+            "Agree on a feasible adaptation, responsibilities, and measures.",
+            "Pilot the adaptation and record implementation.",
+            "Review findings and limitations; decide whether to revise or expand."
+          ]
+        }
+      ],
+      "Research Planning": [
+        {
+          "type": "paragraph",
+          "text": "Possible inquiry: What changes are observed after the proposed adaptation, and how do participants explain their experience? Select a design that fits the question. A simple before-and-after comparison cannot isolate causation."
+        }
+      ],
+      "Scope and Limitations": [
+        {
+          "type": "paragraph",
+          "text": "Holding meetings alone does not establish a PLC; specify the shared inquiry and resulting changes."
+        }
+      ],
+      "Evidence and Sources": [
+        {
+          "type": "paragraph",
+          "text": "The source documents the framework or its rationale. It does not establish the effectiveness of the school application proposed here. Review relevant empirical studies before selecting an intervention."
+        }
+      ],
+      "References": [
+        {
+          "type": "references",
+          "items": [
+            {
+              "segments": [
+                {
+                  "text": "DuFour, R. (2004). "
+                },
+                {
+                  "text": "What is a professional learning community?. ",
+                  "italic": true
+                },
+                {
+                  "text": "https://www.ascd.org/el/articles/what-is-a-professional-learning-community"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "school-leadership",
+    "modelName": "Five Practices of Effective School Leadership",
+    "category": "Educational Management",
+    "learningArea": "Educational Management",
+    "tags": [
+      "Educational Management",
+      "Framework or approach",
+      "Research planning"
+    ],
+    "summary": "A research-informed account of leadership practices that support teaching and learning.",
+    "sections": {
+      "Model Overview": [
+        {
+          "type": "paragraph",
+          "text": "A research-informed account of leadership practices that support teaching and learning."
+        },
+        {
+          "type": "paragraph",
+          "text": "School applications below are suggested adaptations for planning research, not claims that the approach has been tested in your school."
+        }
+      ],
+      "Core Features": [
+        {
+          "type": "list",
+          "items": [
+            "Shared academic vision",
+            "Supportive school climate",
+            "Leadership development in others",
+            "Instructional improvement",
+            "Management of people, data, and processes"
+          ]
+        }
+      ],
+      "Possible School Application": [
+        {
+          "type": "paragraph",
+          "text": "Study how a focused coaching cycle supports teachers in one identified instructional need."
+        }
+      ],
+      "Baseline Evidence and Measures": [
+        {
+          "type": "paragraph",
+          "text": "Coaching records, agreed observation indicators, teacher feedback, and relevant learner work."
+        },
+        {
+          "type": "paragraph",
+          "text": "Collect a baseline before implementation. Define comparable follow-up measures and document context and implementation changes."
+        }
+      ],
+      "Suggested Implementation Flow": [
+        {
+          "type": "sequence",
+          "items": [
+            "Identify the local problem and collect baseline evidence.",
+            "Read the original source and select relevant components.",
+            "Agree on a feasible adaptation, responsibilities, and measures.",
+            "Pilot the adaptation and record implementation.",
+            "Review findings and limitations; decide whether to revise or expand."
+          ]
+        }
+      ],
+      "Research Planning": [
+        {
+          "type": "paragraph",
+          "text": "Possible inquiry: What changes are observed after the proposed adaptation, and how do participants explain their experience? Select a design that fits the question. A simple before-and-after comparison cannot isolate causation."
+        }
+      ],
+      "Scope and Limitations": [
+        {
+          "type": "paragraph",
+          "text": "Use as an organizing framework; it does not establish that a particular leadership action caused achievement gains."
+        }
+      ],
+      "Evidence and Sources": [
+        {
+          "type": "paragraph",
+          "text": "The source documents the framework or its rationale. It does not establish the effectiveness of the school application proposed here. Review relevant empirical studies before selecting an intervention."
+        }
+      ],
+      "References": [
+        {
+          "type": "references",
+          "items": [
+            {
+              "segments": [
+                {
+                  "text": "The Wallace Foundation (2013). "
+                },
+                {
+                  "text": "The school principal as leader: Guiding schools to better teaching and learning. ",
+                  "italic": true
+                },
+                {
+                  "text": "https://wallacefoundation.org/sites/default/files/2023-09/the-school-principal-as-leader-guiding-schools-to-better-teaching-and-learning-2nd-ed.pdf"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "model-for-improvement",
+    "modelName": "Model for Improvement and PDSA",
+    "category": "Educational Management",
+    "learningArea": "Educational Management",
+    "tags": [
+      "Educational Management",
+      "Framework or approach",
+      "Research planning"
+    ],
+    "summary": "An improvement approach developed by Associates in Process Improvement and used by IHI, combining questions about aims, measures, and changes with small tests.",
+    "sections": {
+      "Model Overview": [
+        {
+          "type": "paragraph",
+          "text": "An improvement approach developed by Associates in Process Improvement and used by IHI, combining questions about aims, measures, and changes with small tests."
+        },
+        {
+          "type": "paragraph",
+          "text": "School applications below are suggested adaptations for planning research, not claims that the approach has been tested in your school."
+        }
+      ],
+      "Core Features": [
+        {
+          "type": "list",
+          "items": [
+            "Define the improvement aim",
+            "Choose evidence of improvement",
+            "Select a change",
+            "Plan, Do, Study, Act"
+          ]
+        }
+      ],
+      "Possible School Application": [
+        {
+          "type": "paragraph",
+          "text": "Test a revised attendance follow-up routine with one section before considering wider use."
+        }
+      ],
+      "Baseline Evidence and Measures": [
+        {
+          "type": "paragraph",
+          "text": "Weekly attendance, follow-up completion, staff time, and unintended workload."
+        },
+        {
+          "type": "paragraph",
+          "text": "Collect a baseline before implementation. Define comparable follow-up measures and document context and implementation changes."
+        }
+      ],
+      "Suggested Implementation Flow": [
+        {
+          "type": "sequence",
+          "items": [
+            "Identify the local problem and collect baseline evidence.",
+            "Read the original source and select relevant components.",
+            "Agree on a feasible adaptation, responsibilities, and measures.",
+            "Pilot the adaptation and record implementation.",
+            "Review findings and limitations; decide whether to revise or expand."
+          ]
+        }
+      ],
+      "Research Planning": [
+        {
+          "type": "paragraph",
+          "text": "Possible inquiry: What changes are observed after the proposed adaptation, and how do participants explain their experience? Select a design that fits the question. A simple before-and-after comparison cannot isolate causation."
+        }
+      ],
+      "Scope and Limitations": [
+        {
+          "type": "paragraph",
+          "text": "A PDSA cycle supports learning about a change; it does not by itself provide a controlled effectiveness study."
+        }
+      ],
+      "Evidence and Sources": [
+        {
+          "type": "paragraph",
+          "text": "The source documents the framework or its rationale. It does not establish the effectiveness of the school application proposed here. Review relevant empirical studies before selecting an intervention."
+        }
+      ],
+      "References": [
+        {
+          "type": "references",
+          "items": [
+            {
+              "segments": [
+                {
+                  "text": "Institute for Healthcare Improvement (n.d.). "
+                },
+                {
+                  "text": "Model for improvement. ",
+                  "italic": true
+                },
+                {
+                  "text": "https://www.ihi.org/library/model-for-improvement"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "asca",
+    "modelName": "ASCA National Model",
+    "category": "Guidance and Counseling",
+    "learningArea": "Guidance and Counseling",
+    "tags": [
+      "Guidance and Counseling",
+      "Framework or approach",
+      "Research planning"
+    ],
+    "summary": "A framework for organizing a comprehensive school counseling program.",
+    "sections": {
+      "Model Overview": [
+        {
+          "type": "paragraph",
+          "text": "A framework for organizing a comprehensive school counseling program."
+        },
+        {
+          "type": "paragraph",
+          "text": "School applications below are suggested adaptations for planning research, not claims that the approach has been tested in your school."
+        }
+      ],
+      "Core Features": [
+        {
+          "type": "list",
+          "items": [
+            "Define",
+            "Manage",
+            "Deliver",
+            "Assess"
+          ]
+        }
+      ],
+      "Possible School Application": [
+        {
+          "type": "paragraph",
+          "text": "With qualified guidance personnel, map learner support needs and review the reach of a career guidance activity."
+        }
+      ],
+      "Baseline Evidence and Measures": [
+        {
+          "type": "paragraph",
+          "text": "Anonymous needs summaries, participation, referral completion in aggregate, and feedback."
+        },
+        {
+          "type": "paragraph",
+          "text": "Collect a baseline before implementation. Define comparable follow-up measures and document context and implementation changes."
+        }
+      ],
+      "Suggested Implementation Flow": [
+        {
+          "type": "sequence",
+          "items": [
+            "Identify the local problem and collect baseline evidence.",
+            "Read the original source and select relevant components.",
+            "Agree on a feasible adaptation, responsibilities, and measures.",
+            "Pilot the adaptation and record implementation.",
+            "Review findings and limitations; decide whether to revise or expand."
+          ]
+        }
+      ],
+      "Research Planning": [
+        {
+          "type": "paragraph",
+          "text": "Possible inquiry: What changes are observed after the proposed adaptation, and how do participants explain their experience? Select a design that fits the question. A simple before-and-after comparison cannot isolate causation."
+        }
+      ],
+      "Scope and Limitations": [
+        {
+          "type": "paragraph",
+          "text": "Adapt this US framework to the local setting. Counseling and individual assessment require appropriately qualified personnel."
+        }
+      ],
+      "Evidence and Sources": [
+        {
+          "type": "paragraph",
+          "text": "The source documents the framework or its rationale. It does not establish the effectiveness of the school application proposed here. Review relevant empirical studies before selecting an intervention."
+        }
+      ],
+      "References": [
+        {
+          "type": "references",
+          "items": [
+            {
+              "segments": [
+                {
+                  "text": "American School Counselor Association (n.d.). "
+                },
+                {
+                  "text": "ASCA National Model. ",
+                  "italic": true
+                },
+                {
+                  "text": "https://schoolcounselor.org/About-School-Counseling/ASCA-National-Model-for-School-Counseling-Programs"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "casel",
+    "modelName": "CASEL Social and Emotional Learning Framework",
+    "category": "Guidance and Counseling",
+    "learningArea": "Guidance and Counseling",
+    "tags": [
+      "Guidance and Counseling",
+      "Framework or approach",
+      "Research planning"
+    ],
+    "summary": "A framework connecting social and emotional competencies across classrooms, schools, families, and communities.",
+    "sections": {
+      "Model Overview": [
+        {
+          "type": "paragraph",
+          "text": "A framework connecting social and emotional competencies across classrooms, schools, families, and communities."
+        },
+        {
+          "type": "paragraph",
+          "text": "School applications below are suggested adaptations for planning research, not claims that the approach has been tested in your school."
+        }
+      ],
+      "Core Features": [
+        {
+          "type": "list",
+          "items": [
+            "Self-awareness",
+            "Self-management",
+            "Social awareness",
+            "Relationship skills",
+            "Responsible decision-making"
+          ]
+        }
+      ],
+      "Possible School Application": [
+        {
+          "type": "paragraph",
+          "text": "Pilot classroom reflection and cooperative-task routines addressing an identified peer-interaction concern."
+        }
+      ],
+      "Baseline Evidence and Measures": [
+        {
+          "type": "paragraph",
+          "text": "Age-appropriate scenario responses, observation rubrics, participation, and learner reflections."
+        },
+        {
+          "type": "paragraph",
+          "text": "Collect a baseline before implementation. Define comparable follow-up measures and document context and implementation changes."
+        }
+      ],
+      "Suggested Implementation Flow": [
+        {
+          "type": "sequence",
+          "items": [
+            "Identify the local problem and collect baseline evidence.",
+            "Read the original source and select relevant components.",
+            "Agree on a feasible adaptation, responsibilities, and measures.",
+            "Pilot the adaptation and record implementation.",
+            "Review findings and limitations; decide whether to revise or expand."
+          ]
+        }
+      ],
+      "Research Planning": [
+        {
+          "type": "paragraph",
+          "text": "Possible inquiry: What changes are observed after the proposed adaptation, and how do participants explain their experience? Select a design that fits the question. A simple before-and-after comparison cannot isolate causation."
+        }
+      ],
+      "Scope and Limitations": [
+        {
+          "type": "paragraph",
+          "text": "SEL activities are educational supports; they are not mental health diagnosis or therapy."
+        }
+      ],
+      "Evidence and Sources": [
+        {
+          "type": "paragraph",
+          "text": "The source documents the framework or its rationale. It does not establish the effectiveness of the school application proposed here. Review relevant empirical studies before selecting an intervention."
+        }
+      ],
+      "References": [
+        {
+          "type": "references",
+          "items": [
+            {
+              "segments": [
+                {
+                  "text": "Collaborative for Academic, Social, and Emotional Learning (n.d.). "
+                },
+                {
+                  "text": "What is the CASEL framework?. ",
+                  "italic": true
+                },
+                {
+                  "text": "https://casel.org/fundamentals-of-sel/what--is-the-casel-framework/"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "riasec",
+    "modelName": "Holland RIASEC Career Interest Framework",
+    "category": "Guidance and Counseling",
+    "learningArea": "Guidance and Counseling",
+    "tags": [
+      "Guidance and Counseling",
+      "Framework or approach",
+      "Research planning"
+    ],
+    "summary": "A career exploration framework organizing vocational interests into six broad areas; it underlies the O*NET Interest Profiler.",
+    "sections": {
+      "Model Overview": [
+        {
+          "type": "paragraph",
+          "text": "A career exploration framework organizing vocational interests into six broad areas; it underlies the O*NET Interest Profiler."
+        },
+        {
+          "type": "paragraph",
+          "text": "School applications below are suggested adaptations for planning research, not claims that the approach has been tested in your school."
+        }
+      ],
+      "Core Features": [
+        {
+          "type": "list",
+          "items": [
+            "Realistic",
+            "Investigative",
+            "Artistic",
+            "Social",
+            "Enterprising",
+            "Conventional"
+          ]
+        }
+      ],
+      "Possible School Application": [
+        {
+          "type": "paragraph",
+          "text": "Help learners explore several career options and explain connections between interests and possible pathways."
+        }
+      ],
+      "Baseline Evidence and Measures": [
+        {
+          "type": "paragraph",
+          "text": "Career exploration outputs, breadth of options considered, and reflection quality."
+        },
+        {
+          "type": "paragraph",
+          "text": "Collect a baseline before implementation. Define comparable follow-up measures and document context and implementation changes."
+        }
+      ],
+      "Suggested Implementation Flow": [
+        {
+          "type": "sequence",
+          "items": [
+            "Identify the local problem and collect baseline evidence.",
+            "Read the original source and select relevant components.",
+            "Agree on a feasible adaptation, responsibilities, and measures.",
+            "Pilot the adaptation and record implementation.",
+            "Review findings and limitations; decide whether to revise or expand."
+          ]
+        }
+      ],
+      "Research Planning": [
+        {
+          "type": "paragraph",
+          "text": "Possible inquiry: What changes are observed after the proposed adaptation, and how do participants explain their experience? Select a design that fits the question. A simple before-and-after comparison cannot isolate causation."
+        }
+      ],
+      "Scope and Limitations": [
+        {
+          "type": "paragraph",
+          "text": "Interests are not abilities or fixed career assignments. Use authorized tools according to their instructions."
+        }
+      ],
+      "Evidence and Sources": [
+        {
+          "type": "paragraph",
+          "text": "The source documents the framework or its rationale. It does not establish the effectiveness of the school application proposed here. Review relevant empirical studies before selecting an intervention."
+        }
+      ],
+      "References": [
+        {
+          "type": "references",
+          "items": [
+            {
+              "segments": [
+                {
+                  "text": "National Center for O*NET Development (n.d.). "
+                },
+                {
+                  "text": "O*NET Interest Profiler. ",
+                  "italic": true
+                },
+                {
+                  "text": "https://www.onetcenter.org/IP.html"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "five-s",
+    "modelName": "5S Workplace Organization",
+    "category": "Office Management",
+    "learningArea": "Office Management",
+    "tags": [
+      "Office Management",
+      "Framework or approach",
+      "Research planning"
+    ],
+    "summary": "A method for organizing workspaces and sustaining orderly work practices.",
+    "sections": {
+      "Model Overview": [
+        {
+          "type": "paragraph",
+          "text": "A method for organizing workspaces and sustaining orderly work practices."
+        },
+        {
+          "type": "paragraph",
+          "text": "School applications below are suggested adaptations for planning research, not claims that the approach has been tested in your school."
+        }
+      ],
+      "Core Features": [
+        {
+          "type": "list",
+          "items": [
+            "Sort",
+            "Set in order",
+            "Shine",
+            "Standardize",
+            "Sustain"
+          ]
+        }
+      ],
+      "Possible School Application": [
+        {
+          "type": "paragraph",
+          "text": "Pilot a consistent filing and labeling arrangement for a nonconfidential set of office records."
+        }
+      ],
+      "Baseline Evidence and Measures": [
+        {
+          "type": "paragraph",
+          "text": "Retrieval time, misfiled records, staff usability feedback, and maintenance checks."
+        },
+        {
+          "type": "paragraph",
+          "text": "Collect a baseline before implementation. Define comparable follow-up measures and document context and implementation changes."
+        }
+      ],
+      "Suggested Implementation Flow": [
+        {
+          "type": "sequence",
+          "items": [
+            "Identify the local problem and collect baseline evidence.",
+            "Read the original source and select relevant components.",
+            "Agree on a feasible adaptation, responsibilities, and measures.",
+            "Pilot the adaptation and record implementation.",
+            "Review findings and limitations; decide whether to revise or expand."
+          ]
+        }
+      ],
+      "Research Planning": [
+        {
+          "type": "paragraph",
+          "text": "Possible inquiry: What changes are observed after the proposed adaptation, and how do participants explain their experience? Select a design that fits the question. A simple before-and-after comparison cannot isolate causation."
+        }
+      ],
+      "Scope and Limitations": [
+        {
+          "type": "paragraph",
+          "text": "Sorting is not permission to dispose of official records; follow applicable retention and access requirements."
+        }
+      ],
+      "Evidence and Sources": [
+        {
+          "type": "paragraph",
+          "text": "The source documents the framework or its rationale. It does not establish the effectiveness of the school application proposed here. Review relevant empirical studies before selecting an intervention."
+        }
+      ],
+      "References": [
+        {
+          "type": "references",
+          "items": [
+            {
+              "segments": [
+                {
+                  "text": "American Society for Quality (n.d.). "
+                },
+                {
+                  "text": "Five S tutorial. ",
+                  "italic": true
+                },
+                {
+                  "text": "https://asq.org/quality-resources/five-s-tutorial"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "sipoc",
+    "modelName": "SIPOC Process Mapping",
+    "category": "Office Management",
+    "learningArea": "Office Management",
+    "tags": [
+      "Office Management",
+      "Framework or approach",
+      "Research planning"
+    ],
+    "summary": "A high-level process map linking suppliers, inputs, process, outputs, and customers.",
+    "sections": {
+      "Model Overview": [
+        {
+          "type": "paragraph",
+          "text": "A high-level process map linking suppliers, inputs, process, outputs, and customers."
+        },
+        {
+          "type": "paragraph",
+          "text": "School applications below are suggested adaptations for planning research, not claims that the approach has been tested in your school."
+        }
+      ],
+      "Core Features": [
+        {
+          "type": "list",
+          "items": [
+            "Suppliers",
+            "Inputs",
+            "Process",
+            "Outputs",
+            "Customers"
+          ]
+        }
+      ],
+      "Possible School Application": [
+        {
+          "type": "paragraph",
+          "text": "Map document requests to identify unclear requirements and repeated return visits."
+        }
+      ],
+      "Baseline Evidence and Measures": [
+        {
+          "type": "paragraph",
+          "text": "Incomplete submissions, turnaround time, repeat visits, and user feedback."
+        },
+        {
+          "type": "paragraph",
+          "text": "Collect a baseline before implementation. Define comparable follow-up measures and document context and implementation changes."
+        }
+      ],
+      "Suggested Implementation Flow": [
+        {
+          "type": "sequence",
+          "items": [
+            "Identify the local problem and collect baseline evidence.",
+            "Read the original source and select relevant components.",
+            "Agree on a feasible adaptation, responsibilities, and measures.",
+            "Pilot the adaptation and record implementation.",
+            "Review findings and limitations; decide whether to revise or expand."
+          ]
+        }
+      ],
+      "Research Planning": [
+        {
+          "type": "paragraph",
+          "text": "Possible inquiry: What changes are observed after the proposed adaptation, and how do participants explain their experience? Select a design that fits the question. A simple before-and-after comparison cannot isolate causation."
+        }
+      ],
+      "Scope and Limitations": [
+        {
+          "type": "paragraph",
+          "text": "Validate the map with actual staff and users; a map describes a process but does not prove improvement."
+        }
+      ],
+      "Evidence and Sources": [
+        {
+          "type": "paragraph",
+          "text": "The source documents the framework or its rationale. It does not establish the effectiveness of the school application proposed here. Review relevant empirical studies before selecting an intervention."
+        }
+      ],
+      "References": [
+        {
+          "type": "references",
+          "items": [
+            {
+              "segments": [
+                {
+                  "text": "American Society for Quality (n.d.). "
+                },
+                {
+                  "text": "SIPOC. ",
+                  "italic": true
+                },
+                {
+                  "text": "https://asq.org/quality-resources/sipoc"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "bpmn",
+    "modelName": "Business Process Model and Notation (BPMN)",
+    "category": "Office Management",
+    "learningArea": "Office Management",
+    "tags": [
+      "Office Management",
+      "Framework or approach",
+      "Research planning"
+    ],
+    "summary": "A standardized graphical notation for describing business processes and their flow.",
+    "sections": {
+      "Model Overview": [
+        {
+          "type": "paragraph",
+          "text": "A standardized graphical notation for describing business processes and their flow."
+        },
+        {
+          "type": "paragraph",
+          "text": "School applications below are suggested adaptations for planning research, not claims that the approach has been tested in your school."
+        }
+      ],
+      "Core Features": [
+        {
+          "type": "list",
+          "items": [
+            "Events",
+            "Activities",
+            "Decision gateways",
+            "Sequence flows",
+            "Participants and lanes"
+          ]
+        }
+      ],
+      "Possible School Application": [
+        {
+          "type": "paragraph",
+          "text": "Draw the current routing of a school service request and test a clarified handoff procedure."
+        }
+      ],
+      "Baseline Evidence and Measures": [
+        {
+          "type": "paragraph",
+          "text": "Handoff delays, routing errors, elapsed time, and staff understanding."
+        },
+        {
+          "type": "paragraph",
+          "text": "Collect a baseline before implementation. Define comparable follow-up measures and document context and implementation changes."
+        }
+      ],
+      "Suggested Implementation Flow": [
+        {
+          "type": "sequence",
+          "items": [
+            "Identify the local problem and collect baseline evidence.",
+            "Read the original source and select relevant components.",
+            "Agree on a feasible adaptation, responsibilities, and measures.",
+            "Pilot the adaptation and record implementation.",
+            "Review findings and limitations; decide whether to revise or expand."
+          ]
+        }
+      ],
+      "Research Planning": [
+        {
+          "type": "paragraph",
+          "text": "Possible inquiry: What changes are observed after the proposed adaptation, and how do participants explain their experience? Select a design that fits the question. A simple before-and-after comparison cannot isolate causation."
+        }
+      ],
+      "Scope and Limitations": [
+        {
+          "type": "paragraph",
+          "text": "A BPMN diagram is not an automated system. Use official notation consistently and validate decision rules."
+        }
+      ],
+      "Evidence and Sources": [
+        {
+          "type": "paragraph",
+          "text": "The source documents the framework or its rationale. It does not establish the effectiveness of the school application proposed here. Review relevant empirical studies before selecting an intervention."
+        }
+      ],
+      "References": [
+        {
+          "type": "references",
+          "items": [
+            {
+              "segments": [
+                {
+                  "text": "Object Management Group (n.d.). "
+                },
+                {
+                  "text": "Business Process Model and Notation. ",
+                  "italic": true
+                },
+                {
+                  "text": "https://www.omg.org/bpmn/"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "financial-building-blocks",
+    "modelName": "Building Blocks of Financial Capability",
+    "category": "Financial Literacy",
+    "learningArea": "Financial Literacy",
+    "tags": [
+      "Financial Literacy",
+      "Framework or approach",
+      "Research planning"
+    ],
+    "summary": "A developmental framework explaining interconnected foundations of financial capability in young people.",
+    "sections": {
+      "Model Overview": [
+        {
+          "type": "paragraph",
+          "text": "A developmental framework explaining interconnected foundations of financial capability in young people."
+        },
+        {
+          "type": "paragraph",
+          "text": "School applications below are suggested adaptations for planning research, not claims that the approach has been tested in your school."
+        }
+      ],
+      "Core Features": [
+        {
+          "type": "list",
+          "items": [
+            "Executive function",
+            "Financial habits and norms",
+            "Financial knowledge and decision-making skills"
+          ]
+        }
+      ],
+      "Possible School Application": [
+        {
+          "type": "paragraph",
+          "text": "Use simulated allowance decisions to practice planning and explain spending choices."
+        }
+      ],
+      "Baseline Evidence and Measures": [
+        {
+          "type": "paragraph",
+          "text": "Scenario performance, written reasoning, and completion of a simulated spending plan."
+        },
+        {
+          "type": "paragraph",
+          "text": "Collect a baseline before implementation. Define comparable follow-up measures and document context and implementation changes."
+        }
+      ],
+      "Suggested Implementation Flow": [
+        {
+          "type": "sequence",
+          "items": [
+            "Identify the local problem and collect baseline evidence.",
+            "Read the original source and select relevant components.",
+            "Agree on a feasible adaptation, responsibilities, and measures.",
+            "Pilot the adaptation and record implementation.",
+            "Review findings and limitations; decide whether to revise or expand."
+          ]
+        }
+      ],
+      "Research Planning": [
+        {
+          "type": "paragraph",
+          "text": "Possible inquiry: What changes are observed after the proposed adaptation, and how do participants explain their experience? Select a design that fits the question. A simple before-and-after comparison cannot isolate causation."
+        }
+      ],
+      "Scope and Limitations": [
+        {
+          "type": "paragraph",
+          "text": "Use age-appropriate examples and fictional finances; do not require disclosure of family income or debt."
+        }
+      ],
+      "Evidence and Sources": [
+        {
+          "type": "paragraph",
+          "text": "The source documents the framework or its rationale. It does not establish the effectiveness of the school application proposed here. Review relevant empirical studies before selecting an intervention."
+        }
+      ],
+      "References": [
+        {
+          "type": "references",
+          "items": [
+            {
+              "segments": [
+                {
+                  "text": "Consumer Financial Protection Bureau (n.d.). "
+                },
+                {
+                  "text": "Learn about the building blocks of financial capability. ",
+                  "italic": true
+                },
+                {
+                  "text": "https://www.consumerfinance.gov/consumer-tools/educator-tool/youth-financial-education/learn/"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "financial-competence",
+    "modelName": "OECD/EU Financial Competence Framework for Children and Youth",
+    "category": "Financial Literacy",
+    "learningArea": "Financial Literacy",
+    "tags": [
+      "Financial Literacy",
+      "Framework or approach",
+      "Research planning"
+    ],
+    "summary": "An outcome-based framework for financial knowledge, behaviors, and attitudes across four content areas.",
+    "sections": {
+      "Model Overview": [
+        {
+          "type": "paragraph",
+          "text": "An outcome-based framework for financial knowledge, behaviors, and attitudes across four content areas."
+        },
+        {
+          "type": "paragraph",
+          "text": "School applications below are suggested adaptations for planning research, not claims that the approach has been tested in your school."
+        }
+      ],
+      "Core Features": [
+        {
+          "type": "list",
+          "items": [
+            "Money and transactions",
+            "Planning and managing finances",
+            "Risk and reward",
+            "Financial landscape"
+          ]
+        }
+      ],
+      "Possible School Application": [
+        {
+          "type": "paragraph",
+          "text": "Develop peso-based scenarios on budgeting, comparing prices, and recognizing suspicious financial messages."
+        }
+      ],
+      "Baseline Evidence and Measures": [
+        {
+          "type": "paragraph",
+          "text": "Scenario scores, explanations of choices, and transfer to a different simulated situation."
+        },
+        {
+          "type": "paragraph",
+          "text": "Collect a baseline before implementation. Define comparable follow-up measures and document context and implementation changes."
+        }
+      ],
+      "Suggested Implementation Flow": [
+        {
+          "type": "sequence",
+          "items": [
+            "Identify the local problem and collect baseline evidence.",
+            "Read the original source and select relevant components.",
+            "Agree on a feasible adaptation, responsibilities, and measures.",
+            "Pilot the adaptation and record implementation.",
+            "Review findings and limitations; decide whether to revise or expand."
+          ]
+        }
+      ],
+      "Research Planning": [
+        {
+          "type": "paragraph",
+          "text": "Possible inquiry: What changes are observed after the proposed adaptation, and how do participants explain their experience? Select a design that fits the question. A simple before-and-after comparison cannot isolate causation."
+        }
+      ],
+      "Scope and Limitations": [
+        {
+          "type": "paragraph",
+          "text": "Adapt EU examples to Philippine contexts; the framework is not a locally validated test or investment guide."
+        }
+      ],
+      "Evidence and Sources": [
+        {
+          "type": "paragraph",
+          "text": "The source documents the framework or its rationale. It does not establish the effectiveness of the school application proposed here. Review relevant empirical studies before selecting an intervention."
+        }
+      ],
+      "References": [
+        {
+          "type": "references",
+          "items": [
+            {
+              "segments": [
+                {
+                  "text": "OECD & European Union (2023). "
+                },
+                {
+                  "text": "Financial competence framework for children and youth in the European Union. ",
+                  "italic": true
+                },
+                {
+                  "text": "https://www.oecd.org/en/publications/financial-competence-framework-for-children-and-youth-in-the-european-union_bf059471-en.html"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "financial-wellbeing",
+    "modelName": "CFPB Financial Well-being Framework",
+    "category": "Financial Literacy",
+    "learningArea": "Financial Literacy",
+    "tags": [
+      "Financial Literacy",
+      "Framework or approach",
+      "Research planning"
+    ],
+    "summary": "An outcome framework emphasizing financial security and freedom of choice in the present and future.",
+    "sections": {
+      "Model Overview": [
+        {
+          "type": "paragraph",
+          "text": "An outcome framework emphasizing financial security and freedom of choice in the present and future."
+        },
+        {
+          "type": "paragraph",
+          "text": "School applications below are suggested adaptations for planning research, not claims that the approach has been tested in your school."
+        }
+      ],
+      "Core Features": [
+        {
+          "type": "list",
+          "items": [
+            "Everyday financial control",
+            "Ability to absorb a financial shock",
+            "Progress toward financial goals",
+            "Freedom to make meaningful choices"
+          ]
+        }
+      ],
+      "Possible School Application": [
+        {
+          "type": "paragraph",
+          "text": "Use fictional household cases to discuss how decisions affect resilience and longer-term goals."
+        }
+      ],
+      "Baseline Evidence and Measures": [
+        {
+          "type": "paragraph",
+          "text": "Reasoning in case analyses and participant reflections on learning goals."
+        },
+        {
+          "type": "paragraph",
+          "text": "Collect a baseline before implementation. Define comparable follow-up measures and document context and implementation changes."
+        }
+      ],
+      "Suggested Implementation Flow": [
+        {
+          "type": "sequence",
+          "items": [
+            "Identify the local problem and collect baseline evidence.",
+            "Read the original source and select relevant components.",
+            "Agree on a feasible adaptation, responsibilities, and measures.",
+            "Pilot the adaptation and record implementation.",
+            "Review findings and limitations; decide whether to revise or expand."
+          ]
+        }
+      ],
+      "Research Planning": [
+        {
+          "type": "paragraph",
+          "text": "Possible inquiry: What changes are observed after the proposed adaptation, and how do participants explain their experience? Select a design that fits the question. A simple before-and-after comparison cannot isolate causation."
+        }
+      ],
+      "Scope and Limitations": [
+        {
+          "type": "paragraph",
+          "text": "This is an outcome lens, not a financial intervention. If using the CFPB scale, follow its official population, wording, and scoring guidance."
+        }
+      ],
+      "Evidence and Sources": [
+        {
+          "type": "paragraph",
+          "text": "The source documents the framework or its rationale. It does not establish the effectiveness of the school application proposed here. Review relevant empirical studies before selecting an intervention."
+        }
+      ],
+      "References": [
+        {
+          "type": "references",
+          "items": [
+            {
+              "segments": [
+                {
+                  "text": "Consumer Financial Protection Bureau (n.d.). "
+                },
+                {
+                  "text": "Why financial well-being?. ",
+                  "italic": true
+                },
+                {
+                  "text": "https://www.consumerfinance.gov/consumer-tools/financial-well-being/about/"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "sendai",
+    "modelName": "Sendai Framework for Disaster Risk Reduction 2015–2030",
+    "category": "DRRM",
+    "learningArea": "DRRM",
+    "tags": [
+      "DRRM",
+      "Framework or approach",
+      "Research planning"
+    ],
+    "summary": "A global framework for reducing existing disaster risk and preventing new risk.",
+    "sections": {
+      "Model Overview": [
+        {
+          "type": "paragraph",
+          "text": "A global framework for reducing existing disaster risk and preventing new risk."
+        },
+        {
+          "type": "paragraph",
+          "text": "School applications below are suggested adaptations for planning research, not claims that the approach has been tested in your school."
+        }
+      ],
+      "Core Features": [
+        {
+          "type": "list",
+          "items": [
+            "Understand risk",
+            "Strengthen risk governance",
+            "Invest in resilience",
+            "Improve preparedness and recovery"
+          ]
+        }
+      ],
+      "Possible School Application": [
+        {
+          "type": "paragraph",
+          "text": "Review how school risk information informs preparedness roles and learning continuity actions."
+        }
+      ],
+      "Baseline Evidence and Measures": [
+        {
+          "type": "paragraph",
+          "text": "Document review, stakeholder understanding, responsibility coverage, and action completion."
+        },
+        {
+          "type": "paragraph",
+          "text": "Collect a baseline before implementation. Define comparable follow-up measures and document context and implementation changes."
+        }
+      ],
+      "Suggested Implementation Flow": [
+        {
+          "type": "sequence",
+          "items": [
+            "Identify the local problem and collect baseline evidence.",
+            "Read the original source and select relevant components.",
+            "Agree on a feasible adaptation, responsibilities, and measures.",
+            "Pilot the adaptation and record implementation.",
+            "Review findings and limitations; decide whether to revise or expand."
+          ]
+        }
+      ],
+      "Research Planning": [
+        {
+          "type": "paragraph",
+          "text": "Possible inquiry: What changes are observed after the proposed adaptation, and how do participants explain their experience? Select a design that fits the question. A simple before-and-after comparison cannot isolate causation."
+        }
+      ],
+      "Scope and Limitations": [
+        {
+          "type": "paragraph",
+          "text": "Use with current local DRRM procedures; this overview is not an emergency response protocol."
+        }
+      ],
+      "Evidence and Sources": [
+        {
+          "type": "paragraph",
+          "text": "The source documents the framework or its rationale. It does not establish the effectiveness of the school application proposed here. Review relevant empirical studies before selecting an intervention."
+        }
+      ],
+      "References": [
+        {
+          "type": "references",
+          "items": [
+            {
+              "segments": [
+                {
+                  "text": "United Nations Office for Disaster Risk Reduction (2015). "
+                },
+                {
+                  "text": "Sendai Framework for Disaster Risk Reduction 2015–2030. ",
+                  "italic": true
+                },
+                {
+                  "text": "https://www.undrr.org/publication/sendai-framework-disaster-risk-reduction-2015-2030"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "school-safety",
+    "modelName": "Comprehensive School Safety Framework 2022–2030",
+    "category": "DRRM",
+    "learningArea": "DRRM",
+    "tags": [
+      "DRRM",
+      "Framework or approach",
+      "Research planning"
+    ],
+    "summary": "An all-hazards framework linking enabling systems and policies with three school safety pillars.",
+    "sections": {
+      "Model Overview": [
+        {
+          "type": "paragraph",
+          "text": "An all-hazards framework linking enabling systems and policies with three school safety pillars."
+        },
+        {
+          "type": "paragraph",
+          "text": "School applications below are suggested adaptations for planning research, not claims that the approach has been tested in your school."
+        }
+      ],
+      "Core Features": [
+        {
+          "type": "list",
+          "items": [
+            "Safer learning facilities",
+            "School safety and educational continuity management",
+            "Risk reduction and resilience education"
+          ]
+        }
+      ],
+      "Possible School Application": [
+        {
+          "type": "paragraph",
+          "text": "Examine a gap in learning continuity arrangements and pilot a communication improvement."
+        }
+      ],
+      "Baseline Evidence and Measures": [
+        {
+          "type": "paragraph",
+          "text": "Continuity plan coverage, communication reach, exercise observations, and feedback."
+        },
+        {
+          "type": "paragraph",
+          "text": "Collect a baseline before implementation. Define comparable follow-up measures and document context and implementation changes."
+        }
+      ],
+      "Suggested Implementation Flow": [
+        {
+          "type": "sequence",
+          "items": [
+            "Identify the local problem and collect baseline evidence.",
+            "Read the original source and select relevant components.",
+            "Agree on a feasible adaptation, responsibilities, and measures.",
+            "Pilot the adaptation and record implementation.",
+            "Review findings and limitations; decide whether to revise or expand."
+          ]
+        }
+      ],
+      "Research Planning": [
+        {
+          "type": "paragraph",
+          "text": "Possible inquiry: What changes are observed after the proposed adaptation, and how do participants explain their experience? Select a design that fits the question. A simple before-and-after comparison cannot isolate causation."
+        }
+      ],
+      "Scope and Limitations": [
+        {
+          "type": "paragraph",
+          "text": "Technical building assessments require qualified specialists. A school self-review does not certify safety."
+        }
+      ],
+      "Evidence and Sources": [
+        {
+          "type": "paragraph",
+          "text": "The source documents the framework or its rationale. It does not establish the effectiveness of the school application proposed here. Review relevant empirical studies before selecting an intervention."
+        }
+      ],
+      "References": [
+        {
+          "type": "references",
+          "items": [
+            {
+              "segments": [
+                {
+                  "text": "Global Alliance for Disaster Risk Reduction and Resilience in the Education Sector (2022). "
+                },
+                {
+                  "text": "Comprehensive School Safety Framework 2022–2030. ",
+                  "italic": true
+                },
+                {
+                  "text": "https://gadrrres.net/comprehensive-school-safety-framework"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "evca",
+    "modelName": "Enhanced Vulnerability and Capacity Assessment (EVCA)",
+    "category": "DRRM",
+    "learningArea": "DRRM",
+    "tags": [
+      "DRRM",
+      "Framework or approach",
+      "Research planning"
+    ],
+    "summary": "A participatory process for understanding community risks, vulnerabilities, capacities, and possible risk reduction actions.",
+    "sections": {
+      "Model Overview": [
+        {
+          "type": "paragraph",
+          "text": "A participatory process for understanding community risks, vulnerabilities, capacities, and possible risk reduction actions."
+        },
+        {
+          "type": "paragraph",
+          "text": "School applications below are suggested adaptations for planning research, not claims that the approach has been tested in your school."
+        }
+      ],
+      "Core Features": [
+        {
+          "type": "list",
+          "items": [
+            "Identify hazards and exposure",
+            "Understand vulnerabilities",
+            "Map available capacities",
+            "Prioritize feasible actions"
+          ]
+        }
+      ],
+      "Possible School Application": [
+        {
+          "type": "paragraph",
+          "text": "Work with the school DRRM team and community partners to explore barriers to receiving flood warnings."
+        }
+      ],
+      "Baseline Evidence and Measures": [
+        {
+          "type": "paragraph",
+          "text": "Participatory maps, communication access summaries, prioritized actions, and stakeholder feedback."
+        },
+        {
+          "type": "paragraph",
+          "text": "Collect a baseline before implementation. Define comparable follow-up measures and document context and implementation changes."
+        }
+      ],
+      "Suggested Implementation Flow": [
+        {
+          "type": "sequence",
+          "items": [
+            "Identify the local problem and collect baseline evidence.",
+            "Read the original source and select relevant components.",
+            "Agree on a feasible adaptation, responsibilities, and measures.",
+            "Pilot the adaptation and record implementation.",
+            "Review findings and limitations; decide whether to revise or expand."
+          ]
+        }
+      ],
+      "Research Planning": [
+        {
+          "type": "paragraph",
+          "text": "Possible inquiry: What changes are observed after the proposed adaptation, and how do participants explain their experience? Select a design that fits the question. A simple before-and-after comparison cannot isolate causation."
+        }
+      ],
+      "Scope and Limitations": [
+        {
+          "type": "paragraph",
+          "text": "Validate findings with responsible authorities; participatory maps are not certified hazard maps."
+        }
+      ],
+      "Evidence and Sources": [
+        {
+          "type": "paragraph",
+          "text": "The source documents the framework or its rationale. It does not establish the effectiveness of the school application proposed here. Review relevant empirical studies before selecting an intervention."
+        }
+      ],
+      "References": [
+        {
+          "type": "references",
+          "items": [
+            {
+              "segments": [
+                {
+                  "text": "International Federation of Red Cross and Red Crescent Societies (n.d.). "
+                },
+                {
+                  "text": "Risk assessment and planning. ",
+                  "italic": true
+                },
+                {
+                  "text": "https://www.ifrc.org/our-work/disasters-climate-and-crises/climate-smart-disaster-risk-reduction/risk-assessment-planning"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "dpsir",
+    "modelName": "DPSIR Environmental Analysis Framework",
+    "category": "Environmental Education and Science",
+    "learningArea": "Environmental Education and Science",
+    "tags": [
+      "Environmental Education and Science",
+      "Framework or approach",
+      "Research planning"
+    ],
+    "summary": "A framework connecting societal drivers, environmental pressures, environmental conditions, impacts, and responses.",
+    "sections": {
+      "Model Overview": [
+        {
+          "type": "paragraph",
+          "text": "A framework connecting societal drivers, environmental pressures, environmental conditions, impacts, and responses."
+        },
+        {
+          "type": "paragraph",
+          "text": "School applications below are suggested adaptations for planning research, not claims that the approach has been tested in your school."
+        }
+      ],
+      "Core Features": [
+        {
+          "type": "list",
+          "items": [
+            "Drivers",
+            "Pressures",
+            "State",
+            "Impacts",
+            "Responses"
+          ]
+        }
+      ],
+      "Possible School Application": [
+        {
+          "type": "paragraph",
+          "text": "Analyze school waste by connecting consumption patterns, waste generation, observed conditions, and possible responses."
+        }
+      ],
+      "Baseline Evidence and Measures": [
+        {
+          "type": "paragraph",
+          "text": "Waste audit summaries, purchasing patterns, site observations, and response implementation records."
+        },
+        {
+          "type": "paragraph",
+          "text": "Collect a baseline before implementation. Define comparable follow-up measures and document context and implementation changes."
+        }
+      ],
+      "Suggested Implementation Flow": [
+        {
+          "type": "sequence",
+          "items": [
+            "Identify the local problem and collect baseline evidence.",
+            "Read the original source and select relevant components.",
+            "Agree on a feasible adaptation, responsibilities, and measures.",
+            "Pilot the adaptation and record implementation.",
+            "Review findings and limitations; decide whether to revise or expand."
+          ]
+        }
+      ],
+      "Research Planning": [
+        {
+          "type": "paragraph",
+          "text": "Possible inquiry: What changes are observed after the proposed adaptation, and how do participants explain their experience? Select a design that fits the question. A simple before-and-after comparison cannot isolate causation."
+        }
+      ],
+      "Scope and Limitations": [
+        {
+          "type": "paragraph",
+          "text": "The links are analytical hypotheses to examine; a DPSIR diagram does not demonstrate causality."
+        }
+      ],
+      "Evidence and Sources": [
+        {
+          "type": "paragraph",
+          "text": "The source documents the framework or its rationale. It does not establish the effectiveness of the school application proposed here. Review relevant empirical studies before selecting an intervention."
+        }
+      ],
+      "References": [
+        {
+          "type": "references",
+          "items": [
+            {
+              "segments": [
+                {
+                  "text": "European Environment Agency (1999). "
+                },
+                {
+                  "text": "Environmental indicators: Typology and overview. ",
+                  "italic": true
+                },
+                {
+                  "text": "https://www.eea.europa.eu/en/analysis/publications/tec25"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "green-school",
+    "modelName": "UNESCO Green School Quality Standard",
+    "category": "Environmental Education and Science",
+    "learningArea": "Environmental Education and Science",
+    "tags": [
+      "Environmental Education and Science",
+      "Framework or approach",
+      "Research planning"
+    ],
+    "summary": "A whole-school framework linking sustainability across four areas.",
+    "sections": {
+      "Model Overview": [
+        {
+          "type": "paragraph",
+          "text": "A whole-school framework linking sustainability across four areas."
+        },
+        {
+          "type": "paragraph",
+          "text": "School applications below are suggested adaptations for planning research, not claims that the approach has been tested in your school."
+        }
+      ],
+      "Core Features": [
+        {
+          "type": "list",
+          "items": [
+            "School governance",
+            "Facilities and operations",
+            "Teaching and learning",
+            "Community engagement"
+          ]
+        }
+      ],
+      "Possible School Application": [
+        {
+          "type": "paragraph",
+          "text": "Assess one sustainability gap and coordinate a waste reduction project across lessons and school routines."
+        }
+      ],
+      "Baseline Evidence and Measures": [
+        {
+          "type": "paragraph",
+          "text": "Waste quantities, participation, learner explanations, and implementation records."
+        },
+        {
+          "type": "paragraph",
+          "text": "Collect a baseline before implementation. Define comparable follow-up measures and document context and implementation changes."
+        }
+      ],
+      "Suggested Implementation Flow": [
+        {
+          "type": "sequence",
+          "items": [
+            "Identify the local problem and collect baseline evidence.",
+            "Read the original source and select relevant components.",
+            "Agree on a feasible adaptation, responsibilities, and measures.",
+            "Pilot the adaptation and record implementation.",
+            "Review findings and limitations; decide whether to revise or expand."
+          ]
+        }
+      ],
+      "Research Planning": [
+        {
+          "type": "paragraph",
+          "text": "Possible inquiry: What changes are observed after the proposed adaptation, and how do participants explain their experience? Select a design that fits the question. A simple before-and-after comparison cannot isolate causation."
+        }
+      ],
+      "Scope and Limitations": [
+        {
+          "type": "paragraph",
+          "text": "Using the framework does not mean the school has received UNESCO certification."
+        }
+      ],
+      "Evidence and Sources": [
+        {
+          "type": "paragraph",
+          "text": "The source documents the framework or its rationale. It does not establish the effectiveness of the school application proposed here. Review relevant empirical studies before selecting an intervention."
+        }
+      ],
+      "References": [
+        {
+          "type": "references",
+          "items": [
+            {
+              "segments": [
+                {
+                  "text": "UNESCO (2024). "
+                },
+                {
+                  "text": "Green school quality standard: Greening every learning environment. ",
+                  "italic": true
+                },
+                {
+                  "text": "https://www.unesco.org/en/articles/green-school-quality-standard-greening-every-learning-environment?hub=66949"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "planetary-boundaries",
+    "modelName": "Planetary Boundaries Framework",
+    "category": "Environmental Education and Science",
+    "learningArea": "Environmental Education and Science",
+    "tags": [
+      "Environmental Education and Science",
+      "Framework or approach",
+      "Research planning"
+    ],
+    "summary": "An Earth-system framework identifying nine processes relevant to a safe operating space for humanity.",
+    "sections": {
+      "Model Overview": [
+        {
+          "type": "paragraph",
+          "text": "An Earth-system framework identifying nine processes relevant to a safe operating space for humanity."
+        },
+        {
+          "type": "paragraph",
+          "text": "School applications below are suggested adaptations for planning research, not claims that the approach has been tested in your school."
+        }
+      ],
+      "Core Features": [
+        {
+          "type": "list",
+          "items": [
+            "Climate change and biosphere integrity",
+            "Land-system change and freshwater change",
+            "Biogeochemical flows and ocean acidification",
+            "Stratospheric ozone depletion and atmospheric aerosol loading",
+            "Novel entities"
+          ]
+        }
+      ],
+      "Possible School Application": [
+        {
+          "type": "paragraph",
+          "text": "Use a local environmental issue to build a concept map connecting school choices and wider environmental pressures."
+        }
+      ],
+      "Baseline Evidence and Measures": [
+        {
+          "type": "paragraph",
+          "text": "Concept-map quality, explanation accuracy, and interpretation of environmental data."
+        },
+        {
+          "type": "paragraph",
+          "text": "Collect a baseline before implementation. Define comparable follow-up measures and document context and implementation changes."
+        }
+      ],
+      "Suggested Implementation Flow": [
+        {
+          "type": "sequence",
+          "items": [
+            "Identify the local problem and collect baseline evidence.",
+            "Read the original source and select relevant components.",
+            "Agree on a feasible adaptation, responsibilities, and measures.",
+            "Pilot the adaptation and record implementation.",
+            "Review findings and limitations; decide whether to revise or expand."
+          ]
+        }
+      ],
+      "Research Planning": [
+        {
+          "type": "paragraph",
+          "text": "Possible inquiry: What changes are observed after the proposed adaptation, and how do participants explain their experience? Select a design that fits the question. A simple before-and-after comparison cannot isolate causation."
+        }
+      ],
+      "Scope and Limitations": [
+        {
+          "type": "paragraph",
+          "text": "Global boundaries cannot be converted directly into school-level safety limits. Local causal claims need local evidence."
+        }
+      ],
+      "Evidence and Sources": [
+        {
+          "type": "paragraph",
+          "text": "The source documents the framework or its rationale. It does not establish the effectiveness of the school application proposed here. Review relevant empirical studies before selecting an intervention."
+        }
+      ],
+      "References": [
+        {
+          "type": "references",
+          "items": [
+            {
+              "segments": [
+                {
+                  "text": "Stockholm Resilience Centre (n.d.). "
+                },
+                {
+                  "text": "Planetary boundaries. ",
+                  "italic": true
+                },
+                {
+                  "text": "https://www.stockholmresilience.org/research/planetary-boundaries.html"
                 }
               ]
             }
