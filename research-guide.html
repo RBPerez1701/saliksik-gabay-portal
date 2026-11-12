@@ -5,12 +5,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Research Guide | Saliksik-Gabay</title>
   <link rel="stylesheet" href="styles.css?v=research-guide">
-  <link rel="stylesheet" href="research-guide.css?v=1">
+  <link rel="stylesheet" href="research-guide.css?v=2">
   <script defer src="models.js"></script>
   <script defer src="research-zip.min.js"></script>
-  <script defer src="research-guide-content.js?v=1"></script>
+  <script defer src="research-guide-content.js?v=2"></script>
   <script defer src="research-guide-word.js?v=1"></script>
-  <script defer src="research-guide.js?v=1"></script>
+  <script defer src="research-guide.js?v=2"></script>
 </head>
 <body>
   <header class="topbar">
@@ -41,6 +41,11 @@
       </div>
       <h2 id="stepTitle" tabindex="-1"></h2>
       <p id="stepIntro" class="guide-intro"></p>
+      <details id="researchTips" class="guide-tips" hidden>
+        <summary>Research tips for this step</summary>
+        <ul id="researchTipsList"></ul>
+        <p class="guide-muted">Based on <a href="https://www.deped.gov.ph/2017/03/20/do-16-s-2017-research-management-guidelines/" target="_blank" rel="noopener noreferrer">DepEd Order No. 16, s. 2017</a> and <cite>Generic Comments (for proposal)</cite>.</p>
+      </details>
       <form id="guideForm"></form>
       <noscript><p>Enable JavaScript to use the Research Guide and download your draft.</p></noscript>
       <div class="guide-actions">

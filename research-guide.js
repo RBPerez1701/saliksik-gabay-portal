@@ -294,6 +294,14 @@ function showStep(index, moveFocus = true) {
   stepCount.textContent = `Step ${index + 1} of ${guideSteps.length}`;
   stepTitle.textContent = step.title;
   stepIntro.textContent = step.intro;
+  const tips = document.getElementById("researchTips");
+  const tipsList = document.getElementById("researchTipsList");
+  if (tips && tipsList) {
+    const items = step.tips || [];
+    tips.open = false;
+    tips.hidden = !items.length;
+    tipsList.replaceChildren(...items.map((tip) => node("li", tip)));
+  }
   stepSelect.value = index;
   [...desktopSteps.querySelectorAll("button")].forEach((control, stepIndex) => {
     if (stepIndex === index) control.setAttribute("aria-current", "step");
