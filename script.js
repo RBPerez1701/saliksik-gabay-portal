@@ -1,5 +1,7 @@
 
 const searchInput = document.getElementById("searchInput");
+const browseModels = document.getElementById("browseModels");
+const modelBrowser = document.getElementById("modelBrowser");
 const modelList = document.getElementById("modelList");
 const modelCount = document.getElementById("modelCount");
 const modelName = document.getElementById("modelName");
@@ -7,6 +9,7 @@ const modelSummary = document.getElementById("modelSummary");
 const learningArea = document.getElementById("learningArea");
 const tagList = document.getElementById("tagList");
 const tabButtons = document.getElementById("tabButtons");
+const sectionSelect = document.getElementById("sectionSelect");
 const activeTabTitle = document.getElementById("activeTabTitle");
 const sectionContent = document.getElementById("sectionContent");
 
@@ -14,13 +17,10 @@ let filteredModels = [...MODELS];
 let selectedModelId = MODELS[0]?.id || "";
 let activeTab = "Model Overview";
 
-function escapeHtml(text) {
-  return String(text)
-    .replace(/&/g, "&amp;")
-    .replace(/</g, "&lt;")
-    .replace(/>/g, "&gt;")
-    .replace(/"/g, "&quot;")
-    .replace(/'/g, "&#039;");
+function setBrowserOpen(open) {
+  if (!browseModels) return;
+  browseModels.setAttribute("aria-expanded", String(open));
+  browseModels.textContent = open ? "Hide teaching models" : "Browse teaching models";
 }
 
 function flattenForSearch(value) {
@@ -51,7 +51,8 @@ function searchModels(query) {
 
 function renderModelList() {
   modelList.innerHTML = "";
-  modelCount.textContent = filteredModels.length + " loaded";
+  const matchLabel = filteredModels.length === 1 ? "match" : "matches";
+  modelCount.textContent = filteredModels.length + " " + (searchInput.value.trim() ? matchLabel : "loaded");
 
   if (filteredModels.length === 0) {
     modelList.innerHTML = '<p class="empty-state">No matching model found.</p>';
@@ -60,18 +61,37 @@ function renderModelList() {
 
   filteredModels.forEach((model) => {
     const button = document.createElement("button");
-    button.className = "model-button" + (model.id === selectedModelId ? " active" : "");
-    button.innerHTML = `
-      <h3>${escapeHtml(model.modelName)}</h3>
-      <p>${escapeHtml(model.learningArea)}</p>
-    `;
+    button.type = "button";
+    button.className = "model-button";
+    button.dataset.modelId = model.id;
+    const title = document.createElement("strong");
+    title.textContent = model.modelName;
+    const context = document.createElement("span");
+    context.textContent = model.learningArea;
+    button.append(title, context);
     button.addEventListener("click", () => {
       selectedModelId = model.id;
       activeTab = "Model Overview";
-      renderAll();
+      updateModelSelection();
+      renderModel(model);
+      setBrowserOpen(false);
+      modelName.focus({ preventScroll: true });
+      const heading = modelName.getBoundingClientRect();
+      if (heading.top < 12 || heading.bottom > window.innerHeight) {
+        modelName.scrollIntoView({ block: "start" });
+      }
     });
     modelList.appendChild(button);
   });
+  updateModelSelection();
+}
+
+function updateModelSelection() {
+  for (const button of modelList.children) {
+    const selected = button.dataset.modelId === selectedModelId;
+    button.classList.toggle("active", selected);
+    button.setAttribute("aria-current", String(selected));
+  }
 }
 
 function renderHeader(model) {
@@ -90,6 +110,7 @@ function renderHeader(model) {
 
 function renderTabs(model) {
   tabButtons.innerHTML = "";
+  if (sectionSelect) sectionSelect.innerHTML = "";
   const tabs = Object.keys(model.sections || {});
   if (!tabs.includes(activeTab)) {
     activeTab = tabs[0] || "";
@@ -97,15 +118,36 @@ function renderTabs(model) {
 
   tabs.forEach((tab) => {
     const button = document.createElement("button");
-    button.className = "tab-button" + (tab === activeTab ? " active" : "");
+    button.type = "button";
+    button.className = "tab-button";
+    button.setAttribute("aria-controls", "sectionContent");
     button.textContent = tab;
-    button.addEventListener("click", () => {
-      activeTab = tab;
-      renderSection(model);
-      renderTabs(model);
-    });
+    button.addEventListener("click", () => selectSection(model, tab));
     tabButtons.appendChild(button);
+
+    if (sectionSelect) {
+      const option = document.createElement("option");
+      option.value = tab;
+      option.textContent = tab;
+      sectionSelect.appendChild(option);
+    }
   });
+  updateSectionSelection();
+}
+
+function updateSectionSelection() {
+  for (const button of tabButtons.children) {
+    const selected = button.textContent === activeTab;
+    button.classList.toggle("active", selected);
+    button.setAttribute("aria-pressed", String(selected));
+  }
+  if (sectionSelect) sectionSelect.value = activeTab;
+}
+
+function selectSection(model, tab) {
+  activeTab = tab;
+  updateSectionSelection();
+  renderSection(model);
 }
 
 function renderBlock(block) {
@@ -202,25 +244,7 @@ function renderSection(model) {
   });
 }
 
-function renderAll() {
-  if (filteredModels.length === 0) {
-    modelName.textContent = "No teaching model selected";
-    modelSummary.textContent = "";
-    learningArea.textContent = "";
-    tagList.innerHTML = "";
-    tabButtons.innerHTML = "";
-    activeTabTitle.textContent = "Results";
-    sectionContent.innerHTML = '<p class="empty-state">Try another search term.</p>';
-    renderModelList();
-    return;
-  }
-
-  if (!filteredModels.some((m) => m.id === selectedModelId)) {
-    selectedModelId = filteredModels[0].id;
-  }
-
-  const model = filteredModels.find((m) => m.id === selectedModelId);
-  renderModelList();
+function renderModel(model) {
   renderHeader(model);
   renderTabs(model);
   renderSection(model);
@@ -228,7 +252,27 @@ function renderAll() {
 
 searchInput.addEventListener("input", (event) => {
   filteredModels = searchModels(event.target.value);
-  renderAll();
+  renderModelList();
+  modelList.scrollTop = 0;
 });
 
-renderAll();
+browseModels?.addEventListener("click", () => {
+  const open = browseModels.getAttribute("aria-expanded") !== "true";
+  setBrowserOpen(open);
+  if (open) searchInput.focus({ preventScroll: true });
+});
+
+modelBrowser?.addEventListener("keydown", (event) => {
+  if (event.key !== "Escape" || browseModels?.getAttribute("aria-expanded") !== "true") return;
+  event.preventDefault();
+  setBrowserOpen(false);
+  browseModels.focus();
+});
+
+sectionSelect?.addEventListener("change", (event) => {
+  const model = MODELS.find((item) => item.id === selectedModelId);
+  selectSection(model, event.target.value);
+});
+
+renderModelList();
+if (MODELS.length) renderModel(MODELS[0]);

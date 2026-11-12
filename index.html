@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Saliksik-Gabay Teaching Models Portal</title>
-  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="styles.css?v=reader-layout" />
 </head>
 <body>
   <header class="topbar">
@@ -22,48 +22,39 @@
   </header>
 
   <main class="container main-grid">
-    <aside class="sidebar">
-      <section class="card">
-        <h2 class="section-title">Search teaching models</h2>
-        <input id="searchInput" type="text" placeholder="Search by model, keyword, or learning area" />
-        <p class="helper-text">Use the search box to find models by topic, skill, subject area, or intervention concern.</p>
-      </section>
-
-      <section class="card">
-        <div class="sidebar-head">
-          <h2 class="section-title">Teaching models</h2>
-          <span id="modelCount" class="pill"></span>
-        </div>
-        <div id="modelList" class="model-list"></div>
-      </section>
-
-      <section class="card about-card">
-        <h2 class="section-title">About this portal</h2>
-        <p>This portal presents evidence-linked teaching models intended to support teacher-researchers in selecting, justifying, and applying suitable interventions for classroom-based action research.</p>
-        <p>Each entry follows a standardized format drawn from the innovation material: model overview, situations for use, core features, baseline data needed, how to use it, action research application, implementation flow, evidence from related studies, data to gather, indicators of success, and references.</p>
-      </section>
+    <button id="browseModels" class="browse-toggle" type="button"
+      aria-controls="modelBrowser" aria-expanded="false">Browse teaching models</button>
+    <aside id="modelBrowser" class="sidebar card" aria-labelledby="browserTitle">
+      <div class="sidebar-head">
+        <h2 id="browserTitle" class="section-title">Teaching models</h2>
+        <span id="modelCount" class="pill" role="status"></span>
+      </div>
+      <label class="visually-hidden" for="searchInput">Search teaching models</label>
+      <input id="searchInput" type="search" placeholder="Search by model or topic" aria-controls="modelList" />
+      <div id="modelList" class="model-list"></div>
     </aside>
 
-    <section class="content">
-      <section class="hero card">
-        <div>
-          <p class="eyebrow eyebrow-dark">Selected model</p>
-          <h2 id="modelName"></h2>
-          <p id="modelSummary" class="summary"></p>
-          <p id="learningArea" class="learning-area"></p>
-        </div>
+    <article class="content card" aria-labelledby="modelName">
+      <header class="model-heading">
+        <h2 id="modelName" tabindex="-1"></h2>
+      </header>
+      <aside class="model-context" aria-label="Model details">
+        <p id="modelSummary" class="summary"></p>
+        <p id="learningArea" class="learning-area"></p>
         <div id="tagList" class="tag-list"></div>
-      </section>
-
-      <section class="card">
+      </aside>
+      <nav class="section-navigation" aria-label="Model sections">
         <div id="tabButtons" class="tab-buttons"></div>
-      </section>
-
-      <section class="card section-card">
+        <div class="section-picker">
+          <label for="sectionSelect">Jump to section</label>
+          <select id="sectionSelect" aria-controls="sectionContent"></select>
+        </div>
+      </nav>
+      <section class="section-card" aria-labelledby="activeTabTitle">
         <h3 id="activeTabTitle"></h3>
         <div id="sectionContent"></div>
       </section>
-    </section>
+    </article>
   </main>
 
   <footer class="footer">
@@ -74,6 +65,6 @@
   </footer>
 
   <script src="models.js"></script>
-  <script src="script.js"></script>
+  <script src="script.js?v=reader-layout"></script>
 </body>
 </html>
