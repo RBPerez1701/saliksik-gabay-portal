@@ -14,7 +14,9 @@ const activeTabTitle = document.getElementById("activeTabTitle");
 const sectionContent = document.getElementById("sectionContent");
 
 let filteredModels = [...MODELS];
-let selectedModelId = MODELS[0]?.id || "";
+const requestedModel = new URLSearchParams(window.location.search).get("model");
+const initialModel = MODELS.find((model) => model.id === requestedModel) || MODELS[0];
+let selectedModelId = initialModel?.id || "";
 let activeTab = "Model Overview";
 
 function setBrowserOpen(open) {
@@ -275,4 +277,4 @@ sectionSelect?.addEventListener("change", (event) => {
 });
 
 renderModelList();
-if (MODELS.length) renderModel(MODELS[0]);
+if (initialModel) renderModel(initialModel);

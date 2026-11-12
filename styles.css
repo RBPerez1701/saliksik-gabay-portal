@@ -93,6 +93,26 @@ h1 {
   font-size: 15px;
 }
 
+.portal-nav {
+  display: flex;
+  gap: 8px;
+  padding-top: 10px;
+}
+
+.portal-nav a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 40px;
+  padding: 6px 12px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.portal-nav a:hover,
+.portal-nav [aria-current="page"] { background: var(--accent-soft); }
+
 .main-grid {
   display: grid;
   grid-template-columns: minmax(240px, 290px) minmax(0, 1fr);

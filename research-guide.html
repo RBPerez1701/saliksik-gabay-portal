@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Research Guide | Saliksik-Gabay</title>
+  <link rel="stylesheet" href="styles.css?v=research-guide">
+  <link rel="stylesheet" href="research-guide.css?v=1">
+  <script defer src="models.js"></script>
+  <script defer src="research-zip.min.js"></script>
+  <script defer src="research-guide-content.js?v=1"></script>
+  <script defer src="research-guide-word.js?v=1"></script>
+  <script defer src="research-guide.js?v=1"></script>
+</head>
+<body>
+  <header class="topbar">
+    <div class="container brand-row">
+      <div class="brand-logos">
+        <img src="assets/deped-seal.png" alt="Department of Education seal" class="seal">
+        <img src="assets/sdo-bulacan-seal.png" alt="Schools Division of Bulacan seal" class="seal">
+      </div>
+      <div>
+        <p class="eyebrow">Saliksik-Gabay</p>
+        <h1>Research Guide</h1>
+      </div>
+    </div>
+  </header>
+  <nav class="portal-nav container" aria-label="Portal sections">
+    <a href="index.html">Teaching Models</a>
+    <a href="research-guide.html" aria-current="page">Research Guide</a>
+  </nav>
+  <main class="container guide-layout">
+    <nav class="card guide-steps" aria-label="Research steps" id="desktopSteps"></nav>
+    <section class="card guide-workspace" aria-labelledby="stepTitle">
+      <div class="guide-step-top">
+        <p id="stepCount" class="guide-step-count"></p>
+        <div class="guide-step-picker">
+          <label for="stepSelect" class="visually-hidden">Jump to research step</label>
+          <select id="stepSelect"></select>
+        </div>
+      </div>
+      <h2 id="stepTitle" tabindex="-1"></h2>
+      <p id="stepIntro" class="guide-intro"></p>
+      <form id="guideForm"></form>
+      <noscript><p>Enable JavaScript to use the Research Guide and download your draft.</p></noscript>
+      <div class="guide-actions">
+        <button type="button" id="previousStep" class="guide-button">Back</button>
+        <button type="button" id="nextStep" class="guide-button guide-primary">Continue</button>
+      </div>
+      <div class="guide-local">
+        <p id="saveStatus" role="status"></p>
+        <button type="button" id="clearDraft" class="guide-button guide-text-button">Clear this draft</button>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
