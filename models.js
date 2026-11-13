@@ -13676,8 +13676,18 @@ const MODELS = [
                   "text": "A review of research on the impact of professional learning communities on teaching practice and student learning. "
                 },
                 {
-                  "text": "Teaching and Teacher Education, 24(1), 80–91. ",
+                  "text": "Teaching and Teacher Education",
                   "italic": true
+                },
+                {
+                  "text": ", "
+                },
+                {
+                  "text": "24",
+                  "italic": true
+                },
+                {
+                  "text": "(1), 80–91. "
                 },
                 {
                   "text": "https://doi.org/10.1016/j.tate.2007.01.004"
@@ -14018,8 +14028,18 @@ const MODELS = [
                   "text": "Systematic review of the application of the plan–do–study–act method to improve quality in healthcare. "
                 },
                 {
-                  "text": "BMJ Quality & Safety, 23(4), 290–298. ",
+                  "text": "BMJ Quality & Safety",
                   "italic": true
+                },
+                {
+                  "text": ", "
+                },
+                {
+                  "text": "23",
+                  "italic": true
+                },
+                {
+                  "text": "(4), 290–298. "
                 },
                 {
                   "text": "https://doi.org/10.1136/bmjqs-2013-001862"
@@ -14188,8 +14208,18 @@ const MODELS = [
                   "text": "A statewide evaluation of the outcomes of the implementation of ASCA National Model school counseling programs in rural and suburban Nebraska high schools. "
                 },
                 {
-                  "text": "Professional School Counseling, 16(2), 100–107. ",
+                  "text": "Professional School Counseling",
                   "italic": true
+                },
+                {
+                  "text": ", "
+                },
+                {
+                  "text": "16",
+                  "italic": true
+                },
+                {
+                  "text": "(2), 100–107. "
                 },
                 {
                   "text": "https://doi.org/10.1177/2156759X0001600202"
@@ -14359,8 +14389,18 @@ const MODELS = [
                   "text": "The impact of enhancing students’ social and emotional learning: A meta-analysis of school-based universal interventions. "
                 },
                 {
-                  "text": "Child Development, 82(1), 405–432. ",
+                  "text": "Child Development",
                   "italic": true
+                },
+                {
+                  "text": ", "
+                },
+                {
+                  "text": "82",
+                  "italic": true
+                },
+                {
+                  "text": "(1), 405–432. "
                 },
                 {
                   "text": "https://doi.org/10.1111/j.1467-8624.2010.01564.x"
@@ -14703,8 +14743,18 @@ const MODELS = [
                   "text": "Applicability of the 5S management method for quality improvement in health-care facilities: A review. "
                 },
                 {
-                  "text": "Tropical Medicine and Health, 44, Article 21. ",
+                  "text": "Tropical Medicine and Health",
                   "italic": true
+                },
+                {
+                  "text": ", "
+                },
+                {
+                  "text": "44",
+                  "italic": true
+                },
+                {
+                  "text": ", Article 21. "
                 },
                 {
                   "text": "https://doi.org/10.1186/s41182-016-0022-9"
@@ -16293,8 +16343,18 @@ const MODELS = [
                   "text": "Does research applying the DPSIR framework support decision making? "
                 },
                 {
-                  "text": "Land Use Policy, 29(1), 102–110. ",
+                  "text": "Land Use Policy",
                   "italic": true
+                },
+                {
+                  "text": ", "
+                },
+                {
+                  "text": "29",
+                  "italic": true
+                },
+                {
+                  "text": "(1), 102–110. "
                 },
                 {
                   "text": "https://doi.org/10.1016/j.landusepol.2011.05.009"
@@ -16463,8 +16523,18 @@ const MODELS = [
                   "text": "The effectiveness of education for sustainable development. "
                 },
                 {
-                  "text": "Sustainability, 7(11), 15693–15717. ",
+                  "text": "Sustainability",
                   "italic": true
+                },
+                {
+                  "text": ", "
+                },
+                {
+                  "text": "7",
+                  "italic": true
+                },
+                {
+                  "text": "(11), 15693–15717. "
                 },
                 {
                   "text": "https://doi.org/10.3390/su71115693"
@@ -16722,8 +16792,9 @@ const MODELS = [
         {
           "type": "image",
           "src": "assets/model-flows/srsd.png",
-          "alt": "Self-Regulated Strategy Development (SRSD). Develop background knowledge. Discuss the strategy and its purpose. Model the strategy through a think-aloud. Learn and recall the strategy. Practice with gradually reduced support. Apply independently and revisit as needed",
-          "caption": "Suggested school-use flow adapted from Harris et al. (2002) and What Works Clearinghouse (n.d.)."
+          "alt": "Build background knowledge: Develop background knowledge; Discuss the strategy: Discuss the strategy and its purpose; Model through a think-aloud: Model the strategy through a think-aloud; Learn and recall: Learn and recall the strategy; Practise with support: Practice with gradually reduced support; Apply independently: Apply independently and revisit as needed",
+          "caption": "Suggested school-use flow adapted from Harris et al. (2002) and What Works Clearinghouse (n.d.).",
+          "displayWidth": 600
         }
       ],
       "Evidence From Related Studies": [
@@ -16737,7 +16808,7 @@ const MODELS = [
         },
         {
           "type": "paragraph",
-          "text": "The What Works Clearinghouse (n.d.) reports potentially positive effects on writing achievement in the evidence reviewed. Local writing samples remain necessary to examine how an adapted lesson works."
+          "text": "The What Works Clearinghouse (n.d.) reports potentially positive effects on writing achievement for students with specific learning disabilities, based on single-case design studies. Use local writing samples to examine how the adapted lessons work with your learners."
         }
       ],
       "Data to Gather": [
@@ -16779,8 +16850,18 @@ const MODELS = [
                   "italic": false
                 },
                 {
-                  "text": "Contemporary Educational Psychology, 30(2), 207–241. ",
+                  "text": "Contemporary Educational Psychology",
                   "italic": true
+                },
+                {
+                  "text": ", "
+                },
+                {
+                  "text": "30",
+                  "italic": true
+                },
+                {
+                  "text": "(2), 207–241. "
                 },
                 {
                   "text": "https://doi.org/10.1016/j.cedpsych.2004.08.001"
@@ -16797,8 +16878,18 @@ const MODELS = [
                   "italic": false
                 },
                 {
-                  "text": "Theory Into Practice, 41(2), 110–115. ",
+                  "text": "Theory Into Practice",
                   "italic": true
+                },
+                {
+                  "text": ", "
+                },
+                {
+                  "text": "41",
+                  "italic": true
+                },
+                {
+                  "text": "(2), 110–115. "
                 },
                 {
                   "text": "https://doi.org/10.1207/s15430421tip4102_7"
@@ -16903,8 +16994,9 @@ const MODELS = [
         {
           "type": "image",
           "src": "assets/model-flows/schema-based-instruction.png",
-          "alt": "Schema-Based Instruction for Proportional Problem Solving. Read and identify the quantities. Represent the mathematical relationship. Choose and explain a solution method. Solve and check the interpretation. Practice with new contexts and revisit later",
-          "caption": "Suggested school-use flow adapted from Jitendra et al. (2011, 2017)."
+          "alt": "Understand the problem: Read and identify the quantities; Represent relationships: Represent the mathematical relationship; Choose a method: Choose and explain a solution method; Solve and check: Solve and check the interpretation; Practise and revisit: Practice with new contexts and revisit later",
+          "caption": "Suggested school-use flow adapted from Jitendra et al. (2011, 2017).",
+          "displayWidth": 600
         }
       ],
       "Evidence From Related Studies": [
@@ -16960,8 +17052,18 @@ const MODELS = [
                   "italic": false
                 },
                 {
-                  "text": "Journal of Learning Disabilities, 50(3), 322–336. ",
+                  "text": "Journal of Learning Disabilities",
                   "italic": true
+                },
+                {
+                  "text": ", "
+                },
+                {
+                  "text": "50",
+                  "italic": true
+                },
+                {
+                  "text": "(3), 322–336. "
                 },
                 {
                   "text": "https://doi.org/10.1177/0022219416629646"
@@ -16978,8 +17080,18 @@ const MODELS = [
                   "italic": false
                 },
                 {
-                  "text": "Learning and Instruction, 21(6), 731–745. ",
+                  "text": "Learning and Instruction",
                   "italic": true
+                },
+                {
+                  "text": ", "
+                },
+                {
+                  "text": "21",
+                  "italic": true
+                },
+                {
+                  "text": "(6), 731–745. "
                 },
                 {
                   "text": "https://doi.org/10.1016/j.learninstruc.2011.04.002"
@@ -17084,8 +17196,9 @@ const MODELS = [
         {
           "type": "image",
           "src": "assets/model-flows/peer-instruction.png",
-          "alt": "Peer Instruction. Pose a conceptual question. Answer individually and explain the choice. Discuss reasoning with a peer. Answer again and consider the explanations. Teacher synthesis and a new individual question",
-          "caption": "Suggested school-use flow adapted from Crouch and Mazur (2001) and Smith et al. (2009, 2011)."
+          "alt": "Pose the question: Pose a conceptual question; Think individually: Answer individually and explain the choice; Discuss with a peer: Discuss reasoning with a peer; Answer again: Answer again and consider the explanations; Synthesize and transfer: Teacher synthesis and a new individual question",
+          "caption": "Suggested school-use flow adapted from Crouch and Mazur (2001) and Smith et al. (2009, 2011).",
+          "displayWidth": 600
         }
       ],
       "Evidence From Related Studies": [
@@ -17141,8 +17254,18 @@ const MODELS = [
                   "italic": false
                 },
                 {
-                  "text": "American Journal of Physics, 69(9), 970–977. ",
+                  "text": "American Journal of Physics",
                   "italic": true
+                },
+                {
+                  "text": ", "
+                },
+                {
+                  "text": "69",
+                  "italic": true
+                },
+                {
+                  "text": "(9), 970–977. "
                 },
                 {
                   "text": "https://doi.org/10.1119/1.1374249"
@@ -17159,8 +17282,18 @@ const MODELS = [
                   "italic": false
                 },
                 {
-                  "text": "Science, 323(5910), 122–124. ",
+                  "text": "Science",
                   "italic": true
+                },
+                {
+                  "text": ", "
+                },
+                {
+                  "text": "323",
+                  "italic": true
+                },
+                {
+                  "text": "(5910), 122–124. "
                 },
                 {
                   "text": "https://doi.org/10.1126/science.1165919"
@@ -17177,8 +17310,18 @@ const MODELS = [
                   "italic": false
                 },
                 {
-                  "text": "CBE—Life Sciences Education, 10(1), 55–63. ",
+                  "text": "CBE—Life Sciences Education",
                   "italic": true
+                },
+                {
+                  "text": ", "
+                },
+                {
+                  "text": "10",
+                  "italic": true
+                },
+                {
+                  "text": "(1), 55–63. "
                 },
                 {
                   "text": "https://pubmed.ncbi.nlm.nih.gov/21364100/"
@@ -17266,8 +17409,9 @@ const MODELS = [
         {
           "type": "image",
           "src": "assets/model-flows/lesson-study.png",
-          "alt": "Lesson Study. Investigate a shared learning question. Study resources and jointly plan the lesson. Teach and observe the research lesson. Discuss learner thinking and evidence. Refine teaching and begin the next inquiry",
-          "caption": "Suggested school-use flow adapted from Lewis et al. (2009) and Lewis and Perry (2017)."
+          "alt": "Identify the inquiry: Investigate a shared learning question; Study and plan: Study resources and jointly plan the lesson; Teach and observe: Teach and observe the research lesson; Discuss the evidence: Discuss learner thinking and evidence; Refine and repeat: Refine teaching and begin the next inquiry",
+          "caption": "Suggested school-use flow adapted from Lewis et al. (2009) and Lewis and Perry (2017).",
+          "displayWidth": 600
         }
       ],
       "Evidence From Related Studies": [
@@ -17323,8 +17467,18 @@ const MODELS = [
                   "italic": false
                 },
                 {
-                  "text": "Journal of Mathematics Teacher Education, 12, 285–304. ",
+                  "text": "Journal of Mathematics Teacher Education",
                   "italic": true
+                },
+                {
+                  "text": ", "
+                },
+                {
+                  "text": "12",
+                  "italic": true
+                },
+                {
+                  "text": ", 285–304. "
                 },
                 {
                   "text": "https://doi.org/10.1007/s10857-009-9102-7"
@@ -17341,8 +17495,18 @@ const MODELS = [
                   "italic": false
                 },
                 {
-                  "text": "Journal for Research in Mathematics Education, 48(3), 261–299. ",
+                  "text": "Journal for Research in Mathematics Education",
                   "italic": true
+                },
+                {
+                  "text": ", "
+                },
+                {
+                  "text": "48",
+                  "italic": true
+                },
+                {
+                  "text": "(3), 261–299. "
                 },
                 {
                   "text": "https://doi.org/10.5951/jresematheduc.48.3.0261"
@@ -17447,8 +17611,9 @@ const MODELS = [
         {
           "type": "image",
           "src": "assets/model-flows/icap.png",
-          "alt": "ICAP Framework for Cognitive Engagement. Passive — receive and attend. Active — manipulate supplied information. Constructive — generate additional ideas. Interactive — jointly develop understanding",
-          "caption": "Framework organizer adapted from Chi and Wylie (2014) and Chi et al. (2018)."
+          "alt": "Set a learning goal: Identify what learners should understand and the thinking the task should reveal.; Examine the current task: Consider whether learners receive, manipulate, generate, or jointly develop ideas.; Design prompts for reasoning: Ask for explanations, inferences, or connections suited to the learning goal.; Support meaningful interaction: For collaborative tasks, invite learners to question and build on one another’s reasoning.; Examine learning and refine: Use observations and learner explanations to improve the task and support.",
+          "caption": "Suggested school-use flow informed by Chi and Wylie (2014) and Chi et al. (2018).",
+          "displayWidth": 600
         }
       ],
       "Evidence From Related Studies": [
@@ -17504,8 +17669,18 @@ const MODELS = [
                   "italic": false
                 },
                 {
-                  "text": "Topics in Cognitive Science, 1(1), 73–105. ",
+                  "text": "Topics in Cognitive Science",
                   "italic": true
+                },
+                {
+                  "text": ", "
+                },
+                {
+                  "text": "1",
+                  "italic": true
+                },
+                {
+                  "text": "(1), 73–105. "
                 },
                 {
                   "text": "https://doi.org/10.1111/j.1756-8765.2008.01005.x"
@@ -17522,8 +17697,18 @@ const MODELS = [
                   "italic": false
                 },
                 {
-                  "text": "Educational Psychologist, 49(4), 219–243. ",
+                  "text": "Educational Psychologist",
                   "italic": true
+                },
+                {
+                  "text": ", "
+                },
+                {
+                  "text": "49",
+                  "italic": true
+                },
+                {
+                  "text": "(4), 219–243. "
                 },
                 {
                   "text": "https://doi.org/10.1080/00461520.2014.965823"
@@ -17540,8 +17725,18 @@ const MODELS = [
                   "italic": false
                 },
                 {
-                  "text": "Cognitive Science, 42(6), 1777–1832. ",
+                  "text": "Cognitive Science",
                   "italic": true
+                },
+                {
+                  "text": ", "
+                },
+                {
+                  "text": "42",
+                  "italic": true
+                },
+                {
+                  "text": "(6), 1777–1832. "
                 },
                 {
                   "text": "https://doi.org/10.1111/cogs.12626"
@@ -17629,8 +17824,9 @@ const MODELS = [
         {
           "type": "image",
           "src": "assets/model-flows/cori.png",
-          "alt": "Concept-Oriented Reading Instruction (CORI). Choose a meaningful conceptual theme. Connect questions with accessible texts. Teach strategies with choice and support. Discuss and synthesize information. Assess comprehension and reflect on reading",
-          "caption": "Suggested school-use flow adapted from Guthrie et al. (2004) and Guthrie and Klauda (2014)."
+          "alt": "Choose a theme: Choose a meaningful conceptual theme; Connect texts and questions: Connect questions with accessible texts; Teach reading strategies: Teach strategies with choice and support; Discuss and synthesize: Discuss and synthesize information; Assess and reflect: Assess comprehension and reflect on reading",
+          "caption": "Suggested school-use flow adapted from Guthrie et al. (2004) and Guthrie and Klauda (2014).",
+          "displayWidth": 600
         }
       ],
       "Evidence From Related Studies": [
@@ -17686,8 +17882,18 @@ const MODELS = [
                   "italic": false
                 },
                 {
-                  "text": "Journal of Literacy Research, 36(1), 1–30. ",
+                  "text": "Journal of Literacy Research",
                   "italic": true
+                },
+                {
+                  "text": ", "
+                },
+                {
+                  "text": "36",
+                  "italic": true
+                },
+                {
+                  "text": "(1), 1–30. "
                 },
                 {
                   "text": "https://doi.org/10.1207/s15548430jlr3601_2"
@@ -17704,8 +17910,18 @@ const MODELS = [
                   "italic": false
                 },
                 {
-                  "text": "Reading Research Quarterly, 49(4), 387–416. ",
+                  "text": "Reading Research Quarterly",
                   "italic": true
+                },
+                {
+                  "text": ", "
+                },
+                {
+                  "text": "49",
+                  "italic": true
+                },
+                {
+                  "text": "(4), 387–416. "
                 },
                 {
                   "text": "https://doi.org/10.1002/rrq.81"
@@ -17722,8 +17938,18 @@ const MODELS = [
                   "italic": false
                 },
                 {
-                  "text": "Journal of Educational Psychology, 96(3), 403–423. ",
+                  "text": "Journal of Educational Psychology",
                   "italic": true
+                },
+                {
+                  "text": ", "
+                },
+                {
+                  "text": "96",
+                  "italic": true
+                },
+                {
+                  "text": "(3), 403–423. "
                 },
                 {
                   "text": "https://eric.ed.gov/?id=EJ685000"
@@ -17813,8 +18039,9 @@ const MODELS = [
         {
           "type": "image",
           "src": "assets/model-flows/epstein-partnerships.png",
-          "alt": "Epstein’s Six Types of Involvement. Parenting — support families’ understanding. Communicating — exchange information. Volunteering — offer accessible opportunities. Learning at home — connect home and learning. Decision-making — share meaningful participation. Community collaboration — connect resources",
-          "caption": "Framework organizer adapted from Epstein et al. (2019)."
+          "alt": "Choose a shared goal: Invite families and staff to identify a learner need and agree on the intended outcome.; Review involvement opportunities: Consider parenting, communication, volunteering, learning at home, decision-making, and community collaboration.; Plan accessible activities: Select relevant activities with families and address barriers to taking part.; Carry out the partnership: Provide clear contact arrangements and connect each activity to the shared goal.; Review and improve together: Discuss participation, learner outcomes, and family feedback to refine the activities.",
+          "caption": "Suggested school-use flow informed by Epstein et al. (2019).",
+          "displayWidth": 600
         }
       ],
       "Evidence From Related Studies": [
@@ -17870,8 +18097,18 @@ const MODELS = [
                   "italic": false
                 },
                 {
-                  "text": "The Journal of Educational Research, 95(5), 308–318. ",
+                  "text": "The Journal of Educational Research",
                   "italic": true
+                },
+                {
+                  "text": ", "
+                },
+                {
+                  "text": "95",
+                  "italic": true
+                },
+                {
+                  "text": "(5), 308–318. "
                 },
                 {
                   "text": "https://doi.org/10.1080/00220670209596604"
@@ -17996,8 +18233,9 @@ const MODELS = [
         {
           "type": "image",
           "src": "assets/model-flows/dual-capacity.png",
-          "alt": "Dual Capacity-Building Framework for Family–School Partnerships. Understand family and educator experiences. Build trust around a shared learning goal. Design interactive learning together. Strengthen skills, connections, beliefs, confidence. Reflect together and sustain useful partnerships",
-          "caption": "Suggested school-use flow adapted from Mapp and Bergman (2019, 2021)."
+          "alt": "Understand experiences: Understand family and educator experiences; Build trust: Build trust around a shared learning goal; Learn together: Design interactive learning together; Develop shared capacity: Strengthen skills, connections, beliefs, confidence; Reflect and sustain: Reflect together and sustain useful partnerships",
+          "caption": "Suggested school-use flow adapted from Mapp and Bergman (2019, 2021).",
+          "displayWidth": 600
         }
       ],
       "Evidence From Related Studies": [
@@ -18174,8 +18412,9 @@ const MODELS = [
         {
           "type": "image",
           "src": "assets/model-flows/eef-implementation.png",
-          "alt": "EEF’s A School’s Guide to Implementation. Explore — understand the need and approach. Prepare — plan and build readiness. Deliver — support use and learn from experience. Sustain — maintain effort and review next steps",
-          "caption": "Suggested school-use flow adapted from Education Endowment Foundation (2024a)."
+          "alt": "Explore: Explore — understand the need and approach; Prepare: Prepare — plan and build readiness; Deliver: Deliver — support use and learn from experience; Sustain: Sustain — maintain effort and review next steps",
+          "caption": "Suggested school-use flow adapted from Education Endowment Foundation (2024a).",
+          "displayWidth": 600
         }
       ],
       "Evidence From Related Studies": [
@@ -18227,8 +18466,18 @@ const MODELS = [
                   "italic": false
                 },
                 {
-                  "text": "American Journal of Community Psychology, 41, 327–350. ",
+                  "text": "American Journal of Community Psychology",
                   "italic": true
+                },
+                {
+                  "text": ", "
+                },
+                {
+                  "text": "41",
+                  "italic": true
+                },
+                {
+                  "text": ", 327–350. "
                 },
                 {
                   "text": "https://doi.org/10.1007/s10464-008-9165-0"
@@ -18353,8 +18602,9 @@ const MODELS = [
         {
           "type": "image",
           "src": "assets/model-flows/program-logic-model.png",
-          "alt": "Program Logic Model. Resources available for the program. Activities offered to participants. Outputs — what the program delivers. Outcomes — changes expected over time. Review connections, assumptions, and context",
-          "caption": "Suggested school-use flow adapted from W.K. Kellogg Foundation (2004) and McLaughlin and Jordan (1999)."
+          "alt": "Identify resources: Resources available for the program; Describe activities: Activities offered to participants; Specify outputs: Outputs — what the program delivers; Clarify outcomes: Outcomes — changes expected over time; Review the connections: Review connections, assumptions, and context",
+          "caption": "Suggested school-use flow adapted from W.K. Kellogg Foundation (2004) and McLaughlin and Jordan (1999).",
+          "displayWidth": 600
         }
       ],
       "Evidence From Related Studies": [
@@ -18424,8 +18674,18 @@ const MODELS = [
                   "italic": false
                 },
                 {
-                  "text": "Evaluation and Program Planning, 22(1), 65–72. ",
+                  "text": "Evaluation and Program Planning",
                   "italic": true
+                },
+                {
+                  "text": ", "
+                },
+                {
+                  "text": "22",
+                  "italic": true
+                },
+                {
+                  "text": "(1), 65–72. "
                 },
                 {
                   "text": "https://eric.ed.gov/?id=EJ586936"
@@ -18532,8 +18792,9 @@ const MODELS = [
         {
           "type": "image",
           "src": "assets/model-flows/cdc-program-evaluation.png",
-          "alt": "CDC Program Evaluation Framework (2024). Assess the context. Describe the program. Focus questions and evaluation design. Gather credible evidence. Develop and support conclusions. Act on findings and revisit the questions",
-          "caption": "Suggested school-use flow adapted from Centers for Disease Control and Prevention (2024b, 2024c)."
+          "alt": "Assess the context: Assess the context; Describe the program: Describe the program; Focus the evaluation: Focus questions and evaluation design; Gather credible evidence: Gather credible evidence; Generate conclusions: Develop and support conclusions; Act on findings: Act on findings and revisit the questions",
+          "caption": "Suggested school-use flow adapted from Centers for Disease Control and Prevention (2024b, 2024c).",
+          "displayWidth": 600
         }
       ],
       "Evidence From Related Studies": [
@@ -18621,8 +18882,18 @@ const MODELS = [
                   "italic": false
                 },
                 {
-                  "text": "Evaluation and Program Planning, 22(1), 65–72. ",
+                  "text": "Evaluation and Program Planning",
                   "italic": true
+                },
+                {
+                  "text": ", "
+                },
+                {
+                  "text": "22",
+                  "italic": true
+                },
+                {
+                  "text": "(1), 65–72. "
                 },
                 {
                   "text": "https://eric.ed.gov/?id=EJ586936"
@@ -18712,8 +18983,9 @@ const MODELS = [
         {
           "type": "image",
           "src": "assets/model-flows/digcompedu.png",
-          "alt": "Digital Competence of Educators (DigCompEdu). Professional engagement. Digital resources. Teaching and learning. Assessment. Empowering learners. Facilitating learners’ digital competence",
-          "caption": "Framework organizer adapted from Redecker (2017)."
+          "alt": "Identify a professional need: Connect a school priority with relevant competencies in the six DigCompEdu areas.; Reflect on current practice: Combine teacher reflection with lesson examples and practical tasks.; Set a learning goal: Choose a manageable competence to develop and plan suitable professional learning.; Try the approach in a lesson: Use the selected digital practice while addressing learner access and accessibility.; Examine and refine practice: Discuss learner responses and follow-up lesson examples to guide the next steps.",
+          "caption": "Suggested school-use flow informed by Redecker (2017).",
+          "displayWidth": 600
         }
       ],
       "Evidence From Related Studies": [
@@ -18891,8 +19163,9 @@ const MODELS = [
         {
           "type": "image",
           "src": "assets/model-flows/index-for-inclusion.png",
-          "alt": "Index for Inclusion. Inclusive cultures — values and relationships. Inclusive policies — arrangements and support. Inclusive practices — learning and participation",
-          "caption": "Framework organizer adapted from Booth and Ainscow (2011)."
+          "alt": "Invite different perspectives: Use accessible reflection questions with learners, families, and staff.; Identify participation barriers: Examine school cultures, policies, and practices through the experiences shared.; Agree on a priority: Choose a manageable barrier and develop a response with the people affected.; Introduce the change: Adapt the selected routine, activity, or resource to improve access and participation.; Reflect and develop further: Revisit participants’ experiences and address remaining barriers together.",
+          "caption": "Suggested school-use flow informed by Booth and Ainscow (2011).",
+          "displayWidth": 600
         }
       ],
       "Evidence From Related Studies": [
@@ -18944,8 +19217,18 @@ const MODELS = [
                   "italic": false
                 },
                 {
-                  "text": "International Journal of Inclusive Education, 14(4), 401–416. ",
+                  "text": "International Journal of Inclusive Education",
                   "italic": true
+                },
+                {
+                  "text": ", "
+                },
+                {
+                  "text": "14",
+                  "italic": true
+                },
+                {
+                  "text": "(4), 401–416. "
                 },
                 {
                   "text": "https://doi.org/10.1080/13603110802504903"
@@ -19069,8 +19352,9 @@ const MODELS = [
         {
           "type": "image",
           "src": "assets/model-flows/lundy-participation.png",
-          "alt": "Lundy Model of Participation. Space — inclusive opportunities to participate. Voice — support informed expression. Audience — reach people responsible for listening. Influence — consider views and explain decisions",
-          "caption": "Framework organizer adapted from Lundy (2007) and UNICEF Ireland (2022)."
+          "alt": "Clarify the decision: Explain what learners can influence and provide the information they need.; Create space and support voice: Offer safe, inclusive opportunities and accessible ways to form and express views.; Connect views to an audience: Bring learners’ contributions to the adults responsible for considering the decision.; Respond and explain influence: Explain what changed, what could not be taken forward, and the reasons.; Improve the participation process: Ask learners about their experience and use their suggestions in future consultations.",
+          "caption": "Suggested school-use flow informed by Lundy (2007) and UNICEF Ireland (2022).",
+          "displayWidth": 600
         }
       ],
       "Evidence From Related Studies": [
@@ -19122,8 +19406,18 @@ const MODELS = [
                   "italic": false
                 },
                 {
-                  "text": "British Educational Research Journal, 33(6), 927–942. ",
+                  "text": "British Educational Research Journal",
                   "italic": true
+                },
+                {
+                  "text": ", "
+                },
+                {
+                  "text": "33",
+                  "italic": true
+                },
+                {
+                  "text": "(6), 927–942. "
                 },
                 {
                   "text": "https://doi.org/10.1080/01411920701657033"
@@ -19251,8 +19545,9 @@ const MODELS = [
         {
           "type": "image",
           "src": "assets/model-flows/health-promoting-schools.png",
-          "alt": "WHO–UNESCO Health-Promoting Schools Framework. Government policies and resources. School policies and resources. Governance and leadership. School and community partnerships. Curriculum. Social-emotional environment. Physical environment. School health services",
-          "caption": "Framework organizer adapted from World Health Organization and UNESCO (2021a)."
+          "alt": "Choose a shared health priority: Involve learners, staff, families, and relevant health personnel.; Review the school setting: Consider policies, leadership, partnerships, curriculum, environments, and health services.; Plan coordinated support: Connect learning activities, environmental changes, and available services around the priority.; Implement inclusive activities: Address access barriers and involve qualified personnel for health assessment or care.; Review participation and outcomes: Use appropriate measures and learner feedback to improve the initiative.",
+          "caption": "Suggested school-use flow informed by World Health Organization and UNESCO (2021a, 2021b).",
+          "displayWidth": 600
         }
       ],
       "Evidence From Related Studies": [
@@ -19304,8 +19599,18 @@ const MODELS = [
                   "italic": false
                 },
                 {
-                  "text": "Cochrane Database of Systematic Reviews, 2014(4), Article CD008958. ",
+                  "text": "Cochrane Database of Systematic Reviews",
                   "italic": true
+                },
+                {
+                  "text": ", "
+                },
+                {
+                  "text": "2014",
+                  "italic": true
+                },
+                {
+                  "text": "(4), Article CD008958. "
                 },
                 {
                   "text": "https://doi.org/10.1002/14651858.CD008958.pub2"
@@ -19429,8 +19734,9 @@ const MODELS = [
         {
           "type": "image",
           "src": "assets/model-flows/greencomp.png",
-          "alt": "GreenComp Sustainability Competence Framework. Embodying sustainability values. Embracing complexity in sustainability. Envisioning sustainable futures. Acting for sustainability",
-          "caption": "Framework organizer adapted from Bianchi et al. (2022)."
+          "alt": "Choose a local issue: Identify an environmental concern relevant to learners and their community.; Select competencies: Choose relevant competencies from values, complexity, futures, and action.; Define learning goals and tasks: Plan observable goals, investigation, and consideration of different perspectives.; Develop and explain an action: Help learners use evidence to justify a realistic response to the issue.; Assess learning and refine: Use learner work and reflections; examine practical action results separately.",
+          "caption": "Suggested school-use flow informed by Bianchi et al. (2022).",
+          "displayWidth": 600
         }
       ],
       "Evidence From Related Studies": [

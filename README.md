@@ -55,3 +55,5 @@ The builder uses browser storage key saliksik-gabay-research-v1. Preserve that k
 
 ## Implementation flows
 All 74 diagrams are included in assets/model-flows and in flow-images.js. Upload flow-images.js together with models.js, script.js, and teaching-models.html. Entries with diagrams show the diagram without a duplicate text list. Each of the 16 new entries includes a diagram with source attribution. Implementation Flow contains graphic organizers and source captions only. The existing 58 graphic organizers are preserved.
+
+The 16 newest diagrams use readable vertical application flows with source captions. Implementation Flow contains graphics only. All 74 entries are retained.

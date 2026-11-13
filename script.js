@@ -202,6 +202,10 @@ function renderBlock(block) {
     const img = document.createElement("img");
     img.src = (typeof MODEL_FLOW_IMAGES !== "undefined" && MODEL_FLOW_IMAGES[block.src]) || block.src;
     img.alt = block.alt || "Teaching model figure";
+    if (block.displayWidth) {
+      img.style.maxWidth = block.displayWidth + "px";
+      img.style.marginInline = "auto";
+    }
     figure.appendChild(img);
     if (block.caption) {
       const cap = document.createElement("figcaption");
