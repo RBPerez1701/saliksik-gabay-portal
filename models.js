@@ -437,10 +437,6 @@ const MODELS = [
           "src": "assets/model-flows/nea.png",
           "alt": "Read the problem aloud; Explain what the problem asks; Choose a mathematical strategy; Carry out the process; Write the answer in context",
           "caption": "The five diagnostic prompts are based on Clements and Ellerton (1996) and White (2010)."
-        },
-        {
-          "type": "paragraph",
-          "text": "Diagnostic record. Record the item, learner’s answer, first stage of breakdown, and notes on the probable cause. Use the class pattern to select remediation, then recheck with parallel tasks."
         }
       ],
       "Evidence From Related Studies": [
@@ -489,6 +485,10 @@ const MODELS = [
             "intervention outputs such as revised worksheets, study guides, or focused exercises",
             "learner reflections or short explanations of how they solved the problem (Gabriel, 2019; Sambo & Makgakga, 2025)."
           ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Diagnostic record. Record the item, learner’s answer, first stage of breakdown, and notes on the probable cause. Use the class pattern to select remediation, then recheck with parallel tasks."
         }
       ],
       "Indicators of Success": [
@@ -16639,6 +16639,2890 @@ const MODELS = [
                 },
                 {
                   "text": "https://doi.org/10.1126/sciadv.adh2458"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "srsd",
+    "modelName": "Self-Regulated Strategy Development (SRSD)",
+    "category": "Teaching and Learning",
+    "learningArea": "Filipino and English writing",
+    "tags": [
+      "Teaching and Learning",
+      "Research planning"
+    ],
+    "summary": "SRSD combines explicit instruction in a writing strategy with goal setting, self-instruction, and monitoring of progress",
+    "sections": {
+      "Model Overview": [
+        {
+          "type": "paragraph",
+          "text": "SRSD combines explicit instruction in a writing strategy with goal setting, self-instruction, and monitoring of progress (Harris et al., 2002)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Teachers model their thinking and gradually support learners toward independent writing. The six stages can be revisited according to learners’ needs (What Works Clearinghouse, n.d.)."
+        }
+      ],
+      "When to Use It": [
+        {
+          "type": "list",
+          "items": [
+            "Use when learners have difficulty planning, organizing, or revising a written response.",
+            "Use with a specific genre and a manageable writing strategy."
+          ]
+        }
+      ],
+      "Core Features": [
+        {
+          "type": "list",
+          "items": [
+            "Six flexible instructional stages",
+            "Teacher think-alouds and guided practice",
+            "Learner goals and self-monitoring",
+            "Independent use and transfer to new writing tasks"
+          ]
+        }
+      ],
+      "Baseline Data Needed": [
+        {
+          "type": "list",
+          "items": [
+            "An independently written sample in the target genre",
+            "Rubric results for organization, ideas, and supporting details",
+            "Learners’ descriptions of how they plan and revise"
+          ]
+        }
+      ],
+      "How to Use It": [
+        {
+          "type": "paragraph",
+          "text": "Select a strategy suited to the target genre and teach the vocabulary and text features learners need. A persuasive-writing task may focus on a clear position, reasons, and supporting details. Use the six-stage organizer to plan instruction (Harris et al., 2002)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Prepare a short planning guide and model realistic decisions, including how to improve an unclear reason. Adjust support from learner work. Revisit stages when learners need more practice (What Works Clearinghouse, n.d.)."
+        }
+      ],
+      "Action Research Application": [
+        {
+          "type": "paragraph",
+          "text": "Suggested school study. How does learners’ organization and support of ideas change during SRSD lessons on persuasive writing?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Use comparable independent writing prompts before and after the lessons. Score anonymized samples with the same rubric and invite a second teacher to score a sample. Include a later writing task to explore independent use. Describe the Filipino-language materials as a local adaptation."
+        }
+      ],
+      "Implementation Flow": [
+        {
+          "type": "image",
+          "src": "assets/model-flows/srsd.png",
+          "alt": "Self-Regulated Strategy Development (SRSD). Develop background knowledge. Discuss the strategy and its purpose. Model the strategy through a think-aloud. Learn and recall the strategy. Practice with gradually reduced support. Apply independently and revisit as needed",
+          "caption": "Suggested school-use flow adapted from Harris et al. (2002) and What Works Clearinghouse (n.d.)."
+        }
+      ],
+      "Evidence From Related Studies": [
+        {
+          "type": "paragraph",
+          "text": "Harris et al. (2002) explain the instructional stages and self-regulation components and provide a basis for planning writing lessons."
+        },
+        {
+          "type": "paragraph",
+          "text": "Graham et al. (2005) studied struggling Grade 3 writers learning strategies for stories and persuasive essays. The study informs strategy teaching, while its participants and language context differ from Filipino JHS classes."
+        },
+        {
+          "type": "paragraph",
+          "text": "The What Works Clearinghouse (n.d.) reports potentially positive effects on writing achievement in the evidence reviewed. Local writing samples remain necessary to examine how an adapted lesson works."
+        }
+      ],
+      "Data to Gather": [
+        {
+          "type": "list",
+          "items": [
+            "Initial, final, and later independent writing samples",
+            "Planning sheets and revisions",
+            "Rubric scores and brief learner reflections",
+            "Notes on the prompts and support provided"
+          ]
+        }
+      ],
+      "Indicators of Success": [
+        {
+          "type": "paragraph",
+          "text": "Set targets from the starting results and the time available for the activity."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Clearer organization and more relevant supporting details",
+            "More independent planning and revision",
+            "Improvement on a fresh writing prompt"
+          ]
+        }
+      ],
+      "References": [
+        {
+          "type": "references",
+          "items": [
+            {
+              "segments": [
+                {
+                  "text": "Graham, S., Harris, K. R., & Mason, L. (2005). "
+                },
+                {
+                  "text": "Improving the writing performance, knowledge, and self-efficacy of struggling young writers: The effects of self-regulated strategy development. ",
+                  "italic": false
+                },
+                {
+                  "text": "Contemporary Educational Psychology, 30(2), 207–241. ",
+                  "italic": true
+                },
+                {
+                  "text": "https://doi.org/10.1016/j.cedpsych.2004.08.001"
+                }
+              ]
+            },
+            {
+              "segments": [
+                {
+                  "text": "Harris, K. R., Graham, S., Mason, L. H., & Saddler, B. (2002). "
+                },
+                {
+                  "text": "Developing self-regulated writers. ",
+                  "italic": false
+                },
+                {
+                  "text": "Theory Into Practice, 41(2), 110–115. ",
+                  "italic": true
+                },
+                {
+                  "text": "https://doi.org/10.1207/s15430421tip4102_7"
+                }
+              ]
+            },
+            {
+              "segments": [
+                {
+                  "text": "What Works Clearinghouse. (n.d.). "
+                },
+                {
+                  "text": "Self-regulated strategy development (SRSD). ",
+                  "italic": true
+                },
+                {
+                  "text": "Institute of Education Sciences. ",
+                  "italic": false
+                },
+                {
+                  "text": "https://ies.ed.gov/ncee/wwc/intervention/1292"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "schema-based-instruction",
+    "modelName": "Schema-Based Instruction for Proportional Problem Solving",
+    "category": "Teaching and Learning",
+    "learningArea": "Mathematics and numeracy intervention",
+    "tags": [
+      "Teaching and Learning",
+      "Research planning"
+    ],
+    "summary": "Schema-Based Instruction helps learners represent the mathematical structure of a word problem and use that representation to select and explain a solution",
+    "sections": {
+      "Model Overview": [
+        {
+          "type": "paragraph",
+          "text": "Schema-Based Instruction helps learners represent the mathematical structure of a word problem and use that representation to select and explain a solution (Jitendra et al., 2011)."
+        },
+        {
+          "type": "paragraph",
+          "text": "This entry focuses on ratios, proportions, and percentages. It complements Newman’s Error Analysis by providing an instructional approach after difficulties have been identified."
+        }
+      ],
+      "When to Use It": [
+        {
+          "type": "list",
+          "items": [
+            "Use when learners rely on keywords without understanding relationships between quantities.",
+            "Use for targeted instruction in proportional reasoning."
+          ]
+        }
+      ],
+      "Core Features": [
+        {
+          "type": "list",
+          "items": [
+            "Schematic diagrams linking quantities",
+            "Attention to the problem’s underlying relationship",
+            "Explicit modeling and guided practice",
+            "Flexible strategies and checks of the solution"
+          ]
+        }
+      ],
+      "Baseline Data Needed": [
+        {
+          "type": "list",
+          "items": [
+            "Ratio, rate, and percent problem-solving results",
+            "Learners’ diagrams and explanations",
+            "Errors in identifying quantities and relationships"
+          ]
+        }
+      ],
+      "How to Use It": [
+        {
+          "type": "paragraph",
+          "text": "Choose examples with a shared mathematical structure and varied wording. Model how the quantities relate and why a diagram or equation fits the situation. Include examples that invite different valid solution methods (Jitendra et al., 2011)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Provide practice with gradually reduced guidance and revisit the same relationships over time. Add unfamiliar contexts and delayed tasks because the studies show that immediate improvement and longer-term transfer can differ (Jitendra et al., 2011, 2017)."
+        }
+      ],
+      "Action Research Application": [
+        {
+          "type": "paragraph",
+          "text": "Suggested school study. How does schema-based instruction affect Grade 7 learners’ representation and solution of proportion problems?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Use parallel tasks at the start, at the end, and several weeks later. Include both familiar structures and new contexts. Score the diagram, reasoning, computation, and final interpretation separately."
+        }
+      ],
+      "Implementation Flow": [
+        {
+          "type": "image",
+          "src": "assets/model-flows/schema-based-instruction.png",
+          "alt": "Schema-Based Instruction for Proportional Problem Solving. Read and identify the quantities. Represent the mathematical relationship. Choose and explain a solution method. Solve and check the interpretation. Practice with new contexts and revisit later",
+          "caption": "Suggested school-use flow adapted from Jitendra et al. (2011, 2017)."
+        }
+      ],
+      "Evidence From Related Studies": [
+        {
+          "type": "paragraph",
+          "text": "Jitendra et al. (2011) randomly assigned 21 Grade 7 classrooms and found improved problem solving at posttest. Gains were not maintained one month later, and transfer to new domain content was limited."
+        },
+        {
+          "type": "paragraph",
+          "text": "Jitendra et al. (2017) examined Grade 7 learners with mathematical problem-solving difficulties and found higher scores in SBI classrooms at posttest and a nine-week delayed posttest. The different findings make continued practice and delayed assessment useful parts of a local study."
+        },
+        {
+          "type": "paragraph",
+          "text": "The IRIS Center (n.d.) explains schema instruction for word problems and offers practical background on helping learners attend to mathematical structure. The proportional-reasoning studies provide the topic-specific evidence for this entry."
+        }
+      ],
+      "Data to Gather": [
+        {
+          "type": "list",
+          "items": [
+            "Solutions, diagrams, and explanations",
+            "Immediate and delayed task results",
+            "Errors by problem type",
+            "Examples and practice opportunities used"
+          ]
+        }
+      ],
+      "Indicators of Success": [
+        {
+          "type": "paragraph",
+          "text": "Set targets from the starting results and the time available for the activity."
+        },
+        {
+          "type": "list",
+          "items": [
+            "More accurate representations of relationships",
+            "More justified strategy choices",
+            "Improved performance on delayed and unfamiliar problems"
+          ]
+        }
+      ],
+      "References": [
+        {
+          "type": "references",
+          "items": [
+            {
+              "segments": [
+                {
+                  "text": "Jitendra, A. K., Harwell, M. R., Dupuis, D. N., & Karl, S. R. (2017). "
+                },
+                {
+                  "text": "A randomized trial of the effects of schema-based instruction on proportional problem-solving for students with mathematics problem-solving difficulties. ",
+                  "italic": false
+                },
+                {
+                  "text": "Journal of Learning Disabilities, 50(3), 322–336. ",
+                  "italic": true
+                },
+                {
+                  "text": "https://doi.org/10.1177/0022219416629646"
+                }
+              ]
+            },
+            {
+              "segments": [
+                {
+                  "text": "Jitendra, A. K., Star, J. R., Rodriguez, M., Lindell, M., & Someki, F. (2011). "
+                },
+                {
+                  "text": "Improving students’ proportional thinking using schema-based instruction. ",
+                  "italic": false
+                },
+                {
+                  "text": "Learning and Instruction, 21(6), 731–745. ",
+                  "italic": true
+                },
+                {
+                  "text": "https://doi.org/10.1016/j.learninstruc.2011.04.002"
+                }
+              ]
+            },
+            {
+              "segments": [
+                {
+                  "text": "The IRIS Center. (n.d.). "
+                },
+                {
+                  "text": "Page 7: Schema instruction. ",
+                  "italic": true
+                },
+                {
+                  "text": "Vanderbilt University. ",
+                  "italic": false
+                },
+                {
+                  "text": "https://iris.peabody.vanderbilt.edu/module/math/cresource/q2/p07/"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "peer-instruction",
+    "modelName": "Peer Instruction",
+    "category": "Teaching and Learning",
+    "learningArea": "Science, Mathematics, and conceptual learning",
+    "tags": [
+      "Teaching and Learning",
+      "Research planning"
+    ],
+    "summary": "Peer Instruction organizes individual thinking, peer discussion, and a second response around a challenging conceptual question",
+    "sections": {
+      "Model Overview": [
+        {
+          "type": "paragraph",
+          "text": "Peer Instruction organizes individual thinking, peer discussion, and a second response around a challenging conceptual question (Crouch & Mazur, 2001)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Learners explain their reasoning and consider competing explanations. The teacher uses their responses to decide how much clarification or further practice is needed."
+        }
+      ],
+      "When to Use It": [
+        {
+          "type": "list",
+          "items": [
+            "Use when a lesson contains common misconceptions or competing explanations.",
+            "Use with questions that require reasoning beyond recalling a definition."
+          ]
+        }
+      ],
+      "Core Features": [
+        {
+          "type": "list",
+          "items": [
+            "Individual commitment before discussion",
+            "Concept questions with meaningful alternatives",
+            "Peer explanation and reconsideration",
+            "Teacher synthesis and individual transfer checks"
+          ]
+        }
+      ],
+      "Baseline Data Needed": [
+        {
+          "type": "list",
+          "items": [
+            "Individual answers to diagnostic concept questions",
+            "Typical explanations behind incorrect choices",
+            "Participation patterns during discussion"
+          ]
+        }
+      ],
+      "How to Use It": [
+        {
+          "type": "paragraph",
+          "text": "Prepare a question whose alternatives reveal different lines of reasoning. Use answer cards, paper, or a digital tool to collect individual responses. Let the distribution and explanations guide whether to clarify first or begin discussion (Crouch & Mazur, 2001)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ask learners to explain why their answer fits the concept and to consider their partner’s reasoning. After the second response, discuss the concept and give a different question to check individual understanding (Smith et al., 2009)."
+        }
+      ],
+      "Action Research Application": [
+        {
+          "type": "paragraph",
+          "text": "Suggested school study. How does peer discussion followed by teacher explanation influence learners’ understanding of a selected Science concept?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Collect the first response, second response, and an individual answer to a new question. Compare explanations as well as accuracy. Use a later independent task to explore retention."
+        }
+      ],
+      "Implementation Flow": [
+        {
+          "type": "image",
+          "src": "assets/model-flows/peer-instruction.png",
+          "alt": "Peer Instruction. Pose a conceptual question. Answer individually and explain the choice. Discuss reasoning with a peer. Answer again and consider the explanations. Teacher synthesis and a new individual question",
+          "caption": "Suggested school-use flow adapted from Crouch and Mazur (2001) and Smith et al. (2009, 2011)."
+        }
+      ],
+      "Evidence From Related Studies": [
+        {
+          "type": "paragraph",
+          "text": "Crouch and Mazur (2001) reported improved conceptual and quantitative performance across ten years of undergraduate physics implementation. Several course features changed during that period."
+        },
+        {
+          "type": "paragraph",
+          "text": "Smith et al. (2009) used a new, related individual question after discussion in undergraduate genetics to examine understanding beyond agreement on the original answer."
+        },
+        {
+          "type": "paragraph",
+          "text": "Smith et al. (2011) examined combining peer discussion with instructor explanation. These studies support the instructional routine, while a JHS adaptation needs age-appropriate questions and local assessment."
+        }
+      ],
+      "Data to Gather": [
+        {
+          "type": "list",
+          "items": [
+            "First and second responses",
+            "Individual transfer-question results",
+            "Samples of explanations",
+            "Brief discussion observations"
+          ]
+        }
+      ],
+      "Indicators of Success": [
+        {
+          "type": "paragraph",
+          "text": "Set targets from the starting results and the time available for the activity."
+        },
+        {
+          "type": "list",
+          "items": [
+            "More accurate explanations on new questions",
+            "Learners revise answers using conceptual reasons",
+            "Participation extends beyond the most confident learners"
+          ]
+        }
+      ],
+      "References": [
+        {
+          "type": "references",
+          "items": [
+            {
+              "segments": [
+                {
+                  "text": "Crouch, C. H., & Mazur, E. (2001). "
+                },
+                {
+                  "text": "Peer instruction: Ten years of experience and results. ",
+                  "italic": false
+                },
+                {
+                  "text": "American Journal of Physics, 69(9), 970–977. ",
+                  "italic": true
+                },
+                {
+                  "text": "https://doi.org/10.1119/1.1374249"
+                }
+              ]
+            },
+            {
+              "segments": [
+                {
+                  "text": "Smith, M. K., Wood, W. B., Adams, W. K., Wieman, C., Knight, J. K., Guild, N., & Su, T. T. (2009). "
+                },
+                {
+                  "text": "Why peer discussion improves student performance on in-class concept questions. ",
+                  "italic": false
+                },
+                {
+                  "text": "Science, 323(5910), 122–124. ",
+                  "italic": true
+                },
+                {
+                  "text": "https://doi.org/10.1126/science.1165919"
+                }
+              ]
+            },
+            {
+              "segments": [
+                {
+                  "text": "Smith, M. K., Wood, W. B., Krauter, K., & Knight, J. K. (2011). "
+                },
+                {
+                  "text": "Combining peer discussion with instructor explanation increases student learning from in-class concept questions. ",
+                  "italic": false
+                },
+                {
+                  "text": "CBE—Life Sciences Education, 10(1), 55–63. ",
+                  "italic": true
+                },
+                {
+                  "text": "https://pubmed.ncbi.nlm.nih.gov/21364100/"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "lesson-study",
+    "modelName": "Lesson Study",
+    "category": "Educational Management",
+    "learningArea": "Teacher professional learning and lesson improvement",
+    "tags": [
+      "Educational Management",
+      "Research planning"
+    ],
+    "summary": "Lesson Study is collaborative inquiry into learning through investigation, joint planning, a research lesson, and reflection",
+    "sections": {
+      "Model Overview": [
+        {
+          "type": "paragraph",
+          "text": "Lesson Study is collaborative inquiry into learning through investigation, joint planning, a research lesson, and reflection (Lewis et al., 2009)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Teachers observe how learners respond to a shared lesson and use those observations to improve their understanding of teaching. It offers a focused activity that a professional learning community can undertake."
+        }
+      ],
+      "When to Use It": [
+        {
+          "type": "list",
+          "items": [
+            "Use when teachers want to understand a persistent learning difficulty.",
+            "Use when a team can plan together and observe a lesson with an agreed focus on learner thinking."
+          ]
+        }
+      ],
+      "Core Features": [
+        {
+          "type": "list",
+          "items": [
+            "Shared research goal",
+            "Study of content, curriculum, and learner difficulties",
+            "Jointly developed research lesson",
+            "Observation of learner thinking and collaborative reflection"
+          ]
+        }
+      ],
+      "Baseline Data Needed": [
+        {
+          "type": "list",
+          "items": [
+            "Learner work illustrating the difficulty",
+            "Teachers’ questions about the topic",
+            "Relevant curriculum materials and research",
+            "Available planning and observation time"
+          ]
+        }
+      ],
+      "How to Use It": [
+        {
+          "type": "paragraph",
+          "text": "Choose a manageable topic and study the content and likely learner responses before writing the lesson. Decide which observations will help answer the team’s question, including the experiences of learners who often struggle (Lewis et al., 2009)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Use observation notes and learner work to discuss what happened and why. Revise the lesson or the next teaching approach and share what the team learned. Suitable subject resources can strengthen the process (Lewis & Perry, 2017)."
+        }
+      ],
+      "Action Research Application": [
+        {
+          "type": "paragraph",
+          "text": "Suggested school study. What do teachers learn about learners’ fraction representations through a Lesson Study cycle?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Examine successive lesson plans, anticipated responses, observed learner strategies, and teacher reflections. Add comparable learner tasks when studying changes in understanding. Describe the subject resources and time provided to the team."
+        }
+      ],
+      "Implementation Flow": [
+        {
+          "type": "image",
+          "src": "assets/model-flows/lesson-study.png",
+          "alt": "Lesson Study. Investigate a shared learning question. Study resources and jointly plan the lesson. Teach and observe the research lesson. Discuss learner thinking and evidence. Refine teaching and begin the next inquiry",
+          "caption": "Suggested school-use flow adapted from Lewis et al. (2009) and Lewis and Perry (2017)."
+        }
+      ],
+      "Evidence From Related Studies": [
+        {
+          "type": "paragraph",
+          "text": "Lewis et al. (2009) developed a theoretical model and examined a North American case, showing how Lesson Study can influence teacher knowledge, professional community, and teaching resources."
+        },
+        {
+          "type": "paragraph",
+          "text": "Lewis and Perry (2017) randomly assigned 39 educator teams. Lesson Study supported by a fractions resource kit improved teacher and learner fractions knowledge. The result applies to that supported form of Lesson Study."
+        },
+        {
+          "type": "paragraph",
+          "text": "The Lesson Study Group (n.d.) explains the study, plan, teach, and reflect cycle and provides practical guidance for organizing collaborative inquiry."
+        }
+      ],
+      "Data to Gather": [
+        {
+          "type": "list",
+          "items": [
+            "Initial and revised lesson plans",
+            "Learner work and observation notes",
+            "Teacher reflections on the research question",
+            "Records of the resources studied"
+          ]
+        }
+      ],
+      "Indicators of Success": [
+        {
+          "type": "paragraph",
+          "text": "Set targets from the starting results and the time available for the activity."
+        },
+        {
+          "type": "list",
+          "items": [
+            "More precise explanations of learner difficulties",
+            "Lesson revisions grounded in observed learning",
+            "Improved learner responses to the target concept"
+          ]
+        }
+      ],
+      "References": [
+        {
+          "type": "references",
+          "items": [
+            {
+              "segments": [
+                {
+                  "text": "Lewis, C. C., Perry, R. R., & Hurd, J. (2009). "
+                },
+                {
+                  "text": "Improving mathematics instruction through lesson study: A theoretical model and North American case. ",
+                  "italic": false
+                },
+                {
+                  "text": "Journal of Mathematics Teacher Education, 12, 285–304. ",
+                  "italic": true
+                },
+                {
+                  "text": "https://doi.org/10.1007/s10857-009-9102-7"
+                }
+              ]
+            },
+            {
+              "segments": [
+                {
+                  "text": "Lewis, C., & Perry, R. (2017). "
+                },
+                {
+                  "text": "Lesson study to scale up research-based knowledge: A randomized, controlled trial of fractions learning. ",
+                  "italic": false
+                },
+                {
+                  "text": "Journal for Research in Mathematics Education, 48(3), 261–299. ",
+                  "italic": true
+                },
+                {
+                  "text": "https://doi.org/10.5951/jresematheduc.48.3.0261"
+                }
+              ]
+            },
+            {
+              "segments": [
+                {
+                  "text": "The Lesson Study Group. (n.d.). "
+                },
+                {
+                  "text": "FAQ. ",
+                  "italic": true
+                },
+                {
+                  "text": " ",
+                  "italic": false
+                },
+                {
+                  "text": "https://lessonresearch.net/about-lesson-study/faq/"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "icap",
+    "modelName": "ICAP Framework for Cognitive Engagement",
+    "category": "Teaching and Learning",
+    "learningArea": "Lesson design and learner engagement",
+    "tags": [
+      "Teaching and Learning",
+      "Research planning"
+    ],
+    "summary": "ICAP describes four modes of cognitive engagement through learners’ observable activity and the knowledge-building processes that activity may support",
+    "sections": {
+      "Model Overview": [
+        {
+          "type": "paragraph",
+          "text": "ICAP describes four modes of cognitive engagement through learners’ observable activity and the knowledge-building processes that activity may support (Chi & Wylie, 2014)."
+        },
+        {
+          "type": "paragraph",
+          "text": "The modes are passive, active, constructive, and interactive. The framework helps teachers examine what a task asks learners to do and what they actually do during it."
+        }
+      ],
+      "When to Use It": [
+        {
+          "type": "list",
+          "items": [
+            "Use when busy participation produces limited explanation or understanding.",
+            "Use to redesign a task or study the quality of learner engagement."
+          ]
+        }
+      ],
+      "Core Features": [
+        {
+          "type": "list",
+          "items": [
+            "Passive engagement through receiving information",
+            "Active engagement through manipulating supplied information",
+            "Constructive engagement through producing additional ideas",
+            "Interactive engagement through jointly developing ideas"
+          ]
+        }
+      ],
+      "Baseline Data Needed": [
+        {
+          "type": "list",
+          "items": [
+            "Samples of the current task and learner products",
+            "Short observations of what learners do",
+            "Initial understanding of the selected concept"
+          ]
+        }
+      ],
+      "How to Use It": [
+        {
+          "type": "paragraph",
+          "text": "Select a learning goal and examine the thinking required by the current task. Plan prompts that elicit explanations, inferences, or connections, and decide what learner work would reveal those processes (Chi & Wylie, 2014)."
+        },
+        {
+          "type": "paragraph",
+          "text": "For collaborative tasks, ask learners to respond to and build on one another’s reasoning. Observe the interaction and examine resulting explanations. Activity labels and group seating alone provide limited information about the engagement achieved (Chi et al., 2018)."
+        }
+      ],
+      "Action Research Application": [
+        {
+          "type": "paragraph",
+          "text": "Suggested school study. How do learners’ explanations change when a highlighting task is redesigned to require self-explanation and collaborative reasoning?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Keep the concept and assessment comparable across lessons. Examine products and selected exchanges alongside individual assessment results. Describe task differences so that interpretations remain tied to the activities used."
+        }
+      ],
+      "Implementation Flow": [
+        {
+          "type": "image",
+          "src": "assets/model-flows/icap.png",
+          "alt": "ICAP Framework for Cognitive Engagement. Passive — receive and attend. Active — manipulate supplied information. Constructive — generate additional ideas. Interactive — jointly develop understanding",
+          "caption": "Framework organizer adapted from Chi and Wylie (2014) and Chi et al. (2018)."
+        }
+      ],
+      "Evidence From Related Studies": [
+        {
+          "type": "paragraph",
+          "text": "Chi and Wylie (2014) synthesize theoretical and empirical work linking engagement modes with learning. Their framework proposes conditions under which more generative engagement can support deeper understanding."
+        },
+        {
+          "type": "paragraph",
+          "text": "Chi et al. (2018) studied translation into K–12 teaching over five years. Learners gained more in constructive than active activities, while teachers found designing and eliciting interactive engagement difficult."
+        },
+        {
+          "type": "paragraph",
+          "text": "Chi (2009) develops the earlier active–constructive–interactive account and explains how observable activity can guide the analysis of learning tasks."
+        }
+      ],
+      "Data to Gather": [
+        {
+          "type": "list",
+          "items": [
+            "Learner explanations and revisions",
+            "Observation samples of task activity",
+            "Selected peer exchanges",
+            "Independent concept-assessment results"
+          ]
+        }
+      ],
+      "Indicators of Success": [
+        {
+          "type": "paragraph",
+          "text": "Set targets from the starting results and the time available for the activity."
+        },
+        {
+          "type": "list",
+          "items": [
+            "More accurate self-generated explanations",
+            "Learners build on peers’ ideas",
+            "Improved individual understanding of the concept"
+          ]
+        }
+      ],
+      "References": [
+        {
+          "type": "references",
+          "items": [
+            {
+              "segments": [
+                {
+                  "text": "Chi, M. T. H. (2009). "
+                },
+                {
+                  "text": "Active-constructive-interactive: A conceptual framework for differentiating learning activities. ",
+                  "italic": false
+                },
+                {
+                  "text": "Topics in Cognitive Science, 1(1), 73–105. ",
+                  "italic": true
+                },
+                {
+                  "text": "https://doi.org/10.1111/j.1756-8765.2008.01005.x"
+                }
+              ]
+            },
+            {
+              "segments": [
+                {
+                  "text": "Chi, M. T. H., & Wylie, R. (2014). "
+                },
+                {
+                  "text": "The ICAP framework: Linking cognitive engagement to active learning outcomes. ",
+                  "italic": false
+                },
+                {
+                  "text": "Educational Psychologist, 49(4), 219–243. ",
+                  "italic": true
+                },
+                {
+                  "text": "https://doi.org/10.1080/00461520.2014.965823"
+                }
+              ]
+            },
+            {
+              "segments": [
+                {
+                  "text": "Chi, M. T. H., Adams, J., Bogusch, E. B., Bruchok, C., Kang, S., Lancaster, M., Levy, R., Li, N., McEldoon, K. L., Stump, G. S., Wylie, R., Xu, D., & Yaghmourian, D. L. (2018). "
+                },
+                {
+                  "text": "Translating the ICAP theory of cognitive engagement into practice. ",
+                  "italic": false
+                },
+                {
+                  "text": "Cognitive Science, 42(6), 1777–1832. ",
+                  "italic": true
+                },
+                {
+                  "text": "https://doi.org/10.1111/cogs.12626"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "cori",
+    "modelName": "Concept-Oriented Reading Instruction (CORI)",
+    "category": "Teaching and Learning",
+    "learningArea": "Informational reading in language, Science, and Araling Panlipunan",
+    "tags": [
+      "Teaching and Learning",
+      "Research planning"
+    ],
+    "summary": "CORI integrates reading strategies, conceptual learning, and support for reading motivation within a thematic unit",
+    "sections": {
+      "Model Overview": [
+        {
+          "type": "paragraph",
+          "text": "CORI integrates reading strategies, conceptual learning, and support for reading motivation within a thematic unit (Guthrie et al., 2004)."
+        },
+        {
+          "type": "paragraph",
+          "text": "The approach connects reading with meaningful questions, appropriate choices, collaboration, and opportunities to build confidence. Research includes elementary and Grade 7 settings (Guthrie & Klauda, 2014)."
+        }
+      ],
+      "When to Use It": [
+        {
+          "type": "list",
+          "items": [
+            "Use when learners need both comprehension support and a stronger reason to read.",
+            "Use with a coherent set of informational texts on a meaningful topic."
+          ]
+        }
+      ],
+      "Core Features": [
+        {
+          "type": "list",
+          "items": [
+            "Conceptual theme and connected texts",
+            "Explicit comprehension strategies",
+            "Choice, relevance, collaboration, and competence support",
+            "Reading products that synthesize understanding"
+          ]
+        }
+      ],
+      "Baseline Data Needed": [
+        {
+          "type": "list",
+          "items": [
+            "Comprehension of a suitable informational text",
+            "Reading interests and perceived difficulty",
+            "Access to texts at appropriate levels",
+            "Learners’ knowledge of the theme"
+          ]
+        }
+      ],
+      "How to Use It": [
+        {
+          "type": "paragraph",
+          "text": "Choose a conceptual theme and prepare several accessible informational texts. Teach strategies such as asking questions, identifying important ideas, and integrating information while giving meaningful choices linked to the goal (Guthrie et al., 2004)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Plan collaboration around a shared explanation or product and provide feedback that helps learners recognize progress. A local unit on flooding, for example, can connect Science explanations with informational reading. Adapt text demands to the learners (Guthrie & Klauda, 2014)."
+        }
+      ],
+      "Action Research Application": [
+        {
+          "type": "paragraph",
+          "text": "Suggested school study. How does a CORI-informed informational-reading unit influence comprehension and willingness to read?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Use comparable comprehension tasks before and after the unit, short engagement questions, and learner products. Include a new text to explore transfer. Describe the chosen texts, strategies, and motivation supports."
+        }
+      ],
+      "Implementation Flow": [
+        {
+          "type": "image",
+          "src": "assets/model-flows/cori.png",
+          "alt": "Concept-Oriented Reading Instruction (CORI). Choose a meaningful conceptual theme. Connect questions with accessible texts. Teach strategies with choice and support. Discuss and synthesize information. Assess comprehension and reflect on reading",
+          "caption": "Suggested school-use flow adapted from Guthrie et al. (2004) and Guthrie and Klauda (2014)."
+        }
+      ],
+      "Evidence From Related Studies": [
+        {
+          "type": "paragraph",
+          "text": "Guthrie et al. (2004) examined the integration of motivation support and reading strategies with Grade 3 learners, comparing CORI with strategy instruction and, in one study, traditional instruction."
+        },
+        {
+          "type": "paragraph",
+          "text": "Guthrie and Klauda (2014) studied 615 Grade 7 learners in four-week literacy/history units. CORI improved informational-text comprehension compared with traditional instruction in a switching-replications design."
+        },
+        {
+          "type": "paragraph",
+          "text": "Guthrie (2004) explains the engagement perspective behind CORI and discusses conceptual themes, meaningful texts, learner direction, and classroom discourse as part of its instructional design."
+        }
+      ],
+      "Data to Gather": [
+        {
+          "type": "list",
+          "items": [
+            "Initial and final comprehension responses",
+            "Short learner reflections on reading",
+            "Text choices and reading participation",
+            "Products synthesizing several texts"
+          ]
+        }
+      ],
+      "Indicators of Success": [
+        {
+          "type": "paragraph",
+          "text": "Set targets from the starting results and the time available for the activity."
+        },
+        {
+          "type": "list",
+          "items": [
+            "More accurate integration of information",
+            "More independent use of comprehension strategies",
+            "Stronger sustained participation in reading"
+          ]
+        }
+      ],
+      "References": [
+        {
+          "type": "references",
+          "items": [
+            {
+              "segments": [
+                {
+                  "text": "Guthrie, J. T. (2004). "
+                },
+                {
+                  "text": "Teaching for literacy engagement. ",
+                  "italic": false
+                },
+                {
+                  "text": "Journal of Literacy Research, 36(1), 1–30. ",
+                  "italic": true
+                },
+                {
+                  "text": "https://doi.org/10.1207/s15548430jlr3601_2"
+                }
+              ]
+            },
+            {
+              "segments": [
+                {
+                  "text": "Guthrie, J. T., & Klauda, S. L. (2014). "
+                },
+                {
+                  "text": "Effects of classroom practices on reading comprehension, engagement, and motivations for adolescents. ",
+                  "italic": false
+                },
+                {
+                  "text": "Reading Research Quarterly, 49(4), 387–416. ",
+                  "italic": true
+                },
+                {
+                  "text": "https://doi.org/10.1002/rrq.81"
+                }
+              ]
+            },
+            {
+              "segments": [
+                {
+                  "text": "Guthrie, J. T., Wigfield, A., Barbosa, P., Perencevich, K. C., Taboada, A., Davis, M. H., Scafiddi, N. T., & Tonks, S. (2004). "
+                },
+                {
+                  "text": "Increasing reading comprehension and engagement through concept-oriented reading instruction. ",
+                  "italic": false
+                },
+                {
+                  "text": "Journal of Educational Psychology, 96(3), 403–423. ",
+                  "italic": true
+                },
+                {
+                  "text": "https://eric.ed.gov/?id=EJ685000"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "epstein-partnerships",
+    "modelName": "Epstein’s Six Types of Involvement",
+    "category": "Family and Community Engagement",
+    "learningArea": "School–family–community partnerships",
+    "tags": [
+      "Family and Community Engagement",
+      "Research planning"
+    ],
+    "summary": "Epstein’s framework organizes school–family–community partnerships into six types of involvement connected to learner success",
+    "sections": {
+      "Model Overview": [
+        {
+          "type": "paragraph",
+          "text": "Epstein’s framework organizes school–family–community partnerships into six types of involvement connected to learner success (Epstein et al., 2019)."
+        },
+        {
+          "type": "paragraph",
+          "text": "It helps a school develop a balanced partnership program, with activities selected for an identified learning or participation goal."
+        }
+      ],
+      "When to Use It": [
+        {
+          "type": "list",
+          "items": [
+            "Use when family engagement consists mainly of meetings or announcements.",
+            "Use when a school wants to broaden opportunities for families with different circumstances."
+          ]
+        }
+      ],
+      "Core Features": [
+        {
+          "type": "list",
+          "items": [
+            "Parenting",
+            "Communicating",
+            "Volunteering",
+            "Learning at home",
+            "Decision-making",
+            "Collaborating with the community"
+          ]
+        }
+      ],
+      "Baseline Data Needed": [
+        {
+          "type": "list",
+          "items": [
+            "Family preferences for communication and participation",
+            "Current activities across the six types",
+            "Attendance or learning information related to the goal",
+            "Barriers involving schedules, language, access, or trust"
+          ]
+        }
+      ],
+      "How to Use It": [
+        {
+          "type": "paragraph",
+          "text": "Invite families and staff to identify a shared goal and review existing opportunities across the six types. Select activities that families can access and connect each activity to the intended learner outcome (Epstein et al., 2019)."
+        },
+        {
+          "type": "paragraph",
+          "text": "For an attendance project, provide a reliable contact person and invite families to discuss practical barriers. Review participation and attendance patterns together and improve the activities using family feedback (Epstein & Sheldon, 2002)."
+        }
+      ],
+      "Action Research Application": [
+        {
+          "type": "paragraph",
+          "text": "Suggested school study. How do accessible communication and family-designed support activities relate to learner attendance?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Compare attendance patterns across similar periods and examine family experiences of the activities. Describe other influences such as illness, transport, weather, and school events when interpreting changes."
+        }
+      ],
+      "Implementation Flow": [
+        {
+          "type": "image",
+          "src": "assets/model-flows/epstein-partnerships.png",
+          "alt": "Epstein’s Six Types of Involvement. Parenting — support families’ understanding. Communicating — exchange information. Volunteering — offer accessible opportunities. Learning at home — connect home and learning. Decision-making — share meaningful participation. Community collaboration — connect resources",
+          "caption": "Framework organizer adapted from Epstein et al. (2019)."
+        }
+      ],
+      "Evidence From Related Studies": [
+        {
+          "type": "paragraph",
+          "text": "Epstein et al. (2019) provide a framework, planning tools, and examples for goal-linked partnership programs."
+        },
+        {
+          "type": "paragraph",
+          "text": "Epstein and Sheldon (2002) found associations between specific partnership practices and improved attendance or reduced chronic absence in a longitudinal study. The design supports investigation of promising practices while leaving other explanations for change open."
+        },
+        {
+          "type": "paragraph",
+          "text": "Sheldon and Jung (2015) report associations between relationship-building family engagement and attendance and reading outcomes. This is related evidence for partnership practices within a specific program."
+        }
+      ],
+      "Data to Gather": [
+        {
+          "type": "list",
+          "items": [
+            "Attendance patterns across comparable periods",
+            "Family participation and feedback",
+            "Communication preferences and response patterns",
+            "Descriptions of the activities offered"
+          ]
+        }
+      ],
+      "Indicators of Success": [
+        {
+          "type": "paragraph",
+          "text": "Set targets from the starting results and the time available for the activity."
+        },
+        {
+          "type": "list",
+          "items": [
+            "More families can participate in ways suited to them",
+            "Families report clearer communication and support",
+            "Attendance improves for the learners receiving support"
+          ]
+        }
+      ],
+      "References": [
+        {
+          "type": "references",
+          "items": [
+            {
+              "segments": [
+                {
+                  "text": "Epstein, J. L., & Sheldon, S. B. (2002). "
+                },
+                {
+                  "text": "Present and accounted for: Improving student attendance through family and community involvement. ",
+                  "italic": false
+                },
+                {
+                  "text": "The Journal of Educational Research, 95(5), 308–318. ",
+                  "italic": true
+                },
+                {
+                  "text": "https://doi.org/10.1080/00220670209596604"
+                }
+              ]
+            },
+            {
+              "segments": [
+                {
+                  "text": "Epstein, J. L., Sanders, M. G., Sheldon, S. B., Simon, B. S., Salinas, K. C., Jansorn, N. R., Van Voorhis, F. L., Martin, C. S., Thomas, B. G., Greenfeld, M. D., Hutchins, D. J., & Williams, K. J. (2019). "
+                },
+                {
+                  "text": "School, family, and community partnerships: Your handbook for action (4th ed.). ",
+                  "italic": true
+                },
+                {
+                  "text": "Corwin. ",
+                  "italic": false
+                },
+                {
+                  "text": "https://resources.corwin.com/partnershipshandbook"
+                }
+              ]
+            },
+            {
+              "segments": [
+                {
+                  "text": "Sheldon, S. B., & Jung, S. B. (2015). "
+                },
+                {
+                  "text": "The family engagement partnership student outcome evaluation. ",
+                  "italic": true
+                },
+                {
+                  "text": "Johns Hopkins University. ",
+                  "italic": false
+                },
+                {
+                  "text": "https://s28742.pcdn.co/wp-content/uploads/2018/08/JHU-STUDY_FINAL-REPORT.pdf"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "dual-capacity",
+    "modelName": "Dual Capacity-Building Framework for Family–School Partnerships",
+    "category": "Family and Community Engagement",
+    "learningArea": "Family engagement and shared learning support",
+    "tags": [
+      "Family and Community Engagement",
+      "Research planning"
+    ],
+    "summary": "The Dual Capacity-Building Framework identifies conditions and capacities that help educators and families work together for learning and development",
+    "sections": {
+      "Model Overview": [
+        {
+          "type": "paragraph",
+          "text": "The Dual Capacity-Building Framework identifies conditions and capacities that help educators and families work together for learning and development (Mapp & Bergman, 2019)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Its four capacity areas are capabilities, connections, cognition, and confidence. Schools adapt the framework to their communities and partnership goals."
+        }
+      ],
+      "When to Use It": [
+        {
+          "type": "list",
+          "items": [
+            "Use when family engagement is limited by weak relationships or unclear roles.",
+            "Use when both teachers and families would benefit from learning together."
+          ]
+        }
+      ],
+      "Core Features": [
+        {
+          "type": "list",
+          "items": [
+            "Relationships built on mutual trust",
+            "Learning-linked and culturally responsive activities",
+            "Shared learning through collaboration",
+            "Capabilities, connections, cognition, and confidence",
+            "Leadership, resources, and sustained support"
+          ]
+        }
+      ],
+      "Baseline Data Needed": [
+        {
+          "type": "list",
+          "items": [
+            "Family and teacher views of current partnerships",
+            "Skills and knowledge each group wants to develop",
+            "Existing connections and sources of support",
+            "Practical barriers to participation"
+          ]
+        }
+      ],
+      "How to Use It": [
+        {
+          "type": "paragraph",
+          "text": "Ask families and teachers what would help them support a shared learning goal. Plan an interactive activity in which both groups contribute knowledge and practice a useful skill (Mapp & Bergman, 2019)."
+        },
+        {
+          "type": "paragraph",
+          "text": "For reading support, families can share routines that work at home while teachers demonstrate an accessible reading activity. Provide follow-up opportunities and use feedback to improve the partnership (Mapp & Bergman, 2021)."
+        }
+      ],
+      "Action Research Application": [
+        {
+          "type": "paragraph",
+          "text": "Suggested school study. How does a jointly designed family–teacher reading workshop influence confidence and home–school communication?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Use brief initial and follow-up questions, participant reflections, and examples of communication. Track a relevant learner outcome separately and consider the amount of support each family could access."
+        }
+      ],
+      "Implementation Flow": [
+        {
+          "type": "image",
+          "src": "assets/model-flows/dual-capacity.png",
+          "alt": "Dual Capacity-Building Framework for Family–School Partnerships. Understand family and educator experiences. Build trust around a shared learning goal. Design interactive learning together. Strengthen skills, connections, beliefs, confidence. Reflect together and sustain useful partnerships",
+          "caption": "Suggested school-use flow adapted from Mapp and Bergman (2019, 2021)."
+        }
+      ],
+      "Evidence From Related Studies": [
+        {
+          "type": "paragraph",
+          "text": "Mapp and Bergman (2019) developed the framework from research and practice to guide context-sensitive partnership design. Their 2021 report discusses barriers and equitable approaches to engagement."
+        },
+        {
+          "type": "paragraph",
+          "text": "Sheldon and Jung (2015) evaluated a Family Engagement Partnership and found associations between relationship-building home visits and attendance and reading outcomes. This provides related evidence for relational engagement, with a focus on the specific program studied."
+        }
+      ],
+      "Data to Gather": [
+        {
+          "type": "list",
+          "items": [
+            "Family and teacher reflections",
+            "Examples of shared activities",
+            "Communication experiences",
+            "Follow-up confidence and participation information"
+          ]
+        }
+      ],
+      "Indicators of Success": [
+        {
+          "type": "paragraph",
+          "text": "Set targets from the starting results and the time available for the activity."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Greater confidence in supporting the shared goal",
+            "More reciprocal communication",
+            "Activities reflect family knowledge and preferences"
+          ]
+        }
+      ],
+      "References": [
+        {
+          "type": "references",
+          "items": [
+            {
+              "segments": [
+                {
+                  "text": "Mapp, K. L., & Bergman, E. (2019). "
+                },
+                {
+                  "text": "Dual capacity-building framework for family-school partnerships (Version 2). ",
+                  "italic": true
+                },
+                {
+                  "text": "",
+                  "italic": false
+                },
+                {
+                  "text": "https://www.dualcapacity.org/"
+                }
+              ]
+            },
+            {
+              "segments": [
+                {
+                  "text": "Mapp, K. L., & Bergman, E. (2021). "
+                },
+                {
+                  "text": "Embracing a new normal: Toward a more liberatory approach to family engagement. ",
+                  "italic": true
+                },
+                {
+                  "text": "Carnegie Corporation of New York. ",
+                  "italic": false
+                },
+                {
+                  "text": "https://carnegie.org/publication/embracing-new-normal-toward-more-liberatory-approach-family-engagement/"
+                }
+              ]
+            },
+            {
+              "segments": [
+                {
+                  "text": "Sheldon, S. B., & Jung, S. B. (2015). "
+                },
+                {
+                  "text": "The family engagement partnership student outcome evaluation. ",
+                  "italic": true
+                },
+                {
+                  "text": "Johns Hopkins University. ",
+                  "italic": false
+                },
+                {
+                  "text": "https://s28742.pcdn.co/wp-content/uploads/2018/08/JHU-STUDY_FINAL-REPORT.pdf"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "eef-implementation",
+    "modelName": "EEF’s A School’s Guide to Implementation",
+    "category": "Educational Management",
+    "learningArea": "Introducing and sustaining school approaches",
+    "tags": [
+      "Educational Management",
+      "Research planning"
+    ],
+    "summary": "The Education Endowment Foundation’s implementation guidance helps schools select, prepare, introduce, and sustain an educational approach",
+    "sections": {
+      "Model Overview": [
+        {
+          "type": "paragraph",
+          "text": "The Education Endowment Foundation’s implementation guidance helps schools select, prepare, introduce, and sustain an educational approach (Education Endowment Foundation, 2024a)."
+        },
+        {
+          "type": "paragraph",
+          "text": "The process combines four flexible phases with attention to staff engagement, shared understanding, reflection, and the school’s context."
+        }
+      ],
+      "When to Use It": [
+        {
+          "type": "list",
+          "items": [
+            "Use when introducing a literacy intervention, assessment approach, or other school practice.",
+            "Use when an existing initiative has uneven uptake or uncertain continuation."
+          ]
+        }
+      ],
+      "Core Features": [
+        {
+          "type": "list",
+          "items": [
+            "Explore, prepare, deliver, and sustain",
+            "Engagement and shared understanding",
+            "Attention to time, resources, and readiness",
+            "Ongoing learning and adaptation"
+          ]
+        }
+      ],
+      "Baseline Data Needed": [
+        {
+          "type": "list",
+          "items": [
+            "The learning problem and current practice",
+            "Research relevant to the proposed approach",
+            "Staff knowledge, available time, and resources",
+            "Previous experiences with similar changes"
+          ]
+        }
+      ],
+      "How to Use It": [
+        {
+          "type": "paragraph",
+          "text": "Clarify the need and consider how well the proposed approach fits the learners and setting. Identify its essential features, the support staff need, and a realistic starting scope (Education Endowment Foundation, 2024a)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Plan opportunities for teachers to practice, discuss difficulties, and receive support. Review what learners experience and how staff use the approach, then make informed adjustments and decisions about continuation (Education Endowment Foundation, 2024a, 2024b)."
+        }
+      ],
+      "Action Research Application": [
+        {
+          "type": "paragraph",
+          "text": "Suggested school study. What helps teachers introduce and sustain a shared reading-comprehension routine?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Follow a small group of teachers across the implementation phases. Examine experiences, lesson samples, learner work, and available support. Relate findings to the learning goal and describe changes made along the way."
+        }
+      ],
+      "Implementation Flow": [
+        {
+          "type": "image",
+          "src": "assets/model-flows/eef-implementation.png",
+          "alt": "EEF’s A School’s Guide to Implementation. Explore — understand the need and approach. Prepare — plan and build readiness. Deliver — support use and learn from experience. Sustain — maintain effort and review next steps",
+          "caption": "Suggested school-use flow adapted from Education Endowment Foundation (2024a)."
+        }
+      ],
+      "Evidence From Related Studies": [
+        {
+          "type": "paragraph",
+          "text": "The EEF guidance draws on its accompanying review of implementation research in education (Education Endowment Foundation, 2024b). The framework provides a structured way to use that evidence in school decisions."
+        },
+        {
+          "type": "paragraph",
+          "text": "Durlak and DuPre (2008) reviewed more than 500 quantitative studies and found that implementation influenced program outcomes. Their wider promotion and prevention literature also identifies contextual and support factors relevant to planning."
+        }
+      ],
+      "Data to Gather": [
+        {
+          "type": "list",
+          "items": [
+            "Teacher experiences and questions",
+            "Examples of classroom use",
+            "Learner work linked to the goal",
+            "Time, training, and resources provided"
+          ]
+        }
+      ],
+      "Indicators of Success": [
+        {
+          "type": "paragraph",
+          "text": "Set targets from the starting results and the time available for the activity."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Teachers understand and can use the essential practices",
+            "Support responds to difficulties teachers encounter",
+            "Useful practices continue beyond the initial launch"
+          ]
+        }
+      ],
+      "References": [
+        {
+          "type": "references",
+          "items": [
+            {
+              "segments": [
+                {
+                  "text": "Durlak, J. A., & DuPre, E. P. (2008). "
+                },
+                {
+                  "text": "Implementation matters: A review of research on the influence of implementation on program outcomes and the factors affecting implementation. ",
+                  "italic": false
+                },
+                {
+                  "text": "American Journal of Community Psychology, 41, 327–350. ",
+                  "italic": true
+                },
+                {
+                  "text": "https://doi.org/10.1007/s10464-008-9165-0"
+                }
+              ]
+            },
+            {
+              "segments": [
+                {
+                  "text": "Education Endowment Foundation. (2024a). "
+                },
+                {
+                  "text": "A school’s guide to implementation (3rd ed.). ",
+                  "italic": true
+                },
+                {
+                  "text": "",
+                  "italic": false
+                },
+                {
+                  "text": "https://educationendowmentfoundation.org.uk/education-evidence/guidance-reports/implementation"
+                }
+              ]
+            },
+            {
+              "segments": [
+                {
+                  "text": "Education Endowment Foundation. (2024b). "
+                },
+                {
+                  "text": "Review of evidence on implementation in education. ",
+                  "italic": true
+                },
+                {
+                  "text": "",
+                  "italic": false
+                },
+                {
+                  "text": "https://d2tic4wvo1iusb.cloudfront.net/production/documents/pages/eef_implementation_in_education_evidence_review_-_april_2024.pdf"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "program-logic-model",
+    "modelName": "Program Logic Model",
+    "category": "Program Planning and Evaluation",
+    "learningArea": "School projects, interventions, and research planning",
+    "tags": [
+      "Program Planning and Evaluation",
+      "Research planning"
+    ],
+    "summary": "A program logic model represents the expected connections between resources, activities, outputs, and outcomes, together with assumptions and contextual influences",
+    "sections": {
+      "Model Overview": [
+        {
+          "type": "paragraph",
+          "text": "A program logic model represents the expected connections between resources, activities, outputs, and outcomes, together with assumptions and contextual influences (W.K. Kellogg Foundation, 2004)."
+        },
+        {
+          "type": "paragraph",
+          "text": "It helps a team explain how an intervention is expected to work and identify questions that need evidence."
+        }
+      ],
+      "When to Use It": [
+        {
+          "type": "list",
+          "items": [
+            "Use when a project has many activities but unclear intended outcomes.",
+            "Use when developing the rationale and measures for an intervention."
+          ]
+        }
+      ],
+      "Core Features": [
+        {
+          "type": "list",
+          "items": [
+            "Resources and activities",
+            "Outputs showing what the program delivers",
+            "Shorter- and longer-term outcomes",
+            "Assumptions and contextual influences",
+            "Connections that can be examined through evaluation"
+          ]
+        }
+      ],
+      "Baseline Data Needed": [
+        {
+          "type": "list",
+          "items": [
+            "The problem and intended participants",
+            "Existing resources and activities",
+            "Starting outcome information",
+            "Research supporting the proposed connections"
+          ]
+        }
+      ],
+      "How to Use It": [
+        {
+          "type": "paragraph",
+          "text": "Develop the model with people involved in the program. State the desired change clearly, then identify the activities, resources, and assumptions needed to support it (W.K. Kellogg Foundation, 2004)."
+        },
+        {
+          "type": "paragraph",
+          "text": "For a reading project, distinguish sessions and materials delivered from changes in comprehension. Select measures for both and use early findings to refine the proposed connections (McLaughlin & Jordan, 1999; Centers for Disease Control and Prevention, 2024a)."
+        }
+      ],
+      "Action Research Application": [
+        {
+          "type": "paragraph",
+          "text": "Suggested school study. How well do the planned activities and resources of a reading intervention support its intended learning outcomes?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Use the logic model to select a small number of process and outcome questions. Compare planned activities with participants’ experiences and examine learner results. Revise connections that the findings do not support."
+        }
+      ],
+      "Implementation Flow": [
+        {
+          "type": "image",
+          "src": "assets/model-flows/program-logic-model.png",
+          "alt": "Program Logic Model. Resources available for the program. Activities offered to participants. Outputs — what the program delivers. Outcomes — changes expected over time. Review connections, assumptions, and context",
+          "caption": "Suggested school-use flow adapted from W.K. Kellogg Foundation (2004) and McLaughlin and Jordan (1999)."
+        }
+      ],
+      "Evidence From Related Studies": [
+        {
+          "type": "paragraph",
+          "text": "McLaughlin and Jordan (1999) describe logic modeling as a way to express connections among resources, activities, people reached, and outcomes. Their article provides methodological guidance."
+        },
+        {
+          "type": "paragraph",
+          "text": "The Kellogg guide and CDC guidance explain model development and use in evaluation. Their value is in clarifying program reasoning and selecting evidence. The model’s proposed causal connections still need investigation in the actual program."
+        }
+      ],
+      "Data to Gather": [
+        {
+          "type": "list",
+          "items": [
+            "Resources and activities delivered",
+            "Participant reach and experiences",
+            "Measures of intended outcomes",
+            "Evidence relevant to key assumptions"
+          ]
+        }
+      ],
+      "Indicators of Success": [
+        {
+          "type": "paragraph",
+          "text": "Set targets from the starting results and the time available for the activity."
+        },
+        {
+          "type": "list",
+          "items": [
+            "A clear connection between each activity and its intended outcome",
+            "Useful measures for outputs and outcomes",
+            "Program decisions informed by findings about the proposed connections"
+          ]
+        }
+      ],
+      "References": [
+        {
+          "type": "references",
+          "items": [
+            {
+              "segments": [
+                {
+                  "text": "Centers for Disease Control and Prevention. (2024a). "
+                },
+                {
+                  "text": "Developing and using a logic model. ",
+                  "italic": true
+                },
+                {
+                  "text": "",
+                  "italic": false
+                },
+                {
+                  "text": "https://www.cdc.gov/cardiovascular-resources/php/toolkit/developing-and-using-a-logic-model.html"
+                }
+              ]
+            },
+            {
+              "segments": [
+                {
+                  "text": "McLaughlin, J. A., & Jordan, G. B. (1999). "
+                },
+                {
+                  "text": "Logic models: A tool for telling your program’s performance story. ",
+                  "italic": false
+                },
+                {
+                  "text": "Evaluation and Program Planning, 22(1), 65–72. ",
+                  "italic": true
+                },
+                {
+                  "text": "https://eric.ed.gov/?id=EJ586936"
+                }
+              ]
+            },
+            {
+              "segments": [
+                {
+                  "text": "W.K. Kellogg Foundation. (2004). "
+                },
+                {
+                  "text": "Logic model development guide. ",
+                  "italic": true
+                },
+                {
+                  "text": "",
+                  "italic": false
+                },
+                {
+                  "text": "https://www.epa.gov/sites/default/files/2015-09/documents/logic-model-development-guide.pdf"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "cdc-program-evaluation",
+    "modelName": "CDC Program Evaluation Framework (2024)",
+    "category": "Program Planning and Evaluation",
+    "learningArea": "School program evaluation and improvement",
+    "tags": [
+      "Program Planning and Evaluation",
+      "Research planning"
+    ],
+    "summary": "The CDC Program Evaluation Framework organizes evaluation through six steps, supported by collaborative engagement, fair evaluation practices, and use of findings",
+    "sections": {
+      "Model Overview": [
+        {
+          "type": "paragraph",
+          "text": "The CDC Program Evaluation Framework organizes evaluation through six steps, supported by collaborative engagement, fair evaluation practices, and use of findings (Centers for Disease Control and Prevention, 2024b)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Schools can adapt the process to examine program experiences, outcomes, and opportunities for improvement. The framework originated in public health."
+        }
+      ],
+      "When to Use It": [
+        {
+          "type": "list",
+          "items": [
+            "Use when a program has a clear decision to inform.",
+            "Use when stakeholders need a shared plan for collecting and interpreting evidence."
+          ]
+        }
+      ],
+      "Core Features": [
+        {
+          "type": "list",
+          "items": [
+            "Context and program description",
+            "Focused questions and an appropriate design",
+            "Credible evidence and supported conclusions",
+            "Action based on findings",
+            "Collaboration and fairness throughout"
+          ]
+        }
+      ],
+      "Baseline Data Needed": [
+        {
+          "type": "list",
+          "items": [
+            "Program goals, participants, and activities",
+            "The decision the evaluation will inform",
+            "Available outcome and participation information",
+            "Stakeholder questions and perspectives"
+          ]
+        }
+      ],
+      "How to Use It": [
+        {
+          "type": "paragraph",
+          "text": "Agree on the practical decision and who will use the findings. Describe the program and its setting, then choose questions that can be answered with the available time and evidence (Centers for Disease Control and Prevention, 2024b, 2024c)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Combine suitable records with participant perspectives and examine alternative explanations for the findings. Discuss the results with those involved and agree on changes or further questions. A school study should adapt measures to its own educational goals."
+        }
+      ],
+      "Action Research Application": [
+        {
+          "type": "paragraph",
+          "text": "Suggested school study. Which parts of a school reading program work well for participants, and what changes would improve access and learning support?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Use attendance, learner work, teacher experiences, and family feedback to answer a few agreed questions. Describe missing information and contextual influences. Match conclusions about change to the strength of the study design."
+        }
+      ],
+      "Implementation Flow": [
+        {
+          "type": "image",
+          "src": "assets/model-flows/cdc-program-evaluation.png",
+          "alt": "CDC Program Evaluation Framework (2024). Assess the context. Describe the program. Focus questions and evaluation design. Gather credible evidence. Develop and support conclusions. Act on findings and revisit the questions",
+          "caption": "Suggested school-use flow adapted from Centers for Disease Control and Prevention (2024b, 2024c)."
+        }
+      ],
+      "Evidence From Related Studies": [
+        {
+          "type": "paragraph",
+          "text": "The CDC framework and action guide provide methodological guidance for designing and using evaluations (Centers for Disease Control and Prevention, 2024b, 2024c)."
+        },
+        {
+          "type": "paragraph",
+          "text": "McLaughlin and Jordan (1999) explain how a logic model can make program assumptions and outcomes clearer. This supports the program-description stage and helps select meaningful questions. Evidence of a school program’s effectiveness must come from its evaluation."
+        }
+      ],
+      "Data to Gather": [
+        {
+          "type": "list",
+          "items": [
+            "Information directly answering the evaluation questions",
+            "Participant experiences",
+            "Outcome patterns and contextual changes",
+            "Actions agreed after discussing findings"
+          ]
+        }
+      ],
+      "Indicators of Success": [
+        {
+          "type": "paragraph",
+          "text": "Set targets from the starting results and the time available for the activity."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Evaluation questions receive clear, supported answers",
+            "Different participant perspectives inform interpretation",
+            "Findings lead to feasible program improvements"
+          ]
+        }
+      ],
+      "References": [
+        {
+          "type": "references",
+          "items": [
+            {
+              "segments": [
+                {
+                  "text": "Centers for Disease Control and Prevention. (2024b). "
+                },
+                {
+                  "text": "CDC program evaluation framework. ",
+                  "italic": true
+                },
+                {
+                  "text": "",
+                  "italic": false
+                },
+                {
+                  "text": "https://www.cdc.gov/evaluation/php/evaluation-framework/index.html"
+                }
+              ]
+            },
+            {
+              "segments": [
+                {
+                  "text": "Centers for Disease Control and Prevention. (2024c). "
+                },
+                {
+                  "text": "CDC’s program evaluation framework action guide. ",
+                  "italic": true
+                },
+                {
+                  "text": "",
+                  "italic": false
+                },
+                {
+                  "text": "https://www.cdc.gov/evaluation/media/pdfs/2024/12/FINAL-Action-Guide-for-DFE-12182024_1.pdf"
+                }
+              ]
+            },
+            {
+              "segments": [
+                {
+                  "text": "McLaughlin, J. A., & Jordan, G. B. (1999). "
+                },
+                {
+                  "text": "Logic models: A tool for telling your program’s performance story. ",
+                  "italic": false
+                },
+                {
+                  "text": "Evaluation and Program Planning, 22(1), 65–72. ",
+                  "italic": true
+                },
+                {
+                  "text": "https://eric.ed.gov/?id=EJ586936"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "digcompedu",
+    "modelName": "Digital Competence of Educators (DigCompEdu)",
+    "category": "Digital Education",
+    "learningArea": "Teacher professional development and digital pedagogy",
+    "tags": [
+      "Digital Education",
+      "Research planning"
+    ],
+    "summary": "DigCompEdu describes educators’ digital competence through 22 competencies in six areas",
+    "sections": {
+      "Model Overview": [
+        {
+          "type": "paragraph",
+          "text": "DigCompEdu describes educators’ digital competence through 22 competencies in six areas (Redecker, 2017)."
+        },
+        {
+          "type": "paragraph",
+          "text": "It supports reflection and professional learning in the purposeful use of technology for teaching, assessment, inclusion, and learners’ digital competence."
+        }
+      ],
+      "When to Use It": [
+        {
+          "type": "list",
+          "items": [
+            "Use when planning teacher development around digital pedagogy.",
+            "Use when teachers need to connect technology choices with a learning goal."
+          ]
+        }
+      ],
+      "Core Features": [
+        {
+          "type": "list",
+          "items": [
+            "Professional engagement",
+            "Digital resources",
+            "Teaching and learning",
+            "Assessment",
+            "Empowering learners",
+            "Facilitating learners’ digital competence"
+          ]
+        }
+      ],
+      "Baseline Data Needed": [
+        {
+          "type": "list",
+          "items": [
+            "Teacher reflections on selected competencies",
+            "Samples of digital lessons and assessment tasks",
+            "Learner access to devices and connectivity",
+            "Available support and accessible alternatives"
+          ]
+        }
+      ],
+      "How to Use It": [
+        {
+          "type": "paragraph",
+          "text": "Select a small number of competencies connected to the school’s needs. Combine teacher reflection with lesson examples and practical tasks, then agree on a professional learning goal (Redecker, 2017)."
+        },
+        {
+          "type": "paragraph",
+          "text": "For digital assessment, teachers can develop a short assessment, interpret responses, and revise a lesson. Discuss learner access and accessibility while reviewing the activity. Use follow-up examples to examine changes in practice (Ghomi & Redecker, 2019)."
+        }
+      ],
+      "Action Research Application": [
+        {
+          "type": "paragraph",
+          "text": "Suggested school study. How does a focused professional learning activity influence teachers’ design and use of digital formative assessment?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Compare initial and revised tasks using agreed criteria for purpose, feedback, accessibility, and instructional use. Include teacher reflections and learner experiences. Treat self-ratings as one source alongside demonstrated practice."
+        }
+      ],
+      "Implementation Flow": [
+        {
+          "type": "image",
+          "src": "assets/model-flows/digcompedu.png",
+          "alt": "Digital Competence of Educators (DigCompEdu). Professional engagement. Digital resources. Teaching and learning. Assessment. Empowering learners. Facilitating learners’ digital competence",
+          "caption": "Framework organizer adapted from Redecker (2017)."
+        }
+      ],
+      "Evidence From Related Studies": [
+        {
+          "type": "paragraph",
+          "text": "Redecker (2017) presents the framework as a reference for educators’ digital competence."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ghomi and Redecker (2019) developed and evaluated a self-assessment instrument with 335 participants in Germany. Their work examines measurement and provides support for reflective assessment. Its results should be considered alongside the participants and instrument used."
+        }
+      ],
+      "Data to Gather": [
+        {
+          "type": "list",
+          "items": [
+            "Initial and revised digital tasks",
+            "Teacher self-reflections",
+            "Examples of instructional decisions based on responses",
+            "Learner access and feedback"
+          ]
+        }
+      ],
+      "Indicators of Success": [
+        {
+          "type": "paragraph",
+          "text": "Set targets from the starting results and the time available for the activity."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Digital tasks serve a clear learning purpose",
+            "Feedback informs subsequent teaching",
+            "More learners can access and use the activity"
+          ]
+        }
+      ],
+      "References": [
+        {
+          "type": "references",
+          "items": [
+            {
+              "segments": [
+                {
+                  "text": "European Commission, Joint Research Centre. (n.d.). "
+                },
+                {
+                  "text": "DigCompEdu framework. ",
+                  "italic": true
+                },
+                {
+                  "text": "",
+                  "italic": false
+                },
+                {
+                  "text": "https://joint-research-centre.ec.europa.eu/scientific-activities/key-competences-lifelong-learning/digcompedu/digcompedu-framework_en"
+                }
+              ]
+            },
+            {
+              "segments": [
+                {
+                  "text": "Ghomi, M., & Redecker, C. (2019). "
+                },
+                {
+                  "text": "Digital competence of educators (DigCompEdu): Development and evaluation of a self-assessment instrument for teachers’ digital competence. ",
+                  "italic": false
+                },
+                {
+                  "text": "Proceedings of the 11th International Conference on Computer Supported Education (Vol. 1, pp. 541–548). ",
+                  "italic": true
+                },
+                {
+                  "text": "https://doi.org/10.5220/0007679005410548"
+                }
+              ]
+            },
+            {
+              "segments": [
+                {
+                  "text": "Redecker, C. (2017). "
+                },
+                {
+                  "text": "European framework for the digital competence of educators: DigCompEdu. ",
+                  "italic": true
+                },
+                {
+                  "text": "Publications Office of the European Union. ",
+                  "italic": false
+                },
+                {
+                  "text": "https://doi.org/10.2760/159770"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "index-for-inclusion",
+    "modelName": "Index for Inclusion",
+    "category": "Inclusive Education",
+    "learningArea": "Whole-school participation and inclusive development",
+    "tags": [
+      "Inclusive Education",
+      "Research planning"
+    ],
+    "summary": "The Index for Inclusion supports school development through reflection on inclusive cultures, policies, and practices",
+    "sections": {
+      "Model Overview": [
+        {
+          "type": "paragraph",
+          "text": "The Index for Inclusion supports school development through reflection on inclusive cultures, policies, and practices (Booth & Ainscow, 2011)."
+        },
+        {
+          "type": "paragraph",
+          "text": "It invites the school community to identify barriers to learning and participation and select priorities for change."
+        }
+      ],
+      "When to Use It": [
+        {
+          "type": "list",
+          "items": [
+            "Use when learners experience barriers across school activities or relationships.",
+            "Use when a school wants to involve learners, families, and staff in identifying inclusion priorities."
+          ]
+        }
+      ],
+      "Core Features": [
+        {
+          "type": "list",
+          "items": [
+            "Inclusive cultures and shared values",
+            "Inclusive policies and support arrangements",
+            "Inclusive classroom and school practices",
+            "Community participation in identifying barriers",
+            "Ongoing reflection and development"
+          ]
+        }
+      ],
+      "Baseline Data Needed": [
+        {
+          "type": "list",
+          "items": [
+            "Learner, family, and staff perspectives",
+            "Participation patterns across school activities",
+            "Accessibility of materials, spaces, and communication",
+            "Existing support and resources"
+          ]
+        }
+      ],
+      "How to Use It": [
+        {
+          "type": "paragraph",
+          "text": "Choose relevant reflection questions from the Index and provide accessible ways for different groups to respond. Look for barriers within school routines, relationships, and resources (Booth & Ainscow, 2011)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Agree on a manageable priority, such as participation in group activities or access to learning materials. Develop changes with the people affected and revisit their experiences as the work progresses. Leadership and collaborative learning can support this process (Ainscow & Sandill, 2010)."
+        }
+      ],
+      "Action Research Application": [
+        {
+          "type": "paragraph",
+          "text": "Suggested school study. How does a collaboratively designed change in group-work routines affect learners’ participation and sense of belonging?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Use learner perspectives, observations, and work samples before and during the change. Include learners whose experiences are easily overlooked and offer different ways to express views. Interpret changes in relation to the specific barrier addressed."
+        }
+      ],
+      "Implementation Flow": [
+        {
+          "type": "image",
+          "src": "assets/model-flows/index-for-inclusion.png",
+          "alt": "Index for Inclusion. Inclusive cultures — values and relationships. Inclusive policies — arrangements and support. Inclusive practices — learning and participation",
+          "caption": "Framework organizer adapted from Booth and Ainscow (2011)."
+        }
+      ],
+      "Evidence From Related Studies": [
+        {
+          "type": "paragraph",
+          "text": "Booth and Ainscow (2011) provide a developmental resource organized around cultures, policies, and practices."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ainscow and Sandill (2010) draw on international research and ideas to examine leadership and organizational conditions for inclusion. Their analysis supports attention to school culture and shared learning, while a local study examines the particular changes introduced."
+        }
+      ],
+      "Data to Gather": [
+        {
+          "type": "list",
+          "items": [
+            "Learner and family perspectives",
+            "Participation observations",
+            "Examples of changed materials or routines",
+            "Reflections on remaining barriers"
+          ]
+        }
+      ],
+      "Indicators of Success": [
+        {
+          "type": "paragraph",
+          "text": "Set targets from the starting results and the time available for the activity."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Learners describe improved access and belonging",
+            "Participation broadens across the activity",
+            "The school responds to barriers identified by participants"
+          ]
+        }
+      ],
+      "References": [
+        {
+          "type": "references",
+          "items": [
+            {
+              "segments": [
+                {
+                  "text": "Ainscow, M., & Sandill, A. (2010). "
+                },
+                {
+                  "text": "Developing inclusive education systems: The role of organisational cultures and leadership. ",
+                  "italic": false
+                },
+                {
+                  "text": "International Journal of Inclusive Education, 14(4), 401–416. ",
+                  "italic": true
+                },
+                {
+                  "text": "https://doi.org/10.1080/13603110802504903"
+                }
+              ]
+            },
+            {
+              "segments": [
+                {
+                  "text": "Booth, T., & Ainscow, M. (2011). "
+                },
+                {
+                  "text": "Index for inclusion: Developing learning and participation in schools (3rd ed.). ",
+                  "italic": true
+                },
+                {
+                  "text": "Centre for Studies on Inclusive Education. ",
+                  "italic": false
+                },
+                {
+                  "text": "https://books.google.com/books?id=FprJMwEACAAJ"
+                }
+              ]
+            },
+            {
+              "segments": [
+                {
+                  "text": "Index for Inclusion. (n.d.). "
+                },
+                {
+                  "text": "Indicators. ",
+                  "italic": true
+                },
+                {
+                  "text": "",
+                  "italic": false
+                },
+                {
+                  "text": "https://index-for-inclusion.org/en/indicators/"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "lundy-participation",
+    "modelName": "Lundy Model of Participation",
+    "category": "Learner Participation",
+    "learningArea": "Learner consultation and school decision-making",
+    "tags": [
+      "Learner Participation",
+      "Research planning"
+    ],
+    "summary": "The Lundy Model describes meaningful child participation through space, voice, audience, and influence",
+    "sections": {
+      "Model Overview": [
+        {
+          "type": "paragraph",
+          "text": "The Lundy Model describes meaningful child participation through space, voice, audience, and influence (Lundy, 2007)."
+        },
+        {
+          "type": "paragraph",
+          "text": "It helps schools design opportunities for learners to express informed views, reach people who can respond, and understand how their views affect decisions."
+        }
+      ],
+      "When to Use It": [
+        {
+          "type": "list",
+          "items": [
+            "Use when consulting learners about learning experiences, school activities, or shared spaces.",
+            "Use when a consultation needs a clearer connection to an actual decision."
+          ]
+        }
+      ],
+      "Core Features": [
+        {
+          "type": "list",
+          "items": [
+            "Safe and inclusive space",
+            "Support for learners to form and express views",
+            "An audience with responsibility to listen",
+            "Consideration of views and feedback on influence"
+          ]
+        }
+      ],
+      "Baseline Data Needed": [
+        {
+          "type": "list",
+          "items": [
+            "The decision open to learner input",
+            "Learners’ previous consultation experiences",
+            "Who is represented and who may be missing",
+            "Accessible ways to contribute and receive feedback"
+          ]
+        }
+      ],
+      "How to Use It": [
+        {
+          "type": "paragraph",
+          "text": "Explain the decision, the matters learners can influence, and the information they need. Offer several ways to contribute so that language, confidence, or disability does not determine whose views are heard (Lundy, 2007; UNICEF Ireland, 2022)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Arrange for the responsible adults to consider the views and respond. Tell learners what changed, what could not be taken forward, and the reasons. Ask them whether the process felt meaningful and use their suggestions to improve it (UNICEF Ireland, 2022)."
+        }
+      ],
+      "Action Research Application": [
+        {
+          "type": "paragraph",
+          "text": "Suggested school study. How does a Lundy-informed consultation influence learners’ experience of participation in planning a school reading space?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Examine the range of contributors, the views expressed, the decisions made, and learners’ understanding of the response. Use short reflections and decision examples to study the quality of participation."
+        }
+      ],
+      "Implementation Flow": [
+        {
+          "type": "image",
+          "src": "assets/model-flows/lundy-participation.png",
+          "alt": "Lundy Model of Participation. Space — inclusive opportunities to participate. Voice — support informed expression. Audience — reach people responsible for listening. Influence — consider views and explain decisions",
+          "caption": "Framework organizer adapted from Lundy (2007) and UNICEF Ireland (2022)."
+        }
+      ],
+      "Evidence From Related Studies": [
+        {
+          "type": "paragraph",
+          "text": "Lundy (2007) draws on research conducted for the Northern Ireland Commissioner for Children and Young People to examine barriers to participation in education and develop the model."
+        },
+        {
+          "type": "paragraph",
+          "text": "UNICEF Ireland (2022) provides practical school participation guidance. Together these sources support consultation design and reflection on whether learners’ contributions receive consideration and feedback."
+        }
+      ],
+      "Data to Gather": [
+        {
+          "type": "list",
+          "items": [
+            "Ways learners contributed",
+            "Themes in learner views",
+            "Responses and decisions linked to those views",
+            "Learner reflections after receiving feedback"
+          ]
+        }
+      ],
+      "Indicators of Success": [
+        {
+          "type": "paragraph",
+          "text": "Set targets from the starting results and the time available for the activity."
+        },
+        {
+          "type": "list",
+          "items": [
+            "A wider range of learners can contribute",
+            "Views reach the responsible decision-makers",
+            "Learners can explain how their views were considered"
+          ]
+        }
+      ],
+      "References": [
+        {
+          "type": "references",
+          "items": [
+            {
+              "segments": [
+                {
+                  "text": "Lundy, L. (2007). "
+                },
+                {
+                  "text": "“Voice” is not enough: Conceptualising Article 12 of the United Nations Convention on the Rights of the Child. ",
+                  "italic": false
+                },
+                {
+                  "text": "British Educational Research Journal, 33(6), 927–942. ",
+                  "italic": true
+                },
+                {
+                  "text": "https://doi.org/10.1080/01411920701657033"
+                }
+              ]
+            },
+            {
+              "segments": [
+                {
+                  "text": "Lundy, L. (n.d.). "
+                },
+                {
+                  "text": "The Lundy model. ",
+                  "italic": true
+                },
+                {
+                  "text": "",
+                  "italic": false
+                },
+                {
+                  "text": "https://www.lundymodel.com/"
+                }
+              ]
+            },
+            {
+              "segments": [
+                {
+                  "text": "UNICEF Ireland. (2022). "
+                },
+                {
+                  "text": "Rights-based child participation in schools toolkit. ",
+                  "italic": true
+                },
+                {
+                  "text": "",
+                  "italic": false
+                },
+                {
+                  "text": "https://www.unicef.ie/app/uploads/2022/11/CRS_Child_Participation_Toolkit-rev-1.pdf"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "health-promoting-schools",
+    "modelName": "WHO–UNESCO Health-Promoting Schools Framework",
+    "category": "School Health and Well-being",
+    "learningArea": "Whole-school health promotion",
+    "tags": [
+      "School Health and Well-being",
+      "Research planning"
+    ],
+    "summary": "The Health-Promoting Schools approach connects school policy, leadership, environments, learning, partnerships, and health services to support well-being",
+    "sections": {
+      "Model Overview": [
+        {
+          "type": "paragraph",
+          "text": "The Health-Promoting Schools approach connects school policy, leadership, environments, learning, partnerships, and health services to support well-being (World Health Organization & UNESCO, 2021a)."
+        },
+        {
+          "type": "paragraph",
+          "text": "The global standards help schools and education systems plan coordinated action that fits their needs and available services."
+        }
+      ],
+      "When to Use It": [
+        {
+          "type": "list",
+          "items": [
+            "Use when school health activities need stronger coordination.",
+            "Use when a school wants to connect learning, environment, family engagement, and health support around a shared priority."
+          ]
+        }
+      ],
+      "Core Features": [
+        {
+          "type": "list",
+          "items": [
+            "Government policies and resources",
+            "School policies and resources",
+            "School governance and leadership",
+            "School and community partnerships",
+            "School curriculum",
+            "School social-emotional environment",
+            "School physical environment",
+            "School health services"
+          ]
+        }
+      ],
+      "Baseline Data Needed": [
+        {
+          "type": "list",
+          "items": [
+            "Learner and staff perspectives on a chosen priority",
+            "Existing facilities, activities, and services",
+            "Access barriers and available partners",
+            "A suitable starting measure of participation or well-being"
+          ]
+        }
+      ],
+      "How to Use It": [
+        {
+          "type": "paragraph",
+          "text": "Choose a priority with learners, staff, families, and relevant health personnel. Consider how policies, the environment, learning activities, and services can work together around that priority (World Health Organization & UNESCO, 2021a, 2021b)."
+        },
+        {
+          "type": "paragraph",
+          "text": "For a physical-activity project, examine opportunities during the school day, access to suitable spaces, inclusive participation, and family support. Use measures appropriate to the activity and involve qualified personnel when health assessment or care is required."
+        }
+      ],
+      "Action Research Application": [
+        {
+          "type": "paragraph",
+          "text": "Suggested school study. How does a coordinated school physical-activity initiative affect participation and learners’ experiences of inclusion?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Collect participation information and learner feedback across comparable periods. Describe environmental changes and support provided. Keep health information limited to what the study needs and use appropriate professional support for health measures."
+        }
+      ],
+      "Implementation Flow": [
+        {
+          "type": "image",
+          "src": "assets/model-flows/health-promoting-schools.png",
+          "alt": "WHO–UNESCO Health-Promoting Schools Framework. Government policies and resources. School policies and resources. Governance and leadership. School and community partnerships. Curriculum. Social-emotional environment. Physical environment. School health services",
+          "caption": "Framework organizer adapted from World Health Organization and UNESCO (2021a)."
+        }
+      ],
+      "Evidence From Related Studies": [
+        {
+          "type": "paragraph",
+          "text": "World Health Organization and UNESCO (2021a, 2021b) provide global standards and implementation guidance developed through evidence review and consultation."
+        },
+        {
+          "type": "paragraph",
+          "text": "Langford et al. (2014) reviewed 67 cluster trials of the Health-Promoting Schools approach. Effects differed by outcome, with benefits for some health behaviors and limited evidence on academic outcomes. The review predates the 2021 standards and informs the broader approach."
+        }
+      ],
+      "Data to Gather": [
+        {
+          "type": "list",
+          "items": [
+            "Participation in the selected activity",
+            "Learner experiences and access barriers",
+            "Changes in the school environment",
+            "Relevant outcomes chosen with appropriate expertise"
+          ]
+        }
+      ],
+      "Indicators of Success": [
+        {
+          "type": "paragraph",
+          "text": "Set targets from the starting results and the time available for the activity."
+        },
+        {
+          "type": "list",
+          "items": [
+            "More inclusive participation",
+            "Better access to supportive school environments",
+            "Improvement in the specific outcome selected for the initiative"
+          ]
+        }
+      ],
+      "References": [
+        {
+          "type": "references",
+          "items": [
+            {
+              "segments": [
+                {
+                  "text": "Langford, R., Bonell, C. P., Jones, H. E., Pouliou, T., Murphy, S. M., Waters, E., Komro, K. A., Gibbs, L. F., Magnus, D., & Campbell, R. (2014). "
+                },
+                {
+                  "text": "The WHO Health Promoting School framework for improving the health and well-being of students and their academic achievement. ",
+                  "italic": false
+                },
+                {
+                  "text": "Cochrane Database of Systematic Reviews, 2014(4), Article CD008958. ",
+                  "italic": true
+                },
+                {
+                  "text": "https://doi.org/10.1002/14651858.CD008958.pub2"
+                }
+              ]
+            },
+            {
+              "segments": [
+                {
+                  "text": "World Health Organization, & United Nations Educational, Scientific and Cultural Organization. (2021a). "
+                },
+                {
+                  "text": "Making every school a health-promoting school: Global standards and indicators. ",
+                  "italic": true
+                },
+                {
+                  "text": "World Health Organization. ",
+                  "italic": false
+                },
+                {
+                  "text": "https://www.who.int/publications/i/item/9789240025059"
+                }
+              ]
+            },
+            {
+              "segments": [
+                {
+                  "text": "World Health Organization, & United Nations Educational, Scientific and Cultural Organization. (2021b). "
+                },
+                {
+                  "text": "Making every school a health-promoting school: Implementation guidance. ",
+                  "italic": true
+                },
+                {
+                  "text": "World Health Organization. ",
+                  "italic": false
+                },
+                {
+                  "text": "https://www.who.int/publications/i/item/9789240025070"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "greencomp",
+    "modelName": "GreenComp Sustainability Competence Framework",
+    "category": "Environmental Education and Science",
+    "learningArea": "Sustainability learning and environmental projects",
+    "tags": [
+      "Environmental Education and Science",
+      "Research planning"
+    ],
+    "summary": "GreenComp describes 12 sustainability competencies across four connected areas",
+    "sections": {
+      "Model Overview": [
+        {
+          "type": "paragraph",
+          "text": "GreenComp describes 12 sustainability competencies across four connected areas (Bianchi et al., 2022)."
+        },
+        {
+          "type": "paragraph",
+          "text": "The framework supports learning goals involving values, complex systems, possible futures, and action. Teachers can select relevant competencies for a local environmental issue."
+        }
+      ],
+      "When to Use It": [
+        {
+          "type": "list",
+          "items": [
+            "Use when environmental activities need clearer learning goals.",
+            "Use when learners need to examine trade-offs, explain systems, or develop informed action."
+          ]
+        }
+      ],
+      "Core Features": [
+        {
+          "type": "list",
+          "items": [
+            "Values through valuing sustainability, supporting fairness, and promoting nature",
+            "Complexity through systems thinking, critical thinking, and problem framing",
+            "Futures through futures literacy, adaptability, and exploratory thinking",
+            "Action through political agency, collective action, and individual initiative"
+          ]
+        }
+      ],
+      "Baseline Data Needed": [
+        {
+          "type": "list",
+          "items": [
+            "Learners’ explanations of the environmental issue",
+            "Initial work on the selected competencies",
+            "Local information and stakeholder perspectives",
+            "Available opportunities for a realistic learner action"
+          ]
+        }
+      ],
+      "How to Use It": [
+        {
+          "type": "paragraph",
+          "text": "Choose a local issue and a small number of competencies. Translate them into observable learning goals, such as explaining relationships in a flooding problem or comparing the implications of waste-reduction options (Bianchi et al., 2022)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Plan tasks that let learners investigate, consider different perspectives, and explain an action. Use their work and reflections to assess the selected competencies. Published cases show varied ways of adapting the framework to educational settings (Javorka et al., 2024)."
+        }
+      ],
+      "Action Research Application": [
+        {
+          "type": "paragraph",
+          "text": "Suggested school study. How does a GreenComp-informed unit affect learners’ systems thinking and justification of a local waste-reduction action?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Compare initial and revised systems maps and written justifications with a rubric aligned to the selected competencies. Examine the learning process and the action’s practical results as separate outcomes."
+        }
+      ],
+      "Implementation Flow": [
+        {
+          "type": "image",
+          "src": "assets/model-flows/greencomp.png",
+          "alt": "GreenComp Sustainability Competence Framework. Embodying sustainability values. Embracing complexity in sustainability. Envisioning sustainable futures. Acting for sustainability",
+          "caption": "Framework organizer adapted from Bianchi et al. (2022)."
+        }
+      ],
+      "Evidence From Related Studies": [
+        {
+          "type": "paragraph",
+          "text": "Bianchi et al. (2022) developed GreenComp as a sustainability competence reference framework. It provides a basis for selecting learning goals and organizing activities."
+        },
+        {
+          "type": "paragraph",
+          "text": "Javorka et al. (2024) present 12 in-depth cases using desk research, interviews, a survey, and consultation to examine uptake and implementation. The cases describe applications, enabling factors, and challenges. Their findings support adaptation planning, while local learner work is needed to examine learning gains."
+        }
+      ],
+      "Data to Gather": [
+        {
+          "type": "list",
+          "items": [
+            "Initial and revised systems maps",
+            "Justifications of proposed actions",
+            "Learner reflections and stakeholder perspectives",
+            "Results relevant to the chosen practical action"
+          ]
+        }
+      ],
+      "Indicators of Success": [
+        {
+          "type": "paragraph",
+          "text": "Set targets from the starting results and the time available for the activity."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Explanations include relevant relationships and consequences",
+            "Learners consider fairness and different perspectives",
+            "Actions are justified using evidence and realistic possibilities"
+          ]
+        }
+      ],
+      "References": [
+        {
+          "type": "references",
+          "items": [
+            {
+              "segments": [
+                {
+                  "text": "Bianchi, G., Pisiotis, U., & Cabrera Giraldez, M. (2022). "
+                },
+                {
+                  "text": "GreenComp: The European sustainability competence framework. ",
+                  "italic": true
+                },
+                {
+                  "text": "Publications Office of the European Union. ",
+                  "italic": false
+                },
+                {
+                  "text": "https://doi.org/10.2760/13286"
+                }
+              ]
+            },
+            {
+              "segments": [
+                {
+                  "text": "European Commission, Joint Research Centre. (n.d.). "
+                },
+                {
+                  "text": "GreenComp conceptual reference model. ",
+                  "italic": true
+                },
+                {
+                  "text": "",
+                  "italic": false
+                },
+                {
+                  "text": "https://joint-research-centre.ec.europa.eu/scientific-activities/key-competences-lifelong-learning/greencomp-european-sustainability-competence-framework/greencomp-conceptual-reference-model_en"
+                }
+              ]
+            },
+            {
+              "segments": [
+                {
+                  "text": "Javorka, Z., Nieth, L., Marinelli, E., Sutinen, L., & Auzinger, M. (Eds.). (2024). "
+                },
+                {
+                  "text": "GreenComp in practice: Case studies on the use of the European competence framework. ",
+                  "italic": true
+                },
+                {
+                  "text": "Publications Office of the European Union. ",
+                  "italic": false
+                },
+                {
+                  "text": "https://doi.org/10.2766/053738"
                 }
               ]
             }

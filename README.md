@@ -1,13 +1,13 @@
 # Saliksik-Gabay — Complete Portal Backup
 
 Backup date: 13 November 2026 (Philippines)
-Revision: flows10 — replaces the earlier backup for future uploads.
+Revision: models74 — replaces the earlier backup for future uploads.
 
 This is a complete, standalone copy of the latest portal package prepared in this conversation. It consolidates the earlier interface, feedback-link, proposal-builder, and Models and Frameworks updates. No earlier update ZIP is required.
 
 ## Included
 - Home and introductory instructions
-- Models and Frameworks: 58 entries across seven categories (40 teaching entries and 18 additional frameworks/approaches)
+- Models and Frameworks: 74 entries across 13 categories
 - Search, category filters, section navigation, and responsive layouts
 - Proposal Writing Process
 - Proposal Builder, research tips, browser saving, and Word export code
@@ -22,7 +22,7 @@ This is a complete, standalone copy of the latest portal package prepared in thi
 2. Upload all extracted portal files and the entire assets folder into the root of the existing saliksik-gabay-portal GitHub repository. Preserve filenames and folder structure. Upload the extracted contents, not the ZIP itself or a containing folder.
 3. Replace matching files and commit. No older update packages are needed.
 4. Confirm GitHub Pages publishes the branch/folder containing index.html; wait for deployment to finish.
-5. Open the portal, refresh the page (Ctrl+F5 if necessary), and check that Models and Frameworks shows 58 entries and seven categories.
+5. Open the portal, refresh the page (Ctrl+F5 if necessary), and check that Models and Frameworks shows 74 entries and 13 categories.
 6. Verify a new category, Proposal Builder, Word download, and Feedback and Evaluation link.
 
 Existing portal: https://rbperez1701.github.io/saliksik-gabay-portal/
@@ -38,7 +38,7 @@ index.html: Home
 teaching-models.html: Models and Frameworks (original filename retained for existing links)
 models.js: complete catalogue
 script.js: catalogue interaction
-flow-images.js: portable copies of all 58 flow diagrams
+flow-images.js: portable copies of all 74 flow diagrams
 proposal-process.html: Proposal Writing Process
 proposal-builder.html: current Proposal Builder
 research-guide.html: compatibility redirect
@@ -54,4 +54,4 @@ The builder uses browser storage key saliksik-gabay-research-v1. Preserve that k
 
 
 ## Implementation flows
-All 58 diagrams are included in assets/model-flows and in flow-images.js. Upload flow-images.js together with models.js, script.js, and teaching-models.html. Entries with diagrams show the diagram without a duplicate text list. The 18 additional frameworks now have diagrams based on their implementation guidance, with source citations in their captions.
+All 74 diagrams are included in assets/model-flows and in flow-images.js. Upload flow-images.js together with models.js, script.js, and teaching-models.html. Entries with diagrams show the diagram without a duplicate text list. Each of the 16 new entries includes a diagram with source attribution. Implementation Flow contains graphic organizers and source captions only. The existing 58 graphic organizers are preserved.
