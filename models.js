@@ -139,19 +139,6 @@ const MODELS = [
           "src": "assets/model-flows/madi.png",
           "alt": "Pose the guiding question; Gather evidence; Use metacognitive prompts; Build a claim with evidence and reasoning; Discuss and critique; Reflect and self-assess; Revise and present",
           "caption": "Classroom sequence adapted from Perez (2024)."
-        },
-        {
-          "type": "sequence",
-          "title": "Text version",
-          "items": [
-            "Pose the guiding question",
-            "Gather evidence",
-            "Use metacognitive prompts",
-            "Build a claim with evidence and reasoning",
-            "Discuss and critique",
-            "Reflect and self-assess",
-            "Revise and present."
-          ]
         }
       ],
       "Evidence From Related Studies": [
@@ -450,17 +437,6 @@ const MODELS = [
           "src": "assets/model-flows/nea.png",
           "alt": "Read the problem aloud; Explain what the problem asks; Choose a mathematical strategy; Carry out the process; Write the answer in context",
           "caption": "The five diagnostic prompts are based on Clements and Ellerton (1996) and White (2010)."
-        },
-        {
-          "type": "sequence",
-          "title": "Text version",
-          "items": [
-            "Read the problem aloud",
-            "Explain what the problem asks",
-            "Choose a mathematical strategy",
-            "Carry out the process",
-            "Write the answer in context."
-          ]
         },
         {
           "type": "paragraph",
@@ -859,19 +835,6 @@ const MODELS = [
           "src": "assets/model-flows/six-thinking-hats.png",
           "alt": "Blue: Frame purpose; White: Gather facts; Red: Voice reactions; Black: Examine risks; Yellow: Identify benefits; Green: Generate options; Blue: Synthesize and plan",
           "caption": "Example classroom sequence using de Bono Group’s (n.d.) thinking roles. The sequence may change with the task."
-        },
-        {
-          "type": "sequence",
-          "title": "Text version",
-          "items": [
-            "Blue: Frame purpose",
-            "White: Gather facts",
-            "Red: Voice reactions",
-            "Black: Examine risks",
-            "Yellow: Identify benefits",
-            "Green: Generate options",
-            "Blue: Synthesize and plan."
-          ]
         }
       ],
       "Evidence From Related Studies": [
@@ -1302,17 +1265,6 @@ const MODELS = [
           "src": "assets/model-flows/udl.png",
           "alt": "Set a goal and identify barriers; Offer options for engagement; Offer options for representation; Offer options for action and expression; Check access and learning",
           "caption": "Classroom organizer based on the procedure described above."
-        },
-        {
-          "type": "list",
-          "title": "Text version",
-          "items": [
-            "Set a goal and identify barriers",
-            "Offer options for engagement",
-            "Offer options for representation",
-            "Offer options for action and expression",
-            "Check access and learning."
-          ]
         }
       ],
       "Evidence From Related Studies": [
@@ -1679,18 +1631,6 @@ const MODELS = [
           "src": "assets/model-flows/response-to-intervention.png",
           "alt": "Screen all learners; Teach and check Tier 1; Add targeted Tier 2 support; Monitor response; Intensify to Tier 3 if needed; Review and adjust support",
           "caption": "Classroom organizer based on the procedure described above."
-        },
-        {
-          "type": "sequence",
-          "title": "Text version",
-          "items": [
-            "Screen all learners",
-            "Teach and check Tier 1",
-            "Add targeted Tier 2 support",
-            "Monitor response",
-            "Intensify to Tier 3 if needed",
-            "Review and adjust support."
-          ]
         }
       ],
       "Evidence From Related Studies": [
@@ -2061,18 +2001,6 @@ const MODELS = [
           "src": "assets/model-flows/inquiry-based-learning.png",
           "alt": "Introduce a phenomenon; Frame an inquiry question; Plan and gather evidence; Analyze evidence; Explain and share findings; Reflect and refine questions",
           "caption": "Classroom organizer based on the procedure described above."
-        },
-        {
-          "type": "sequence",
-          "title": "Text version",
-          "items": [
-            "Introduce a phenomenon",
-            "Frame an inquiry question",
-            "Plan and gather evidence",
-            "Analyze evidence",
-            "Explain and share findings",
-            "Reflect and refine questions."
-          ]
         }
       ],
       "Evidence From Related Studies": [
@@ -2485,20 +2413,6 @@ const MODELS = [
           "src": "assets/model-flows/argument-driven-inquiry.png",
           "alt": "Present the guiding question; Plan and conduct the investigation; Analyze data and draft an argument; Present and critique arguments; Clarify concepts and reflect; Write an individual report; Review reports with peers; Revise and submit",
           "caption": "Classroom organizer based on the procedure described above."
-        },
-        {
-          "type": "sequence",
-          "title": "Text version",
-          "items": [
-            "Present the guiding question",
-            "Plan and conduct the investigation",
-            "Analyze data and draft an argument",
-            "Present and critique arguments",
-            "Clarify concepts and reflect",
-            "Write an individual report",
-            "Review reports with peers",
-            "Revise and submit."
-          ]
         }
       ],
       "Evidence From Related Studies": [
@@ -2931,16 +2845,6 @@ const MODELS = [
           "src": "assets/model-flows/irec.png",
           "alt": "Inquire and refine the question; Research and reflect; Evaluate sources and ideas; Construct and share a synthesis",
           "caption": "Classroom organizer based on the procedure described above."
-        },
-        {
-          "type": "sequence",
-          "title": "Text version",
-          "items": [
-            "Inquire and refine the question",
-            "Research and reflect",
-            "Evaluate sources and ideas",
-            "Construct and share a synthesis."
-          ]
         }
       ],
       "Evidence From Related Studies": [
@@ -3288,18 +3192,6 @@ const MODELS = [
           "src": "assets/model-flows/project-based-learning.png",
           "alt": "Set learning goals and a driving question; Plan a public product; Sustain inquiry and give learners choices; Use critique and revise the work; Present the product; Assess and reflect on learning",
           "caption": "Classroom organizer based on the procedure described above."
-        },
-        {
-          "type": "sequence",
-          "title": "Text version",
-          "items": [
-            "Set learning goals and a driving question",
-            "Plan a public product",
-            "Sustain inquiry and give learners choices",
-            "Use critique and revise the work",
-            "Present the product",
-            "Assess and reflect on learning."
-          ]
         }
       ],
       "Evidence From Related Studies": [
@@ -3610,18 +3502,6 @@ const MODELS = [
           "src": "assets/model-flows/flipped-classroom.png",
           "alt": "Choose what to introduce before class; Provide accessible materials; Check learner preparation; Guide active practice in class; Give feedback on misconceptions; Assess independent transfer",
           "caption": "Classroom organizer based on the procedure described above."
-        },
-        {
-          "type": "sequence",
-          "title": "Text version",
-          "items": [
-            "Choose what to introduce before class",
-            "Provide accessible materials",
-            "Check learner preparation",
-            "Guide active practice in class",
-            "Give feedback on misconceptions",
-            "Assess independent transfer."
-          ]
         }
       ],
       "Evidence From Related Studies": [
@@ -4044,17 +3924,6 @@ const MODELS = [
           "src": "assets/model-flows/parent-child-interaction-therapy.png",
           "alt": "Document the classroom concern; Discuss the concern with the family; Coordinate a referral when appropriate; Track agreed classroom indicators; Review progress with the support team",
           "caption": "School referral and classroom coordination sequence. PCIT is delivered by a trained clinician."
-        },
-        {
-          "type": "sequence",
-          "title": "Text version",
-          "items": [
-            "Document the classroom concern",
-            "Discuss the concern with the family",
-            "Coordinate a referral when appropriate",
-            "Track agreed classroom indicators",
-            "Review progress with the support team."
-          ]
         }
       ],
       "Evidence From Related Studies": [
@@ -4371,18 +4240,6 @@ const MODELS = [
           "src": "assets/model-flows/parent-implemented-interventions.png",
           "alt": "Agree on one target skill; Choose a feasible family routine; Model the support strategy; Have the caregiver practise with feedback; Record use and child response; Review and adjust the plan",
           "caption": "Classroom organizer based on the procedure described above."
-        },
-        {
-          "type": "sequence",
-          "title": "Text version",
-          "items": [
-            "Agree on one target skill",
-            "Choose a feasible family routine",
-            "Model the support strategy",
-            "Have the caregiver practise with feedback",
-            "Record use and child response",
-            "Review and adjust the plan."
-          ]
         }
       ],
       "Evidence From Related Studies": [
@@ -4612,18 +4469,6 @@ const MODELS = [
           "src": "assets/model-flows/instruction-feedback-proficiency.png",
           "alt": "Define the learning target; Set proficiency descriptors; Assess current performance; Match instruction to the level; Give next-step feedback; Reassess and adjust",
           "caption": "Classroom organizer based on the procedure described above."
-        },
-        {
-          "type": "sequence",
-          "title": "Text version",
-          "items": [
-            "Define the learning target",
-            "Set proficiency descriptors",
-            "Assess current performance",
-            "Match instruction to the level",
-            "Give next-step feedback",
-            "Reassess and adjust."
-          ]
         }
       ],
       "Evidence From Related Studies": [
@@ -4964,18 +4809,6 @@ const MODELS = [
           "src": "assets/model-flows/proficiency-based-learning.png",
           "alt": "Define the competency and criteria; Collect baseline evidence; Match support to learner needs; Give feedback and time to revise; Reassess proficiency; Advance or provide further support",
           "caption": "Classroom organizer based on the procedure described above."
-        },
-        {
-          "type": "sequence",
-          "title": "Text version",
-          "items": [
-            "Define the competency and criteria",
-            "Collect baseline evidence",
-            "Match support to learner needs",
-            "Give feedback and time to revise",
-            "Reassess proficiency",
-            "Advance or provide further support."
-          ]
         }
       ],
       "Evidence From Related Studies": [
@@ -5289,18 +5122,6 @@ const MODELS = [
           "src": "assets/model-flows/orton-gillingham.png",
           "alt": "Check the current skill; Review known patterns; Teach a new pattern explicitly; Practise reading and spelling it; Apply the pattern in connected text; Check retention and plan the next lesson",
           "caption": "Classroom organizer based on the procedure described above."
-        },
-        {
-          "type": "sequence",
-          "title": "Text version",
-          "items": [
-            "Check the current skill",
-            "Review known patterns",
-            "Teach a new pattern explicitly",
-            "Practise reading and spelling it",
-            "Apply the pattern in connected text",
-            "Check retention and plan the next lesson."
-          ]
         }
       ],
       "Evidence From Related Studies": [
@@ -5660,17 +5481,6 @@ const MODELS = [
           "src": "assets/model-flows/scarborough-reading-rope.png",
           "alt": "Assess language comprehension; Assess word recognition; Map the weaker strands; Match instruction to the strands; Reassess connected reading",
           "caption": "Classroom organizer based on the procedure described above."
-        },
-        {
-          "type": "list",
-          "title": "Text version",
-          "items": [
-            "Assess language comprehension",
-            "Assess word recognition",
-            "Map the weaker strands",
-            "Match instruction to the strands",
-            "Reassess connected reading."
-          ]
         }
       ],
       "Evidence From Related Studies": [
@@ -5916,18 +5726,6 @@ const MODELS = [
           "src": "assets/model-flows/zpd-and-scaffolding.png",
           "alt": "Check independent performance; Probe what the learner can do with help; Choose and provide a targeted scaffold; Adjust support based on response; Fade support and check independently; Restore support or extend the task",
           "caption": "Classroom adaptation informed by Vygotsky (1978), Wood et al. (1976), and van de Pol et al. (2010)."
-        },
-        {
-          "type": "sequence",
-          "title": "Text version",
-          "items": [
-            "Check independent performance",
-            "Probe what the learner can do with help",
-            "Choose and provide a targeted scaffold",
-            "Adjust support based on response",
-            "Fade support and check independently",
-            "Restore support or extend the task."
-          ]
         }
       ],
       "Evidence From Related Studies": [
@@ -6188,18 +5986,6 @@ const MODELS = [
           "src": "assets/model-flows/van-hiele.png",
           "alt": "Identify current geometric reasoning; Use an inquiry or information task; Guide learners in exploring properties; Have learners explain relationships; Give a more open task; Integrate and check reasoning",
           "caption": "Classroom organizer based on the procedure described above."
-        },
-        {
-          "type": "sequence",
-          "title": "Text version",
-          "items": [
-            "Identify current geometric reasoning",
-            "Use an inquiry or information task",
-            "Guide learners in exploring properties",
-            "Have learners explain relationships",
-            "Give a more open task",
-            "Integrate and check reasoning."
-          ]
         }
       ],
       "Evidence From Related Studies": [
@@ -6535,18 +6321,6 @@ const MODELS = [
           "src": "assets/model-flows/explore-before-explain.png",
           "alt": "Present a phenomenon or task; Guide exploration; Collect observations and patterns; Invite learners’ initial explanations; Formalize the concept; Apply and check understanding",
           "caption": "Classroom organizer based on the procedure described above."
-        },
-        {
-          "type": "sequence",
-          "title": "Text version",
-          "items": [
-            "Present a phenomenon or task",
-            "Guide exploration",
-            "Collect observations and patterns",
-            "Invite learners’ initial explanations",
-            "Formalize the concept",
-            "Apply and check understanding."
-          ]
         }
       ],
       "Evidence From Related Studies": [
@@ -6857,18 +6631,6 @@ const MODELS = [
           "src": "assets/model-flows/solo-taxonomy.png",
           "alt": "Define the target understanding; Describe the five SOLO levels; Elicit a learner response; Classify the response; Give feedback toward the next level; Ask learners to revise or transfer",
           "caption": "Classroom organizer based on the procedure described above."
-        },
-        {
-          "type": "sequence",
-          "title": "Text version",
-          "items": [
-            "Define the target understanding",
-            "Describe the five SOLO levels",
-            "Elicit a learner response",
-            "Classify the response",
-            "Give feedback toward the next level",
-            "Ask learners to revise or transfer."
-          ]
         }
       ],
       "Evidence From Related Studies": [
@@ -7183,20 +6945,6 @@ const MODELS = [
           "src": "assets/model-flows/dick-and-carey.png",
           "alt": "Identify the instructional goal; Analyze tasks, learners and context; Write performance objectives; Develop aligned assessments; Design strategy and materials; Conduct formative evaluation; Revise instruction; Plan summative evaluation",
           "caption": "Classroom organizer based on the procedure described above."
-        },
-        {
-          "type": "sequence",
-          "title": "Text version",
-          "items": [
-            "Identify the instructional goal",
-            "Analyze tasks, learners and context",
-            "Write performance objectives",
-            "Develop aligned assessments",
-            "Design strategy and materials",
-            "Conduct formative evaluation",
-            "Revise instruction",
-            "Plan summative evaluation."
-          ]
         }
       ],
       "Evidence From Related Studies": [
@@ -7472,15 +7220,6 @@ const MODELS = [
           "src": "assets/model-flows/backward-design.png",
           "alt": "Identify desired results; Determine acceptable evidence; Plan learning experiences and instruction",
           "caption": "Classroom organizer based on the procedure described above."
-        },
-        {
-          "type": "sequence",
-          "title": "Text version",
-          "items": [
-            "Identify desired results",
-            "Determine acceptable evidence",
-            "Plan learning experiences and instruction."
-          ]
         }
       ],
       "Evidence From Related Studies": [
@@ -7791,17 +7530,6 @@ const MODELS = [
           "src": "assets/model-flows/addie.png",
           "alt": "Analyze needs and context; Design objectives and assessments; Develop materials; Implement instruction; Evaluate results and revise",
           "caption": "Classroom organizer based on the procedure described above."
-        },
-        {
-          "type": "sequence",
-          "title": "Text version",
-          "items": [
-            "Analyze needs and context",
-            "Design objectives and assessments",
-            "Develop materials",
-            "Implement instruction",
-            "Evaluate results and revise."
-          ]
         }
       ],
       "Evidence From Related Studies": [
@@ -8130,18 +7858,6 @@ const MODELS = [
           "src": "assets/model-flows/reciprocal-teaching.png",
           "alt": "Read a segment; Predict what comes next; Question the text; Clarify difficult ideas; Summarize the main meaning; Rotate the leader and continue",
           "caption": "Classroom organizer based on the procedure described above."
-        },
-        {
-          "type": "sequence",
-          "title": "Text version",
-          "items": [
-            "Read a segment",
-            "Predict what comes next",
-            "Question the text",
-            "Clarify difficult ideas",
-            "Summarize the main meaning",
-            "Rotate the leader and continue."
-          ]
         }
       ],
       "Evidence From Related Studies": [
@@ -8450,18 +8166,6 @@ const MODELS = [
           "src": "assets/model-flows/collaborative-summarizing.png",
           "alt": "Read a section and draft notes; Share possible main ideas; Negotiate what to include; Write a joint summary; Check accuracy against the text; Revise and reflect",
           "caption": "Classroom organizer based on the procedure described above."
-        },
-        {
-          "type": "sequence",
-          "title": "Text version",
-          "items": [
-            "Read a section and draft notes",
-            "Share possible main ideas",
-            "Negotiate what to include",
-            "Write a joint summary",
-            "Check accuracy against the text",
-            "Revise and reflect."
-          ]
         }
       ],
       "Evidence From Related Studies": [
@@ -8788,18 +8492,6 @@ const MODELS = [
           "src": "assets/model-flows/jigsaw.png",
           "alt": "Form home groups; Assign different pieces; Meet in expert groups; Prepare and rehearse explanations; Teach peers in home groups; Check individual understanding",
           "caption": "Classroom organizer based on the procedure described above."
-        },
-        {
-          "type": "sequence",
-          "title": "Text version",
-          "items": [
-            "Form home groups",
-            "Assign different pieces",
-            "Meet in expert groups",
-            "Prepare and rehearse explanations",
-            "Teach peers in home groups",
-            "Check individual understanding."
-          ]
         }
       ],
       "Evidence From Related Studies": [
@@ -9179,18 +8871,6 @@ const MODELS = [
           "src": "assets/model-flows/assessment-for-learning.png",
           "alt": "Share intentions and criteria; Elicit evidence during learning; Interpret the evidence; Give actionable feedback; Adjust teaching and let learners revise; Check progress again",
           "caption": "Classroom organizer based on the procedure described above."
-        },
-        {
-          "type": "sequence",
-          "title": "Text version",
-          "items": [
-            "Share intentions and criteria",
-            "Elicit evidence during learning",
-            "Interpret the evidence",
-            "Give actionable feedback",
-            "Adjust teaching and let learners revise",
-            "Check progress again."
-          ]
         }
       ],
       "Evidence From Related Studies": [
@@ -9552,18 +9232,6 @@ const MODELS = [
           "src": "assets/model-flows/assessment-as-learning.png",
           "alt": "Set a learning goal; Review criteria and examples; Monitor work in progress; Self-assess against the criteria; Choose and apply a next step; Reflect and reset the goal",
           "caption": "Classroom organizer based on the procedure described above."
-        },
-        {
-          "type": "sequence",
-          "title": "Text version",
-          "items": [
-            "Set a learning goal",
-            "Review criteria and examples",
-            "Monitor work in progress",
-            "Self-assess against the criteria",
-            "Choose and apply a next step",
-            "Reflect and reset the goal."
-          ]
         }
       ],
       "Evidence From Related Studies": [
@@ -9910,18 +9578,6 @@ const MODELS = [
           "src": "assets/model-flows/grasps.png",
           "alt": "Goal: Define the purpose; Role: Assign a realistic role; Audience: Name the audience; Situation: Set the context; Product: Specify the performance; Standards: Describe quality",
           "caption": "Classroom organizer based on the procedure described above."
-        },
-        {
-          "type": "list",
-          "title": "Text version",
-          "items": [
-            "Goal: Define the purpose",
-            "Role: Assign a realistic role",
-            "Audience: Name the audience",
-            "Situation: Set the context",
-            "Product: Specify the performance",
-            "Standards: Describe quality."
-          ]
         }
       ],
       "Evidence From Related Studies": [
@@ -10254,18 +9910,6 @@ const MODELS = [
           "src": "assets/model-flows/leveled-literacy-intervention.png",
           "alt": "Identify readers needing extra support; Form small groups from baseline data; Plan scheduled supplemental lessons; Teach and record reading responses; Monitor progress on target skills; Adjust or exit support",
           "caption": "Classroom organizer based on the procedure described above."
-        },
-        {
-          "type": "sequence",
-          "title": "Text version",
-          "items": [
-            "Identify readers needing extra support",
-            "Form small groups from baseline data",
-            "Plan scheduled supplemental lessons",
-            "Teach and record reading responses",
-            "Monitor progress on target skills",
-            "Adjust or exit support."
-          ]
         }
       ],
       "Evidence From Related Studies": [
@@ -10566,18 +10210,6 @@ const MODELS = [
           "src": "assets/model-flows/guided-reading.png",
           "alt": "Assess reading needs; Form a flexible group; Select a text and focus; Introduce the text and strategy; Observe reading and prompt selectively; Discuss, record and regroup",
           "caption": "Classroom organizer based on the procedure described above."
-        },
-        {
-          "type": "sequence",
-          "title": "Text version",
-          "items": [
-            "Assess reading needs",
-            "Form a flexible group",
-            "Select a text and focus",
-            "Introduce the text and strategy",
-            "Observe reading and prompt selectively",
-            "Discuss, record and regroup."
-          ]
         }
       ],
       "Evidence From Related Studies": [
@@ -10908,18 +10540,6 @@ const MODELS = [
           "src": "assets/model-flows/elaboration-theory.png",
           "alt": "Define the content and outcome; Teach a simple representative whole; Elaborate it in increasing detail; Use summaries and syntheses; Connect parts to the whole; Assess transfer and refine the sequence",
           "caption": "Classroom organizer based on the procedure described above."
-        },
-        {
-          "type": "sequence",
-          "title": "Text version",
-          "items": [
-            "Define the content and outcome",
-            "Teach a simple representative whole",
-            "Elaborate it in increasing detail",
-            "Use summaries and syntheses",
-            "Connect parts to the whole",
-            "Assess transfer and refine the sequence."
-          ]
         }
       ],
       "Evidence From Related Studies": [
@@ -11316,16 +10936,6 @@ const MODELS = [
           "src": "assets/model-flows/hannafin-and-peck.png",
           "alt": "Assess learning needs; Design the solution; Develop and implement the materials; Evaluate and revise at every phase",
           "caption": "Classroom organizer based on the procedure described above."
-        },
-        {
-          "type": "sequence",
-          "title": "Text version",
-          "items": [
-            "Assess learning needs",
-            "Design the solution",
-            "Develop and implement the materials",
-            "Evaluate and revise at every phase."
-          ]
         }
       ],
       "Evidence From Related Studies": [
@@ -11632,18 +11242,6 @@ const MODELS = [
           "src": "assets/model-flows/models-based-physical-education.png",
           "alt": "Identify learners’ needs and PE outcomes; Choose the model that fits; Plan tasks and assessment; Teach while retaining core features; Gather performance and participation evidence; Adjust the unit",
           "caption": "Classroom organizer based on the procedure described above."
-        },
-        {
-          "type": "sequence",
-          "title": "Text version",
-          "items": [
-            "Identify learners’ needs and PE outcomes",
-            "Choose the model that fits",
-            "Plan tasks and assessment",
-            "Teach while retaining core features",
-            "Gather performance and participation evidence",
-            "Adjust the unit."
-          ]
         }
       ],
       "Evidence From Related Studies": [
@@ -12021,16 +11619,6 @@ const MODELS = [
           "src": "assets/model-flows/reading-apprenticeship.png",
           "alt": "Social: Make reading strategies shareable; Personal: Build identity and confidence; Cognitive: Model strategic thinking; Knowledge-building: Grow disciplinary understanding",
           "caption": "Classroom organizer based on the procedure described above."
-        },
-        {
-          "type": "list",
-          "title": "Text version",
-          "items": [
-            "Social: Make reading strategies shareable",
-            "Personal: Build identity and confidence",
-            "Cognitive: Model strategic thinking",
-            "Knowledge-building: Grow disciplinary understanding."
-          ]
         }
       ],
       "Evidence From Related Studies": [
@@ -12370,18 +11958,6 @@ const MODELS = [
           "src": "assets/model-flows/design-thinking.png",
           "alt": "Empathize with intended users; Define the problem from evidence; Generate multiple ideas; Build a prototype; Test with users; Revise from feedback",
           "caption": "Classroom organizer based on the procedure described above."
-        },
-        {
-          "type": "sequence",
-          "title": "Text version",
-          "items": [
-            "Empathize with intended users",
-            "Define the problem from evidence",
-            "Generate multiple ideas",
-            "Build a prototype",
-            "Test with users",
-            "Revise from feedback."
-          ]
         }
       ],
       "Evidence From Related Studies": [
@@ -12753,18 +12329,6 @@ const MODELS = [
           "src": "assets/model-flows/mtss-for-english-learners.png",
           "alt": "Review language and learning data; Check access to Tier 1 teaching; Add targeted Tier 2 supports; Monitor language and academic response; Intensify support if needed; Review data with the team",
           "caption": "Classroom organizer based on the procedure described above."
-        },
-        {
-          "type": "sequence",
-          "title": "Text version",
-          "items": [
-            "Review language and learning data",
-            "Check access to Tier 1 teaching",
-            "Add targeted Tier 2 supports",
-            "Monitor language and academic response",
-            "Intensify support if needed",
-            "Review data with the team."
-          ]
         }
       ],
       "Evidence From Related Studies": [
@@ -13114,17 +12678,6 @@ const MODELS = [
           "src": "assets/model-flows/simple-view-of-reading.png",
           "alt": "Assess word recognition; Assess language comprehension; Identify the reading profile; Target the weaker component; Check progress in both components",
           "caption": "Classroom organizer based on the procedure described above."
-        },
-        {
-          "type": "list",
-          "title": "Text version",
-          "items": [
-            "Assess word recognition",
-            "Assess language comprehension",
-            "Identify the reading profile",
-            "Target the weaker component",
-            "Check progress in both components."
-          ]
         }
       ],
       "Evidence From Related Studies": [
@@ -13510,16 +13063,6 @@ const MODELS = [
           "src": "assets/model-flows/raft.png",
           "alt": "Role: Choose the writer’s perspective; Audience: Identify the intended reader; Format: Choose the form; Topic: Specify the content and focus",
           "caption": "Classroom organizer based on the procedure described above."
-        },
-        {
-          "type": "list",
-          "title": "Text version",
-          "items": [
-            "Role: Choose the writer’s perspective",
-            "Audience: Identify the intended reader",
-            "Format: Choose the form",
-            "Topic: Specify the content and focus."
-          ]
         }
       ],
       "Evidence From Related Studies": [
@@ -13824,18 +13367,6 @@ const MODELS = [
           "src": "assets/model-flows/moral-philosophical.png",
           "alt": "Identify a conflict or choice in the text; Name the ethical question; Gather details from the text; Compare possible interpretations; Defend a reasoned judgment; Reflect on consequences and alternatives",
           "caption": "Classroom organizer based on the procedure described above."
-        },
-        {
-          "type": "sequence",
-          "title": "Text version",
-          "items": [
-            "Identify a conflict or choice in the text",
-            "Name the ethical question",
-            "Gather details from the text",
-            "Compare possible interpretations",
-            "Defend a reasoned judgment",
-            "Reflect on consequences and alternatives."
-          ]
         }
       ],
       "Evidence From Related Studies": [
@@ -14004,7 +13535,7 @@ const MODELS = [
       "Model Overview": [
         {
           "type": "paragraph",
-          "text": "A collaborative approach organized around learning, collective inquiry, and evidence of results. (DuFour, 2004; Vescio et al., 2008)."
+          "text": "A collaborative approach organized around learning, collective inquiry, and evidence of results (DuFour, 2004; Vescio et al., 2008)."
         },
         {
           "type": "paragraph",
@@ -14014,7 +13545,7 @@ const MODELS = [
       "When to Use It": [
         {
           "type": "paragraph",
-          "text": "Use for sustained teacher inquiry into a shared learning need, with time to inspect classroom evidence and revise practice together. A routine meeting without a learning question is not sufficient. (DuFour, 2004; Vescio et al., 2008)."
+          "text": "Use for sustained teacher inquiry into a shared learning need, with time to inspect classroom evidence and revise practice together. A routine meeting without a learning question is not sufficient (DuFour, 2004; Vescio et al., 2008)."
         }
       ],
       "Core Features": [
@@ -14034,7 +13565,7 @@ const MODELS = [
       "Baseline Data Needed": [
         {
           "type": "paragraph",
-          "text": "Suggested local baseline measures; these are planning choices, not a standardized instrument."
+          "text": "Begin with the following information to understand the problem and plan your study."
         },
         {
           "type": "list",
@@ -14048,7 +13579,7 @@ const MODELS = [
       "How to Use It": [
         {
           "type": "paragraph",
-          "text": "Practical sequence adapted from the cited framework and implementation literature (DuFour, 2004; Vescio et al., 2008). The school-specific details require local review."
+          "text": "Suggested sequence for school use, informed by the framework and implementation literature (DuFour, 2004; Vescio et al., 2008). Adapt the details to your setting."
         },
         {
           "type": "sequence",
@@ -14064,27 +13595,19 @@ const MODELS = [
       "Action Research Application": [
         {
           "type": "paragraph",
-          "text": "Proposed local inquiry: How do teachers’ instructional decisions and learners’ responses change during a PLC inquiry into a specific reading difficulty?"
+          "text": "Possible research question: How do teachers’ instructional decisions and learners’ responses change during a PLC inquiry into a specific reading difficulty?"
         },
         {
           "type": "paragraph",
-          "text": "This question is a planning example, not a reported finding. The evidence section identifies the documented uses and limits. Define the actual intervention separately from the framework, choose a suitable design, and avoid causal claims from an uncontrolled before-and-after comparison."
+          "text": "Adapt this question to your baseline findings, participants, and research design. Specify the activity you will introduce and the evidence you will use to examine it."
         }
       ],
       "Implementation Flow": [
         {
-          "type": "paragraph",
-          "text": "Condensed planning flow adapted for the portal; it is not an official diagram."
-        },
-        {
-          "type": "sequence",
-          "items": [
-            "Agree on one learning difficulty using common learner evidence.",
-            "Specify what successful learning would look like and prepare a shared assessment task.",
-            "Examine teaching options together and agree on a focused classroom trial.",
-            "Bring learner work back to the team and compare patterns using agreed criteria.",
-            "Revise instruction and document the next inquiry cycle."
-          ]
+          "type": "image",
+          "src": "assets/model-flows/plc.png",
+          "alt": "Identify the learning need: Agree on one learning difficulty using common learner evidence.; Define success: Specify what successful learning would look like and prepare a shared assessment task.; Try a teaching approach: Examine teaching options together and agree on a focused classroom trial.; Examine learner evidence: Bring learner work back to the team and compare patterns using agreed criteria.; Refine the next cycle: Revise instruction and document the next inquiry cycle.",
+          "caption": "Suggested school-use flow informed by DuFour, 2004; Vescio et al., 2008."
         }
       ],
       "Evidence From Related Studies": [
@@ -14094,13 +13617,13 @@ const MODELS = [
         },
         {
           "type": "paragraph",
-          "text": "DuFour (2004) provides the conceptual rationale for learning-focused collaboration and attention to results; it is not an intervention trial. The review does not establish that the specific reading inquiry proposed here will produce gains in a Philippine school."
+          "text": "DuFour (2004) explains the principles of learning-focused collaboration and attention to results. For a school reading inquiry, examine learner work alongside teacher reflections to understand how the approach works in that setting."
         }
       ],
       "Data to Gather": [
         {
           "type": "paragraph",
-          "text": "Suggested evidence for the proposed local inquiry; collect only information needed for the question."
+          "text": "Gather evidence that answers your research question, such as:"
         },
         {
           "type": "list",
@@ -14115,7 +13638,7 @@ const MODELS = [
       "Indicators of Success": [
         {
           "type": "paragraph",
-          "text": "Proposed indicators to agree on before implementation; set realistic targets from baseline data. These are not guaranteed outcomes or validated cutoffs."
+          "text": "Set realistic targets using your baseline findings and review progress through the following indicators."
         },
         {
           "type": "list",
@@ -14181,7 +13704,7 @@ const MODELS = [
       "Model Overview": [
         {
           "type": "paragraph",
-          "text": "A research-informed account of leadership practices that support teaching and learning. (The Wallace Foundation, 2013; Grissom et al., 2021)."
+          "text": "A research-informed account of leadership practices that support teaching and learning (The Wallace Foundation, 2013; Grissom et al., 2021)."
         },
         {
           "type": "paragraph",
@@ -14191,7 +13714,7 @@ const MODELS = [
       "When to Use It": [
         {
           "type": "paragraph",
-          "text": "Use to organize a study of leadership practices affecting instruction, collaboration, climate, or resource support. Select observable practices instead of rating leadership through a single global impression. (The Wallace Foundation, 2013; Grissom et al., 2021)."
+          "text": "Use to organize a study of leadership practices affecting instruction, collaboration, climate, or resource support. Select observable practices instead of rating leadership through a single global impression (The Wallace Foundation, 2013; Grissom et al., 2021)."
         }
       ],
       "Core Features": [
@@ -14213,7 +13736,7 @@ const MODELS = [
       "Baseline Data Needed": [
         {
           "type": "paragraph",
-          "text": "Suggested local baseline measures; these are planning choices, not a standardized instrument."
+          "text": "Begin with the following information to understand the problem and plan your study."
         },
         {
           "type": "list",
@@ -14227,7 +13750,7 @@ const MODELS = [
       "How to Use It": [
         {
           "type": "paragraph",
-          "text": "Practical sequence adapted from the cited framework and implementation literature (The Wallace Foundation, 2013; Grissom et al., 2021). The school-specific details require local review."
+          "text": "Suggested sequence for school use, informed by the framework and implementation literature (The Wallace Foundation, 2013; Grissom et al., 2021). Adapt the details to your setting."
         },
         {
           "type": "sequence",
@@ -14243,27 +13766,19 @@ const MODELS = [
       "Action Research Application": [
         {
           "type": "paragraph",
-          "text": "Proposed local inquiry: How does a structured instructional coaching routine affect teachers’ reported support and use of an agreed teaching practice?"
+          "text": "Possible research question: How does a structured instructional coaching routine affect teachers’ reported support and use of an agreed teaching practice?"
         },
         {
           "type": "paragraph",
-          "text": "This question is a planning example, not a reported finding. The evidence section identifies the documented uses and limits. Define the actual intervention separately from the framework, choose a suitable design, and avoid causal claims from an uncontrolled before-and-after comparison."
+          "text": "Adapt this question to your baseline findings, participants, and research design. Specify the activity you will introduce and the evidence you will use to examine it."
         }
       ],
       "Implementation Flow": [
         {
-          "type": "paragraph",
-          "text": "Condensed planning flow adapted for the portal; it is not an official diagram."
-        },
-        {
-          "type": "sequence",
-          "items": [
-            "Identify a leadership practice linked to a documented instructional need.",
-            "Agree with teachers on a specific support action and expected observable changes.",
-            "Assign responsibilities and provide time and resources for the action.",
-            "Gather evidence from coaching, collaboration, and classroom implementation.",
-            "Review access, workload, and outcomes before extending the practice."
-          ]
+          "type": "image",
+          "src": "assets/model-flows/school-leadership.png",
+          "alt": "Identify the leadership need: Identify a leadership practice linked to a documented instructional need.; Agree on support: Agree with teachers on a specific support action and expected observable changes.; Provide time and resources: Assign responsibilities and provide time and resources for the action.; Gather evidence: Gather evidence from coaching, collaboration, and classroom implementation.; Review and refine: Review access, workload, and outcomes before extending the practice.",
+          "caption": "Suggested school-use flow informed by The Wallace Foundation, 2013; Grissom et al., 2021."
         }
       ],
       "Evidence From Related Studies": [
@@ -14273,13 +13788,13 @@ const MODELS = [
         },
         {
           "type": "paragraph",
-          "text": "The Wallace Foundation (2013) supplies the five-practice organization used in this entry. Neither report isolates the effectiveness of the proposed local coaching routine; an evaluation must document implementation and alternative explanations for observed changes."
+          "text": "The Wallace Foundation (2013) describes the five leadership practices. When applying them through a coaching routine, examine how the routine was carried out and consider other factors that may explain changes in teaching or learning."
         }
       ],
       "Data to Gather": [
         {
           "type": "paragraph",
-          "text": "Suggested evidence for the proposed local inquiry; collect only information needed for the question."
+          "text": "Gather evidence that answers your research question, such as:"
         },
         {
           "type": "list",
@@ -14294,7 +13809,7 @@ const MODELS = [
       "Indicators of Success": [
         {
           "type": "paragraph",
-          "text": "Proposed indicators to agree on before implementation; set realistic targets from baseline data. These are not guaranteed outcomes or validated cutoffs."
+          "text": "Set realistic targets using your baseline findings and review progress through the following indicators."
         },
         {
           "type": "list",
@@ -14361,7 +13876,7 @@ const MODELS = [
       "Model Overview": [
         {
           "type": "paragraph",
-          "text": "An improvement approach developed by Associates in Process Improvement and used by IHI, combining questions about aims, measures, and changes with small tests. (Institute for Healthcare Improvement, n.d.; Taylor et al., 2014)."
+          "text": "An improvement approach developed by Associates in Process Improvement and used by IHI, combining questions about aims, measures, and changes with small tests (Institute for Healthcare Improvement, n.d.; Taylor et al., 2014)."
         },
         {
           "type": "paragraph",
@@ -14371,7 +13886,7 @@ const MODELS = [
       "When to Use It": [
         {
           "type": "paragraph",
-          "text": "Use when a team can test a small process change repeatedly and measure what happens over time. Appropriate for improvement learning; a PDSA cycle alone is not a causal evaluation design. (Institute for Healthcare Improvement, n.d.; Taylor et al., 2014)."
+          "text": "Use when a team can test a small process change repeatedly and measure what happens over time. Appropriate for improvement learning; a PDSA cycle alone is not a causal evaluation design (Institute for Healthcare Improvement, n.d.; Taylor et al., 2014)."
         }
       ],
       "Core Features": [
@@ -14392,7 +13907,7 @@ const MODELS = [
       "Baseline Data Needed": [
         {
           "type": "paragraph",
-          "text": "Suggested local baseline measures; these are planning choices, not a standardized instrument."
+          "text": "Begin with the following information to understand the problem and plan your study."
         },
         {
           "type": "list",
@@ -14406,7 +13921,7 @@ const MODELS = [
       "How to Use It": [
         {
           "type": "paragraph",
-          "text": "Practical sequence adapted from the cited framework and implementation literature (Institute for Healthcare Improvement, n.d.; Taylor et al., 2014). The school-specific details require local review."
+          "text": "Suggested sequence for school use, informed by the framework and implementation literature (Institute for Healthcare Improvement, n.d.; Taylor et al., 2014). Adapt the details to your setting."
         },
         {
           "type": "sequence",
@@ -14422,27 +13937,19 @@ const MODELS = [
       "Action Research Application": [
         {
           "type": "paragraph",
-          "text": "Proposed local inquiry: What happens to attendance follow-up completion and staff workload across successive tests of a revised contact routine?"
+          "text": "Possible research question: What happens to attendance follow-up completion and staff workload across successive tests of a revised contact routine?"
         },
         {
           "type": "paragraph",
-          "text": "This question is a planning example, not a reported finding. The evidence section identifies the documented uses and limits. Define the actual intervention separately from the framework, choose a suitable design, and avoid causal claims from an uncontrolled before-and-after comparison."
+          "text": "Adapt this question to your baseline findings, participants, and research design. Specify the activity you will introduce and the evidence you will use to examine it."
         }
       ],
       "Implementation Flow": [
         {
-          "type": "paragraph",
-          "text": "Condensed planning flow adapted for the portal; it is not an official diagram."
-        },
-        {
-          "type": "sequence",
-          "items": [
-            "Specify the aim, how improvement will be recognized, and the change to test.",
-            "Plan a small test with a prediction, responsible person, and data collection schedule.",
-            "Do the test and record departures from the plan.",
-            "Study observed results against the prediction, including unintended consequences.",
-            "Act by adapting, adopting, or abandoning the change and planning another test."
-          ]
+          "type": "image",
+          "src": "assets/model-flows/model-for-improvement.png",
+          "alt": "Set the improvement aim: Specify the aim, how improvement will be recognized, and the change to test.; Plan: Plan a small test with a prediction, responsible person, and data collection schedule.; Do: Do the test and record departures from the plan.; Study: Study observed results against the prediction, including unintended consequences.; Act and repeat: Act by adapting, adopting, or abandoning the change and planning another test.",
+          "caption": "Suggested school-use flow informed by Institute for Healthcare Improvement, n.d.; Taylor et al., 2014."
         }
       ],
       "Evidence From Related Studies": [
@@ -14452,13 +13959,13 @@ const MODELS = [
         },
         {
           "type": "paragraph",
-          "text": "IHI describes the Model for Improvement as three guiding questions plus PDSA testing. Healthcare implementation evidence is indirect for schools; it does not demonstrate that the attendance example is effective."
+          "text": "IHI organizes the Model for Improvement around three guiding questions and PDSA testing. The healthcare evidence offers lessons for conducting improvement cycles; school applications, such as improving attendance, need their own outcome evidence."
         }
       ],
       "Data to Gather": [
         {
           "type": "paragraph",
-          "text": "Suggested evidence for the proposed local inquiry; collect only information needed for the question."
+          "text": "Gather evidence that answers your research question, such as:"
         },
         {
           "type": "list",
@@ -14473,7 +13980,7 @@ const MODELS = [
       "Indicators of Success": [
         {
           "type": "paragraph",
-          "text": "Proposed indicators to agree on before implementation; set realistic targets from baseline data. These are not guaranteed outcomes or validated cutoffs."
+          "text": "Set realistic targets using your baseline findings and review progress through the following indicators."
         },
         {
           "type": "list",
@@ -14539,7 +14046,7 @@ const MODELS = [
       "Model Overview": [
         {
           "type": "paragraph",
-          "text": "A framework for organizing a comprehensive school counseling program. (American School Counselor Association, n.d.; Carey et al., 2012)."
+          "text": "A framework for organizing a comprehensive school counseling program (American School Counselor Association, n.d.; Carey et al., 2012)."
         },
         {
           "type": "paragraph",
@@ -14549,7 +14056,7 @@ const MODELS = [
       "When to Use It": [
         {
           "type": "paragraph",
-          "text": "Use for needs-based planning and review of a school counseling program under appropriately qualified personnel. Adapt the US program framework to local roles, resources, and requirements. (American School Counselor Association, n.d.; Carey et al., 2012)."
+          "text": "Use for needs-based planning and review of a school counseling program under appropriately qualified personnel. Adapt the US program framework to local roles, resources, and requirements (American School Counselor Association, n.d.; Carey et al., 2012)."
         }
       ],
       "Core Features": [
@@ -14570,7 +14077,7 @@ const MODELS = [
       "Baseline Data Needed": [
         {
           "type": "paragraph",
-          "text": "Suggested local baseline measures; these are planning choices, not a standardized instrument."
+          "text": "Begin with the following information to understand the problem and plan your study."
         },
         {
           "type": "list",
@@ -14584,7 +14091,7 @@ const MODELS = [
       "How to Use It": [
         {
           "type": "paragraph",
-          "text": "Practical sequence adapted from the cited framework and implementation literature (American School Counselor Association, n.d.; Carey et al., 2012). The school-specific details require local review."
+          "text": "Suggested sequence for school use, informed by the framework and implementation literature (American School Counselor Association, n.d.; Carey et al., 2012). Adapt the details to your setting."
         },
         {
           "type": "sequence",
@@ -14600,27 +14107,19 @@ const MODELS = [
       "Action Research Application": [
         {
           "type": "paragraph",
-          "text": "Proposed local inquiry: How well does a needs-based career guidance activity reach intended learners and improve their knowledge of available pathways?"
+          "text": "Possible research question: How well does a needs-based career guidance activity reach intended learners and improve their knowledge of available pathways?"
         },
         {
           "type": "paragraph",
-          "text": "This question is a planning example, not a reported finding. The evidence section identifies the documented uses and limits. Define the actual intervention separately from the framework, choose a suitable design, and avoid causal claims from an uncontrolled before-and-after comparison."
+          "text": "Adapt this question to your baseline findings, participants, and research design. Specify the activity you will introduce and the evidence you will use to examine it."
         }
       ],
       "Implementation Flow": [
         {
-          "type": "paragraph",
-          "text": "Condensed planning flow adapted for the portal; it is not an official diagram."
-        },
-        {
-          "type": "sequence",
-          "items": [
-            "Define the program’s purpose, professional responsibilities, and learner needs.",
-            "Manage priorities, schedules, resources, and measures with the guidance lead.",
-            "Deliver the selected educational guidance activity and appropriate referral support.",
-            "Assess participation, learning, and relevant aggregate outcomes.",
-            "Revise the program with stakeholder feedback and protect individual case information."
-          ]
+          "type": "image",
+          "src": "assets/model-flows/asca.png",
+          "alt": "Define: Define the program’s purpose, professional responsibilities, and learner needs.; Manage: Manage priorities, schedules, resources, and measures with the guidance lead.; Deliver: Deliver the selected educational guidance activity and appropriate referral support.; Assess: Assess participation, learning, and relevant aggregate outcomes.; Revise: Revise the program with stakeholder feedback and protect individual case information.",
+          "caption": "Suggested school-use flow informed by American School Counselor Association, n.d.; Carey et al., 2012."
         }
       ],
       "Evidence From Related Studies": [
@@ -14630,13 +14129,13 @@ const MODELS = [
         },
         {
           "type": "paragraph",
-          "text": "ASCA supplies a program framework, not a script for teachers to provide clinical counseling. The Nebraska study concerns an earlier model edition and a US setting; it does not directly validate a local career activity or every component of the current model."
+          "text": "The Nebraska study examined an earlier edition of the model in a US setting. Its findings should be interpreted in that context when planning local guidance activities. Clinical counseling requires appropriately qualified professionals."
         }
       ],
       "Data to Gather": [
         {
           "type": "paragraph",
-          "text": "Suggested evidence for the proposed local inquiry; collect only information needed for the question."
+          "text": "Gather evidence that answers your research question, such as:"
         },
         {
           "type": "list",
@@ -14651,7 +14150,7 @@ const MODELS = [
       "Indicators of Success": [
         {
           "type": "paragraph",
-          "text": "Proposed indicators to agree on before implementation; set realistic targets from baseline data. These are not guaranteed outcomes or validated cutoffs."
+          "text": "Set realistic targets using your baseline findings and review progress through the following indicators."
         },
         {
           "type": "list",
@@ -14717,7 +14216,7 @@ const MODELS = [
       "Model Overview": [
         {
           "type": "paragraph",
-          "text": "A framework connecting social and emotional competencies across classrooms, schools, families, and communities. (CASEL, n.d.; Durlak et al., 2011)."
+          "text": "A framework connecting social and emotional competencies across classrooms, schools, families, and communities (CASEL, n.d.; Durlak et al., 2011)."
         },
         {
           "type": "paragraph",
@@ -14727,7 +14226,7 @@ const MODELS = [
       "When to Use It": [
         {
           "type": "paragraph",
-          "text": "Use to organize educational activities around a specific social or emotional competency and supportive relationships. Select an age-appropriate program or routine and document its content and delivery. (CASEL, n.d.; Durlak et al., 2011)."
+          "text": "Use to organize educational activities around a specific social or emotional competency and supportive relationships. Select an age-appropriate program or routine and document its content and delivery (CASEL, n.d.; Durlak et al., 2011)."
         }
       ],
       "Core Features": [
@@ -14749,7 +14248,7 @@ const MODELS = [
       "Baseline Data Needed": [
         {
           "type": "paragraph",
-          "text": "Suggested local baseline measures; these are planning choices, not a standardized instrument."
+          "text": "Begin with the following information to understand the problem and plan your study."
         },
         {
           "type": "list",
@@ -14763,7 +14262,7 @@ const MODELS = [
       "How to Use It": [
         {
           "type": "paragraph",
-          "text": "Practical sequence adapted from the cited framework and implementation literature (CASEL, n.d.; Durlak et al., 2011). The school-specific details require local review."
+          "text": "Suggested sequence for school use, informed by the framework and implementation literature (CASEL, n.d.; Durlak et al., 2011). Adapt the details to your setting."
         },
         {
           "type": "sequence",
@@ -14779,27 +14278,19 @@ const MODELS = [
       "Action Research Application": [
         {
           "type": "paragraph",
-          "text": "Proposed local inquiry: What changes in respectful disagreement are observed during a structured sequence of SEL classroom activities?"
+          "text": "Possible research question: What changes in respectful disagreement are observed during a structured sequence of SEL classroom activities?"
         },
         {
           "type": "paragraph",
-          "text": "This question is a planning example, not a reported finding. The evidence section identifies the documented uses and limits. Define the actual intervention separately from the framework, choose a suitable design, and avoid causal claims from an uncontrolled before-and-after comparison."
+          "text": "Adapt this question to your baseline findings, participants, and research design. Specify the activity you will introduce and the evidence you will use to examine it."
         }
       ],
       "Implementation Flow": [
         {
-          "type": "paragraph",
-          "text": "Condensed planning flow adapted for the portal; it is not an official diagram."
-        },
-        {
-          "type": "sequence",
-          "items": [
-            "Select a target competency and define observable learner behaviors.",
-            "Choose sequenced activities with active practice and explicit instruction.",
-            "Model and rehearse the skill using relevant classroom situations.",
-            "Provide opportunities to apply it and offer feedback.",
-            "Compare learning evidence and review how consistently activities were delivered."
-          ]
+          "type": "image",
+          "src": "assets/model-flows/casel.png",
+          "alt": "Select a competency: Select a target competency and define observable learner behaviors.; Plan sequenced activities: Choose sequenced activities with active practice and explicit instruction.; Model and practise: Model and rehearse the skill using relevant classroom situations.; Apply and give feedback: Provide opportunities to apply it and offer feedback.; Review learning: Compare learning evidence and review how consistently activities were delivered.",
+          "caption": "Suggested school-use flow informed by CASEL, n.d.; Durlak et al., 2011."
         }
       ],
       "Evidence From Related Studies": [
@@ -14809,13 +14300,13 @@ const MODELS = [
         },
         {
           "type": "paragraph",
-          "text": "CASEL organizes competencies and learning settings. A locally assembled set of reflection activities is not automatically equivalent to the programs in the meta-analysis. SEL instruction also does not replace professional mental health assessment or care."
+          "text": "CASEL organizes competencies and learning settings. When designing local activities, consider how their content, duration, and delivery compare with the programs studied. SEL instruction complements professional mental health support when learners need it."
         }
       ],
       "Data to Gather": [
         {
           "type": "paragraph",
-          "text": "Suggested evidence for the proposed local inquiry; collect only information needed for the question."
+          "text": "Gather evidence that answers your research question, such as:"
         },
         {
           "type": "list",
@@ -14830,7 +14321,7 @@ const MODELS = [
       "Indicators of Success": [
         {
           "type": "paragraph",
-          "text": "Proposed indicators to agree on before implementation; set realistic targets from baseline data. These are not guaranteed outcomes or validated cutoffs."
+          "text": "Set realistic targets using your baseline findings and review progress through the following indicators."
         },
         {
           "type": "list",
@@ -14896,7 +14387,7 @@ const MODELS = [
       "Model Overview": [
         {
           "type": "paragraph",
-          "text": "A career exploration framework organizing vocational interests into six broad areas; it underlies the O*NET Interest Profiler. (National Center for O*NET Development, n.d.; Rounds et al., 2021)."
+          "text": "A career exploration framework organizing vocational interests into six broad areas; it underlies the O*NET Interest Profiler (National Center for O*NET Development, n.d.; Rounds et al., 2021)."
         },
         {
           "type": "paragraph",
@@ -14906,7 +14397,7 @@ const MODELS = [
       "When to Use It": [
         {
           "type": "paragraph",
-          "text": "Use for guided career-interest exploration and discussion of multiple options. An interest profile describes preferences; it is not an aptitude test, diagnosis, or basis for restricting a learner’s opportunities. (National Center for O*NET Development, n.d.; Rounds et al., 2021)."
+          "text": "Use for guided career-interest exploration and discussion of multiple options. An interest profile describes preferences; it is not an aptitude test, diagnosis, or basis for restricting a learner’s opportunities (National Center for O*NET Development, n.d.; Rounds et al., 2021)."
         }
       ],
       "Core Features": [
@@ -14929,7 +14420,7 @@ const MODELS = [
       "Baseline Data Needed": [
         {
           "type": "paragraph",
-          "text": "Suggested local baseline measures; these are planning choices, not a standardized instrument."
+          "text": "Begin with the following information to understand the problem and plan your study."
         },
         {
           "type": "list",
@@ -14943,7 +14434,7 @@ const MODELS = [
       "How to Use It": [
         {
           "type": "paragraph",
-          "text": "Practical sequence adapted from the cited framework and implementation literature (National Center for O*NET Development, n.d.; Rounds et al., 2021). The school-specific details require local review."
+          "text": "Suggested sequence for school use, informed by the framework and implementation literature (National Center for O*NET Development, n.d.; Rounds et al., 2021). Adapt the details to your setting."
         },
         {
           "type": "sequence",
@@ -14959,27 +14450,19 @@ const MODELS = [
       "Action Research Application": [
         {
           "type": "paragraph",
-          "text": "Proposed local inquiry: How does guided use of career-interest information influence the range and justification of pathways learners consider?"
+          "text": "Possible research question: How does guided use of career-interest information influence the range and justification of pathways learners consider?"
         },
         {
           "type": "paragraph",
-          "text": "This question is a planning example, not a reported finding. The evidence section identifies the documented uses and limits. Define the actual intervention separately from the framework, choose a suitable design, and avoid causal claims from an uncontrolled before-and-after comparison."
+          "text": "Adapt this question to your baseline findings, participants, and research design. Specify the activity you will introduce and the evidence you will use to examine it."
         }
       ],
       "Implementation Flow": [
         {
-          "type": "paragraph",
-          "text": "Condensed planning flow adapted for the portal; it is not an official diagram."
-        },
-        {
-          "type": "sequence",
-          "items": [
-            "Explain the six interest areas and the exploratory purpose of the activity.",
-            "Use an authorized interest instrument following its administration instructions.",
-            "Discuss the profile with attention to mixed interests and uncertainty.",
-            "Explore several occupations and compare their tasks, requirements, and local pathways.",
-            "Create a learner-owned exploration plan and revisit interests over time."
-          ]
+          "type": "image",
+          "src": "assets/model-flows/riasec.png",
+          "alt": "Introduce the interest areas: Explain the six interest areas and the exploratory purpose of the activity.; Explore interests: Use an authorized interest instrument following its administration instructions.; Discuss the profile: Discuss the profile with attention to mixed interests and uncertainty.; Compare career pathways: Explore several occupations and compare their tasks, requirements, and local pathways.; Plan further exploration: Create a learner-owned exploration plan and revisit interests over time.",
+          "caption": "Suggested school-use flow informed by National Center for O*NET Development, n.d.; Rounds et al., 2021."
         }
       ],
       "Evidence From Related Studies": [
@@ -14989,13 +14472,13 @@ const MODELS = [
         },
         {
           "type": "paragraph",
-          "text": "Psychometric support for an inventory is different from evidence that one guidance session improves career outcomes. The manual does not establish that an informal translation or locally modified scoring method has the same properties."
+          "text": "The manual supports the inventory’s measurement properties and intended uses. Career outcomes require separate follow-up. Translations or changes to scoring need evidence of their own reliability and validity."
         }
       ],
       "Data to Gather": [
         {
           "type": "paragraph",
-          "text": "Suggested evidence for the proposed local inquiry; collect only information needed for the question."
+          "text": "Gather evidence that answers your research question, such as:"
         },
         {
           "type": "list",
@@ -15010,7 +14493,7 @@ const MODELS = [
       "Indicators of Success": [
         {
           "type": "paragraph",
-          "text": "Proposed indicators to agree on before implementation; set realistic targets from baseline data. These are not guaranteed outcomes or validated cutoffs."
+          "text": "Set realistic targets using your baseline findings and review progress through the following indicators."
         },
         {
           "type": "list",
@@ -15077,7 +14560,7 @@ const MODELS = [
       "Model Overview": [
         {
           "type": "paragraph",
-          "text": "A method for organizing workspaces and sustaining orderly work practices. (American Society for Quality, n.d.; Kanamori et al., 2016)."
+          "text": "A method for organizing workspaces and sustaining orderly work practices (American Society for Quality, n.d.; Kanamori et al., 2016)."
         },
         {
           "type": "paragraph",
@@ -15087,7 +14570,7 @@ const MODELS = [
       "When to Use It": [
         {
           "type": "paragraph",
-          "text": "Use for a clearly bounded workspace or filing process where unnecessary movement, inconsistent locations, or clutter cause difficulty. Establish record-retention and access rules before sorting documents. (American Society for Quality, n.d.; Kanamori et al., 2016)."
+          "text": "Use for a clearly bounded workspace or filing process where unnecessary movement, inconsistent locations, or clutter cause difficulty. Establish record-retention and access rules before sorting documents (American Society for Quality, n.d.; Kanamori et al., 2016)."
         }
       ],
       "Core Features": [
@@ -15109,7 +14592,7 @@ const MODELS = [
       "Baseline Data Needed": [
         {
           "type": "paragraph",
-          "text": "Suggested local baseline measures; these are planning choices, not a standardized instrument."
+          "text": "Begin with the following information to understand the problem and plan your study."
         },
         {
           "type": "list",
@@ -15123,7 +14606,7 @@ const MODELS = [
       "How to Use It": [
         {
           "type": "paragraph",
-          "text": "Practical sequence adapted from the cited framework and implementation literature (American Society for Quality, n.d.; Kanamori et al., 2016). The school-specific details require local review."
+          "text": "Suggested sequence for school use, informed by the framework and implementation literature (American Society for Quality, n.d.; Kanamori et al., 2016). Adapt the details to your setting."
         },
         {
           "type": "sequence",
@@ -15139,27 +14622,19 @@ const MODELS = [
       "Action Research Application": [
         {
           "type": "paragraph",
-          "text": "Proposed local inquiry: How does a 5S filing arrangement affect retrieval time, errors, and maintenance effort in one office process?"
+          "text": "Possible research question: How does a 5S filing arrangement affect retrieval time, errors, and maintenance effort in one office process?"
         },
         {
           "type": "paragraph",
-          "text": "This question is a planning example, not a reported finding. The evidence section identifies the documented uses and limits. Define the actual intervention separately from the framework, choose a suitable design, and avoid causal claims from an uncontrolled before-and-after comparison."
+          "text": "Adapt this question to your baseline findings, participants, and research design. Specify the activity you will introduce and the evidence you will use to examine it."
         }
       ],
       "Implementation Flow": [
         {
-          "type": "paragraph",
-          "text": "Condensed planning flow adapted for the portal; it is not an official diagram."
-        },
-        {
-          "type": "sequence",
-          "items": [
-            "Sort items by use and retention requirements; authorize any disposal separately.",
-            "Set needed items in clearly labeled and agreed locations.",
-            "Clean and inspect the area while identifying recurring causes of disorder.",
-            "Standardize filing rules, labels, ownership, and checking routines.",
-            "Sustain the arrangement through periodic checks and staff feedback."
-          ]
+          "type": "image",
+          "src": "assets/model-flows/five-s.png",
+          "alt": "Sort: Sort items by use and retention requirements; authorize any disposal separately.; Set in order: Set needed items in clearly labeled and agreed locations.; Shine: Clean and inspect the area while identifying recurring causes of disorder.; Standardize: Standardize filing rules, labels, ownership, and checking routines.; Sustain: Sustain the arrangement through periodic checks and staff feedback.",
+          "caption": "Suggested school-use flow informed by American Society for Quality, n.d.; Kanamori et al., 2016."
         }
       ],
       "Evidence From Related Studies": [
@@ -15169,13 +14644,13 @@ const MODELS = [
         },
         {
           "type": "paragraph",
-          "text": "ASQ explains the 5S method. The proposed filing study transfers its organizational principles to a school setting; it requires local testing and cannot justify disposal of official records."
+          "text": "ASQ explains the 5S method. A school filing project can use these organizational principles and assess changes in retrieval time and usability. Follow official retention and disposal requirements when handling records."
         }
       ],
       "Data to Gather": [
         {
           "type": "paragraph",
-          "text": "Suggested evidence for the proposed local inquiry; collect only information needed for the question."
+          "text": "Gather evidence that answers your research question, such as:"
         },
         {
           "type": "list",
@@ -15190,7 +14665,7 @@ const MODELS = [
       "Indicators of Success": [
         {
           "type": "paragraph",
-          "text": "Proposed indicators to agree on before implementation; set realistic targets from baseline data. These are not guaranteed outcomes or validated cutoffs."
+          "text": "Set realistic targets using your baseline findings and review progress through the following indicators."
         },
         {
           "type": "list",
@@ -15256,7 +14731,7 @@ const MODELS = [
       "Model Overview": [
         {
           "type": "paragraph",
-          "text": "A high-level process map linking suppliers, inputs, process, outputs, and customers. (American Society for Quality, n.d.; Amorim et al., 2024)."
+          "text": "A high-level process map linking suppliers, inputs, process, outputs, and customers (American Society for Quality, n.d.; Amorim et al., 2024)."
         },
         {
           "type": "paragraph",
@@ -15266,7 +14741,7 @@ const MODELS = [
       "When to Use It": [
         {
           "type": "paragraph",
-          "text": "Use at the start of process clarification when staff need agreement about boundaries, inputs, outputs, and users. It is a high-level map, not a substitute for detailed routing instructions. (American Society for Quality, n.d.; Amorim et al., 2024)."
+          "text": "Use at the start of process clarification when staff need agreement about boundaries, inputs, outputs, and users. It is a high-level map, not a substitute for detailed routing instructions (American Society for Quality, n.d.; Amorim et al., 2024)."
         }
       ],
       "Core Features": [
@@ -15288,7 +14763,7 @@ const MODELS = [
       "Baseline Data Needed": [
         {
           "type": "paragraph",
-          "text": "Suggested local baseline measures; these are planning choices, not a standardized instrument."
+          "text": "Begin with the following information to understand the problem and plan your study."
         },
         {
           "type": "list",
@@ -15302,7 +14777,7 @@ const MODELS = [
       "How to Use It": [
         {
           "type": "paragraph",
-          "text": "Practical sequence adapted from the cited framework and implementation literature (American Society for Quality, n.d.; Amorim et al., 2024). The school-specific details require local review."
+          "text": "Suggested sequence for school use, informed by the framework and implementation literature (American Society for Quality, n.d.; Amorim et al., 2024). Adapt the details to your setting."
         },
         {
           "type": "sequence",
@@ -15318,27 +14793,19 @@ const MODELS = [
       "Action Research Application": [
         {
           "type": "paragraph",
-          "text": "Proposed local inquiry: What missing inputs and unclear handoffs become visible when a school document-request process is mapped through SIPOC?"
+          "text": "Possible research question: What missing inputs and unclear handoffs become visible when a school document-request process is mapped through SIPOC?"
         },
         {
           "type": "paragraph",
-          "text": "This question is a planning example, not a reported finding. The evidence section identifies the documented uses and limits. Define the actual intervention separately from the framework, choose a suitable design, and avoid causal claims from an uncontrolled before-and-after comparison."
+          "text": "Adapt this question to your baseline findings, participants, and research design. Specify the activity you will introduce and the evidence you will use to examine it."
         }
       ],
       "Implementation Flow": [
         {
-          "type": "paragraph",
-          "text": "Condensed planning flow adapted for the portal; it is not an official diagram."
-        },
-        {
-          "type": "sequence",
-          "items": [
-            "Define the service and its start and end points with staff and users.",
-            "Identify the outputs and who receives or uses them.",
-            "Outline the principal process stages at a high level.",
-            "Identify required inputs and their suppliers.",
-            "Validate the map against real cases and identify a specific gap for further analysis."
-          ]
+          "type": "image",
+          "src": "assets/model-flows/sipoc.png",
+          "alt": "Define the service: Define the service and its start and end points with staff and users.; Identify outputs and users: Identify the outputs and who receives or uses them.; Outline the process: Outline the principal process stages at a high level.; Identify inputs and suppliers: Identify required inputs and their suppliers.; Check the map: Validate the map against real cases and identify a specific gap for further analysis.",
+          "caption": "Suggested school-use flow informed by American Society for Quality, n.d.; Amorim et al., 2024."
         }
       ],
       "Evidence From Related Studies": [
@@ -15348,13 +14815,13 @@ const MODELS = [
         },
         {
           "type": "paragraph",
-          "text": "The study supports process description and understanding; it does not isolate a causal reduction in turnaround time. ASQ provides the mapping method. Any simplified request procedure developed from a map is a separate local change requiring evaluation."
+          "text": "The study provides evidence about process description and understanding; its design does not establish a causal reduction in turnaround time. ASQ explains the mapping method. Assess any resulting change to a request procedure using service records and user feedback."
         }
       ],
       "Data to Gather": [
         {
           "type": "paragraph",
-          "text": "Suggested evidence for the proposed local inquiry; collect only information needed for the question."
+          "text": "Gather evidence that answers your research question, such as:"
         },
         {
           "type": "list",
@@ -15369,7 +14836,7 @@ const MODELS = [
       "Indicators of Success": [
         {
           "type": "paragraph",
-          "text": "Proposed indicators to agree on before implementation; set realistic targets from baseline data. These are not guaranteed outcomes or validated cutoffs."
+          "text": "Set realistic targets using your baseline findings and review progress through the following indicators."
         },
         {
           "type": "list",
@@ -15435,7 +14902,7 @@ const MODELS = [
       "Model Overview": [
         {
           "type": "paragraph",
-          "text": "A standardized graphical notation for describing business processes and their flow. (Object Management Group, 2014; Reijers & Mendling, 2011)."
+          "text": "A standardized graphical notation for describing business processes and their flow (Object Management Group, 2014; Reijers & Mendling, 2011)."
         },
         {
           "type": "paragraph",
@@ -15445,7 +14912,7 @@ const MODELS = [
       "When to Use It": [
         {
           "type": "paragraph",
-          "text": "Use when a service has handoffs, alternative routes, or decisions that need a shared visual explanation. Provide a notation key and check that the intended readers understand the diagram. (Object Management Group, 2014; Reijers & Mendling, 2011)."
+          "text": "Use when a service has handoffs, alternative routes, or decisions that need a shared visual explanation. Provide a notation key and check that the intended readers understand the diagram (Object Management Group, 2014; Reijers & Mendling, 2011)."
         }
       ],
       "Core Features": [
@@ -15467,7 +14934,7 @@ const MODELS = [
       "Baseline Data Needed": [
         {
           "type": "paragraph",
-          "text": "Suggested local baseline measures; these are planning choices, not a standardized instrument."
+          "text": "Begin with the following information to understand the problem and plan your study."
         },
         {
           "type": "list",
@@ -15481,7 +14948,7 @@ const MODELS = [
       "How to Use It": [
         {
           "type": "paragraph",
-          "text": "Practical sequence adapted from the cited framework and implementation literature (Object Management Group, 2014; Reijers & Mendling, 2011). The school-specific details require local review."
+          "text": "Suggested sequence for school use, informed by the framework and implementation literature (Object Management Group, 2014; Reijers & Mendling, 2011). Adapt the details to your setting."
         },
         {
           "type": "sequence",
@@ -15497,27 +14964,19 @@ const MODELS = [
       "Action Research Application": [
         {
           "type": "paragraph",
-          "text": "Proposed local inquiry: Can staff interpret a validated BPMN service map accurately, and which parts require clearer explanations?"
+          "text": "Possible research question: Can staff interpret a validated BPMN service map accurately, and which parts require clearer explanations?"
         },
         {
           "type": "paragraph",
-          "text": "This question is a planning example, not a reported finding. The evidence section identifies the documented uses and limits. Define the actual intervention separately from the framework, choose a suitable design, and avoid causal claims from an uncontrolled before-and-after comparison."
+          "text": "Adapt this question to your baseline findings, participants, and research design. Specify the activity you will introduce and the evidence you will use to examine it."
         }
       ],
       "Implementation Flow": [
         {
-          "type": "paragraph",
-          "text": "Condensed planning flow adapted for the portal; it is not an official diagram."
-        },
-        {
-          "type": "sequence",
-          "items": [
-            "Observe a real process and identify its start, completion, participants, and tasks.",
-            "Represent tasks, events, and decisions using the relevant BPMN elements.",
-            "Show responsibility and flow, distinguishing sequence flow from messages between participants.",
-            "Walk through normal and exceptional cases with staff; correct ambiguities.",
-            "Test readers’ understanding before using the agreed diagram to support a process change."
-          ]
+          "type": "image",
+          "src": "assets/model-flows/bpmn.png",
+          "alt": "Observe the process: Observe a real process and identify its start, completion, participants, and tasks.; Map tasks and decisions: Represent tasks, events, and decisions using the relevant BPMN elements.; Connect roles and flows: Show responsibility and flow, distinguishing sequence flow from messages between participants.; Walk through cases: Walk through normal and exceptional cases with staff; correct ambiguities.; Check understanding: Test readers’ understanding before using the agreed diagram to support a process change.",
+          "caption": "Suggested school-use flow informed by Object Management Group, 2014; Reijers & Mendling, 2011."
         }
       ],
       "Evidence From Related Studies": [
@@ -15527,13 +14986,13 @@ const MODELS = [
         },
         {
           "type": "paragraph",
-          "text": "OMG’s BPMN specification defines notation and semantics; it is a technical standard, not evidence of improved office efficiency. The cited comprehension study does not establish that BPMN is superior to all other formats or that it automates a process."
+          "text": "OMG’s specification defines BPMN notation and meaning. The comprehension study highlights the importance of readable diagrams and user understanding. Claims about improved office efficiency, superiority over other formats, or process automation require separate evidence."
         }
       ],
       "Data to Gather": [
         {
           "type": "paragraph",
-          "text": "Suggested evidence for the proposed local inquiry; collect only information needed for the question."
+          "text": "Gather evidence that answers your research question, such as:"
         },
         {
           "type": "list",
@@ -15548,7 +15007,7 @@ const MODELS = [
       "Indicators of Success": [
         {
           "type": "paragraph",
-          "text": "Proposed indicators to agree on before implementation; set realistic targets from baseline data. These are not guaranteed outcomes or validated cutoffs."
+          "text": "Set realistic targets using your baseline findings and review progress through the following indicators."
         },
         {
           "type": "list",
@@ -15632,7 +15091,7 @@ const MODELS = [
       "Model Overview": [
         {
           "type": "paragraph",
-          "text": "A developmental framework explaining interconnected foundations of financial capability in young people. (Consumer Financial Protection Bureau, 2016, 2018)."
+          "text": "A developmental framework explaining interconnected foundations of financial capability in young people (Consumer Financial Protection Bureau, 2016, 2018)."
         },
         {
           "type": "paragraph",
@@ -15642,7 +15101,7 @@ const MODELS = [
       "When to Use It": [
         {
           "type": "paragraph",
-          "text": "Use to plan age-appropriate financial learning that includes planning skills and habits as well as factual knowledge. Use fictional financial situations rather than requiring family financial disclosures. (Consumer Financial Protection Bureau, 2016, 2018)."
+          "text": "Use to plan age-appropriate financial learning that includes planning skills and habits as well as factual knowledge. Use fictional financial situations rather than requiring family financial disclosures (Consumer Financial Protection Bureau, 2016, 2018)."
         }
       ],
       "Core Features": [
@@ -15662,7 +15121,7 @@ const MODELS = [
       "Baseline Data Needed": [
         {
           "type": "paragraph",
-          "text": "Suggested local baseline measures; these are planning choices, not a standardized instrument."
+          "text": "Begin with the following information to understand the problem and plan your study."
         },
         {
           "type": "list",
@@ -15676,7 +15135,7 @@ const MODELS = [
       "How to Use It": [
         {
           "type": "paragraph",
-          "text": "Practical sequence adapted from the cited framework and implementation literature (Consumer Financial Protection Bureau, 2016, 2018). The school-specific details require local review."
+          "text": "Suggested sequence for school use, informed by the framework and implementation literature (Consumer Financial Protection Bureau, 2016, 2018). Adapt the details to your setting."
         },
         {
           "type": "sequence",
@@ -15692,27 +15151,19 @@ const MODELS = [
       "Action Research Application": [
         {
           "type": "paragraph",
-          "text": "Proposed local inquiry: What changes in planning and explanation of spending choices follow a sequence of simulated allowance activities?"
+          "text": "Possible research question: What changes in planning and explanation of spending choices follow a sequence of simulated allowance activities?"
         },
         {
           "type": "paragraph",
-          "text": "This question is a planning example, not a reported finding. The evidence section identifies the documented uses and limits. Define the actual intervention separately from the framework, choose a suitable design, and avoid causal claims from an uncontrolled before-and-after comparison."
+          "text": "Adapt this question to your baseline findings, participants, and research design. Specify the activity you will introduce and the evidence you will use to examine it."
         }
       ],
       "Implementation Flow": [
         {
-          "type": "paragraph",
-          "text": "Condensed planning flow adapted for the portal; it is not an official diagram."
-        },
-        {
-          "type": "sequence",
-          "items": [
-            "Identify the relevant developmental stage and financial-learning need.",
-            "Choose objectives across planning, habits, and informed decisions.",
-            "Select activities such as a simulated budget and comparison-shopping task.",
-            "Choose assessment tasks suited to the selected objectives using the measurement guide.",
-            "Review changes in task performance and reasoning before revising instruction."
-          ]
+          "type": "image",
+          "src": "assets/model-flows/financial-building-blocks.png",
+          "alt": "Identify the learning need: Identify the relevant developmental stage and financial-learning need.; Choose objectives: Choose objectives across planning, habits, and informed decisions.; Plan learning activities: Select activities such as a simulated budget and comparison-shopping task.; Select assessment tasks: Choose assessment tasks suited to the selected objectives using the measurement guide.; Review and refine: Review changes in task performance and reasoning before revising instruction.",
+          "caption": "Suggested school-use flow informed by Consumer Financial Protection Bureau, 2016, 2018."
         }
       ],
       "Evidence From Related Studies": [
@@ -15722,13 +15173,13 @@ const MODELS = [
         },
         {
           "type": "paragraph",
-          "text": "These are a developmental synthesis and measurement guidance, not a controlled trial of the simulated allowance activity proposed here. Changes in classroom task performance should not be interpreted as proof of improved household finances or adult financial well-being."
+          "text": "These sources provide developmental and measurement guidance. For a simulated allowance activity, assess learners’ decisions and explanations. Classroom task results alone cannot establish changes in household finances or adult financial well-being."
         }
       ],
       "Data to Gather": [
         {
           "type": "paragraph",
-          "text": "Suggested evidence for the proposed local inquiry; collect only information needed for the question."
+          "text": "Gather evidence that answers your research question, such as:"
         },
         {
           "type": "list",
@@ -15743,7 +15194,7 @@ const MODELS = [
       "Indicators of Success": [
         {
           "type": "paragraph",
-          "text": "Proposed indicators to agree on before implementation; set realistic targets from baseline data. These are not guaranteed outcomes or validated cutoffs."
+          "text": "Set realistic targets using your baseline findings and review progress through the following indicators."
         },
         {
           "type": "list",
@@ -15828,7 +15279,7 @@ const MODELS = [
       "Model Overview": [
         {
           "type": "paragraph",
-          "text": "An outcome-based framework for financial knowledge, behaviors, and attitudes across four content areas. (OECD & European Union, 2023; OECD, 2024)."
+          "text": "An outcome-based framework for financial knowledge, behaviors, and attitudes across four content areas (OECD & European Union, 2023; OECD, 2024)."
         },
         {
           "type": "paragraph",
@@ -15838,7 +15289,7 @@ const MODELS = [
       "When to Use It": [
         {
           "type": "paragraph",
-          "text": "Use for mapping financial-learning objectives and assessment tasks to defined competencies. Adapt currency, institutions, and examples to learners’ context without claiming that an adapted test is standardized. (OECD & European Union, 2023; OECD, 2024)."
+          "text": "Use for mapping financial-learning objectives and assessment tasks to defined competencies. Adapt currency, institutions, and examples to learners’ context without claiming that an adapted test is standardized (OECD & European Union, 2023; OECD, 2024)."
         }
       ],
       "Core Features": [
@@ -15859,7 +15310,7 @@ const MODELS = [
       "Baseline Data Needed": [
         {
           "type": "paragraph",
-          "text": "Suggested local baseline measures; these are planning choices, not a standardized instrument."
+          "text": "Begin with the following information to understand the problem and plan your study."
         },
         {
           "type": "list",
@@ -15873,7 +15324,7 @@ const MODELS = [
       "How to Use It": [
         {
           "type": "paragraph",
-          "text": "Practical sequence adapted from the cited framework and implementation literature (OECD & European Union, 2023; OECD, 2024). The school-specific details require local review."
+          "text": "Suggested sequence for school use, informed by the framework and implementation literature (OECD & European Union, 2023; OECD, 2024). Adapt the details to your setting."
         },
         {
           "type": "sequence",
@@ -15889,27 +15340,19 @@ const MODELS = [
       "Action Research Application": [
         {
           "type": "paragraph",
-          "text": "Proposed local inquiry: Which financial competencies improve after instruction using locally contextualized budgeting and comparison tasks?"
+          "text": "Possible research question: Which financial competencies improve after instruction using locally contextualized budgeting and comparison tasks?"
         },
         {
           "type": "paragraph",
-          "text": "This question is a planning example, not a reported finding. The evidence section identifies the documented uses and limits. Define the actual intervention separately from the framework, choose a suitable design, and avoid causal claims from an uncontrolled before-and-after comparison."
+          "text": "Adapt this question to your baseline findings, participants, and research design. Specify the activity you will introduce and the evidence you will use to examine it."
         }
       ],
       "Implementation Flow": [
         {
-          "type": "paragraph",
-          "text": "Condensed planning flow adapted for the portal; it is not an official diagram."
-        },
-        {
-          "type": "sequence",
-          "items": [
-            "Select competencies appropriate to learners’ age and the documented gap.",
-            "Translate each competency into an observable learning objective.",
-            "Develop locally relevant scenarios and check their financial accuracy.",
-            "Teach and assess using tasks that require explanation of decisions.",
-            "Review performance by competency and refine tasks with evidence of difficulty."
-          ]
+          "type": "image",
+          "src": "assets/model-flows/financial-competence.png",
+          "alt": "Select competencies: Select competencies appropriate to learners’ age and the documented gap.; Define learning objectives: Translate each competency into an observable learning objective.; Develop local scenarios: Develop locally relevant scenarios and check their financial accuracy.; Teach and assess: Teach and assess using tasks that require explanation of decisions.; Refine by competency: Review performance by competency and refine tasks with evidence of difficulty.",
+          "caption": "Suggested school-use flow informed by OECD & European Union, 2023; OECD, 2024."
         }
       ],
       "Evidence From Related Studies": [
@@ -15919,13 +15362,13 @@ const MODELS = [
         },
         {
           "type": "paragraph",
-          "text": "PISA’s cross-sectional findings do not establish that exposure to financial education caused higher scores, and they do not evaluate the 2023 framework as an intervention. They support careful assessment of application, while local instructional effectiveness remains to be investigated."
+          "text": "PISA’s cross-sectional findings describe associations and do not establish cause and effect or the effectiveness of the 2023 framework. Use relevant competencies to plan instruction, then assess how learners apply them in local tasks."
         }
       ],
       "Data to Gather": [
         {
           "type": "paragraph",
-          "text": "Suggested evidence for the proposed local inquiry; collect only information needed for the question."
+          "text": "Gather evidence that answers your research question, such as:"
         },
         {
           "type": "list",
@@ -15940,7 +15383,7 @@ const MODELS = [
       "Indicators of Success": [
         {
           "type": "paragraph",
-          "text": "Proposed indicators to agree on before implementation; set realistic targets from baseline data. These are not guaranteed outcomes or validated cutoffs."
+          "text": "Set realistic targets using your baseline findings and review progress through the following indicators."
         },
         {
           "type": "list",
@@ -16007,7 +15450,7 @@ const MODELS = [
       "Model Overview": [
         {
           "type": "paragraph",
-          "text": "An outcome framework emphasizing financial security and freedom of choice in the present and future. (Consumer Financial Protection Bureau, 2015, 2017)."
+          "text": "An outcome framework emphasizing financial security and freedom of choice in the present and future (Consumer Financial Protection Bureau, 2015, 2017)."
         },
         {
           "type": "paragraph",
@@ -16017,7 +15460,7 @@ const MODELS = [
       "When to Use It": [
         {
           "type": "paragraph",
-          "text": "Use as an outcome framework for adult financial education research, or as a conceptual lens for discussing fictional situations with learners. Distinguish this use from administering the adult financial well-being scale. (Consumer Financial Protection Bureau, 2015, 2017)."
+          "text": "Use as an outcome framework for adult financial education research, or as a conceptual lens for discussing fictional situations with learners. Distinguish this use from administering the adult financial well-being scale (Consumer Financial Protection Bureau, 2015, 2017)."
         }
       ],
       "Core Features": [
@@ -16038,7 +15481,7 @@ const MODELS = [
       "Baseline Data Needed": [
         {
           "type": "paragraph",
-          "text": "Suggested local baseline measures; these are planning choices, not a standardized instrument."
+          "text": "Begin with the following information to understand the problem and plan your study."
         },
         {
           "type": "list",
@@ -16052,7 +15495,7 @@ const MODELS = [
       "How to Use It": [
         {
           "type": "paragraph",
-          "text": "Practical sequence adapted from the cited framework and implementation literature (Consumer Financial Protection Bureau, 2015, 2017). The school-specific details require local review."
+          "text": "Suggested sequence for school use, informed by the framework and implementation literature (Consumer Financial Protection Bureau, 2015, 2017). Adapt the details to your setting."
         },
         {
           "type": "sequence",
@@ -16068,27 +15511,19 @@ const MODELS = [
       "Action Research Application": [
         {
           "type": "paragraph",
-          "text": "Proposed local inquiry: How do adult participants describe changes in financial confidence and well-being during an education program, and what contextual factors influence those accounts?"
+          "text": "Possible research question: How do adult participants describe changes in financial confidence and well-being during an education program, and what contextual factors influence those accounts?"
         },
         {
           "type": "paragraph",
-          "text": "This question is a planning example, not a reported finding. The evidence section identifies the documented uses and limits. Define the actual intervention separately from the framework, choose a suitable design, and avoid causal claims from an uncontrolled before-and-after comparison."
+          "text": "Adapt this question to your baseline findings, participants, and research design. Specify the activity you will introduce and the evidence you will use to examine it."
         }
       ],
       "Implementation Flow": [
         {
-          "type": "paragraph",
-          "text": "Condensed planning flow adapted for the portal; it is not an official diagram."
-        },
-        {
-          "type": "sequence",
-          "items": [
-            "Define whether the activity concerns financial learning or measurement of adult well-being.",
-            "Choose outcomes that reflect control, resilience, goals, and freedom of choice.",
-            "For adult measurement, use the official scale and scoring instructions without improvised scoring.",
-            "For learner activities, use fictional cases and assess reasoning rather than adult scale scores.",
-            "Interpret findings with contextual factors and explain what the measure cannot establish."
-          ]
+          "type": "image",
+          "src": "assets/model-flows/financial-wellbeing.png",
+          "alt": "Define the purpose: Define whether the activity concerns financial learning or measurement of adult well-being.; Choose outcomes: Choose outcomes that reflect control, resilience, goals, and freedom of choice.; Select the appropriate route: Adults: Use the official scale and scoring instructions.\n\nLearners: Use fictional cases and assess reasoning.; Interpret the findings: Interpret findings with contextual factors and explain what the measure cannot establish.",
+          "caption": "Suggested school-use flow informed by Consumer Financial Protection Bureau, 2015, 2017."
         }
       ],
       "Evidence From Related Studies": [
@@ -16098,13 +15533,13 @@ const MODELS = [
         },
         {
           "type": "paragraph",
-          "text": "This evidence supports a conceptual framework and measurement instrument, not the effectiveness of a particular educational program. The original scale’s evidence cannot automatically be transferred to children, a translated version, or an altered response scale."
+          "text": "The reports support the conceptual framework and measurement instrument. Educational program outcomes require separate assessment. Use with children, translations, or changes to the response scale requires additional evidence of measurement suitability."
         }
       ],
       "Data to Gather": [
         {
           "type": "paragraph",
-          "text": "Suggested evidence for the proposed local inquiry; collect only information needed for the question."
+          "text": "Gather evidence that answers your research question, such as:"
         },
         {
           "type": "list",
@@ -16119,7 +15554,7 @@ const MODELS = [
       "Indicators of Success": [
         {
           "type": "paragraph",
-          "text": "Proposed indicators to agree on before implementation; set realistic targets from baseline data. These are not guaranteed outcomes or validated cutoffs."
+          "text": "Set realistic targets using your baseline findings and review progress through the following indicators."
         },
         {
           "type": "list",
@@ -16204,7 +15639,7 @@ const MODELS = [
       "Model Overview": [
         {
           "type": "paragraph",
-          "text": "A global framework for reducing existing disaster risk and preventing new risk. (United Nations Office for Disaster Risk Reduction, 2015; United Nations General Assembly, 2023)."
+          "text": "A global framework for reducing existing disaster risk and preventing new risk (United Nations Office for Disaster Risk Reduction, 2015; United Nations General Assembly, 2023)."
         },
         {
           "type": "paragraph",
@@ -16214,7 +15649,7 @@ const MODELS = [
       "When to Use It": [
         {
           "type": "paragraph",
-          "text": "Use to organize a risk-governance or preparedness review across the four priorities. It is a global policy framework and does not supply a ready-made classroom intervention or emergency protocol. (United Nations Office for Disaster Risk Reduction, 2015; United Nations General Assembly, 2023)."
+          "text": "Use to organize a risk-governance or preparedness review across the four priorities. It is a global policy framework and does not supply a ready-made classroom intervention or emergency protocol (United Nations Office for Disaster Risk Reduction, 2015; United Nations General Assembly, 2023)."
         }
       ],
       "Core Features": [
@@ -16235,7 +15670,7 @@ const MODELS = [
       "Baseline Data Needed": [
         {
           "type": "paragraph",
-          "text": "Suggested local baseline measures; these are planning choices, not a standardized instrument."
+          "text": "Begin with the following information to understand the problem and plan your study."
         },
         {
           "type": "list",
@@ -16249,7 +15684,7 @@ const MODELS = [
       "How to Use It": [
         {
           "type": "paragraph",
-          "text": "Practical sequence adapted from the cited framework and implementation literature (United Nations Office for Disaster Risk Reduction, 2015; United Nations General Assembly, 2023). The school-specific details require local review."
+          "text": "Suggested sequence for school use, informed by the framework and implementation literature (United Nations Office for Disaster Risk Reduction, 2015; United Nations General Assembly, 2023). Adapt the details to your setting."
         },
         {
           "type": "sequence",
@@ -16265,27 +15700,19 @@ const MODELS = [
       "Action Research Application": [
         {
           "type": "paragraph",
-          "text": "Proposed local inquiry: How consistently are documented school risks reflected in responsibilities, resource decisions, and preparedness arrangements?"
+          "text": "Possible research question: How consistently are documented school risks reflected in responsibilities, resource decisions, and preparedness arrangements?"
         },
         {
           "type": "paragraph",
-          "text": "This question is a planning example, not a reported finding. The evidence section identifies the documented uses and limits. Define the actual intervention separately from the framework, choose a suitable design, and avoid causal claims from an uncontrolled before-and-after comparison."
+          "text": "Adapt this question to your baseline findings, participants, and research design. Specify the activity you will introduce and the evidence you will use to examine it."
         }
       ],
       "Implementation Flow": [
         {
-          "type": "paragraph",
-          "text": "Condensed planning flow adapted for the portal; it is not an official diagram."
-        },
-        {
-          "type": "sequence",
-          "items": [
-            "Organize existing risk information and identify important evidence gaps.",
-            "Map responsibilities and coordination arrangements for the priority risk.",
-            "Identify feasible risk-reduction investments and responsible decision makers.",
-            "Review preparedness and continuity arrangements with the designated DRRM personnel.",
-            "Monitor agreed actions and revise plans using exercise or event findings."
-          ]
+          "type": "image",
+          "src": "assets/model-flows/sendai.png",
+          "alt": "Understand the risk: Organize existing risk information and identify important evidence gaps.; Clarify responsibilities: Map responsibilities and coordination arrangements for the priority risk.; Plan risk reduction: Identify feasible risk-reduction investments and responsible decision makers.; Review preparedness: Review preparedness and continuity arrangements with the designated DRRM personnel.; Monitor and revise: Monitor agreed actions and revise plans using exercise or event findings.",
+          "caption": "Suggested school-use flow informed by United Nations Office for Disaster Risk Reduction, 2015; United Nations General Assembly, 2023."
         }
       ],
       "Evidence From Related Studies": [
@@ -16295,13 +15722,13 @@ const MODELS = [
         },
         {
           "type": "paragraph",
-          "text": "Sendai’s priorities justify organizing a school risk-management review, but global findings cannot establish local readiness. The proposed school review must use local evidence and current competent-authority guidance."
+          "text": "Use Sendai’s priorities to organize school risk-management planning. Determine local readiness through school evidence and current guidance from the responsible authorities."
         }
       ],
       "Data to Gather": [
         {
           "type": "paragraph",
-          "text": "Suggested evidence for the proposed local inquiry; collect only information needed for the question."
+          "text": "Gather evidence that answers your research question, such as:"
         },
         {
           "type": "list",
@@ -16316,7 +15743,7 @@ const MODELS = [
       "Indicators of Success": [
         {
           "type": "paragraph",
-          "text": "Proposed indicators to agree on before implementation; set realistic targets from baseline data. These are not guaranteed outcomes or validated cutoffs."
+          "text": "Set realistic targets using your baseline findings and review progress through the following indicators."
         },
         {
           "type": "list",
@@ -16383,7 +15810,7 @@ const MODELS = [
       "Model Overview": [
         {
           "type": "paragraph",
-          "text": "An all-hazards framework linking enabling systems and policies with three school safety pillars. (GADRRRES, 2022, n.d.)."
+          "text": "An all-hazards framework linking enabling systems and policies with three school safety pillars (GADRRRES, 2022, n.d.)."
         },
         {
           "type": "paragraph",
@@ -16393,7 +15820,7 @@ const MODELS = [
       "When to Use It": [
         {
           "type": "paragraph",
-          "text": "Use for reviewing how facilities, continuity management, and risk-reduction education work together. Assign technical safety judgments to qualified specialists and responsible authorities. (GADRRRES, 2022, n.d.)."
+          "text": "Use for reviewing how facilities, continuity management, and risk-reduction education work together. Assign technical safety judgments to qualified specialists and responsible authorities (GADRRRES, 2022, n.d.)."
         }
       ],
       "Core Features": [
@@ -16413,7 +15840,7 @@ const MODELS = [
       "Baseline Data Needed": [
         {
           "type": "paragraph",
-          "text": "Suggested local baseline measures; these are planning choices, not a standardized instrument."
+          "text": "Begin with the following information to understand the problem and plan your study."
         },
         {
           "type": "list",
@@ -16427,7 +15854,7 @@ const MODELS = [
       "How to Use It": [
         {
           "type": "paragraph",
-          "text": "Practical sequence adapted from the cited framework and implementation literature (GADRRRES, 2022, n.d.). The school-specific details require local review."
+          "text": "Suggested sequence for school use, informed by the framework and implementation literature (GADRRRES, 2022, n.d.). Adapt the details to your setting."
         },
         {
           "type": "sequence",
@@ -16443,27 +15870,19 @@ const MODELS = [
       "Action Research Application": [
         {
           "type": "paragraph",
-          "text": "Proposed local inquiry: How well does a revised continuity communication procedure reach learners with different access needs?"
+          "text": "Possible research question: How well does a revised continuity communication procedure reach learners with different access needs?"
         },
         {
           "type": "paragraph",
-          "text": "This question is a planning example, not a reported finding. The evidence section identifies the documented uses and limits. Define the actual intervention separately from the framework, choose a suitable design, and avoid causal claims from an uncontrolled before-and-after comparison."
+          "text": "Adapt this question to your baseline findings, participants, and research design. Specify the activity you will introduce and the evidence you will use to examine it."
         }
       ],
       "Implementation Flow": [
         {
-          "type": "paragraph",
-          "text": "Condensed planning flow adapted for the portal; it is not an official diagram."
-        },
-        {
-          "type": "sequence",
-          "items": [
-            "Review enabling policies, assigned roles, and available safety information.",
-            "Examine the three pillars with the school DRRM team and relevant specialists.",
-            "Identify a specific gap affecting safe and continuous access to education.",
-            "Agree on a feasible action, responsibilities, resources, and monitoring evidence.",
-            "Review implementation and update continuity arrangements after exercises or disruptions."
-          ]
+          "type": "image",
+          "src": "assets/model-flows/school-safety.png",
+          "alt": "Review policies and roles: Review enabling policies, assigned roles, and available safety information.; Examine the three pillars: Examine the three pillars with the school DRRM team and relevant specialists.; Identify a priority gap: Identify a specific gap affecting safe and continuous access to education.; Plan a feasible action: Agree on a feasible action, responsibilities, resources, and monitoring evidence.; Review and update: Review implementation and update continuity arrangements after exercises or disruptions.",
+          "caption": "Suggested school-use flow informed by GADRRRES, 2022, n.d.."
         }
       ],
       "Evidence From Related Studies": [
@@ -16473,13 +15892,13 @@ const MODELS = [
         },
         {
           "type": "paragraph",
-          "text": "The 2022–2030 framework supplies the organizing pillars. The survey is descriptive policy evidence, not proof that a particular communication procedure reduces disaster losses. Assess a local procedure through reach and implementation measures rather than inferring safety from a completed checklist."
+          "text": "The 2022–2030 framework organizes action around its school-safety pillars. For a local communication procedure, examine whom it reaches and how it works during exercises. A completed checklist alone cannot establish preparedness or a reduction in disaster losses."
         }
       ],
       "Data to Gather": [
         {
           "type": "paragraph",
-          "text": "Suggested evidence for the proposed local inquiry; collect only information needed for the question."
+          "text": "Gather evidence that answers your research question, such as:"
         },
         {
           "type": "list",
@@ -16494,7 +15913,7 @@ const MODELS = [
       "Indicators of Success": [
         {
           "type": "paragraph",
-          "text": "Proposed indicators to agree on before implementation; set realistic targets from baseline data. These are not guaranteed outcomes or validated cutoffs."
+          "text": "Set realistic targets using your baseline findings and review progress through the following indicators."
         },
         {
           "type": "list",
@@ -16592,7 +16011,7 @@ const MODELS = [
       "Baseline Data Needed": [
         {
           "type": "paragraph",
-          "text": "Suggested local baseline measures; these are planning choices, not a standardized instrument."
+          "text": "Begin with the following information to understand the problem and plan your study."
         },
         {
           "type": "list",
@@ -16606,7 +16025,7 @@ const MODELS = [
       "How to Use It": [
         {
           "type": "paragraph",
-          "text": "Practical sequence adapted from the cited framework and implementation literature (International Federation of Red Cross and Red Crescent Societies, n.d.-a, n.d.-b). The school-specific details require local review."
+          "text": "Suggested sequence for school use, informed by the framework and implementation literature (International Federation of Red Cross and Red Crescent Societies, n.d.-a, n.d.-b). Adapt the details to your setting."
         },
         {
           "type": "sequence",
@@ -16622,27 +16041,19 @@ const MODELS = [
       "Action Research Application": [
         {
           "type": "paragraph",
-          "text": "Proposed local inquiry: What warning-access barriers and available community capacities are identified through a participatory school-community assessment?"
+          "text": "Possible research question: What warning-access barriers and available community capacities are identified through a participatory school-community assessment?"
         },
         {
           "type": "paragraph",
-          "text": "This question is a planning example, not a reported finding. The evidence section identifies the documented uses and limits. Define the actual intervention separately from the framework, choose a suitable design, and avoid causal claims from an uncontrolled before-and-after comparison."
+          "text": "Adapt this question to your baseline findings, participants, and research design. Specify the activity you will introduce and the evidence you will use to examine it."
         }
       ],
       "Implementation Flow": [
         {
-          "type": "paragraph",
-          "text": "Condensed planning flow adapted for the portal; it is not an official diagram."
-        },
-        {
-          "type": "sequence",
-          "items": [
-            "Prepare the team, scope, facilitation arrangements, and safe participation process.",
-            "Plan the assessment with community representatives, including less-heard groups.",
-            "Gather and compare information on hazards, exposure, vulnerabilities, and capacities.",
-            "Validate findings and prioritize practical risk-reduction and contingency actions.",
-            "Support implementation, share findings, and review progress with participants."
-          ]
+          "type": "image",
+          "src": "assets/model-flows/evca.png",
+          "alt": "Prepare the team: Prepare the team, scope, facilitation arrangements, and safe participation process.; Plan with the community: Plan the assessment with community representatives, including less-heard groups.; Gather risk information: Gather and compare information on hazards, exposure, vulnerabilities, and capacities.; Agree on priority actions: Validate findings and prioritize practical risk-reduction and contingency actions.; Implement and learn: Support implementation, share findings, and review progress with participants.",
+          "caption": "Suggested school-use flow informed by International Federation of Red Cross and Red Crescent Societies, n.d.-a, n.d.-b."
         }
       ],
       "Evidence From Related Studies": [
@@ -16652,13 +16063,13 @@ const MODELS = [
         },
         {
           "type": "paragraph",
-          "text": "No direct school-level effectiveness study is established by the sources cited here. The proposed warning-access inquiry is a local adaptation to be evaluated, and its participatory maps cannot replace official hazard assessments."
+          "text": "The IFRC sources provide practical assessment guidance; school-level effects need to be examined locally. For a warning-access inquiry, use participatory findings alongside official hazard assessments and guidance from the responsible authorities."
         }
       ],
       "Data to Gather": [
         {
           "type": "paragraph",
-          "text": "Suggested evidence for the proposed local inquiry; collect only information needed for the question."
+          "text": "Gather evidence that answers your research question, such as:"
         },
         {
           "type": "list",
@@ -16673,7 +16084,7 @@ const MODELS = [
       "Indicators of Success": [
         {
           "type": "paragraph",
-          "text": "Proposed indicators to agree on before implementation; set realistic targets from baseline data. These are not guaranteed outcomes or validated cutoffs."
+          "text": "Set realistic targets using your baseline findings and review progress through the following indicators."
         },
         {
           "type": "list",
@@ -16739,7 +16150,7 @@ const MODELS = [
       "Model Overview": [
         {
           "type": "paragraph",
-          "text": "A framework connecting societal drivers, environmental pressures, environmental conditions, impacts, and responses. (European Environment Agency, 1999; Tscherning et al., 2012)."
+          "text": "A framework connecting societal drivers, environmental pressures, environmental conditions, impacts, and responses (European Environment Agency, 1999; Tscherning et al., 2012)."
         },
         {
           "type": "paragraph",
@@ -16749,7 +16160,7 @@ const MODELS = [
       "When to Use It": [
         {
           "type": "paragraph",
-          "text": "Use to organize an environmental issue into explicit relationships and compare response options. Define the system boundary and acknowledge uncertain links rather than presenting every arrow as demonstrated causation. (European Environment Agency, 1999; Tscherning et al., 2012)."
+          "text": "Use to organize an environmental issue into explicit relationships and compare response options. Define the system boundary and acknowledge uncertain links rather than presenting every arrow as demonstrated causation (European Environment Agency, 1999; Tscherning et al., 2012)."
         }
       ],
       "Core Features": [
@@ -16771,7 +16182,7 @@ const MODELS = [
       "Baseline Data Needed": [
         {
           "type": "paragraph",
-          "text": "Suggested local baseline measures; these are planning choices, not a standardized instrument."
+          "text": "Begin with the following information to understand the problem and plan your study."
         },
         {
           "type": "list",
@@ -16785,7 +16196,7 @@ const MODELS = [
       "How to Use It": [
         {
           "type": "paragraph",
-          "text": "Practical sequence adapted from the cited framework and implementation literature (European Environment Agency, 1999; Tscherning et al., 2012). The school-specific details require local review."
+          "text": "Suggested sequence for school use, informed by the framework and implementation literature (European Environment Agency, 1999; Tscherning et al., 2012). Adapt the details to your setting."
         },
         {
           "type": "sequence",
@@ -16801,27 +16212,19 @@ const MODELS = [
       "Action Research Application": [
         {
           "type": "paragraph",
-          "text": "Proposed local inquiry: Which drivers, pressures, and response options best explain and address a documented school waste issue?"
+          "text": "Possible research question: Which drivers, pressures, and response options best explain and address a documented school waste issue?"
         },
         {
           "type": "paragraph",
-          "text": "This question is a planning example, not a reported finding. The evidence section identifies the documented uses and limits. Define the actual intervention separately from the framework, choose a suitable design, and avoid causal claims from an uncontrolled before-and-after comparison."
+          "text": "Adapt this question to your baseline findings, participants, and research design. Specify the activity you will introduce and the evidence you will use to examine it."
         }
       ],
       "Implementation Flow": [
         {
-          "type": "paragraph",
-          "text": "Condensed planning flow adapted for the portal; it is not an official diagram."
-        },
-        {
-          "type": "sequence",
-          "items": [
-            "Define the environmental issue, location, time period, and intended decision.",
-            "Identify drivers and pressures using records and stakeholder evidence.",
-            "Specify state indicators and distinguish observed impacts from suspected effects.",
-            "Compare feasible responses and state which links each response is intended to address.",
-            "Review assumptions with stakeholders and monitor selected indicators."
-          ]
+          "type": "image",
+          "src": "assets/model-flows/dpsir.png",
+          "alt": "Define the issue: Define the environmental issue, location, time period, and intended decision.; Identify drivers and pressures: Identify drivers and pressures using records and stakeholder evidence.; Examine state and impacts: Specify state indicators and distinguish observed impacts from suspected effects.; Compare responses: Compare feasible responses and state which links each response is intended to address.; Review and monitor: Review assumptions with stakeholders and monitor selected indicators.",
+          "caption": "Suggested school-use flow informed by European Environment Agency, 1999; Tscherning et al., 2012."
         }
       ],
       "Evidence From Related Studies": [
@@ -16831,13 +16234,13 @@ const MODELS = [
         },
         {
           "type": "paragraph",
-          "text": "The EEA source provides the indicator framework. The review supports its analytical use, but does not validate every causal link in a school waste diagram or establish that a selected waste intervention will work."
+          "text": "The EEA source explains the indicator framework, while the review supports its analytical use. In a school waste study, support each proposed link with evidence and assess the results of the selected response."
         }
       ],
       "Data to Gather": [
         {
           "type": "paragraph",
-          "text": "Suggested evidence for the proposed local inquiry; collect only information needed for the question."
+          "text": "Gather evidence that answers your research question, such as:"
         },
         {
           "type": "list",
@@ -16852,7 +16255,7 @@ const MODELS = [
       "Indicators of Success": [
         {
           "type": "paragraph",
-          "text": "Proposed indicators to agree on before implementation; set realistic targets from baseline data. These are not guaranteed outcomes or validated cutoffs."
+          "text": "Set realistic targets using your baseline findings and review progress through the following indicators."
         },
         {
           "type": "list",
@@ -16918,7 +16321,7 @@ const MODELS = [
       "Model Overview": [
         {
           "type": "paragraph",
-          "text": "A whole-school framework linking sustainability across four areas. (UNESCO, 2024; Boeve-de Pauw et al., 2015)."
+          "text": "A whole-school framework linking sustainability across four areas (UNESCO, 2024; Boeve-de Pauw et al., 2015)."
         },
         {
           "type": "paragraph",
@@ -16928,7 +16331,7 @@ const MODELS = [
       "When to Use It": [
         {
           "type": "paragraph",
-          "text": "Use for whole-school sustainability planning that connects governance, operations, teaching, and community participation. A single cleanup or tree-planting event does not demonstrate implementation of the whole standard. (UNESCO, 2024; Boeve-de Pauw et al., 2015)."
+          "text": "Use for whole-school sustainability planning that connects governance, operations, teaching, and community participation. A single cleanup or tree-planting event does not demonstrate implementation of the whole standard (UNESCO, 2024; Boeve-de Pauw et al., 2015)."
         }
       ],
       "Core Features": [
@@ -16949,7 +16352,7 @@ const MODELS = [
       "Baseline Data Needed": [
         {
           "type": "paragraph",
-          "text": "Suggested local baseline measures; these are planning choices, not a standardized instrument."
+          "text": "Begin with the following information to understand the problem and plan your study."
         },
         {
           "type": "list",
@@ -16963,7 +16366,7 @@ const MODELS = [
       "How to Use It": [
         {
           "type": "paragraph",
-          "text": "Practical sequence adapted from the cited framework and implementation literature (UNESCO, 2024; Boeve-de Pauw et al., 2015). The school-specific details require local review."
+          "text": "Suggested sequence for school use, informed by the framework and implementation literature (UNESCO, 2024; Boeve-de Pauw et al., 2015). Adapt the details to your setting."
         },
         {
           "type": "sequence",
@@ -16979,27 +16382,19 @@ const MODELS = [
       "Action Research Application": [
         {
           "type": "paragraph",
-          "text": "Proposed local inquiry: How do coordinated school routines and classroom inquiry relate to waste reduction and learners’ explanations of sustainability?"
+          "text": "Possible research question: How do coordinated school routines and classroom inquiry relate to waste reduction and learners’ explanations of sustainability?"
         },
         {
           "type": "paragraph",
-          "text": "This question is a planning example, not a reported finding. The evidence section identifies the documented uses and limits. Define the actual intervention separately from the framework, choose a suitable design, and avoid causal claims from an uncontrolled before-and-after comparison."
+          "text": "Adapt this question to your baseline findings, participants, and research design. Specify the activity you will introduce and the evidence you will use to examine it."
         }
       ],
       "Implementation Flow": [
         {
-          "type": "paragraph",
-          "text": "Condensed planning flow adapted for the portal; it is not an official diagram."
-        },
-        {
-          "type": "sequence",
-          "items": [
-            "Review the four areas of the UNESCO standard with school stakeholders.",
-            "Select one documented sustainability issue and agree on a coordinated objective.",
-            "Connect an operational action with relevant learning tasks and participation arrangements.",
-            "Track operational results and learner understanding using separate measures.",
-            "Review implementation across the four areas and revise the school action plan."
-          ]
+          "type": "image",
+          "src": "assets/model-flows/green-school.png",
+          "alt": "Review the four areas: Review the four areas of the UNESCO standard with school stakeholders.; Choose a shared priority: Select one documented sustainability issue and agree on a coordinated objective.; Connect action and learning: Connect an operational action with relevant learning tasks and participation arrangements.; Track both outcomes: Track operational results and learner understanding using separate measures.; Revise the school plan: Review implementation across the four areas and revise the school action plan.",
+          "caption": "Suggested school-use flow informed by UNESCO, 2024; Boeve-de Pauw et al., 2015."
         }
       ],
       "Evidence From Related Studies": [
@@ -17009,13 +16404,13 @@ const MODELS = [
         },
         {
           "type": "paragraph",
-          "text": "UNESCO supplies whole-school implementation guidance. The cited study predates the standard and cannot validate it as a complete intervention. Local operational outcomes and learning outcomes should be assessed separately; using the standard does not confer UNESCO certification."
+          "text": "UNESCO provides whole-school implementation guidance. The Swedish study predates the 2024 standard, so it offers related evidence rather than an evaluation of that standard. Assess operational and learning outcomes separately. Using the standard does not confer UNESCO certification."
         }
       ],
       "Data to Gather": [
         {
           "type": "paragraph",
-          "text": "Suggested evidence for the proposed local inquiry; collect only information needed for the question."
+          "text": "Gather evidence that answers your research question, such as:"
         },
         {
           "type": "list",
@@ -17030,7 +16425,7 @@ const MODELS = [
       "Indicators of Success": [
         {
           "type": "paragraph",
-          "text": "Proposed indicators to agree on before implementation; set realistic targets from baseline data. These are not guaranteed outcomes or validated cutoffs."
+          "text": "Set realistic targets using your baseline findings and review progress through the following indicators."
         },
         {
           "type": "list",
@@ -17096,7 +16491,7 @@ const MODELS = [
       "Model Overview": [
         {
           "type": "paragraph",
-          "text": "An Earth-system framework identifying nine processes relevant to a safe operating space for humanity. (Stockholm Resilience Centre, n.d.; Richardson et al., 2023)."
+          "text": "An Earth-system framework identifying nine processes relevant to a safe operating space for humanity (Stockholm Resilience Centre, n.d.; Richardson et al., 2023)."
         },
         {
           "type": "paragraph",
@@ -17106,7 +16501,7 @@ const MODELS = [
       "When to Use It": [
         {
           "type": "paragraph",
-          "text": "Use as scientific content for examining Earth-system processes and their interactions. It is not a classroom teaching method, a local environmental standard, or a way to calculate school-level safety thresholds. (Stockholm Resilience Centre, n.d.; Richardson et al., 2023)."
+          "text": "Use as scientific content for examining Earth-system processes and their interactions. It is not a classroom teaching method, a local environmental standard, or a way to calculate school-level safety thresholds (Stockholm Resilience Centre, n.d.; Richardson et al., 2023)."
         }
       ],
       "Core Features": [
@@ -17128,7 +16523,7 @@ const MODELS = [
       "Baseline Data Needed": [
         {
           "type": "paragraph",
-          "text": "Suggested local baseline measures; these are planning choices, not a standardized instrument."
+          "text": "Begin with the following information to understand the problem and plan your study."
         },
         {
           "type": "list",
@@ -17142,7 +16537,7 @@ const MODELS = [
       "How to Use It": [
         {
           "type": "paragraph",
-          "text": "Practical sequence adapted from the cited framework and implementation literature (Stockholm Resilience Centre, n.d.; Richardson et al., 2023). The school-specific details require local review."
+          "text": "Suggested sequence for school use, informed by the framework and implementation literature (Stockholm Resilience Centre, n.d.; Richardson et al., 2023). Adapt the details to your setting."
         },
         {
           "type": "sequence",
@@ -17158,27 +16553,19 @@ const MODELS = [
       "Action Research Application": [
         {
           "type": "paragraph",
-          "text": "Proposed local inquiry: How do learners’ explanations of local–global environmental connections change during a source-based inquiry lesson?"
+          "text": "Possible research question: How do learners’ explanations of local–global environmental connections change during a source-based inquiry lesson?"
         },
         {
           "type": "paragraph",
-          "text": "This question is a planning example, not a reported finding. The evidence section identifies the documented uses and limits. Define the actual intervention separately from the framework, choose a suitable design, and avoid causal claims from an uncontrolled before-and-after comparison."
+          "text": "Adapt this question to your baseline findings, participants, and research design. Specify the activity you will introduce and the evidence you will use to examine it."
         }
       ],
       "Implementation Flow": [
         {
-          "type": "paragraph",
-          "text": "Condensed planning flow adapted for the portal; it is not an official diagram."
-        },
-        {
-          "type": "sequence",
-          "items": [
-            "Choose an Earth-system process relevant to the learning objective.",
-            "Read the scientific description and identify the scale and meaning of its indicators.",
-            "Examine possible connections with a local issue, marking evidence gaps.",
-            "Construct and discuss explanations that distinguish local observations from global findings.",
-            "Assess reasoning with a new example and revisit unsupported claims."
-          ]
+          "type": "image",
+          "src": "assets/model-flows/planetary-boundaries.png",
+          "alt": "Choose an Earth-system process: Choose an Earth-system process relevant to the learning objective.; Understand its indicators: Read the scientific description and identify the scale and meaning of its indicators.; Explore local connections: Examine possible connections with a local issue, marking evidence gaps.; Explain across scales: Construct and discuss explanations that distinguish local observations from global findings.; Assess and refine reasoning: Assess reasoning with a new example and revisit unsupported claims.",
+          "caption": "Suggested school-use flow informed by Stockholm Resilience Centre, n.d.; Richardson et al., 2023."
         }
       ],
       "Evidence From Related Studies": [
@@ -17188,13 +16575,13 @@ const MODELS = [
         },
         {
           "type": "paragraph",
-          "text": "The Stockholm Resilience Centre explains the framework. Neither source establishes that a concept-map lesson improves learning. The teaching approach must be specified separately and evaluated through learner evidence, without inventing school-level thresholds from global boundaries."
+          "text": "The Stockholm Resilience Centre explains the framework. Assess a concept-map lesson through learner work and reasoning. Global boundaries describe Earth-system processes and cannot be converted directly into school-level thresholds."
         }
       ],
       "Data to Gather": [
         {
           "type": "paragraph",
-          "text": "Suggested evidence for the proposed local inquiry; collect only information needed for the question."
+          "text": "Gather evidence that answers your research question, such as:"
         },
         {
           "type": "list",
@@ -17209,7 +16596,7 @@ const MODELS = [
       "Indicators of Success": [
         {
           "type": "paragraph",
-          "text": "Proposed indicators to agree on before implementation; set realistic targets from baseline data. These are not guaranteed outcomes or validated cutoffs."
+          "text": "Set realistic targets using your baseline findings and review progress through the following indicators."
         },
         {
           "type": "list",

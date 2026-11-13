@@ -200,7 +200,7 @@ function renderBlock(block) {
     const figure = document.createElement("figure");
     figure.className = "figure-frame";
     const img = document.createElement("img");
-    img.src = block.src;
+    img.src = (typeof MODEL_FLOW_IMAGES !== "undefined" && MODEL_FLOW_IMAGES[block.src]) || block.src;
     img.alt = block.alt || "Teaching model figure";
     figure.appendChild(img);
     if (block.caption) {

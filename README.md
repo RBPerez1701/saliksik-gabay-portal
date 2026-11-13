@@ -1,7 +1,7 @@
-# Saliksik-Gabay — Complete Portal Backup, Reference Revision
+# Saliksik-Gabay — Complete Portal Backup
 
 Backup date: 13 November 2026 (Philippines)
-Revision: references8 — replaces the earlier backup for future uploads.
+Revision: flows10 — replaces the earlier backup for future uploads.
 
 This is a complete, standalone copy of the latest portal package prepared in this conversation. It consolidates the earlier interface, feedback-link, proposal-builder, and Models and Frameworks updates. No earlier update ZIP is required.
 
@@ -15,7 +15,6 @@ This is a complete, standalone copy of the latest portal package prepared in thi
 - Microsoft Forms feedback link
 - Shared styles, JavaScript, seals, all model figures, and third-party ZIP component license
 - Compatibility page for older research-guide.html links
-- Catalogue notes and evaluation wording changes
 - SHA256SUMS.txt for file integrity checks
 
 ## Restore the portal
@@ -39,6 +38,7 @@ index.html: Home
 teaching-models.html: Models and Frameworks (original filename retained for existing links)
 models.js: complete catalogue
 script.js: catalogue interaction
+flow-images.js: portable copies of all 58 flow diagrams
 proposal-process.html: Proposal Writing Process
 proposal-builder.html: current Proposal Builder
 research-guide.html: compatibility redirect
@@ -52,7 +52,6 @@ assets/: seals and figures
 
 The builder uses browser storage key saliksik-gabay-research-v1. Preserve that key in future updates to maintain draft compatibility.
 
-## Corrected additional entries
-All 18 additions now use the original 11-section outline, with 2–3 sources per entry (39 reference entries across the additions), citations in the body, and explicit distinctions between documented findings, methodological guidance, and proposed local adaptations. The original 40 model entries are unchanged. See REFERENCE_REVIEW.md for the source review and its access limits.
 
-Some frameworks have methodological or policy support rather than direct school-level intervention trials. Do not interpret reference counts as evidence of effectiveness. Microsoft Forms and the live portal are not modified by creating this archive.
+## Implementation flows
+All 58 diagrams are included in assets/model-flows and in flow-images.js. Upload flow-images.js together with models.js, script.js, and teaching-models.html. Entries with diagrams show the diagram without a duplicate text list. The 18 additional frameworks now have diagrams based on their implementation guidance, with source citations in their captions.
