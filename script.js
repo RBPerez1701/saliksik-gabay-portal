@@ -239,6 +239,7 @@ function renderModel(model) {
 }
 
 function applyFilters() {
+  document.getElementById("clearFilters").disabled = !searchInput.value.trim() && !categoryFilter.value;
   filteredModels = searchModels(searchInput.value);
   let selected = filteredModels.find(model => model.id === selectedModelId) || filteredModels[0];
   selectedModelId = selected?.id || "";

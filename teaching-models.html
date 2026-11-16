@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Models and Frameworks | Saliksik-Gabay</title>
-  <link rel="stylesheet" href="styles.css?v=research88" />
+  <link rel="stylesheet" href="styles.css?v=compact88" />
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a><header class="topbar"><div class="container brand-row"><div class="brand-logos"><img src="assets/deped-seal.png" alt="Department of Education seal" class="seal"><img src="assets/sdo-bulacan-seal.png" alt="Schools Division of Bulacan seal" class="seal"></div><div class="brand-copy"><p class="eyebrow">Schools Division of Bulacan</p><h1>Saliksik-Gabay</h1><p class="subtext">Models, frameworks, and research support</p></div><a class="portal-feedback" href="https://forms.cloud.microsoft/r/pqEk4NJqM2" target="_blank" rel="noopener noreferrer">Feedback and Evaluation <span class="visually-hidden">(opens in a new tab)</span></a></div></header>
@@ -19,10 +19,10 @@
         <h2 id="browserTitle" class="section-title">Models and frameworks</h2>
         <span id="modelCount" class="pill" role="status"></span>
       </div>
-      <label class="filter-label" for="categoryFilter">Category</label><select id="categoryFilter" aria-controls="modelList"><option value="">All categories</option></select>
+      <div class="filter-toolbar"><label class="filter-label" for="categoryFilter">Category</label><button type="button" id="clearFilters" class="filter-clear" disabled>Clear filters</button></div><select id="categoryFilter" aria-controls="modelList"><option value="">All categories</option></select>
       <label class="visually-hidden" for="searchInput">Search models and frameworks</label>
-      <input id="searchInput" type="search" placeholder="Name, acronym, topic, or keyword" aria-controls="modelList" />
-      <p class="filter-help">Entries may appear in several categories. Try English or Filipino keywords. Category counts overlap.</p><button type="button" id="clearFilters" class="secondary-action">Clear filters</button>
+      <input id="searchInput" type="search" placeholder="Search models or keywords" aria-describedby="filterHelp" aria-controls="modelList" />
+      <p id="filterHelp" class="visually-hidden">Entries may appear in several categories. Search using English or Filipino keywords. Category counts overlap.</p>
       <div id="modelList" class="model-list"></div>
     </aside>
 
@@ -59,6 +59,6 @@
   <script src="models.js?v=research88"></script>
   <script src="flow-images.js?v=research88"></script>
   <script src="search-utils.js?v=research88"></script>
-  <script src="script.js?v=research88"></script>
+  <script src="script.js?v=compact88"></script>
 </body>
 </html>
