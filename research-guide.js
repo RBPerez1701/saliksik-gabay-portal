@@ -216,10 +216,7 @@ function modelFinder() {
       status.textContent = "Open a model to examine its evidence before deciding whether it fits.";
       return;
     }
-    const matches = MODELS.filter((model) => {
-      const index = [model.modelName, model.summary, model.category, model.learningArea, ...(model.tags || [])].join(" ").toLowerCase();
-      return words.every((word) => index.includes(word));
-    });
+    const matches = findModels(modelQuery);
     status.textContent = matches.length
       ? `Showing ${Math.min(5, matches.length)} of ${matches.length} matching entries.`
       : "No matching entry. Try a broader term or enter your own approach below.";
