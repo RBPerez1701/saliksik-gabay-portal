@@ -452,3 +452,5 @@ h1 {
 #categoryFilter{width:100%;min-height:44px;padding:10px;border:1px solid #cbd8e9;border-radius:12px;background:white;color:#17243b;font:inherit;margin-bottom:12px}
 .sidebar-head{flex-wrap:wrap}
 .reference-list{overflow-wrap:anywhere}
+
+.filter-help{font-size:.85rem;line-height:1.5;color:#46566a;margin:10px 0}.resource-card .pill{display:inline-block}.resource-card h3{overflow-wrap:anywhere}#clearFilters{margin:0 0 12px;cursor:pointer}

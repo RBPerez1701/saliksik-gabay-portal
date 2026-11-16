@@ -281,7 +281,41 @@ const MODELS = [
         }
       ]
     },
-    "category": "Teaching and Learning"
+    "category": "Teaching and Learning",
+    "categories": [
+      "Teaching and Learning",
+      "Literacy and Language",
+      "STEM and Problem Solving",
+      "Research, Planning and Evaluation"
+    ],
+    "searchTerms": [
+      "Inquiry",
+      "Argumentation",
+      "Metacognition",
+      "Action research",
+      "MADI",
+      "metacognitive argument driven inquiry",
+      "CER",
+      "claim evidence reasoning",
+      "metakognisyon",
+      "argumentasyon",
+      "Filipino",
+      "literacy",
+      "reading",
+      "pagbasa",
+      "language",
+      "wika",
+      "STEM",
+      "science",
+      "mathematics",
+      "problem solving",
+      "agham",
+      "matematika",
+      "research",
+      "pananaliksik",
+      "planning",
+      "evaluation"
+    ]
   },
   {
     "id": "nea",
@@ -673,7 +707,27 @@ const MODELS = [
         }
       ]
     },
-    "category": "Teaching and Learning"
+    "category": "Teaching and Learning",
+    "categories": [
+      "Teaching and Learning",
+      "STEM and Problem Solving",
+      "Inclusive Education"
+    ],
+    "searchTerms": [
+      "Error analysis",
+      "Diagnostic interviews",
+      "Targeted remediation",
+      "NEA",
+      "Newman error analysis",
+      "word problems",
+      "numeracy",
+      "matematika",
+      "STEM",
+      "science",
+      "mathematics",
+      "problem solving",
+      "agham"
+    ]
   },
   {
     "id": "six-thinking-hats",
@@ -1080,7 +1134,31 @@ const MODELS = [
         }
       ]
     },
-    "category": "Teaching and Learning"
+    "category": "Teaching and Learning",
+    "categories": [
+      "Teaching and Learning",
+      "STEM and Problem Solving",
+      "Educational Leadership and Professional Learning",
+      "Research, Planning and Evaluation"
+    ],
+    "searchTerms": [
+      "Critical thinking",
+      "Discussion",
+      "Perspective-taking",
+      "STEM",
+      "science",
+      "mathematics",
+      "problem solving",
+      "agham",
+      "matematika",
+      "professional development",
+      "school leadership",
+      "school management",
+      "research",
+      "pananaliksik",
+      "planning",
+      "evaluation"
+    ]
   },
   {
     "id": "udl",
@@ -1456,7 +1534,24 @@ const MODELS = [
         }
       ]
     },
-    "category": "Teaching and Learning"
+    "category": "Teaching and Learning",
+    "categories": [
+      "Teaching and Learning",
+      "Inclusive Education",
+      "Digital Education"
+    ],
+    "searchTerms": [
+      "Accessibility",
+      "Differentiation",
+      "Learner variability",
+      "UDL",
+      "CAST",
+      "universal design",
+      "accessibility",
+      "multiple means",
+      "SNED",
+      "SPED"
+    ]
   },
   {
     "id": "response-to-intervention",
@@ -1825,7 +1920,28 @@ const MODELS = [
         }
       ]
     },
-    "category": "Teaching and Learning"
+    "category": "Teaching and Learning",
+    "categories": [
+      "Teaching and Learning",
+      "Inclusive Education",
+      "Literacy and Language",
+      "Guidance, Behavior and Well-being"
+    ],
+    "searchTerms": [
+      "Screening",
+      "Tiered intervention",
+      "Progress monitoring",
+      "RTI",
+      "tiered support",
+      "remediation",
+      "intervention",
+      "ARAL",
+      "literacy",
+      "reading",
+      "pagbasa",
+      "language",
+      "wika"
+    ]
   },
   {
     "id": "inquiry-based-learning",
@@ -2217,7 +2333,24 @@ const MODELS = [
         }
       ]
     },
-    "category": "Teaching and Learning"
+    "category": "Teaching and Learning",
+    "categories": [
+      "Teaching and Learning",
+      "STEM and Problem Solving",
+      "Environmental Education and Sustainability"
+    ],
+    "searchTerms": [
+      "Inquiry",
+      "Investigation",
+      "Evidence-based reasoning",
+      "IBL",
+      "STEM",
+      "science",
+      "mathematics",
+      "problem solving",
+      "agham",
+      "matematika"
+    ]
   },
   {
     "id": "argument-driven-inquiry",
@@ -2671,7 +2804,24 @@ const MODELS = [
         }
       ]
     },
-    "category": "Teaching and Learning"
+    "category": "Teaching and Learning",
+    "categories": [
+      "Teaching and Learning",
+      "STEM and Problem Solving",
+      "Environmental Education and Sustainability"
+    ],
+    "searchTerms": [
+      "Argumentation",
+      "Peer critique",
+      "Scientific writing",
+      "ADI",
+      "STEM",
+      "science",
+      "mathematics",
+      "problem solving",
+      "agham",
+      "matematika"
+    ]
   },
   {
     "id": "irec",
@@ -3008,7 +3158,27 @@ const MODELS = [
         }
       ]
     },
-    "category": "Teaching and Learning"
+    "category": "Teaching and Learning",
+    "categories": [
+      "Teaching and Learning",
+      "STEM and Problem Solving",
+      "Research, Planning and Evaluation"
+    ],
+    "searchTerms": [
+      "Research and reflection",
+      "Source evaluation",
+      "Synthesis",
+      "STEM",
+      "science",
+      "mathematics",
+      "problem solving",
+      "agham",
+      "matematika",
+      "research",
+      "pananaliksik",
+      "planning",
+      "evaluation"
+    ]
   },
   {
     "id": "project-based-learning",
@@ -3362,7 +3532,25 @@ const MODELS = [
         }
       ]
     },
-    "category": "Teaching and Learning"
+    "category": "Teaching and Learning",
+    "categories": [
+      "Teaching and Learning",
+      "STEM and Problem Solving",
+      "Environmental Education and Sustainability",
+      "Family, Community and Learner Participation"
+    ],
+    "searchTerms": [
+      "Driving question",
+      "Collaboration",
+      "Authentic products",
+      "PBL",
+      "STEM",
+      "science",
+      "mathematics",
+      "problem solving",
+      "agham",
+      "matematika"
+    ]
   },
   {
     "id": "flipped-classroom",
@@ -3786,7 +3974,16 @@ const MODELS = [
         }
       ]
     },
-    "category": "Teaching and Learning"
+    "category": "Teaching and Learning",
+    "categories": [
+      "Teaching and Learning",
+      "Digital Education"
+    ],
+    "searchTerms": [
+      "Pre-class preparation",
+      "Active learning",
+      "Feedback"
+    ]
   },
   {
     "id": "parent-child-interaction-therapy",
@@ -4097,7 +4294,22 @@ const MODELS = [
         }
       ]
     },
-    "category": "Teaching and Learning"
+    "category": "Guidance, Behavior and Well-being",
+    "categories": [
+      "Guidance, Behavior and Well-being",
+      "Family, Community and Learner Participation",
+      "Inclusive Education"
+    ],
+    "searchTerms": [
+      "Family support",
+      "Referral",
+      "Behaviour",
+      "PCIT",
+      "parent child",
+      "parenting",
+      "behavior",
+      "caregiver"
+    ]
   },
   {
     "id": "parent-implemented-interventions",
@@ -4384,7 +4596,21 @@ const MODELS = [
         }
       ]
     },
-    "category": "Teaching and Learning"
+    "category": "Teaching and Learning",
+    "categories": [
+      "Teaching and Learning",
+      "Family, Community and Learner Participation",
+      "Inclusive Education"
+    ],
+    "searchTerms": [
+      "Caregiver coaching",
+      "Home routines",
+      "Autism",
+      "PII",
+      "parent mediated",
+      "caregiver",
+      "home learning"
+    ]
   },
   {
     "id": "instruction-feedback-proficiency",
@@ -4642,7 +4868,21 @@ const MODELS = [
         }
       ]
     },
-    "category": "Teaching and Learning"
+    "category": "Teaching and Learning",
+    "categories": [
+      "Teaching and Learning",
+      "Research, Planning and Evaluation",
+      "Inclusive Education"
+    ],
+    "searchTerms": [
+      "Proficiency scales",
+      "Differentiation",
+      "Feedback",
+      "research",
+      "pananaliksik",
+      "planning",
+      "evaluation"
+    ]
   },
   {
     "id": "proficiency-based-learning",
@@ -4969,7 +5209,21 @@ const MODELS = [
         }
       ]
     },
-    "category": "Teaching and Learning"
+    "category": "Teaching and Learning",
+    "categories": [
+      "Teaching and Learning",
+      "Research, Planning and Evaluation",
+      "Inclusive Education"
+    ],
+    "searchTerms": [
+      "Mastery",
+      "Reassessment",
+      "Success criteria",
+      "research",
+      "pananaliksik",
+      "planning",
+      "evaluation"
+    ]
   },
   {
     "id": "orton-gillingham",
@@ -5311,7 +5565,22 @@ const MODELS = [
         }
       ]
     },
-    "category": "Teaching and Learning"
+    "category": "Teaching and Learning",
+    "categories": [
+      "Teaching and Learning",
+      "Literacy and Language",
+      "Inclusive Education"
+    ],
+    "searchTerms": [
+      "Structured literacy",
+      "Decoding",
+      "Dyslexia",
+      "literacy",
+      "reading",
+      "pagbasa",
+      "language",
+      "wika"
+    ]
   },
   {
     "id": "scarborough-reading-rope",
@@ -5646,7 +5915,22 @@ const MODELS = [
         }
       ]
     },
-    "category": "Teaching and Learning"
+    "category": "Teaching and Learning",
+    "categories": [
+      "Teaching and Learning",
+      "Literacy and Language",
+      "Inclusive Education"
+    ],
+    "searchTerms": [
+      "Word recognition",
+      "Language comprehension",
+      "Reading",
+      "literacy",
+      "reading",
+      "pagbasa",
+      "language",
+      "wika"
+    ]
   },
   {
     "id": "zpd-and-scaffolding",
@@ -5819,7 +6103,26 @@ const MODELS = [
         }
       ]
     },
-    "category": "Teaching and Learning"
+    "category": "Teaching and Learning",
+    "categories": [
+      "Teaching and Learning",
+      "Inclusive Education",
+      "Literacy and Language",
+      "Educational Leadership and Professional Learning"
+    ],
+    "searchTerms": [
+      "Scaffolding",
+      "Guided practice",
+      "Transfer",
+      "literacy",
+      "reading",
+      "pagbasa",
+      "language",
+      "wika",
+      "professional development",
+      "school leadership",
+      "school management"
+    ]
   },
   {
     "id": "van-hiele",
@@ -6161,7 +6464,22 @@ const MODELS = [
         }
       ]
     },
-    "category": "Teaching and Learning"
+    "category": "Teaching and Learning",
+    "categories": [
+      "Teaching and Learning",
+      "STEM and Problem Solving"
+    ],
+    "searchTerms": [
+      "Geometric reasoning",
+      "Diagnostic assessment",
+      "Spatial thinking",
+      "STEM",
+      "science",
+      "mathematics",
+      "problem solving",
+      "agham",
+      "matematika"
+    ]
   },
   {
     "id": "explore-before-explain",
@@ -6494,7 +6812,23 @@ const MODELS = [
         }
       ]
     },
-    "category": "Teaching and Learning"
+    "category": "Teaching and Learning",
+    "categories": [
+      "Teaching and Learning",
+      "STEM and Problem Solving",
+      "Environmental Education and Sustainability"
+    ],
+    "searchTerms": [
+      "5E",
+      "Inquiry",
+      "Sensemaking",
+      "STEM",
+      "science",
+      "mathematics",
+      "problem solving",
+      "agham",
+      "matematika"
+    ]
   },
   {
     "id": "solo-taxonomy",
@@ -6795,7 +7129,20 @@ const MODELS = [
         }
       ]
     },
-    "category": "Teaching and Learning"
+    "category": "Teaching and Learning",
+    "categories": [
+      "Teaching and Learning",
+      "Research, Planning and Evaluation"
+    ],
+    "searchTerms": [
+      "Depth of understanding",
+      "Taxonomy",
+      "Assessment",
+      "research",
+      "pananaliksik",
+      "planning",
+      "evaluation"
+    ]
   },
   {
     "id": "dick-and-carey",
@@ -7064,7 +7411,25 @@ const MODELS = [
         }
       ]
     },
-    "category": "Teaching and Learning"
+    "category": "Teaching and Learning",
+    "categories": [
+      "Teaching and Learning",
+      "Digital Education",
+      "Educational Leadership and Professional Learning",
+      "Research, Planning and Evaluation"
+    ],
+    "searchTerms": [
+      "Curriculum design",
+      "Assessment alignment",
+      "Formative evaluation",
+      "professional development",
+      "school leadership",
+      "school management",
+      "research",
+      "pananaliksik",
+      "planning",
+      "evaluation"
+    ]
   },
   {
     "id": "backward-design",
@@ -7378,7 +7743,25 @@ const MODELS = [
         }
       ]
     },
-    "category": "Teaching and Learning"
+    "category": "Teaching and Learning",
+    "categories": [
+      "Teaching and Learning",
+      "Digital Education",
+      "Educational Leadership and Professional Learning",
+      "Research, Planning and Evaluation"
+    ],
+    "searchTerms": [
+      "Understanding by Design",
+      "Transfer",
+      "Assessment alignment",
+      "professional development",
+      "school leadership",
+      "school management",
+      "research",
+      "pananaliksik",
+      "planning",
+      "evaluation"
+    ]
   },
   {
     "id": "addie",
@@ -7682,7 +8065,25 @@ const MODELS = [
         }
       ]
     },
-    "category": "Teaching and Learning"
+    "category": "Teaching and Learning",
+    "categories": [
+      "Teaching and Learning",
+      "Digital Education",
+      "Educational Leadership and Professional Learning",
+      "Research, Planning and Evaluation"
+    ],
+    "searchTerms": [
+      "Instructional design",
+      "Development",
+      "Evaluation",
+      "professional development",
+      "school leadership",
+      "school management",
+      "research",
+      "pananaliksik",
+      "planning",
+      "evaluation"
+    ]
   },
   {
     "id": "reciprocal-teaching",
@@ -8017,7 +8418,22 @@ const MODELS = [
         }
       ]
     },
-    "category": "Teaching and Learning"
+    "category": "Teaching and Learning",
+    "categories": [
+      "Teaching and Learning",
+      "Literacy and Language"
+    ],
+    "searchTerms": [
+      "Prediction",
+      "Questioning",
+      "Clarifying",
+      "Summarizing",
+      "literacy",
+      "reading",
+      "pagbasa",
+      "language",
+      "wika"
+    ]
   },
   {
     "id": "collaborative-summarizing",
@@ -8322,7 +8738,21 @@ const MODELS = [
         }
       ]
     },
-    "category": "Teaching and Learning"
+    "category": "Teaching and Learning",
+    "categories": [
+      "Teaching and Learning",
+      "Literacy and Language"
+    ],
+    "searchTerms": [
+      "Main idea",
+      "Comprehension",
+      "Collaboration",
+      "literacy",
+      "reading",
+      "pagbasa",
+      "language",
+      "wika"
+    ]
   },
   {
     "id": "jigsaw",
@@ -8726,7 +9156,16 @@ const MODELS = [
         }
       ]
     },
-    "category": "Teaching and Learning"
+    "category": "Teaching and Learning",
+    "categories": [
+      "Teaching and Learning",
+      "Family, Community and Learner Participation"
+    ],
+    "searchTerms": [
+      "Peer teaching",
+      "Expert groups",
+      "Group accountability"
+    ]
   },
   {
     "id": "assessment-for-learning",
@@ -9090,7 +9529,20 @@ const MODELS = [
         }
       ]
     },
-    "category": "Teaching and Learning"
+    "category": "Teaching and Learning",
+    "categories": [
+      "Teaching and Learning",
+      "Research, Planning and Evaluation"
+    ],
+    "searchTerms": [
+      "Learning intentions",
+      "Feedback",
+      "Success criteria",
+      "research",
+      "pananaliksik",
+      "planning",
+      "evaluation"
+    ]
   },
   {
     "id": "assessment-as-learning",
@@ -9437,7 +9889,20 @@ const MODELS = [
         }
       ]
     },
-    "category": "Teaching and Learning"
+    "category": "Teaching and Learning",
+    "categories": [
+      "Teaching and Learning",
+      "Research, Planning and Evaluation"
+    ],
+    "searchTerms": [
+      "Metacognition",
+      "Reflection",
+      "Self-regulation",
+      "research",
+      "pananaliksik",
+      "planning",
+      "evaluation"
+    ]
   },
   {
     "id": "grasps",
@@ -9761,7 +10226,20 @@ const MODELS = [
         }
       ]
     },
-    "category": "Teaching and Learning"
+    "category": "Teaching and Learning",
+    "categories": [
+      "Teaching and Learning",
+      "Research, Planning and Evaluation"
+    ],
+    "searchTerms": [
+      "Authentic assessment",
+      "Performance task",
+      "Rubrics",
+      "research",
+      "pananaliksik",
+      "planning",
+      "evaluation"
+    ]
   },
   {
     "id": "leveled-literacy-intervention",
@@ -10068,7 +10546,22 @@ const MODELS = [
         }
       ]
     },
-    "category": "Teaching and Learning"
+    "category": "Teaching and Learning",
+    "categories": [
+      "Teaching and Learning",
+      "Literacy and Language",
+      "Inclusive Education"
+    ],
+    "searchTerms": [
+      "Reading remediation",
+      "Small-group instruction",
+      "Progress monitoring",
+      "literacy",
+      "reading",
+      "pagbasa",
+      "language",
+      "wika"
+    ]
   },
   {
     "id": "guided-reading",
@@ -10383,7 +10876,22 @@ const MODELS = [
         }
       ]
     },
-    "category": "Teaching and Learning"
+    "category": "Teaching and Learning",
+    "categories": [
+      "Teaching and Learning",
+      "Literacy and Language",
+      "Inclusive Education"
+    ],
+    "searchTerms": [
+      "Flexible grouping",
+      "Reading comprehension",
+      "Fluency",
+      "literacy",
+      "reading",
+      "pagbasa",
+      "language",
+      "wika"
+    ]
   },
   {
     "id": "elaboration-theory",
@@ -10772,7 +11280,15 @@ const MODELS = [
         }
       ]
     },
-    "category": "Teaching and Learning"
+    "category": "Teaching and Learning",
+    "categories": [
+      "Teaching and Learning"
+    ],
+    "searchTerms": [
+      "Sequencing",
+      "Instructional design",
+      "Synthesis"
+    ]
   },
   {
     "id": "hannafin-and-peck",
@@ -11084,7 +11600,25 @@ const MODELS = [
         }
       ]
     },
-    "category": "Teaching and Learning"
+    "category": "Teaching and Learning",
+    "categories": [
+      "Teaching and Learning",
+      "Digital Education",
+      "Educational Leadership and Professional Learning",
+      "Research, Planning and Evaluation"
+    ],
+    "searchTerms": [
+      "Needs assessment",
+      "Prototyping",
+      "Iterative evaluation",
+      "professional development",
+      "school leadership",
+      "school management",
+      "research",
+      "pananaliksik",
+      "planning",
+      "evaluation"
+    ]
   },
   {
     "id": "models-based-physical-education",
@@ -11465,7 +11999,16 @@ const MODELS = [
         }
       ]
     },
-    "category": "Teaching and Learning"
+    "category": "Teaching and Learning",
+    "categories": [
+      "Teaching and Learning",
+      "Guidance, Behavior and Well-being"
+    ],
+    "searchTerms": [
+      "Pedagogical models",
+      "Movement",
+      "Curriculum"
+    ]
   },
   {
     "id": "reading-apprenticeship",
@@ -11802,7 +12345,21 @@ const MODELS = [
         }
       ]
     },
-    "category": "Teaching and Learning"
+    "category": "Teaching and Learning",
+    "categories": [
+      "Teaching and Learning",
+      "Literacy and Language"
+    ],
+    "searchTerms": [
+      "Metacognitive conversation",
+      "Subject-area reading",
+      "Literacy",
+      "literacy",
+      "reading",
+      "pagbasa",
+      "language",
+      "wika"
+    ]
   },
   {
     "id": "design-thinking",
@@ -12178,7 +12735,28 @@ const MODELS = [
         }
       ]
     },
-    "category": "Teaching and Learning"
+    "category": "Teaching and Learning",
+    "categories": [
+      "Teaching and Learning",
+      "STEM and Problem Solving",
+      "Office and Service Management",
+      "Research, Planning and Evaluation"
+    ],
+    "searchTerms": [
+      "Empathy",
+      "Prototyping",
+      "Iteration",
+      "STEM",
+      "science",
+      "mathematics",
+      "problem solving",
+      "agham",
+      "matematika",
+      "research",
+      "pananaliksik",
+      "planning",
+      "evaluation"
+    ]
   },
   {
     "id": "mtss-for-english-learners",
@@ -12521,7 +13099,24 @@ const MODELS = [
         }
       ]
     },
-    "category": "Teaching and Learning"
+    "category": "Teaching and Learning",
+    "categories": [
+      "Teaching and Learning",
+      "Literacy and Language",
+      "Inclusive Education",
+      "Family, Community and Learner Participation"
+    ],
+    "searchTerms": [
+      "Multilingual learners",
+      "Screening",
+      "Progress monitoring",
+      "MTSS",
+      "literacy",
+      "reading",
+      "pagbasa",
+      "language",
+      "wika"
+    ]
   },
   {
     "id": "simple-view-of-reading",
@@ -12897,7 +13492,22 @@ const MODELS = [
         }
       ]
     },
-    "category": "Teaching and Learning"
+    "category": "Teaching and Learning",
+    "categories": [
+      "Teaching and Learning",
+      "Literacy and Language",
+      "Inclusive Education"
+    ],
+    "searchTerms": [
+      "Decoding",
+      "Language comprehension",
+      "Literacy",
+      "literacy",
+      "reading",
+      "pagbasa",
+      "language",
+      "wika"
+    ]
   },
   {
     "id": "raft",
@@ -13219,7 +13829,22 @@ const MODELS = [
         }
       ]
     },
-    "category": "Teaching and Learning"
+    "category": "Teaching and Learning",
+    "categories": [
+      "Teaching and Learning",
+      "Literacy and Language"
+    ],
+    "searchTerms": [
+      "Role",
+      "Audience",
+      "Format",
+      "Topic",
+      "literacy",
+      "reading",
+      "pagbasa",
+      "language",
+      "wika"
+    ]
   },
   {
     "id": "moral-philosophical",
@@ -13518,12 +14143,26 @@ const MODELS = [
         }
       ]
     },
-    "category": "Teaching and Learning"
+    "category": "Teaching and Learning",
+    "categories": [
+      "Teaching and Learning",
+      "Literacy and Language"
+    ],
+    "searchTerms": [
+      "Literary criticism",
+      "Ethical reasoning",
+      "Textual evidence",
+      "literacy",
+      "reading",
+      "pagbasa",
+      "language",
+      "wika"
+    ]
   },
   {
     "id": "plc",
     "modelName": "Professional Learning Communities (PLC)",
-    "category": "Educational Management",
+    "category": "Educational Leadership and Professional Learning",
     "learningArea": "Educational Management",
     "tags": [
       "Educational Management",
@@ -13697,12 +14336,33 @@ const MODELS = [
           ]
         }
       ]
-    }
+    },
+    "categories": [
+      "Educational Leadership and Professional Learning",
+      "Research, Planning and Evaluation"
+    ],
+    "searchTerms": [
+      "Educational Management",
+      "Framework or approach",
+      "Research planning",
+      "PLC",
+      "professional learning community",
+      "LAC",
+      "learning action cell",
+      "teacher collaboration",
+      "professional development",
+      "school leadership",
+      "school management",
+      "research",
+      "pananaliksik",
+      "planning",
+      "evaluation"
+    ]
   },
   {
     "id": "school-leadership",
     "modelName": "Five Practices of Effective School Leadership",
-    "category": "Educational Management",
+    "category": "Educational Leadership and Professional Learning",
     "learningArea": "Educational Management",
     "tags": [
       "Educational Management",
@@ -13869,12 +14529,28 @@ const MODELS = [
           ]
         }
       ]
-    }
+    },
+    "categories": [
+      "Educational Leadership and Professional Learning",
+      "Family, Community and Learner Participation"
+    ],
+    "searchTerms": [
+      "Educational Management",
+      "Framework or approach",
+      "Research planning",
+      "Wallace",
+      "school heads",
+      "principals",
+      "instructional leadership",
+      "professional development",
+      "school leadership",
+      "school management"
+    ]
   },
   {
     "id": "model-for-improvement",
     "modelName": "Model for Improvement and PDSA",
-    "category": "Educational Management",
+    "category": "Educational Leadership and Professional Learning",
     "learningArea": "Educational Management",
     "tags": [
       "Educational Management",
@@ -14049,12 +14725,33 @@ const MODELS = [
           ]
         }
       ]
-    }
+    },
+    "categories": [
+      "Educational Leadership and Professional Learning",
+      "Office and Service Management",
+      "Research, Planning and Evaluation"
+    ],
+    "searchTerms": [
+      "Educational Management",
+      "Framework or approach",
+      "Research planning",
+      "PDSA",
+      "plan do study act",
+      "continuous improvement",
+      "school improvement",
+      "professional development",
+      "school leadership",
+      "school management",
+      "research",
+      "pananaliksik",
+      "planning",
+      "evaluation"
+    ]
   },
   {
     "id": "asca",
     "modelName": "ASCA National Model",
-    "category": "Guidance and Counseling",
+    "category": "Guidance, Behavior and Well-being",
     "learningArea": "Guidance and Counseling",
     "tags": [
       "Guidance and Counseling",
@@ -14229,12 +14926,25 @@ const MODELS = [
           ]
         }
       ]
-    }
+    },
+    "categories": [
+      "Guidance, Behavior and Well-being",
+      "Inclusive Education",
+      "Family, Community and Learner Participation"
+    ],
+    "searchTerms": [
+      "Guidance and Counseling",
+      "Framework or approach",
+      "Research planning",
+      "school counseling",
+      "school counselling",
+      "guidance program"
+    ]
   },
   {
     "id": "casel",
     "modelName": "CASEL Social and Emotional Learning Framework",
-    "category": "Guidance and Counseling",
+    "category": "Teaching and Learning",
     "learningArea": "Guidance and Counseling",
     "tags": [
       "Guidance and Counseling",
@@ -14410,12 +15120,27 @@ const MODELS = [
           ]
         }
       ]
-    }
+    },
+    "categories": [
+      "Teaching and Learning",
+      "Guidance, Behavior and Well-being",
+      "Inclusive Education",
+      "Family, Community and Learner Participation"
+    ],
+    "searchTerms": [
+      "Guidance and Counseling",
+      "Framework or approach",
+      "Research planning",
+      "SEL",
+      "social emotional learning",
+      "social and emotional",
+      "self awareness"
+    ]
   },
   {
     "id": "riasec",
     "modelName": "Holland RIASEC Career Interest Framework",
-    "category": "Guidance and Counseling",
+    "category": "Guidance, Behavior and Well-being",
     "learningArea": "Guidance and Counseling",
     "tags": [
       "Guidance and Counseling",
@@ -14583,12 +15308,25 @@ const MODELS = [
           ]
         }
       ]
-    }
+    },
+    "categories": [
+      "Guidance, Behavior and Well-being"
+    ],
+    "searchTerms": [
+      "Guidance and Counseling",
+      "Framework or approach",
+      "Research planning",
+      "RIASEC",
+      "Holland",
+      "career",
+      "vocational interests",
+      "career guidance"
+    ]
   },
   {
     "id": "five-s",
     "modelName": "5S Workplace Organization",
-    "category": "Office Management",
+    "category": "Office and Service Management",
     "learningArea": "Office Management",
     "tags": [
       "Office Management",
@@ -14764,12 +15502,26 @@ const MODELS = [
           ]
         }
       ]
-    }
+    },
+    "categories": [
+      "Office and Service Management",
+      "DRRM and School Safety"
+    ],
+    "searchTerms": [
+      "Office Management",
+      "Framework or approach",
+      "Research planning",
+      "5S",
+      "five s",
+      "sort set in order shine standardize sustain",
+      "workplace",
+      "organization"
+    ]
   },
   {
     "id": "sipoc",
     "modelName": "SIPOC Process Mapping",
-    "category": "Office Management",
+    "category": "Office and Service Management",
     "learningArea": "Office Management",
     "tags": [
       "Office Management",
@@ -14935,12 +15687,28 @@ const MODELS = [
           ]
         }
       ]
-    }
+    },
+    "categories": [
+      "Office and Service Management",
+      "Research, Planning and Evaluation"
+    ],
+    "searchTerms": [
+      "Office Management",
+      "Framework or approach",
+      "Research planning",
+      "suppliers inputs process outputs customers",
+      "workflow",
+      "service delivery",
+      "research",
+      "pananaliksik",
+      "planning",
+      "evaluation"
+    ]
   },
   {
     "id": "bpmn",
     "modelName": "Business Process Model and Notation (BPMN)",
-    "category": "Office Management",
+    "category": "Office and Service Management",
     "learningArea": "Office Management",
     "tags": [
       "Office Management",
@@ -15124,12 +15892,30 @@ const MODELS = [
           ]
         }
       ]
-    }
+    },
+    "categories": [
+      "Office and Service Management",
+      "Research, Planning and Evaluation"
+    ],
+    "searchTerms": [
+      "Office Management",
+      "Framework or approach",
+      "Research planning",
+      "business process",
+      "workflow",
+      "process diagram",
+      "service delivery",
+      "BPMN",
+      "research",
+      "pananaliksik",
+      "planning",
+      "evaluation"
+    ]
   },
   {
     "id": "financial-building-blocks",
     "modelName": "Building Blocks of Financial Capability",
-    "category": "Financial Literacy",
+    "category": "Teaching and Learning",
     "learningArea": "Financial Literacy",
     "tags": [
       "Financial Literacy",
@@ -15312,12 +16098,28 @@ const MODELS = [
           ]
         }
       ]
-    }
+    },
+    "categories": [
+      "Teaching and Learning",
+      "Financial Literacy",
+      "Guidance, Behavior and Well-being"
+    ],
+    "searchTerms": [
+      "Financial Literacy",
+      "Framework or approach",
+      "Research planning",
+      "CFPB",
+      "financial capability",
+      "money",
+      "budgeting",
+      "saving",
+      "pananalapi"
+    ]
   },
   {
     "id": "financial-competence",
     "modelName": "OECD/EU Financial Competence Framework for Children and Youth",
-    "category": "Financial Literacy",
+    "category": "Teaching and Learning",
     "learningArea": "Financial Literacy",
     "tags": [
       "Financial Literacy",
@@ -15483,7 +16285,22 @@ const MODELS = [
           ]
         }
       ]
-    }
+    },
+    "categories": [
+      "Teaching and Learning",
+      "Financial Literacy"
+    ],
+    "searchTerms": [
+      "Financial Literacy",
+      "Framework or approach",
+      "Research planning",
+      "OECD",
+      "EU",
+      "financial education",
+      "money",
+      "budgeting",
+      "saving"
+    ]
   },
   {
     "id": "financial-wellbeing",
@@ -15672,12 +16489,25 @@ const MODELS = [
           ]
         }
       ]
-    }
+    },
+    "categories": [
+      "Financial Literacy",
+      "Guidance, Behavior and Well-being"
+    ],
+    "searchTerms": [
+      "Financial Literacy",
+      "Framework or approach",
+      "Research planning",
+      "CFPB",
+      "financial well being",
+      "financial wellbeing",
+      "financial wellness"
+    ]
   },
   {
     "id": "sendai",
     "modelName": "Sendai Framework for Disaster Risk Reduction 2015–2030",
-    "category": "DRRM",
+    "category": "DRRM and School Safety",
     "learningArea": "DRRM",
     "tags": [
       "DRRM",
@@ -15843,12 +16673,34 @@ const MODELS = [
           ]
         }
       ]
-    }
+    },
+    "categories": [
+      "DRRM and School Safety",
+      "Family, Community and Learner Participation",
+      "Educational Leadership and Professional Learning",
+      "Research, Planning and Evaluation"
+    ],
+    "searchTerms": [
+      "DRRM",
+      "Framework or approach",
+      "Research planning",
+      "disaster risk reduction",
+      "DRR",
+      "resilience",
+      "sakuna",
+      "professional development",
+      "school leadership",
+      "school management",
+      "research",
+      "pananaliksik",
+      "planning",
+      "evaluation"
+    ]
   },
   {
     "id": "school-safety",
     "modelName": "Comprehensive School Safety Framework 2022–2030",
-    "category": "DRRM",
+    "category": "DRRM and School Safety",
     "learningArea": "DRRM",
     "tags": [
       "DRRM",
@@ -16013,12 +16865,32 @@ const MODELS = [
           ]
         }
       ]
-    }
+    },
+    "categories": [
+      "DRRM and School Safety",
+      "Family, Community and Learner Participation",
+      "Inclusive Education",
+      "Guidance, Behavior and Well-being",
+      "Educational Leadership and Professional Learning"
+    ],
+    "searchTerms": [
+      "DRRM",
+      "Framework or approach",
+      "Research planning",
+      "CSSF",
+      "comprehensive school safety",
+      "safe learning",
+      "emergency",
+      "sakuna",
+      "professional development",
+      "school leadership",
+      "school management"
+    ]
   },
   {
     "id": "evca",
     "modelName": "Enhanced Vulnerability and Capacity Assessment (EVCA)",
-    "category": "DRRM",
+    "category": "DRRM and School Safety",
     "learningArea": "DRRM",
     "tags": [
       "DRRM",
@@ -16183,12 +17055,31 @@ const MODELS = [
           ]
         }
       ]
-    }
+    },
+    "categories": [
+      "DRRM and School Safety",
+      "Family, Community and Learner Participation",
+      "Research, Planning and Evaluation"
+    ],
+    "searchTerms": [
+      "DRRM",
+      "Framework or approach",
+      "Research planning",
+      "EVCA",
+      "IFRC",
+      "vulnerability",
+      "capacity assessment",
+      "community risk",
+      "research",
+      "pananaliksik",
+      "planning",
+      "evaluation"
+    ]
   },
   {
     "id": "dpsir",
     "modelName": "DPSIR Environmental Analysis Framework",
-    "category": "Environmental Education and Science",
+    "category": "Environmental Education and Sustainability",
     "learningArea": "Environmental Education and Science",
     "tags": [
       "Environmental Education and Science",
@@ -16364,12 +17255,35 @@ const MODELS = [
           ]
         }
       ]
-    }
+    },
+    "categories": [
+      "Environmental Education and Sustainability",
+      "STEM and Problem Solving",
+      "Research, Planning and Evaluation"
+    ],
+    "searchTerms": [
+      "Environmental Education and Science",
+      "Framework or approach",
+      "Research planning",
+      "drivers pressures state impacts responses",
+      "environmental assessment",
+      "kalikasan",
+      "STEM",
+      "science",
+      "mathematics",
+      "problem solving",
+      "agham",
+      "matematika",
+      "research",
+      "pananaliksik",
+      "planning",
+      "evaluation"
+    ]
   },
   {
     "id": "green-school",
     "modelName": "UNESCO Green School Quality Standard",
-    "category": "Environmental Education and Science",
+    "category": "Environmental Education and Sustainability",
     "learningArea": "Environmental Education and Science",
     "tags": [
       "Environmental Education and Science",
@@ -16544,12 +17458,31 @@ const MODELS = [
           ]
         }
       ]
-    }
+    },
+    "categories": [
+      "Environmental Education and Sustainability",
+      "DRRM and School Safety",
+      "Family, Community and Learner Participation",
+      "Educational Leadership and Professional Learning"
+    ],
+    "searchTerms": [
+      "Environmental Education and Science",
+      "Framework or approach",
+      "Research planning",
+      "green school",
+      "UNESCO",
+      "sustainability",
+      "environment",
+      "kalikasan",
+      "professional development",
+      "school leadership",
+      "school management"
+    ]
   },
   {
     "id": "planetary-boundaries",
     "modelName": "Planetary Boundaries Framework",
-    "category": "Environmental Education and Science",
+    "category": "Environmental Education and Sustainability",
     "learningArea": "Environmental Education and Science",
     "tags": [
       "Environmental Education and Science",
@@ -16715,7 +17648,27 @@ const MODELS = [
           ]
         }
       ]
-    }
+    },
+    "categories": [
+      "Environmental Education and Sustainability",
+      "STEM and Problem Solving"
+    ],
+    "searchTerms": [
+      "Environmental Education and Science",
+      "Framework or approach",
+      "Research planning",
+      "earth systems",
+      "ecological limits",
+      "climate",
+      "biodiversity",
+      "kalikasan",
+      "STEM",
+      "science",
+      "mathematics",
+      "problem solving",
+      "agham",
+      "matematika"
+    ]
   },
   {
     "id": "srsd",
@@ -16917,7 +17870,22 @@ const MODELS = [
           ]
         }
       ]
-    }
+    },
+    "categories": [
+      "Teaching and Learning",
+      "Literacy and Language",
+      "Inclusive Education"
+    ],
+    "searchTerms": [
+      "Teaching and Learning",
+      "Research planning",
+      "SRSD",
+      "literacy",
+      "reading",
+      "pagbasa",
+      "language",
+      "wika"
+    ]
   },
   {
     "id": "schema-based-instruction",
@@ -17119,7 +18087,21 @@ const MODELS = [
           ]
         }
       ]
-    }
+    },
+    "categories": [
+      "Teaching and Learning",
+      "STEM and Problem Solving"
+    ],
+    "searchTerms": [
+      "Teaching and Learning",
+      "Research planning",
+      "STEM",
+      "science",
+      "mathematics",
+      "problem solving",
+      "agham",
+      "matematika"
+    ]
   },
   {
     "id": "peer-instruction",
@@ -17331,12 +18313,27 @@ const MODELS = [
           ]
         }
       ]
-    }
+    },
+    "categories": [
+      "Teaching and Learning",
+      "STEM and Problem Solving",
+      "Family, Community and Learner Participation"
+    ],
+    "searchTerms": [
+      "Teaching and Learning",
+      "Research planning",
+      "STEM",
+      "science",
+      "mathematics",
+      "problem solving",
+      "agham",
+      "matematika"
+    ]
   },
   {
     "id": "lesson-study",
     "modelName": "Lesson Study",
-    "category": "Educational Management",
+    "category": "Educational Leadership and Professional Learning",
     "learningArea": "Teacher professional learning and lesson improvement",
     "tags": [
       "Educational Management",
@@ -17534,7 +18531,26 @@ const MODELS = [
           ]
         }
       ]
-    }
+    },
+    "categories": [
+      "Educational Leadership and Professional Learning",
+      "Research, Planning and Evaluation"
+    ],
+    "searchTerms": [
+      "Educational Management",
+      "Research planning",
+      "lesson study",
+      "LAC",
+      "research lesson",
+      "teacher development",
+      "professional development",
+      "school leadership",
+      "school management",
+      "research",
+      "pananaliksik",
+      "planning",
+      "evaluation"
+    ]
   },
   {
     "id": "icap",
@@ -17746,7 +18762,24 @@ const MODELS = [
           ]
         }
       ]
-    }
+    },
+    "categories": [
+      "Teaching and Learning",
+      "Family, Community and Learner Participation",
+      "Educational Leadership and Professional Learning",
+      "Research, Planning and Evaluation"
+    ],
+    "searchTerms": [
+      "Teaching and Learning",
+      "Research planning",
+      "professional development",
+      "school leadership",
+      "school management",
+      "research",
+      "pananaliksik",
+      "planning",
+      "evaluation"
+    ]
   },
   {
     "id": "cori",
@@ -17959,12 +18992,26 @@ const MODELS = [
           ]
         }
       ]
-    }
+    },
+    "categories": [
+      "Teaching and Learning",
+      "Literacy and Language"
+    ],
+    "searchTerms": [
+      "Teaching and Learning",
+      "Research planning",
+      "CORI",
+      "literacy",
+      "reading",
+      "pagbasa",
+      "language",
+      "wika"
+    ]
   },
   {
     "id": "epstein-partnerships",
     "modelName": "Epstein’s Six Types of Involvement",
-    "category": "Family and Community Engagement",
+    "category": "Family, Community and Learner Participation",
     "learningArea": "School–family–community partnerships",
     "tags": [
       "Family and Community Engagement",
@@ -18154,12 +19201,27 @@ const MODELS = [
           ]
         }
       ]
-    }
+    },
+    "categories": [
+      "Family, Community and Learner Participation",
+      "Educational Leadership and Professional Learning",
+      "Inclusive Education"
+    ],
+    "searchTerms": [
+      "Family and Community Engagement",
+      "Research planning",
+      "parent involvement",
+      "family school partnership",
+      "stakeholders",
+      "professional development",
+      "school leadership",
+      "school management"
+    ]
   },
   {
     "id": "dual-capacity",
     "modelName": "Dual Capacity-Building Framework for Family–School Partnerships",
-    "category": "Family and Community Engagement",
+    "category": "Family, Community and Learner Participation",
     "learningArea": "Family engagement and shared learning support",
     "tags": [
       "Family and Community Engagement",
@@ -18334,12 +19396,27 @@ const MODELS = [
           ]
         }
       ]
-    }
+    },
+    "categories": [
+      "Family, Community and Learner Participation",
+      "Educational Leadership and Professional Learning",
+      "Inclusive Education"
+    ],
+    "searchTerms": [
+      "Family and Community Engagement",
+      "Research planning",
+      "family school partnership",
+      "parent engagement",
+      "capacity building",
+      "professional development",
+      "school leadership",
+      "school management"
+    ]
   },
   {
     "id": "eef-implementation",
     "modelName": "EEF’s A School’s Guide to Implementation",
-    "category": "Educational Management",
+    "category": "Educational Leadership and Professional Learning",
     "learningArea": "Introducing and sustaining school approaches",
     "tags": [
       "Educational Management",
@@ -18523,12 +19600,32 @@ const MODELS = [
           ]
         }
       ]
-    }
+    },
+    "categories": [
+      "Educational Leadership and Professional Learning",
+      "Office and Service Management",
+      "Research, Planning and Evaluation"
+    ],
+    "searchTerms": [
+      "Educational Management",
+      "Research planning",
+      "EEF",
+      "explore prepare deliver sustain",
+      "implementation",
+      "school improvement",
+      "professional development",
+      "school leadership",
+      "school management",
+      "research",
+      "pananaliksik",
+      "planning",
+      "evaluation"
+    ]
   },
   {
     "id": "program-logic-model",
     "modelName": "Program Logic Model",
-    "category": "Program Planning and Evaluation",
+    "category": "Research, Planning and Evaluation",
     "learningArea": "School projects, interventions, and research planning",
     "tags": [
       "Program Planning and Evaluation",
@@ -18713,12 +19810,31 @@ const MODELS = [
           ]
         }
       ]
-    }
+    },
+    "categories": [
+      "Research, Planning and Evaluation",
+      "Educational Leadership and Professional Learning"
+    ],
+    "searchTerms": [
+      "Program Planning and Evaluation",
+      "Research planning",
+      "logic model",
+      "inputs activities outputs outcomes impact",
+      "theory of change",
+      "program evaluation",
+      "professional development",
+      "school leadership",
+      "school management",
+      "research",
+      "pananaliksik",
+      "planning",
+      "evaluation"
+    ]
   },
   {
     "id": "cdc-program-evaluation",
     "modelName": "CDC Program Evaluation Framework (2024)",
-    "category": "Program Planning and Evaluation",
+    "category": "Research, Planning and Evaluation",
     "learningArea": "School program evaluation and improvement",
     "tags": [
       "Program Planning and Evaluation",
@@ -18903,7 +20019,25 @@ const MODELS = [
           ]
         }
       ]
-    }
+    },
+    "categories": [
+      "Research, Planning and Evaluation",
+      "Educational Leadership and Professional Learning"
+    ],
+    "searchTerms": [
+      "Program Planning and Evaluation",
+      "Research planning",
+      "CDC",
+      "evaluation",
+      "program assessment",
+      "2024",
+      "professional development",
+      "school leadership",
+      "school management",
+      "research",
+      "pananaliksik",
+      "planning"
+    ]
   },
   {
     "id": "digcompedu",
@@ -19084,7 +20218,26 @@ const MODELS = [
           ]
         }
       ]
-    }
+    },
+    "categories": [
+      "Digital Education",
+      "Teaching and Learning",
+      "Educational Leadership and Professional Learning",
+      "Inclusive Education"
+    ],
+    "searchTerms": [
+      "Digital Education",
+      "Research planning",
+      "ICT",
+      "digital competence",
+      "technology",
+      "edtech",
+      "teacher development",
+      "DigCompEdu",
+      "professional development",
+      "school leadership",
+      "school management"
+    ]
   },
   {
     "id": "index-for-inclusion",
@@ -19274,12 +20427,35 @@ const MODELS = [
           ]
         }
       ]
-    }
+    },
+    "categories": [
+      "Inclusive Education",
+      "Family, Community and Learner Participation",
+      "Educational Leadership and Professional Learning",
+      "Research, Planning and Evaluation"
+    ],
+    "searchTerms": [
+      "Inclusive Education",
+      "Research planning",
+      "Booth",
+      "Ainscow",
+      "SNED",
+      "SPED",
+      "inclusive school",
+      "barriers",
+      "professional development",
+      "school leadership",
+      "school management",
+      "research",
+      "pananaliksik",
+      "planning",
+      "evaluation"
+    ]
   },
   {
     "id": "lundy-participation",
     "modelName": "Lundy Model of Participation",
-    "category": "Learner Participation",
+    "category": "Family, Community and Learner Participation",
     "learningArea": "Learner consultation and school decision-making",
     "tags": [
       "Learner Participation",
@@ -19463,12 +20639,29 @@ const MODELS = [
           ]
         }
       ]
-    }
+    },
+    "categories": [
+      "Family, Community and Learner Participation",
+      "Inclusive Education",
+      "Research, Planning and Evaluation"
+    ],
+    "searchTerms": [
+      "Learner Participation",
+      "Research planning",
+      "student voice",
+      "learner voice",
+      "space voice audience influence",
+      "participation",
+      "research",
+      "pananaliksik",
+      "planning",
+      "evaluation"
+    ]
   },
   {
     "id": "health-promoting-schools",
     "modelName": "WHO–UNESCO Health-Promoting Schools Framework",
-    "category": "School Health and Well-being",
+    "category": "Guidance, Behavior and Well-being",
     "learningArea": "Whole-school health promotion",
     "tags": [
       "School Health and Well-being",
@@ -19656,12 +20849,33 @@ const MODELS = [
           ]
         }
       ]
-    }
+    },
+    "categories": [
+      "Guidance, Behavior and Well-being",
+      "DRRM and School Safety",
+      "Family, Community and Learner Participation",
+      "Educational Leadership and Professional Learning",
+      "Inclusive Education"
+    ],
+    "searchTerms": [
+      "School Health and Well-being",
+      "Research planning",
+      "WHO",
+      "UNESCO",
+      "HPS",
+      "school health",
+      "wellness",
+      "WASH",
+      "WinS",
+      "professional development",
+      "school leadership",
+      "school management"
+    ]
   },
   {
     "id": "greencomp",
     "modelName": "GreenComp Sustainability Competence Framework",
-    "category": "Environmental Education and Science",
+    "category": "Environmental Education and Sustainability",
     "learningArea": "Sustainability learning and environmental projects",
     "tags": [
       "Environmental Education and Science",
@@ -19835,6 +21049,3057 @@ const MODELS = [
           ]
         }
       ]
-    }
+    },
+    "categories": [
+      "Environmental Education and Sustainability",
+      "Teaching and Learning",
+      "Family, Community and Learner Participation"
+    ],
+    "searchTerms": [
+      "Environmental Education and Science",
+      "Research planning",
+      "GreenComp",
+      "sustainability competences",
+      "environment",
+      "kalikasan"
+    ]
+  },
+  {
+    "id": "cars",
+    "modelName": "Create a Research Space (CARS) Model",
+    "category": "Research, Planning and Evaluation",
+    "learningArea": "Research introductions, academic writing, Filipino and English",
+    "tags": [
+      "CARS",
+      "research writing",
+      "research gap",
+      "introductions",
+      "rhetorical moves"
+    ],
+    "summary": "CARS is a rhetorical model associated with John Swales for organizing research introductions.",
+    "sections": {
+      "Model Overview": [
+        {
+          "type": "paragraph",
+          "text": "CARS is a rhetorical model associated with John Swales for organizing research introductions. Writers establish a research territory, identify a niche, and present the study that addresses it. It supports an introduction rather than prescribing the whole proposal (Swales, 1990)."
+        }
+      ],
+      "When to Use It": [
+        {
+          "type": "list",
+          "items": [
+            "Use when a draft introduces a topic but does not explain what still needs investigation.",
+            "Use in research mentoring and lessons on academic argument."
+          ]
+        }
+      ],
+      "Core Features": [
+        {
+          "type": "list",
+          "items": [
+            "Three connected rhetorical moves",
+            "Literature used to establish the research problem",
+            "Discipline-sensitive organization",
+            "Explicit statement of the present study"
+          ]
+        }
+      ],
+      "Baseline Data Needed": [
+        {
+          "type": "list",
+          "items": [
+            "A draft introduction and its cited literature",
+            "A rubric for topic, gap, purpose, and coherence",
+            "Learners’ understanding of the research problem"
+          ]
+        }
+      ],
+      "How to Use It": [
+        {
+          "type": "paragraph",
+          "text": "Choose two introductions from the relevant discipline. Annotate the topic, unresolved issue, and purpose, recognizing that moves may recur. Let writers compare these examples with their own drafts."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ask writers to explain their proposed contribution in plain language, then revise the introduction around it. A gap must follow from the literature; it should not be invented to fit the model. Keep the prescribed institutional proposal headings."
+        }
+      ],
+      "Action Research Application": [
+        {
+          "type": "paragraph",
+          "text": "Suggested study: How does guided use of CARS affect the coherence and justification of learners’ research introductions?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Compare initial and revised introductions using an agreed rubric and independent scoring of a sample. Use a new writing task to examine transfer; revision of the same draft alone measures supported improvement."
+        }
+      ],
+      "Implementation Flow": [
+        {
+          "type": "image",
+          "src": "assets/model-flows/cars.png",
+          "alt": "Create a Research Space (CARS) Model organizer. Research territory: topic and significance; Research niche: a supported gap or extension; Present study: purpose and contribution; Review coherence, evidence, and disciplinary fit",
+          "caption": "Suggested application organizer adapted from Swales (1990) and University of Waterloo (n.d.). School applications are illustrative."
+        }
+      ],
+      "Evidence From Related Studies": [
+        {
+          "type": "paragraph",
+          "text": "Swales (1990) provides the genre-analysis foundation. Bajwa et al. (2020) analyzed management research introductions and found disciplinary and contextual patterns; this is evidence about writing conventions, not a classroom treatment trial."
+        },
+        {
+          "type": "paragraph",
+          "text": "Paguio et al. (2026), BUKLOD Volume II, p. 81, report a local application with Grade 12 learners and a comparison group. The brief supports local relevance but does not establish effectiveness for every research genre."
+        }
+      ],
+      "Data to Gather": [
+        {
+          "type": "list",
+          "items": [
+            "Drafts and independent writing samples",
+            "Rubric scores by dimension",
+            "Peer feedback and writer reflections"
+          ]
+        }
+      ],
+      "Indicators of Success": [
+        {
+          "type": "paragraph",
+          "text": "Set realistic targets from baseline results and the duration of implementation."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Clearer connection between literature, gap, and purpose",
+            "Accurate citations and defensible claims",
+            "Transfer to a new introduction"
+          ]
+        }
+      ],
+      "References": [
+        {
+          "type": "references",
+          "items": [
+            {
+              "segments": [
+                {
+                  "text": "Bajwa, N. H., König, C. J., & Kunze, T. (2020). "
+                },
+                {
+                  "text": "Evidence-based understanding of introductions of research articles. ",
+                  "italic": false
+                },
+                {
+                  "text": "Scientometrics, 124, 195–217. ",
+                  "italic": true
+                },
+                {
+                  "text": "https://doi.org/10.1007/s11192-020-03475-9"
+                }
+              ]
+            },
+            {
+              "segments": [
+                {
+                  "text": "Paguio, I. P. M. C., Lopez, R. L., & Magtalas, F. L. (2026). "
+                },
+                {
+                  "text": "Enhancing the practical research skills of Grade 12 students through Creating a Research Space (CARS) model-based activities. ",
+                  "italic": false
+                },
+                {
+                  "text": "BUKLOD: 2(1), 81. ",
+                  "italic": true
+                },
+                {
+                  "text": "https://bulacandeped.com.ph/buklod/"
+                }
+              ]
+            },
+            {
+              "segments": [
+                {
+                  "text": "Swales, J. M. (1990). "
+                },
+                {
+                  "text": "Genre analysis: English in academic and research settings. ",
+                  "italic": true
+                },
+                {
+                  "text": "Cambridge University Press. ",
+                  "italic": false
+                },
+                {
+                  "text": "https://shop.cambridge.org/english/product/2700033225"
+                }
+              ]
+            },
+            {
+              "segments": [
+                {
+                  "text": "University of Waterloo. (n.d.). "
+                },
+                {
+                  "text": "Creating a research space: CaRS model. ",
+                  "italic": true
+                },
+                {
+                  "text": "Writing and Communication Centre. ",
+                  "italic": false
+                },
+                {
+                  "text": "https://uwaterloo.ca/writing-and-communication-centre/creating-research-space-cars-model"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "categories": [
+      "Research, Planning and Evaluation",
+      "Literacy and Language",
+      "Teaching and Learning"
+    ],
+    "searchTerms": [
+      "CARS",
+      "research writing",
+      "research gap",
+      "introductions",
+      "rhetorical moves",
+      "Swales",
+      "research proposal",
+      "research introduction",
+      "pananaliksik",
+      "literacy",
+      "reading",
+      "pagbasa",
+      "language",
+      "wika",
+      "research",
+      "planning",
+      "evaluation"
+    ]
+  },
+  {
+    "id": "bruner-representations",
+    "modelName": "Bruner’s Three Modes of Representation",
+    "category": "Teaching and Learning",
+    "learningArea": "Mathematics, science concepts, and skills instruction",
+    "tags": [
+      "Bruner",
+      "enactive",
+      "iconic",
+      "symbolic",
+      "concrete pictorial abstract",
+      "CPA",
+      "manipulatives"
+    ],
+    "summary": "Bruner distinguished enactive, iconic, and symbolic ways of representing knowledge: action, images, and language or symbols.",
+    "sections": {
+      "Model Overview": [
+        {
+          "type": "paragraph",
+          "text": "Bruner distinguished enactive, iconic, and symbolic ways of representing knowledge: action, images, and language or symbols. These modes help teachers connect learners’ experiences with abstract ideas. They are ways of representation, not fixed learning styles (Bruner, 1966)."
+        }
+      ],
+      "When to Use It": [
+        {
+          "type": "list",
+          "items": [
+            "Use when learners can manipulate objects but cannot explain a symbolic procedure.",
+            "Use when diagrams, practical tasks, and equations need explicit connections."
+          ]
+        }
+      ],
+      "Core Features": [
+        {
+          "type": "list",
+          "items": [
+            "Action-based representation",
+            "Images and diagrams",
+            "Language and mathematical symbols",
+            "Connections and movement between representations"
+          ]
+        }
+      ],
+      "Baseline Data Needed": [
+        {
+          "type": "list",
+          "items": [
+            "An explanation of a target concept in more than one representation",
+            "Errors in translating diagrams into symbols",
+            "Prior experience with the objects and notation"
+          ]
+        }
+      ],
+      "How to Use It": [
+        {
+          "type": "paragraph",
+          "text": "Select one concept and prepare an action, a drawing, and a symbolic expression that represent the same relationship. For addition, learners can combine counters, draw grouped quantities, and write a matching equation."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ask learners to explain each connection and move back to a representation when meaning is lost. Concrete–Pictorial–Abstract instruction is a related application; the three modes need not operate as a rigid one-way sequence (Open University, n.d.)."
+        }
+      ],
+      "Action Research Application": [
+        {
+          "type": "paragraph",
+          "text": "Suggested study: How does connecting action, diagrams, and symbols affect learners’ explanation of addition or fractions?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Use equivalent tasks before and after instruction, including a novel transfer problem. Score both accuracy and explanations. Keep track of support provided so assisted performance is distinguishable from independent understanding."
+        }
+      ],
+      "Implementation Flow": [
+        {
+          "type": "image",
+          "src": "assets/model-flows/bruner-representations.png",
+          "alt": "Bruner’s Three Modes of Representation organizer. Enactive: act on objects or situations; Iconic: depict the same relationships; Symbolic: express relationships in language or notation; Connect, explain, and revisit representations",
+          "caption": "Suggested application organizer adapted from Bruner (1966) and Open University (n.d.). School applications are illustrative."
+        }
+      ],
+      "Evidence From Related Studies": [
+        {
+          "type": "paragraph",
+          "text": "Bruner (1966) supplies the theoretical foundation. The Open University provides practical mathematics illustrations. Research on representations highlights that making relationships visible is central, while the best sequence depends on the task (Fyfe et al., 2014)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Gadon (2026), BUKLOD Volume II, p. 88, reports a two-group Grade 3 addition study. This is a local application of the three modes; it is not evidence that every manipulative or sequence will work equally well."
+        }
+      ],
+      "Data to Gather": [
+        {
+          "type": "list",
+          "items": [
+            "Work in action, picture, and symbolic forms",
+            "Explanation rubric and error patterns",
+            "Delayed transfer tasks"
+          ]
+        }
+      ],
+      "Indicators of Success": [
+        {
+          "type": "paragraph",
+          "text": "Set realistic targets from baseline results and the duration of implementation."
+        },
+        {
+          "type": "list",
+          "items": [
+            "More accurate translation between representations",
+            "Explanations that identify the same mathematical relationship",
+            "Reduced dependence on prompts"
+          ]
+        }
+      ],
+      "References": [
+        {
+          "type": "references",
+          "items": [
+            {
+              "segments": [
+                {
+                  "text": "Bruner, J. S. (1966). "
+                },
+                {
+                  "text": "Toward a theory of instruction. ",
+                  "italic": true
+                },
+                {
+                  "text": "Harvard University Press. ",
+                  "italic": false
+                },
+                {
+                  "text": "https://books.google.com/books?id=F_d96D9FmbUC"
+                }
+              ]
+            },
+            {
+              "segments": [
+                {
+                  "text": "Fyfe, E. R., McNeil, N. M., Son, J. Y., & Goldstone, R. L. (2014). "
+                },
+                {
+                  "text": "Concreteness fading in mathematics and science instruction: A systematic review. ",
+                  "italic": false
+                },
+                {
+                  "text": "Educational Psychology Review, 26, 9–25. ",
+                  "italic": true
+                },
+                {
+                  "text": "https://doi.org/10.1007/s10648-014-9249-3"
+                }
+              ]
+            },
+            {
+              "segments": [
+                {
+                  "text": "Gadon, R. M. (2026). "
+                },
+                {
+                  "text": "Utilizing manipulatives in three modes of representation: Its effects on Grade 3 performance in addition. ",
+                  "italic": false
+                },
+                {
+                  "text": "BUKLOD: 2(1), 88. ",
+                  "italic": true
+                },
+                {
+                  "text": "https://bulacandeped.com.ph/buklod/"
+                }
+              ]
+            },
+            {
+              "segments": [
+                {
+                  "text": "The Open University. (n.d.). "
+                },
+                {
+                  "text": "Teaching mathematics: Modes of representation. ",
+                  "italic": true
+                },
+                {
+                  "text": "OpenLearn. ",
+                  "italic": false
+                },
+                {
+                  "text": "https://www.open.edu/openlearn/mod/oucontent/view.php?id=93965&section=_unit5.2.1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "categories": [
+      "Teaching and Learning",
+      "STEM and Problem Solving"
+    ],
+    "searchTerms": [
+      "Bruner",
+      "enactive",
+      "iconic",
+      "symbolic",
+      "concrete pictorial abstract",
+      "CPA",
+      "manipulatives",
+      "EIS",
+      "CRA",
+      "concrete representational abstract",
+      "matematika",
+      "STEM",
+      "science",
+      "mathematics",
+      "problem solving",
+      "agham"
+    ]
+  },
+  {
+    "id": "dialogic-inquiry",
+    "modelName": "Dialogic Inquiry",
+    "category": "Teaching and Learning",
+    "learningArea": "Science, social sciences, Filipino, English, and collaborative inquiry",
+    "tags": [
+      "dialogue",
+      "discussion",
+      "Wells",
+      "oral language",
+      "collaborative inquiry",
+      "questioning"
+    ],
+    "summary": "Dialogic Inquiry develops understanding through purposeful conversation around shared questions and evidence.",
+    "sections": {
+      "Model Overview": [
+        {
+          "type": "paragraph",
+          "text": "Dialogic Inquiry develops understanding through purposeful conversation around shared questions and evidence. Participants build on, question, and revise ideas together. Wells (1999) grounds the approach in a sociocultural account of learning."
+        }
+      ],
+      "When to Use It": [
+        {
+          "type": "list",
+          "items": [
+            "Use when learners offer isolated answers without engaging with others’ reasoning.",
+            "Use for questions that permit explanation, evidence, and more than one defensible interpretation."
+          ]
+        }
+      ],
+      "Core Features": [
+        {
+          "type": "list",
+          "items": [
+            "Shared inquiry questions",
+            "Responsive teacher prompts",
+            "Evidence and reasoned disagreement",
+            "Joint construction and revision of explanations"
+          ]
+        }
+      ],
+      "Baseline Data Needed": [
+        {
+          "type": "list",
+          "items": [
+            "A short discussion sample",
+            "Participation patterns and explanation quality",
+            "Prior concepts and language resources"
+          ]
+        }
+      ],
+      "How to Use It": [
+        {
+          "type": "paragraph",
+          "text": "Choose an accessible question and a common text, observation, or problem. Establish discussion expectations that invite clarification and reasoned disagreement. Model prompts such as asking what evidence supports an idea."
+        },
+        {
+          "type": "paragraph",
+          "text": "Allow thinking time and smaller-group rehearsal. Record how learners take up one another’s contributions, then revisit the question through an individual explanation. Dialogue should help improve understanding, not simply increase talk time."
+        }
+      ],
+      "Action Research Application": [
+        {
+          "type": "paragraph",
+          "text": "Suggested study: How does structured dialogic inquiry influence the quality of explanations in a science or social science unit?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Compare discussion and written explanation samples across a sequence of lessons. Use common criteria for evidence, reasoning, and uptake of peers’ ideas; include quieter learners’ written contributions."
+        }
+      ],
+      "Implementation Flow": [
+        {
+          "type": "image",
+          "src": "assets/model-flows/dialogic-inquiry.png",
+          "alt": "Dialogic Inquiry organizer. Frame a shared question; Explore a common source or experience; Discuss, justify, and connect ideas; Reconsider explanations using evidence; Express and reflect on new understanding",
+          "caption": "Suggested application organizer adapted from Wells (1999) and Haneda and Wells (2010). School applications are illustrative."
+        }
+      ],
+      "Evidence From Related Studies": [
+        {
+          "type": "paragraph",
+          "text": "Haneda and Wells (2010) studied dialogic science learning in a classroom with English-as-additional-language learners. Their longitudinal classroom study informs language support and participation."
+        },
+        {
+          "type": "paragraph",
+          "text": "Jay et al. (2017) evaluated a related dialogic teaching intervention in England. Its findings concern that program, rather than proving all versions of Dialogic Inquiry equivalent. Estorquia (2025), BUKLOD Volume I, p. 125, reports a Bulacan DISS application."
+        }
+      ],
+      "Data to Gather": [
+        {
+          "type": "list",
+          "items": [
+            "Discussion transcripts or structured observations",
+            "Individual explanations",
+            "Learner reflections on participation"
+          ]
+        }
+      ],
+      "Indicators of Success": [
+        {
+          "type": "paragraph",
+          "text": "Set realistic targets from baseline results and the duration of implementation."
+        },
+        {
+          "type": "list",
+          "items": [
+            "More evidence-supported explanations",
+            "Contributions that respond to earlier ideas",
+            "Wider and more meaningful participation"
+          ]
+        }
+      ],
+      "References": [
+        {
+          "type": "references",
+          "items": [
+            {
+              "segments": [
+                {
+                  "text": "Estorquia, F. A. F. (2025). "
+                },
+                {
+                  "text": "Dialogic inquiry: Igniting minds with open-ended collaborative conversations (OECC) in improving Grade 11 students’ achievement in DISS. ",
+                  "italic": false
+                },
+                {
+                  "text": "BUKLOD: 1(1), 125. ",
+                  "italic": true
+                },
+                {
+                  "text": "https://bulacandeped.com.ph/buklod/"
+                }
+              ]
+            },
+            {
+              "segments": [
+                {
+                  "text": "Haneda, M., & Wells, G. (2010). "
+                },
+                {
+                  "text": "Learning science through dialogic inquiry: Is it beneficial for English-as-additional-language students?. ",
+                  "italic": false
+                },
+                {
+                  "text": "International Journal of Educational Research, 49(1), 10–21. ",
+                  "italic": true
+                },
+                {
+                  "text": "https://doi.org/10.1016/j.ijer.2010.05.003"
+                }
+              ]
+            },
+            {
+              "segments": [
+                {
+                  "text": "Jay, T., Willis, B., Thomas, P., Taylor, R., Moore, N., Burnett, C., Merchant, G., & Stevens, A. (2017). "
+                },
+                {
+                  "text": "Dialogic teaching: Evaluation report and executive summary. ",
+                  "italic": true
+                },
+                {
+                  "text": "Education Endowment Foundation. ",
+                  "italic": false
+                },
+                {
+                  "text": "https://educationendowmentfoundation.org.uk/projects-and-evaluation/projects/dialogic-teaching"
+                }
+              ]
+            },
+            {
+              "segments": [
+                {
+                  "text": "Wells, G. (1999). "
+                },
+                {
+                  "text": "Dialogic inquiry: Towards a sociocultural practice and theory of education. ",
+                  "italic": true
+                },
+                {
+                  "text": "Cambridge University Press. ",
+                  "italic": false
+                },
+                {
+                  "text": "https://doi.org/10.1017/CBO9780511605895"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "categories": [
+      "Teaching and Learning",
+      "Literacy and Language",
+      "Family, Community and Learner Participation",
+      "STEM and Problem Solving"
+    ],
+    "searchTerms": [
+      "dialogue",
+      "discussion",
+      "Wells",
+      "oral language",
+      "collaborative inquiry",
+      "questioning",
+      "dialogic teaching",
+      "talakayan",
+      "oral discussion",
+      "literacy",
+      "reading",
+      "pagbasa",
+      "language",
+      "wika",
+      "STEM",
+      "science",
+      "mathematics",
+      "problem solving",
+      "agham",
+      "matematika"
+    ]
+  },
+  {
+    "id": "pax-gbg",
+    "modelName": "PAX Good Behavior Game",
+    "category": "Guidance, Behavior and Well-being",
+    "learningArea": "Classroom management and learner self-regulation",
+    "tags": [
+      "PAX",
+      "GBG",
+      "behavior",
+      "behaviour",
+      "classroom management",
+      "self regulation",
+      "positive reinforcement"
+    ],
+    "summary": "PAX Good Behavior Game is a specific classroom preventive intervention that combines shared expectations, supportive routines, and a cooperative game to strengthen self-regulation.",
+    "sections": {
+      "Model Overview": [
+        {
+          "type": "paragraph",
+          "text": "PAX Good Behavior Game is a specific classroom preventive intervention that combines shared expectations, supportive routines, and a cooperative game to strengthen self-regulation. Its materials and training define the program; a generic reward game should not be described as full PAX implementation (PAXIS Institute, n.d.)."
+        }
+      ],
+      "When to Use It": [
+        {
+          "type": "list",
+          "items": [
+            "Use when disruptive routines reduce learning time and staff can access appropriate program preparation.",
+            "Use as classwide support alongside individual assistance when needed."
+          ]
+        }
+      ],
+      "Core Features": [
+        {
+          "type": "list",
+          "items": [
+            "Shared descriptions of a positive classroom",
+            "Practice of observable routines",
+            "Brief cooperative game periods",
+            "Positive reinforcement and supportive feedback"
+          ]
+        }
+      ],
+      "Baseline Data Needed": [
+        {
+          "type": "list",
+          "items": [
+            "Operational definitions and counts of target behaviors",
+            "Classroom observation periods of consistent duration",
+            "Learner and teacher views of classroom routines"
+          ]
+        }
+      ],
+      "How to Use It": [
+        {
+          "type": "paragraph",
+          "text": "Review official program guidance and arrange training before implementing PAX as a named program. Discuss classroom expectations with learners using positive, observable language."
+        },
+        {
+          "type": "paragraph",
+          "text": "Plan observation periods, practice routines, and monitor inclusion. Avoid public shaming or interpreting a child’s behavior as a character defect. Adaptations should be described accurately, with notes on what differed from the program."
+        }
+      ],
+      "Action Research Application": [
+        {
+          "type": "paragraph",
+          "text": "Suggested study: How do classroom engagement and disruption patterns change during supported PAX implementation?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Collect repeated baseline and implementation observations in comparable activities. Add teacher and learner feedback. Report rates per observation period, implementation support, and other classroom changes."
+        }
+      ],
+      "Implementation Flow": [
+        {
+          "type": "image",
+          "src": "assets/model-flows/pax-gbg.png",
+          "alt": "PAX Good Behavior Game organizer. Prepare staff using official PAX guidance; Establish shared classroom expectations; Teach and practise supportive routines; Use the game with appropriate support; Review behavior, engagement, and learner experience",
+          "caption": "Suggested application organizer adapted from PAXIS Institute (n.d.); overview only, not a substitute for program training. School applications are illustrative."
+        }
+      ],
+      "Evidence From Related Studies": [
+        {
+          "type": "paragraph",
+          "text": "Smith et al. (2018) conducted a cluster-randomized trial in afterschool programs; implementation quality was important to observed benefits. Streimann et al. (2020) conducted a cluster-randomized trial in Estonian schools. These strengthen the evidence beyond developer descriptions."
+        },
+        {
+          "type": "paragraph",
+          "text": "Dela Peña (2026), BUKLOD Volume II, p. 152, reports a local Grade 2 application. Its large reported changes should be read with the study design and observation procedures in mind."
+        }
+      ],
+      "Data to Gather": [
+        {
+          "type": "list",
+          "items": [
+            "Comparable observation counts and duration",
+            "Engaged learning time",
+            "Implementation notes and learner feedback"
+          ]
+        }
+      ],
+      "Indicators of Success": [
+        {
+          "type": "paragraph",
+          "text": "Set realistic targets from baseline results and the duration of implementation."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Sustained reduction in disruptive behavior rates",
+            "More engagement without exclusion or embarrassment",
+            "Routines used consistently across lessons"
+          ]
+        }
+      ],
+      "References": [
+        {
+          "type": "references",
+          "items": [
+            {
+              "segments": [
+                {
+                  "text": "Dela Peña, J. E. (2026). "
+                },
+                {
+                  "text": "Classroom behavior and dynamics through the PAX Good Behavior Game: A Philippine perspective. ",
+                  "italic": false
+                },
+                {
+                  "text": "BUKLOD: 2(1), 152. ",
+                  "italic": true
+                },
+                {
+                  "text": "https://bulacandeped.com.ph/buklod/"
+                }
+              ]
+            },
+            {
+              "segments": [
+                {
+                  "text": "PAXIS Institute. (n.d.). "
+                },
+                {
+                  "text": "PAX Good Behavior Game. ",
+                  "italic": true
+                },
+                {
+                  "text": "",
+                  "italic": false
+                },
+                {
+                  "text": "https://paxis.org/the-pax-good-behavior-game/"
+                }
+              ]
+            },
+            {
+              "segments": [
+                {
+                  "text": "Smith, E. P., Osgood, D. W., Oh, Y., & Caldwell, L. C. (2018). "
+                },
+                {
+                  "text": "Promoting afterschool quality and positive youth development: Cluster randomized trial of the PAX Good Behavior Game. ",
+                  "italic": false
+                },
+                {
+                  "text": "Prevention Science, 19, 159–173. ",
+                  "italic": true
+                },
+                {
+                  "text": "https://doi.org/10.1007/s11121-017-0820-2"
+                }
+              ]
+            },
+            {
+              "segments": [
+                {
+                  "text": "Streimann, K., Selart, A., & Trummal, A. (2020). "
+                },
+                {
+                  "text": "Effectiveness of a universal, classroom-based preventive intervention (PAX GBG) in Estonia: A cluster-randomized controlled trial. ",
+                  "italic": false
+                },
+                {
+                  "text": "Prevention Science. ",
+                  "italic": true
+                },
+                {
+                  "text": "https://pubmed.ncbi.nlm.nih.gov/31432379/"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "categories": [
+      "Guidance, Behavior and Well-being",
+      "Teaching and Learning",
+      "Inclusive Education"
+    ],
+    "searchTerms": [
+      "PAX",
+      "GBG",
+      "behavior",
+      "behaviour",
+      "classroom management",
+      "self regulation",
+      "positive reinforcement",
+      "good behavior game",
+      "good behaviour game",
+      "classroom routines"
+    ]
+  },
+  {
+    "id": "pedagogical-translanguaging",
+    "modelName": "Pedagogical Translanguaging",
+    "category": "Teaching and Learning",
+    "learningArea": "Multilingual instruction, science, Filipino, English, and other content areas",
+    "tags": [
+      "translanguaging",
+      "multilingual",
+      "bilingual",
+      "language support",
+      "mother tongue",
+      "linguistic repertoire"
+    ],
+    "summary": "Pedagogical Translanguaging is the planned use of learners’ language resources to support language and content learning.",
+    "sections": {
+      "Model Overview": [
+        {
+          "type": "paragraph",
+          "text": "Pedagogical Translanguaging is the planned use of learners’ language resources to support language and content learning. It differs from simply switching languages spontaneously: teachers identify a learning purpose and design opportunities to use languages productively (Cenoz & Gorter, 2021)."
+        }
+      ],
+      "When to Use It": [
+        {
+          "type": "list",
+          "items": [
+            "Use when language demands conceal learners’ understanding of a concept.",
+            "Use when learners can compare terms, explain ideas, and develop disciplinary language across languages."
+          ]
+        }
+      ],
+      "Core Features": [
+        {
+          "type": "list",
+          "items": [
+            "Planned multilingual tasks",
+            "Attention to content and language goals",
+            "Connections across linguistic resources",
+            "Scaffolding toward the intended output language"
+          ]
+        }
+      ],
+      "Baseline Data Needed": [
+        {
+          "type": "list",
+          "items": [
+            "Learners’ language repertoires and access to materials",
+            "Content understanding separate from language accuracy",
+            "Participation and vocabulary difficulties"
+          ]
+        }
+      ],
+      "How to Use It": [
+        {
+          "type": "paragraph",
+          "text": "Identify a content objective and the language needed to communicate it. Plan which resources learners can use to discuss, annotate, compare vocabulary, or prepare an explanation."
+        },
+        {
+          "type": "paragraph",
+          "text": "A science task may allow discussion in familiar languages before producing an explanation using the required scientific terms. Check both conceptual accuracy and language development. Do not assume that every learner shares the same home language."
+        }
+      ],
+      "Action Research Application": [
+        {
+          "type": "paragraph",
+          "text": "Suggested study: How does planned multilingual discussion affect explanation quality and participation during a science unit?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Use comparable concept tasks, participation observations, and learner interviews. Separate content scores from target-language criteria so gains in one are not mistaken for gains in the other."
+        }
+      ],
+      "Implementation Flow": [
+        {
+          "type": "image",
+          "src": "assets/model-flows/pedagogical-translanguaging.png",
+          "alt": "Pedagogical Translanguaging organizer. Identify language resources and learning goals; Plan purposeful multilingual supports; Discuss, read, and compare across languages; Create a disciplinary explanation; Check content understanding and language growth",
+          "caption": "Suggested application organizer adapted from Cenoz and Gorter (2021) and Celic and Seltzer (2012). School applications are illustrative."
+        }
+      ],
+      "Evidence From Related Studies": [
+        {
+          "type": "paragraph",
+          "text": "Cenoz and Gorter (2021) provide a theoretical and instructional account. Cenoz et al. (2022) found stronger cognate awareness after an intervention but no significant group difference in cognate identification; outcomes should therefore be specified carefully."
+        },
+        {
+          "type": "paragraph",
+          "text": "Celic and Seltzer (2012) supply classroom guidance. Cervantes (2026), BUKLOD Volume II, p. 112, describes a Grade 4 science application with a single-group design."
+        }
+      ],
+      "Data to Gather": [
+        {
+          "type": "list",
+          "items": [
+            "Content explanations and vocabulary samples",
+            "Participation across language groups",
+            "Reflections on useful language supports"
+          ]
+        }
+      ],
+      "Indicators of Success": [
+        {
+          "type": "paragraph",
+          "text": "Set realistic targets from baseline results and the duration of implementation."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Clearer explanations of the target concept",
+            "Broader participation",
+            "Progress in the specified language objective"
+          ]
+        }
+      ],
+      "References": [
+        {
+          "type": "references",
+          "items": [
+            {
+              "segments": [
+                {
+                  "text": "Celic, C., & Seltzer, K. (2012). "
+                },
+                {
+                  "text": "Translanguaging: A CUNY-NYSIEB guide for educators. ",
+                  "italic": true
+                },
+                {
+                  "text": "CUNY-NYSIEB. ",
+                  "italic": false
+                },
+                {
+                  "text": "https://www.cuny-nysieb.org/translanguaging-resources/translanguaging-guides/"
+                }
+              ]
+            },
+            {
+              "segments": [
+                {
+                  "text": "Cenoz, J., & Gorter, D. (2021). "
+                },
+                {
+                  "text": "Pedagogical translanguaging. ",
+                  "italic": true
+                },
+                {
+                  "text": "Cambridge University Press. ",
+                  "italic": false
+                },
+                {
+                  "text": "https://www.cambridge.org/core/elements/pedagogical-translanguaging/67802C1E5AE4A418AE3B8E2DEFBAD30A"
+                }
+              ]
+            },
+            {
+              "segments": [
+                {
+                  "text": "Cervantes, M. L. G. (2026). "
+                },
+                {
+                  "text": "Effectiveness of using translanguaging techniques in inquiry-based science classroom with MTB-MLE exposed Grade 4 learners. ",
+                  "italic": false
+                },
+                {
+                  "text": "BUKLOD: 2(1), 112. ",
+                  "italic": true
+                },
+                {
+                  "text": "https://bulacandeped.com.ph/buklod/"
+                }
+              ]
+            },
+            {
+              "segments": [
+                {
+                  "text": "Cenoz, J., Leonet, O., & Gorter, D. (2022). "
+                },
+                {
+                  "text": "Developing cognate awareness through pedagogical translanguaging. ",
+                  "italic": false
+                },
+                {
+                  "text": "International Journal of Bilingual Education and Bilingualism, 25(8), 2759–2773. ",
+                  "italic": true
+                },
+                {
+                  "text": "https://doi.org/10.1080/13670050.2021.1961675"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "categories": [
+      "Teaching and Learning",
+      "Literacy and Language",
+      "Inclusive Education",
+      "STEM and Problem Solving"
+    ],
+    "searchTerms": [
+      "translanguaging",
+      "multilingual",
+      "bilingual",
+      "language support",
+      "mother tongue",
+      "linguistic repertoire",
+      "MTB MLE",
+      "literacy",
+      "reading",
+      "pagbasa",
+      "language",
+      "wika",
+      "STEM",
+      "science",
+      "mathematics",
+      "problem solving",
+      "agham",
+      "matematika"
+    ]
+  },
+  {
+    "id": "scaffolded-reading-experience",
+    "modelName": "Scaffolded Reading Experience (SRE)",
+    "category": "Teaching and Learning",
+    "learningArea": "Reading comprehension across Filipino, English, and content subjects",
+    "tags": [
+      "SRE",
+      "reading comprehension",
+      "prereading",
+      "during reading",
+      "postreading",
+      "literacy"
+    ],
+    "summary": "The Scaffolded Reading Experience is a flexible framework associated with Michael and Bonnie Graves.",
+    "sections": {
+      "Model Overview": [
+        {
+          "type": "paragraph",
+          "text": "The Scaffolded Reading Experience is a flexible framework associated with Michael and Bonnie Graves. Teachers consider learners, text, and reading purpose when choosing support before, during, and after reading. It gives a specific planning structure to the broader idea of scaffolding (Graves & Graves, 1995)."
+        }
+      ],
+      "When to Use It": [
+        {
+          "type": "list",
+          "items": [
+            "Use when a worthwhile text is challenging but accessible with appropriate support.",
+            "Use for mixed-readiness classes with a shared reading purpose."
+          ]
+        }
+      ],
+      "Core Features": [
+        {
+          "type": "list",
+          "items": [
+            "Planning around learners, text, and purpose",
+            "Prereading preparation",
+            "Support while reading",
+            "Postreading discussion and application"
+          ]
+        }
+      ],
+      "Baseline Data Needed": [
+        {
+          "type": "list",
+          "items": [
+            "Reading comprehension and vocabulary evidence",
+            "Knowledge needed for the selected text",
+            "Independent reading and help-seeking behaviors"
+          ]
+        }
+      ],
+      "How to Use It": [
+        {
+          "type": "paragraph",
+          "text": "Analyze what makes the text difficult and decide what learners should understand. Select a few supports, such as activating relevant knowledge or clarifying essential vocabulary, rather than explaining the whole text in advance."
+        },
+        {
+          "type": "paragraph",
+          "text": "During reading, monitor meaning and provide prompts proportionate to need. Afterwards, ask learners to explain, apply, or respond to the text and gradually reduce support. Guided Reading can be one activity within SRE; the two are not identical."
+        }
+      ],
+      "Action Research Application": [
+        {
+          "type": "paragraph",
+          "text": "Suggested study: How does an SRE lesson sequence affect learners’ inference-making with unfamiliar texts?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Use comparable passages and a common comprehension rubric. Include an independent transfer passage and record how much assistance each task required."
+        }
+      ],
+      "Implementation Flow": [
+        {
+          "type": "image",
+          "src": "assets/model-flows/scaffolded-reading-experience.png",
+          "alt": "Scaffolded Reading Experience (SRE) organizer. Plan around learners, text, and purpose; Before reading: prepare essential understanding; During reading: monitor and support meaning; After reading: discuss, apply, and respond; Check independent understanding and adjust support",
+          "caption": "Suggested application organizer adapted from Graves and Graves (1995) and Graves and Braaten (1996). School applications are illustrative."
+        }
+      ],
+      "Evidence From Related Studies": [
+        {
+          "type": "paragraph",
+          "text": "Graves and Graves (1995) describe the framework, while Graves and Braaten (1996) illustrate inclusive classroom use. Lestari and Anugerahwati (2022), in a small comparative study, found no significant difference between SRE and Collaborative Strategic Reading."
+        },
+        {
+          "type": "paragraph",
+          "text": "Barcelo and Santos (2025), BUKLOD Volume I, PDF p. 76, report a local Grade 2 application. This provides contextual evidence, not a basis for claiming universal superiority."
+        }
+      ],
+      "Data to Gather": [
+        {
+          "type": "list",
+          "items": [
+            "Responses before and after reading",
+            "Independent comprehension tasks",
+            "Teacher prompts and learner reflections"
+          ]
+        }
+      ],
+      "Indicators of Success": [
+        {
+          "type": "paragraph",
+          "text": "Set realistic targets from baseline results and the duration of implementation."
+        },
+        {
+          "type": "list",
+          "items": [
+            "More accurate text-based inferences",
+            "Stronger independent transfer",
+            "Less assistance needed with comparable texts"
+          ]
+        }
+      ],
+      "References": [
+        {
+          "type": "references",
+          "items": [
+            {
+              "segments": [
+                {
+                  "text": "Barcelo, R. D., & Santos, C. I. L. (2025). "
+                },
+                {
+                  "text": "The scaffolded reading experience (SRE): Improving Grade 2 learners’ reading comprehension skills. ",
+                  "italic": false
+                },
+                {
+                  "text": "BUKLOD: 1(1), 76. ",
+                  "italic": true
+                },
+                {
+                  "text": "https://bulacandeped.com.ph/buklod/"
+                }
+              ]
+            },
+            {
+              "segments": [
+                {
+                  "text": "Graves, B. B., & Braaten, S. (1996). "
+                },
+                {
+                  "text": "Scaffolded reading experiences for inclusive classes. ",
+                  "italic": false
+                },
+                {
+                  "text": "Educational Leadership, 53(5). ",
+                  "italic": true
+                },
+                {
+                  "text": "https://ascd.org/el/articles/scaffolded-reading-experiences-for-inclusive-classes"
+                }
+              ]
+            },
+            {
+              "segments": [
+                {
+                  "text": "Graves, M. F., & Graves, B. B. (1995). "
+                },
+                {
+                  "text": "The scaffolded reading experience: A flexible framework for helping students get the most out of text. ",
+                  "italic": false
+                },
+                {
+                  "text": "Reading, 29(1), 29–34. ",
+                  "italic": true
+                },
+                {
+                  "text": "https://doi.org/10.1111/j.1467-9345.1995.tb00135.x"
+                }
+              ]
+            },
+            {
+              "segments": [
+                {
+                  "text": "Lestari, I. P., & Anugerahwati, M. (2022). "
+                },
+                {
+                  "text": "The effect of scaffolded reading experience and collaborative strategic reading on students’ reading comprehension skills across different reading proficiency levels. ",
+                  "italic": false
+                },
+                {
+                  "text": "World Journal of English Language, 12(5). ",
+                  "italic": true
+                },
+                {
+                  "text": "https://www.sciedu.ca/journal/index.php/wjel/article/view/21961"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "categories": [
+      "Teaching and Learning",
+      "Literacy and Language"
+    ],
+    "searchTerms": [
+      "SRE",
+      "reading comprehension",
+      "prereading",
+      "during reading",
+      "postreading",
+      "literacy",
+      "Graves",
+      "before during after reading",
+      "pagbasa",
+      "reading",
+      "language",
+      "wika"
+    ]
+  },
+  {
+    "id": "teams-games-tournament",
+    "modelName": "Teams–Games–Tournament (TGT)",
+    "category": "Teaching and Learning",
+    "learningArea": "Mathematics and other subjects with practice and review tasks",
+    "tags": [
+      "TGT",
+      "cooperative learning",
+      "games",
+      "tournament",
+      "team learning",
+      "mathematics"
+    ],
+    "summary": "Teams–Games–Tournament combines cooperative study with academic games and tournaments.",
+    "sections": {
+      "Model Overview": [
+        {
+          "type": "paragraph",
+          "text": "Teams–Games–Tournament combines cooperative study with academic games and tournaments. Learners prepare in mixed teams and contribute to team results through structured participation. Its organization distinguishes it from unstructured classroom competition (Slavin, 1980)."
+        }
+      ],
+      "When to Use It": [
+        {
+          "type": "list",
+          "items": [
+            "Use for practice of clearly defined knowledge or skills.",
+            "Use when group activities need individual participation and supportive peer preparation."
+          ]
+        }
+      ],
+      "Core Features": [
+        {
+          "type": "list",
+          "items": [
+            "Teacher introduction of the learning target",
+            "Mixed-team study and practice",
+            "Academic games and structured tournaments",
+            "Team recognition with individual contribution"
+          ]
+        }
+      ],
+      "Baseline Data Needed": [
+        {
+          "type": "list",
+          "items": [
+            "Individual skill assessment",
+            "Participation and confidence during group work",
+            "Accessibility of game materials and instructions"
+          ]
+        }
+      ],
+      "How to Use It": [
+        {
+          "type": "paragraph",
+          "text": "Prepare questions at suitable difficulty levels and teach the content before the tournament. Organize team practice so learners explain solutions, correct errors, and help one another."
+        },
+        {
+          "type": "paragraph",
+          "text": "Explain fair participation and scoring. Use appropriate tournament groupings and rotate opportunities; do not publicly label learners by ability. Follow the game with an individual task to check learning rather than treating team points as achievement scores."
+        }
+      ],
+      "Action Research Application": [
+        {
+          "type": "paragraph",
+          "text": "Suggested study: How does TGT-supported practice affect mathematics accuracy and participation?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Use individual pretests, posttests, and a delayed task, alongside observation of participation. Where feasible, compare equivalent lessons with another class and report differences in starting performance and instructional time."
+        }
+      ],
+      "Implementation Flow": [
+        {
+          "type": "image",
+          "src": "assets/model-flows/teams-games-tournament.png",
+          "alt": "Teams–Games–Tournament (TGT) organizer. Introduce the learning target; Study and practise in mixed teams; Play academic games; Hold structured tournaments; Recognize teams and check individual understanding",
+          "caption": "Suggested application organizer adapted from Slavin (1980) and Capinding (2021). School applications are illustrative."
+        }
+      ],
+      "Evidence From Related Studies": [
+        {
+          "type": "paragraph",
+          "text": "Capinding (2021) reports a Grade 8 comparison of TGT and another condition, with improved posttest performance in the experimental group. Slavin (1980) discusses cooperative learning evidence and the importance of task and reward structures."
+        },
+        {
+          "type": "paragraph",
+          "text": "Villamora (2023), SIKHAY pp. 52–61, adapted TGT with Filipino games for 32 Grade 6 learners. Its one-group design supports local exploration but cannot isolate the contribution of the games from other influences."
+        }
+      ],
+      "Data to Gather": [
+        {
+          "type": "list",
+          "items": [
+            "Individual assessment scores",
+            "Participation observations",
+            "Team practice samples and learner feedback"
+          ]
+        }
+      ],
+      "Indicators of Success": [
+        {
+          "type": "paragraph",
+          "text": "Set realistic targets from baseline results and the duration of implementation."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Improved independent performance",
+            "Participation distributed across team members",
+            "Constructive explanation and correction during practice"
+          ]
+        }
+      ],
+      "References": [
+        {
+          "type": "references",
+          "items": [
+            {
+              "segments": [
+                {
+                  "text": "Annurwanda, P. (2018). "
+                },
+                {
+                  "text": "The effect of teams games tournament on mathematics self-efficacy in junior high schools. ",
+                  "italic": false
+                },
+                {
+                  "text": "SHS Web of Conferences, 42, 00079. ",
+                  "italic": true
+                },
+                {
+                  "text": "https://doi.org/10.1051/shsconf/20184200079"
+                }
+              ]
+            },
+            {
+              "segments": [
+                {
+                  "text": "Capinding, A. T. (2021). "
+                },
+                {
+                  "text": "Effect of Teams-Games Tournament (TGT) strategy on mathematics achievement and class motivation of Grade 8 students. ",
+                  "italic": false
+                },
+                {
+                  "text": "International Journal of Game-Based Learning, 11(3), 56–68. ",
+                  "italic": true
+                },
+                {
+                  "text": "https://doi.org/10.4018/IJGBL.2021070104"
+                }
+              ]
+            },
+            {
+              "segments": [
+                {
+                  "text": "Slavin, R. E. (1980). "
+                },
+                {
+                  "text": "Cooperative learning. ",
+                  "italic": false
+                },
+                {
+                  "text": "Review of Educational Research, 50(2), 315–342. ",
+                  "italic": true
+                },
+                {
+                  "text": "https://doi.org/10.3102/00346543050002315"
+                }
+              ]
+            },
+            {
+              "segments": [
+                {
+                  "text": "Villamora, V. C. (2023). "
+                },
+                {
+                  "text": "Teams-Games-Tournament (TGT) learning model and Filipino games: Effect on Grade 6 learners’ academic achievement in mathematics. ",
+                  "italic": false
+                },
+                {
+                  "text": "SIKHAY: The DepEd Bulacan Research Compendium, 1(1), 52–61. ",
+                  "italic": true
+                },
+                {
+                  "text": "https://drive.google.com/file/d/1ZCWd_5y7Ws7CbPX5orMNjkK8gmUnQP6W/view?usp=sharing"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "categories": [
+      "Teaching and Learning",
+      "STEM and Problem Solving",
+      "Family, Community and Learner Participation"
+    ],
+    "searchTerms": [
+      "TGT",
+      "cooperative learning",
+      "games",
+      "tournament",
+      "team learning",
+      "mathematics",
+      "teams games tournament",
+      "cooperative games",
+      "laro",
+      "STEM",
+      "science",
+      "problem solving",
+      "agham",
+      "matematika"
+    ]
+  },
+  {
+    "id": "fives",
+    "modelName": "FIVES Reading Comprehension Strategy",
+    "category": "Teaching and Learning",
+    "learningArea": "Filipino, English, and disciplinary literacy",
+    "tags": [
+      "FIVES",
+      "facts",
+      "inferences",
+      "vocabulary",
+      "experiences",
+      "summary",
+      "reading"
+    ],
+    "summary": "FIVES is a literacy strategy developed by Shea and Roberts that links Facts, Inferences, Vocabulary, Experiences, and Summary.",
+    "sections": {
+      "Model Overview": [
+        {
+          "type": "paragraph",
+          "text": "FIVES is a literacy strategy developed by Shea and Roberts that links Facts, Inferences, Vocabulary, Experiences, and Summary. These components help learners connect explicit information, meaning, prior knowledge, and communication (Shea & Roberts, 2016)."
+        }
+      ],
+      "When to Use It": [
+        {
+          "type": "list",
+          "items": [
+            "Use when readers recall details but struggle to infer or summarize.",
+            "Use with literary and informational texts that support discussion and evidence-based responses."
+          ]
+        }
+      ],
+      "Core Features": [
+        {
+          "type": "list",
+          "items": [
+            "Facts supported by text",
+            "Inferences with reasons",
+            "Vocabulary understood in context",
+            "Relevant experiences connected to reading",
+            "A coherent summary"
+          ]
+        }
+      ],
+      "Baseline Data Needed": [
+        {
+          "type": "list",
+          "items": [
+            "A reading response covering recall, inference, and vocabulary",
+            "An independently written summary",
+            "Knowledge relevant to the text"
+          ]
+        }
+      ],
+      "How to Use It": [
+        {
+          "type": "paragraph",
+          "text": "Select a manageable text and model how to distinguish a stated fact from an inference. Think aloud about unfamiliar language and explain how an experience may illuminate a text without replacing its evidence."
+        },
+        {
+          "type": "paragraph",
+          "text": "Provide a flexible organizer and discuss responses before learners write an independent summary. The letters guide comprehension; learners may revisit components rather than completing a mechanical worksheet in a fixed order."
+        }
+      ],
+      "Action Research Application": [
+        {
+          "type": "paragraph",
+          "text": "Suggested study: How does FIVES instruction affect inference-making and summarizing in Filipino reading?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Use parallel reading tasks and separate criteria for factual accuracy, inference support, vocabulary, and summary. Include a new passage to see whether learners can apply the strategy beyond rehearsed texts."
+        }
+      ],
+      "Implementation Flow": [
+        {
+          "type": "image",
+          "src": "assets/model-flows/fives.png",
+          "alt": "FIVES Reading Comprehension Strategy organizer. Facts: identify explicit information; Inferences: reason from text evidence; Vocabulary: clarify meanings in context; Experiences: make relevant connections; Summary: communicate the central meaning",
+          "caption": "Suggested application organizer adapted from Shea and Roberts (2016); components may be revisited. School applications are illustrative."
+        }
+      ],
+      "Evidence From Related Studies": [
+        {
+          "type": "paragraph",
+          "text": "Shea and Roberts (2016) describe the strategy and its literacy foundations. Sari et al. (2020) report an application with eleventh graders; findings should be considered alongside its sample and design."
+        },
+        {
+          "type": "paragraph",
+          "text": "Pabilonia (2023), SIKHAY pp. 193–202, provides a Filipino 10 application. Use it as local supporting evidence rather than presenting the locally prepared materials as the origin of FIVES."
+        }
+      ],
+      "Data to Gather": [
+        {
+          "type": "list",
+          "items": [
+            "Completed organizers and independent summaries",
+            "Comprehension scores by skill",
+            "Think-aloud or reflection samples"
+          ]
+        }
+      ],
+      "Indicators of Success": [
+        {
+          "type": "paragraph",
+          "text": "Set realistic targets from baseline results and the duration of implementation."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Stronger text-based inferences",
+            "More accurate and concise summaries",
+            "Appropriate explanation of vocabulary in context"
+          ]
+        }
+      ],
+      "References": [
+        {
+          "type": "references",
+          "items": [
+            {
+              "segments": [
+                {
+                  "text": "Pabilonia, K. G. (2023). "
+                },
+                {
+                  "text": "Estratehiyang FIVES (Facts, Inference, Vocabulary, Experience, Summary) tungo sa pagpapataas ng antas ng pag-unawa sa Baitang 10. ",
+                  "italic": false
+                },
+                {
+                  "text": "SIKHAY: The DepEd Bulacan Research Compendium, 1(1), 193–202. ",
+                  "italic": true
+                },
+                {
+                  "text": "https://drive.google.com/file/d/1ZCWd_5y7Ws7CbPX5orMNjkK8gmUnQP6W/view?usp=sharing"
+                }
+              ]
+            },
+            {
+              "segments": [
+                {
+                  "text": "Sari, S., Oktaviani, A., & Yulfi, Y. (2020). "
+                },
+                {
+                  "text": "The use of FIVES strategy to teach reading comprehension for eleventh graders. ",
+                  "italic": false
+                },
+                {
+                  "text": "Celtic: A Journal of Culture, English Language Teaching, Literature and Linguistics, 7(1), 74–82. ",
+                  "italic": true
+                },
+                {
+                  "text": "https://ejournal.umm.ac.id/index.php/celtic/article/view/11503"
+                }
+              ]
+            },
+            {
+              "segments": [
+                {
+                  "text": "Shea, M., & Roberts, N. (2016). "
+                },
+                {
+                  "text": "FIVES: An integrated strategy for comprehension and vocabulary learning. ",
+                  "italic": false
+                },
+                {
+                  "text": "Journal of Inquiry & Action in Education, 8(1), 95–108. ",
+                  "italic": true
+                },
+                {
+                  "text": "https://files.eric.ed.gov/fulltext/EJ1133586.pdf"
+                }
+              ]
+            },
+            {
+              "segments": [
+                {
+                  "text": "Melati, E. (2018). "
+                },
+                {
+                  "text": "FIVES: A recent strategy in teaching reading comprehension. "
+                },
+                {
+                  "text": "Proceedings of ISELT FBS Universitas Negeri Padang, 6. ",
+                  "italic": true
+                },
+                {
+                  "text": "https://ejournal.unp.ac.id/index.php/selt/article/view/100140"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "categories": [
+      "Teaching and Learning",
+      "Literacy and Language"
+    ],
+    "searchTerms": [
+      "FIVES",
+      "facts",
+      "inferences",
+      "vocabulary",
+      "experiences",
+      "summary",
+      "reading",
+      "facts inference vocabulary experience summary",
+      "pag-unawa",
+      "pagbasa",
+      "literacy",
+      "language",
+      "wika"
+    ]
+  },
+  {
+    "id": "seven-e",
+    "modelName": "7E Learning Cycle",
+    "category": "Teaching and Learning",
+    "learningArea": "Science instruction and concept development",
+    "tags": [
+      "7E",
+      "seven e",
+      "learning cycle",
+      "elicit",
+      "engage",
+      "explore",
+      "explain",
+      "elaborate",
+      "evaluate",
+      "extend"
+    ],
+    "summary": "Eisenkraft’s 7E Learning Cycle expands the 5E instructional model by making elicitation of prior understanding and transfer to new contexts more explicit.",
+    "sections": {
+      "Model Overview": [
+        {
+          "type": "paragraph",
+          "text": "Eisenkraft’s 7E Learning Cycle expands the 5E instructional model by making elicitation of prior understanding and transfer to new contexts more explicit. It includes Elicit, Engage, Explore, Explain, Elaborate, Evaluate, and Extend (Eisenkraft, 2003)."
+        }
+      ],
+      "When to Use It": [
+        {
+          "type": "list",
+          "items": [
+            "Use when misconceptions need to be made visible before instruction.",
+            "Use when a science unit should move from investigation to explanation and transfer."
+          ]
+        }
+      ],
+      "Core Features": [
+        {
+          "type": "list",
+          "items": [
+            "Explicit elicitation of prior understanding",
+            "Exploration before formal explanation",
+            "Application and transfer",
+            "Assessment throughout the learning experience"
+          ]
+        }
+      ],
+      "Baseline Data Needed": [
+        {
+          "type": "list",
+          "items": [
+            "Prior explanations and misconceptions",
+            "A concept task and a transfer task",
+            "Relevant inquiry and laboratory skills"
+          ]
+        }
+      ],
+      "How to Use It": [
+        {
+          "type": "paragraph",
+          "text": "Plan a sequence around one concept rather than forcing seven disconnected activities into one period. Elicit ideas and create interest, then let learners examine evidence before formalizing an explanation."
+        },
+        {
+          "type": "paragraph",
+          "text": "Design elaboration and extension tasks that require use of the concept in a different situation. Use formative assessment throughout; evaluate is not limited to a final quiz. Revisit earlier phases when the evidence shows a need."
+        }
+      ],
+      "Action Research Application": [
+        {
+          "type": "paragraph",
+          "text": "Suggested study: How does a 7E unit influence learners’ conceptual explanations and transfer to a new science problem?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Compare explanations and transfer tasks before and after the unit. A comparison class can strengthen interpretation when learning time and content are similar. Record implementation and the starting differences between groups."
+        }
+      ],
+      "Implementation Flow": [
+        {
+          "type": "image",
+          "src": "assets/model-flows/seven-e.png",
+          "alt": "7E Learning Cycle organizer. Elicit prior ideas; Engage interest and purpose; Explore evidence; Explain relationships and concepts; Elaborate through application; Evaluate understanding throughout; Extend learning to a new context",
+          "caption": "Suggested application organizer adapted from Eisenkraft (2003); phases can be revisited. School applications are illustrative."
+        }
+      ],
+      "Evidence From Related Studies": [
+        {
+          "type": "paragraph",
+          "text": "Eisenkraft (2003) explains the expansion of 5E. Shaheen and Kayani (2015) report a Grade 9 biology comparison supporting the potential of 7E in that setting. Balta and Sarac (2016) synthesize experimental studies with varied contexts."
+        },
+        {
+          "type": "paragraph",
+          "text": "Dalmacio (2023), SIKHAY pp. 105–116, used 7E with SNAPSHOTS assessment materials. The local study examines a combined intervention; its outcomes should not be attributed to 7E alone."
+        }
+      ],
+      "Data to Gather": [
+        {
+          "type": "list",
+          "items": [
+            "Concept explanations and transfer tasks",
+            "Investigation work and formative responses",
+            "Teacher records of phase adjustments"
+          ]
+        }
+      ],
+      "Indicators of Success": [
+        {
+          "type": "paragraph",
+          "text": "Set realistic targets from baseline results and the duration of implementation."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Fewer persistent misconceptions",
+            "Evidence-based explanations",
+            "Application beyond the original lesson example"
+          ]
+        }
+      ],
+      "References": [
+        {
+          "type": "references",
+          "items": [
+            {
+              "segments": [
+                {
+                  "text": "Balta, N., & Sarac, H. (2016). "
+                },
+                {
+                  "text": "The effect of 7E learning cycle on learning in science teaching: A meta-analysis study. ",
+                  "italic": false
+                },
+                {
+                  "text": "European Journal of Educational Research, 5(2), 61–72. ",
+                  "italic": true
+                },
+                {
+                  "text": "https://doi.org/10.12973/eu-jer.5.2.61"
+                }
+              ]
+            },
+            {
+              "segments": [
+                {
+                  "text": "Dalmacio, R. C. (2023). "
+                },
+                {
+                  "text": "Science novel assessment probes supporting higher-order thinking skills (SNAPSHOTS): Impact on learners’ cognitive learning outcomes. ",
+                  "italic": false
+                },
+                {
+                  "text": "SIKHAY: The DepEd Bulacan Research Compendium, 1(1), 105–116. ",
+                  "italic": true
+                },
+                {
+                  "text": "https://drive.google.com/file/d/1ZCWd_5y7Ws7CbPX5orMNjkK8gmUnQP6W/view?usp=sharing"
+                }
+              ]
+            },
+            {
+              "segments": [
+                {
+                  "text": "Eisenkraft, A. (2003). "
+                },
+                {
+                  "text": "Expanding the 5E model. ",
+                  "italic": false
+                },
+                {
+                  "text": "The Science Teacher, 70(6), 56–59. ",
+                  "italic": true
+                },
+                {
+                  "text": "https://www.nsta.org/resources/expanding-5e-model-proposed-7e-model-emphasizes-transfer-learning-and-importance"
+                }
+              ]
+            },
+            {
+              "segments": [
+                {
+                  "text": "Shaheen, M. N. U. K., & Kayani, M. M. (2015). "
+                },
+                {
+                  "text": "Improving students’ achievement in biology using 7E instructional model: An experimental study. ",
+                  "italic": false
+                },
+                {
+                  "text": "Mediterranean Journal of Social Sciences, 6(4, Suppl. 3), 471. ",
+                  "italic": true
+                },
+                {
+                  "text": "https://doi.org/10.5901/mjss.2015.v6n4s3p471"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "categories": [
+      "Teaching and Learning",
+      "STEM and Problem Solving",
+      "Environmental Education and Sustainability"
+    ],
+    "searchTerms": [
+      "7E",
+      "seven e",
+      "learning cycle",
+      "elicit",
+      "engage",
+      "explore",
+      "explain",
+      "elaborate",
+      "evaluate",
+      "extend",
+      "7 E",
+      "Eisenkraft",
+      "STEM",
+      "science",
+      "mathematics",
+      "problem solving",
+      "agham",
+      "matematika"
+    ]
+  },
+  {
+    "id": "merrill-first-principles",
+    "modelName": "Merrill’s First Principles of Instruction",
+    "category": "Teaching and Learning",
+    "learningArea": "Lesson design, professional learning, and practical skills training",
+    "tags": [
+      "Merrill",
+      "first principles",
+      "task centered",
+      "activation",
+      "demonstration",
+      "application",
+      "integration"
+    ],
+    "summary": "Merrill’s First Principles organize instruction around meaningful whole tasks supported by activation, demonstration, application, and integration.",
+    "sections": {
+      "Model Overview": [
+        {
+          "type": "paragraph",
+          "text": "Merrill’s First Principles organize instruction around meaningful whole tasks supported by activation, demonstration, application, and integration. The task gives purpose to learning; the other principles guide how learners develop and use the necessary knowledge (Merrill, 2002)."
+        }
+      ],
+      "When to Use It": [
+        {
+          "type": "list",
+          "items": [
+            "Use when instruction supplies information but offers little practice or transfer.",
+            "Use to improve a lesson, learning material, or staff training activity."
+          ]
+        }
+      ],
+      "Core Features": [
+        {
+          "type": "list",
+          "items": [
+            "A meaningful whole task or problem",
+            "Activation of relevant experience",
+            "Demonstration matched to the target skill",
+            "Application with feedback",
+            "Integration into learners’ work or lives"
+          ]
+        }
+      ],
+      "Baseline Data Needed": [
+        {
+          "type": "list",
+          "items": [
+            "Performance on the whole task",
+            "Relevant prior knowledge",
+            "Existing materials and opportunities for practice"
+          ]
+        }
+      ],
+      "How to Use It": [
+        {
+          "type": "paragraph",
+          "text": "Choose an authentic task at an attainable level, such as writing an evidence-based paragraph or completing a school service request. Identify the knowledge learners already have and the demonstrations they need."
+        },
+        {
+          "type": "paragraph",
+          "text": "Give guided practice with useful feedback, reduce support gradually, and ask learners to show how they can use the skill in another task. The principles can guide both face-to-face and digital materials."
+        }
+      ],
+      "Action Research Application": [
+        {
+          "type": "paragraph",
+          "text": "Suggested study: How does redesigning a learning material using the First Principles affect independent task performance?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Compare a baseline task with a parallel task after instruction. Gather evidence on the learning activities as well as results, and distinguish learners’ satisfaction from demonstrated skill."
+        }
+      ],
+      "Implementation Flow": [
+        {
+          "type": "image",
+          "src": "assets/model-flows/merrill-first-principles.png",
+          "alt": "Merrill’s First Principles of Instruction organizer. Whole task: meaningful problem; Activate relevant knowledge; Demonstrate the required skill; Apply with feedback; Integrate and transfer learning; Return to a richer whole task",
+          "caption": "Conceptual organizer adapted from Merrill (2002). School applications are illustrative."
+        }
+      ],
+      "Evidence From Related Studies": [
+        {
+          "type": "paragraph",
+          "text": "Merrill (2002) synthesized common instructional design principles. Frick et al. (2009) studied students’ perceptions of teaching and learning quality; associations in perception data do not by themselves demonstrate causal effects on performance."
+        },
+        {
+          "type": "paragraph",
+          "text": "MIT Open Learning summarizes practical use of the principles. Albia (2023), SIKHAY pp. 203–212, combined them with vocabulary strategies, providing a local illustration of material design."
+        }
+      ],
+      "Data to Gather": [
+        {
+          "type": "list",
+          "items": [
+            "Independent task products",
+            "Practice feedback and revisions",
+            "Learner views of relevance and clarity"
+          ]
+        }
+      ],
+      "Indicators of Success": [
+        {
+          "type": "paragraph",
+          "text": "Set realistic targets from baseline results and the duration of implementation."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Better whole-task performance",
+            "Successful application with less support",
+            "Transfer to a realistic task"
+          ]
+        }
+      ],
+      "References": [
+        {
+          "type": "references",
+          "items": [
+            {
+              "segments": [
+                {
+                  "text": "Albia, N. F. (2023). "
+                },
+                {
+                  "text": "Pagpapalawig ng komprehensiyon sa bokabularyo ng mga mag-aaral mula sa Baitang 10. ",
+                  "italic": false
+                },
+                {
+                  "text": "SIKHAY: The DepEd Bulacan Research Compendium, 1(1), 203–212. ",
+                  "italic": true
+                },
+                {
+                  "text": "https://drive.google.com/file/d/1ZCWd_5y7Ws7CbPX5orMNjkK8gmUnQP6W/view?usp=sharing"
+                }
+              ]
+            },
+            {
+              "segments": [
+                {
+                  "text": "Frick, T. W., Chadha, R., Watson, C., Wang, Y., & Green, P. (2009). "
+                },
+                {
+                  "text": "College student perceptions of teaching and learning quality. ",
+                  "italic": false
+                },
+                {
+                  "text": "Educational Technology Research and Development, 57, 705–720. ",
+                  "italic": true
+                },
+                {
+                  "text": "https://doi.org/10.1007/s11423-007-9079-9"
+                }
+              ]
+            },
+            {
+              "segments": [
+                {
+                  "text": "Massachusetts Institute of Technology. (n.d.). "
+                },
+                {
+                  "text": "First principles of instruction. ",
+                  "italic": true
+                },
+                {
+                  "text": "Open Learning. ",
+                  "italic": false
+                },
+                {
+                  "text": "https://openlearning.mit.edu/mit-faculty/research-based-learning-findings/first-principles-instruction"
+                }
+              ]
+            },
+            {
+              "segments": [
+                {
+                  "text": "Merrill, M. D. (2002). "
+                },
+                {
+                  "text": "First principles of instruction. ",
+                  "italic": false
+                },
+                {
+                  "text": "Educational Technology Research and Development, 50(3), 43–59. ",
+                  "italic": true
+                },
+                {
+                  "text": "https://doi.org/10.1007/BF02505024"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "categories": [
+      "Teaching and Learning",
+      "Digital Education",
+      "Educational Leadership and Professional Learning",
+      "Research, Planning and Evaluation"
+    ],
+    "searchTerms": [
+      "Merrill",
+      "first principles",
+      "task centered",
+      "activation",
+      "demonstration",
+      "application",
+      "integration",
+      "MPI",
+      "task centered instruction",
+      "professional development",
+      "school leadership",
+      "school management",
+      "research",
+      "pananaliksik",
+      "planning",
+      "evaluation"
+    ]
+  },
+  {
+    "id": "schmitt-vocabulary",
+    "modelName": "Schmitt’s Vocabulary Learning Strategies Taxonomy",
+    "category": "Teaching and Learning",
+    "learningArea": "Filipino, English, and disciplinary vocabulary",
+    "tags": [
+      "Schmitt",
+      "vocabulary",
+      "VLS",
+      "determination",
+      "memory",
+      "metacognitive",
+      "word learning"
+    ],
+    "summary": "Schmitt’s taxonomy groups strategies for discovering and consolidating word knowledge.",
+    "sections": {
+      "Model Overview": [
+        {
+          "type": "paragraph",
+          "text": "Schmitt’s taxonomy groups strategies for discovering and consolidating word knowledge. Its five families are determination, social, memory, cognitive, and metacognitive strategies. It is a repertoire for selecting strategies, not a prescribed five-step lesson sequence (Schmitt, 2007)."
+        }
+      ],
+      "When to Use It": [
+        {
+          "type": "list",
+          "items": [
+            "Use when learners rely on copying definitions without retaining or using words.",
+            "Use to help learners choose strategies suited to their proficiency and purpose."
+          ]
+        }
+      ],
+      "Core Features": [
+        {
+          "type": "list",
+          "items": [
+            "Discovery and consolidation of meanings",
+            "Five complementary strategy families",
+            "Attention to form, meaning, and use",
+            "Learner planning and monitoring"
+          ]
+        }
+      ],
+      "Baseline Data Needed": [
+        {
+          "type": "list",
+          "items": [
+            "Knowledge and use of selected words",
+            "Learners’ current word-learning habits",
+            "A delayed recall or use task"
+          ]
+        }
+      ],
+      "How to Use It": [
+        {
+          "type": "paragraph",
+          "text": "Select useful words from authentic texts. Model how to infer and verify meaning, consult a dictionary, and ask for clarification. Then teach a small set of consolidation strategies such as meaningful grouping and use in a new sentence."
+        },
+        {
+          "type": "paragraph",
+          "text": "Let learners compare what helps them remember and use words. Plan spaced opportunities to retrieve and apply the words. Classify strategies flexibly; social support can contribute both to discovery and consolidation."
+        }
+      ],
+      "Action Research Application": [
+        {
+          "type": "paragraph",
+          "text": "Suggested study: How does explicit strategy choice affect vocabulary retention and accurate use in Filipino or English?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Use immediate and delayed assessments of meaning and contextual use. Gather learner strategy records and short interviews rather than relying only on self-reported frequency."
+        }
+      ],
+      "Implementation Flow": [
+        {
+          "type": "image",
+          "src": "assets/model-flows/schmitt-vocabulary.png",
+          "alt": "Schmitt’s Vocabulary Learning Strategies Taxonomy organizer. Determination: discover meaning independently; Social: learn through interaction; Memory: connect and organize word knowledge; Cognitive: practise and record words; Metacognitive: plan, monitor, and review",
+          "caption": "Conceptual organizer adapted from Schmitt (2007); complementary strategy families. School applications are illustrative."
+        }
+      ],
+      "Evidence From Related Studies": [
+        {
+          "type": "paragraph",
+          "text": "Schmitt and Schmitt (1993) examine identifying and assessing vocabulary strategies. Schmitt (2007) discusses strategy choice in relation to learners and context; Nation (2001) provides a wider account of vocabulary strategy use."
+        },
+        {
+          "type": "paragraph",
+          "text": "Albia (2023), SIKHAY pp. 203–212, applies the taxonomy with Merrill’s principles. The combined design means gains cannot be assigned to the taxonomy alone."
+        }
+      ],
+      "Data to Gather": [
+        {
+          "type": "list",
+          "items": [
+            "Immediate and delayed vocabulary tasks",
+            "Learner vocabulary notebooks",
+            "Examples of independent strategy selection"
+          ]
+        }
+      ],
+      "Indicators of Success": [
+        {
+          "type": "paragraph",
+          "text": "Set realistic targets from baseline results and the duration of implementation."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Retention beyond the practice session",
+            "Accurate use in new sentences or explanations",
+            "Ability to justify an appropriate strategy choice"
+          ]
+        }
+      ],
+      "References": [
+        {
+          "type": "references",
+          "items": [
+            {
+              "segments": [
+                {
+                  "text": "Albia, N. F. (2023). "
+                },
+                {
+                  "text": "Pagpapalawig ng komprehensiyon sa bokabularyo ng mga mag-aaral mula sa Baitang 10. ",
+                  "italic": false
+                },
+                {
+                  "text": "SIKHAY: The DepEd Bulacan Research Compendium, 1(1), 203–212. ",
+                  "italic": true
+                },
+                {
+                  "text": "https://drive.google.com/file/d/1ZCWd_5y7Ws7CbPX5orMNjkK8gmUnQP6W/view?usp=sharing"
+                }
+              ]
+            },
+            {
+              "segments": [
+                {
+                  "text": "Nation, I. S. P. (2001). "
+                },
+                {
+                  "text": "Learning vocabulary in another language. ",
+                  "italic": true
+                },
+                {
+                  "text": "Cambridge University Press. ",
+                  "italic": false
+                },
+                {
+                  "text": "https://doi.org/10.1017/CBO9781139524759"
+                }
+              ]
+            },
+            {
+              "segments": [
+                {
+                  "text": "Schmitt, N. (2007). "
+                },
+                {
+                  "text": "Current perspectives on vocabulary teaching and learning. ",
+                  "italic": false
+                },
+                {
+                  "text": "In J. Cummins & C. Davison (Eds.), International handbook of English language teaching (pp. 747–762). Springer. ",
+                  "italic": true
+                },
+                {
+                  "text": "https://www.norbertschmitt.co.uk/_files/ugd/5f2482_795f5357bdf84c369a8224e978678ae7.pdf"
+                }
+              ]
+            },
+            {
+              "segments": [
+                {
+                  "text": "Schmitt, N., & Schmitt, D. R. (1993). "
+                },
+                {
+                  "text": "Identifying and assessing vocabulary learning strategies. ",
+                  "italic": false
+                },
+                {
+                  "text": "Thai TESOL Bulletin, 5(4), 27–33. ",
+                  "italic": true
+                },
+                {
+                  "text": "https://files.eric.ed.gov/fulltext/ED380994.pdf"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "categories": [
+      "Teaching and Learning",
+      "Literacy and Language"
+    ],
+    "searchTerms": [
+      "Schmitt",
+      "vocabulary",
+      "VLS",
+      "determination",
+      "memory",
+      "metacognitive",
+      "word learning",
+      "vocabulary learning strategies",
+      "bokabularyo",
+      "talasalitaan",
+      "literacy",
+      "reading",
+      "pagbasa",
+      "language",
+      "wika"
+    ]
+  },
+  {
+    "id": "johari-window",
+    "modelName": "Johari Window",
+    "category": "Educational Leadership and Professional Learning",
+    "learningArea": "Professional reflection, mentoring, teamwork, and office communication",
+    "tags": [
+      "Johari",
+      "Luft",
+      "Ingham",
+      "feedback",
+      "self awareness",
+      "mentoring",
+      "communication"
+    ],
+    "summary": "The Johari Window, associated with Joseph Luft and Harrington Ingham, describes interpersonal awareness through information known or unknown to oneself and others.",
+    "sections": {
+      "Model Overview": [
+        {
+          "type": "paragraph",
+          "text": "The Johari Window, associated with Joseph Luft and Harrington Ingham, describes interpersonal awareness through information known or unknown to oneself and others. It is a reflection and feedback model, not a diagnostic test or a ranking of personal worth (Luft, n.d.)."
+        }
+      ],
+      "When to Use It": [
+        {
+          "type": "list",
+          "items": [
+            "Use for voluntary professional reflection and constructive feedback.",
+            "Use when a team wants to clarify communication and expectations."
+          ]
+        }
+      ],
+      "Core Features": [
+        {
+          "type": "list",
+          "items": [
+            "Open area: known to self and others",
+            "Blind area: known to others but not self",
+            "Hidden area: known to self but not shared",
+            "Unknown area: not yet known to self or others"
+          ]
+        }
+      ],
+      "Baseline Data Needed": [
+        {
+          "type": "list",
+          "items": [
+            "Agreed professional goals and communication needs",
+            "Participants’ comfort with feedback",
+            "Examples of observable work behaviors"
+          ]
+        }
+      ],
+      "How to Use It": [
+        {
+          "type": "paragraph",
+          "text": "Explain the four areas and agree that sharing is voluntary. Invite feedback on a specific professional behavior, such as clarity of instructions, rather than asking colleagues to label personalities."
+        },
+        {
+          "type": "paragraph",
+          "text": "Help participants compare their own observations with feedback and choose a manageable action. Keep personal reflections private and use only agreed aggregate information for a school study. Unknown areas are not evidence of hidden defects."
+        }
+      ],
+      "Action Research Application": [
+        {
+          "type": "paragraph",
+          "text": "Suggested study: How does a voluntary Johari-informed feedback activity influence the usefulness of peer mentoring conversations?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Use participant reflections and examples of agreed actions across several sessions. Report perceptions and observable communication changes; do not claim psychological diagnosis or causal improvement in teaching from the organizer alone."
+        }
+      ],
+      "Implementation Flow": [
+        {
+          "type": "image",
+          "src": "assets/model-flows/johari-window.png",
+          "alt": "Johari Window organizer. Open: known to self and others; Blind: known to others, not self; Hidden: known to self, not others; Unknown: not yet known to either",
+          "caption": "Conceptual organizer adapted from Luft (n.d.); four awareness areas. School applications are illustrative."
+        }
+      ],
+      "Evidence From Related Studies": [
+        {
+          "type": "paragraph",
+          "text": "Luft’s account, reproduced by the University of Michigan, explains the awareness model. Health Education England and the University of Manchester provide professional-development applications; these are practical guidance, not controlled efficacy trials."
+        },
+        {
+          "type": "paragraph",
+          "text": "Geronimo and Quinto (2023), SIKHAY pp. 213–224, combined Johari with a local teacher quadrant approach. This entry retains the established Johari model without adopting the local classification system."
+        }
+      ],
+      "Data to Gather": [
+        {
+          "type": "list",
+          "items": [
+            "Voluntary feedback reflections",
+            "Agreed professional actions and follow-up",
+            "Anonymous ratings of feedback usefulness"
+          ]
+        }
+      ],
+      "Indicators of Success": [
+        {
+          "type": "paragraph",
+          "text": "Set realistic targets from baseline results and the duration of implementation."
+        },
+        {
+          "type": "list",
+          "items": [
+            "More specific and respectful feedback",
+            "Actions participants find useful",
+            "Clearer communication without pressure to disclose"
+          ]
+        }
+      ],
+      "References": [
+        {
+          "type": "references",
+          "items": [
+            {
+              "segments": [
+                {
+                  "text": "Geronimo, M. A. R. DC., & Quinto, J. E. (2023). "
+                },
+                {
+                  "text": "Uncovering teachers’ multi-faceted qualities via localized quadrant analysis: Creating a threshold for value-laden educators cum boosted performances. ",
+                  "italic": false
+                },
+                {
+                  "text": "SIKHAY: The DepEd Bulacan Research Compendium, 1(1), 213–224. ",
+                  "italic": true
+                },
+                {
+                  "text": "https://drive.google.com/file/d/1ZCWd_5y7Ws7CbPX5orMNjkK8gmUnQP6W/view?usp=sharing"
+                }
+              ]
+            },
+            {
+              "segments": [
+                {
+                  "text": "Health Education England. (n.d.). "
+                },
+                {
+                  "text": "Johari’s window (1955). ",
+                  "italic": true
+                },
+                {
+                  "text": "",
+                  "italic": false
+                },
+                {
+                  "text": "https://www.hee.nhs.uk/sites/default/files/documents/Johari%20window.pdf"
+                }
+              ]
+            },
+            {
+              "segments": [
+                {
+                  "text": "Luft, J. (n.d.). "
+                },
+                {
+                  "text": "The Johari window: A graphic model of awareness in interpersonal relations. ",
+                  "italic": true
+                },
+                {
+                  "text": "Reproduced in University of Michigan Global Scholars Program, Privilege and feedback. ",
+                  "italic": false
+                },
+                {
+                  "text": "https://lsa.umich.edu/globalscholars/ala-212-course-pack/privilege-and-feedback.html"
+                }
+              ]
+            },
+            {
+              "segments": [
+                {
+                  "text": "University of Manchester. (n.d.). "
+                },
+                {
+                  "text": "Leading for research fellows. ",
+                  "italic": true
+                },
+                {
+                  "text": "",
+                  "italic": false
+                },
+                {
+                  "text": "https://documents.manchester.ac.uk/display.aspx?DocID=71391"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "categories": [
+      "Educational Leadership and Professional Learning",
+      "Guidance, Behavior and Well-being",
+      "Family, Community and Learner Participation",
+      "Office and Service Management"
+    ],
+    "searchTerms": [
+      "Johari",
+      "Luft",
+      "Ingham",
+      "feedback",
+      "self awareness",
+      "mentoring",
+      "communication",
+      "self-awareness",
+      "team communication",
+      "professional development",
+      "school leadership",
+      "school management"
+    ]
+  },
+  {
+    "id": "lewin-change",
+    "modelName": "Lewin’s Three-Step Change Model",
+    "category": "Educational Leadership and Professional Learning",
+    "learningArea": "School improvement, office processes, and organizational change",
+    "tags": [
+      "Lewin",
+      "change management",
+      "unfreeze",
+      "change",
+      "refreeze",
+      "organizational development"
+    ],
+    "summary": "Lewin’s three-step account of change considers preparing for change, movement toward a new practice, and stabilization of the new conditions.",
+    "sections": {
+      "Model Overview": [
+        {
+          "type": "paragraph",
+          "text": "Lewin’s three-step account of change considers preparing for change, movement toward a new practice, and stabilization of the new conditions. Commonly called unfreeze–change–refreeze, it can help a group examine its routines and the support needed to improve them (Lewin, 1947)."
+        }
+      ],
+      "When to Use It": [
+        {
+          "type": "list",
+          "items": [
+            "Use when a school or office needs to change a shared practice.",
+            "Use when implementation depends on participation, resources, and continued support."
+          ]
+        }
+      ],
+      "Core Features": [
+        {
+          "type": "list",
+          "items": [
+            "Shared understanding of the need for change",
+            "Attention to enabling and restraining conditions",
+            "Participation in trying a new practice",
+            "Support for sustaining and revisiting improvements"
+          ]
+        }
+      ],
+      "Baseline Data Needed": [
+        {
+          "type": "list",
+          "items": [
+            "Current process and its difficulties",
+            "Staff and service-user perspectives",
+            "Resources, constraints, and readiness"
+          ]
+        }
+      ],
+      "How to Use It": [
+        {
+          "type": "paragraph",
+          "text": "Define a specific improvement with those who use the process. Explore concerns and practical barriers before introducing a change. Pilot a manageable adjustment and gather feedback."
+        },
+        {
+          "type": "paragraph",
+          "text": "If useful, incorporate the practice into routines and provide continuing support. Stabilization means making a workable practice sustainable, not preventing further learning or treating all change as a neat linear process."
+        }
+      ],
+      "Action Research Application": [
+        {
+          "type": "paragraph",
+          "text": "Suggested study: How does participatory redesign of a school service process affect turnaround time and user experience?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Use repeated process measures before and during a pilot, supplemented by staff and user feedback. Track changes in demand and staffing that could also explain the results."
+        }
+      ],
+      "Implementation Flow": [
+        {
+          "type": "image",
+          "src": "assets/model-flows/lewin-change.png",
+          "alt": "Lewin’s Three-Step Change Model organizer. Unfreeze: understand needs and conditions together; Change: try and refine a new practice; Refreeze: sustain useful routines and support; Revisit conditions as needs change",
+          "caption": "Suggested application organizer adapted from Lewin (1947), read alongside Burnes (2004) and Cummings et al. (2016). School applications are illustrative."
+        }
+      ],
+      "Evidence From Related Studies": [
+        {
+          "type": "paragraph",
+          "text": "Lewin (1947) discusses group dynamics and change. Burnes (2004) places the three steps within a broader participatory approach. Cummings et al. (2016) challenge simplified historical accounts, supporting careful use rather than a universal recipe."
+        },
+        {
+          "type": "paragraph",
+          "text": "Libiran et al. (2023), SIKHAY pp. 172–181, used Lewin in developing a canteen feedback mechanism. The local output illustrates planning; it does not establish that the model alone improved every service outcome."
+        }
+      ],
+      "Data to Gather": [
+        {
+          "type": "list",
+          "items": [
+            "Turnaround times and service feedback",
+            "Staff experiences of the pilot",
+            "Support needs and changes retained"
+          ]
+        }
+      ],
+      "Indicators of Success": [
+        {
+          "type": "paragraph",
+          "text": "Set realistic targets from baseline results and the duration of implementation."
+        },
+        {
+          "type": "list",
+          "items": [
+            "A workable improvement sustained over time",
+            "Staff understanding and participation",
+            "Better service experience without avoidable workload"
+          ]
+        }
+      ],
+      "References": [
+        {
+          "type": "references",
+          "items": [
+            {
+              "segments": [
+                {
+                  "text": "Burnes, B. (2004). "
+                },
+                {
+                  "text": "Kurt Lewin and the planned approach to change: A re-appraisal. ",
+                  "italic": false
+                },
+                {
+                  "text": "Journal of Management Studies, 41(6), 977–1002. ",
+                  "italic": true
+                },
+                {
+                  "text": "https://doi.org/10.1111/j.1467-6486.2004.00463.x"
+                }
+              ]
+            },
+            {
+              "segments": [
+                {
+                  "text": "Cummings, S., Bridgman, T., & Brown, K. G. (2016). "
+                },
+                {
+                  "text": "Unfreezing change as three steps: Rethinking Kurt Lewin’s legacy for change management. ",
+                  "italic": false
+                },
+                {
+                  "text": "Human Relations, 69(1), 33–60. ",
+                  "italic": true
+                },
+                {
+                  "text": "https://doi.org/10.1177/0018726715577707"
+                }
+              ]
+            },
+            {
+              "segments": [
+                {
+                  "text": "Lewin, K. (1947). "
+                },
+                {
+                  "text": "Frontiers in group dynamics: Concept, method and reality in social science; social equilibria and social change. ",
+                  "italic": false
+                },
+                {
+                  "text": "Human Relations, 1(1), 5–41. ",
+                  "italic": true
+                },
+                {
+                  "text": "https://doi.org/10.1177/001872674700100103"
+                }
+              ]
+            },
+            {
+              "segments": [
+                {
+                  "text": "Libiran, A. B., Evangelista, L. G., & Ogaya, M. B. (2023). "
+                },
+                {
+                  "text": "Feedback mechanism towards the improvement of school canteen services. ",
+                  "italic": false
+                },
+                {
+                  "text": "SIKHAY: The DepEd Bulacan Research Compendium, 1(1), 172–181. ",
+                  "italic": true
+                },
+                {
+                  "text": "https://drive.google.com/file/d/1ZCWd_5y7Ws7CbPX5orMNjkK8gmUnQP6W/view?usp=sharing"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "categories": [
+      "Educational Leadership and Professional Learning",
+      "Office and Service Management",
+      "Research, Planning and Evaluation"
+    ],
+    "searchTerms": [
+      "Lewin",
+      "change management",
+      "unfreeze",
+      "change",
+      "refreeze",
+      "organizational development",
+      "unfreeze change refreeze",
+      "organizational change",
+      "school improvement",
+      "professional development",
+      "school leadership",
+      "school management",
+      "research",
+      "pananaliksik",
+      "planning",
+      "evaluation"
+    ]
+  },
+  {
+    "id": "biggs-three-p",
+    "modelName": "Biggs’ Presage–Process–Product (3P) Model",
+    "category": "Research, Planning and Evaluation",
+    "learningArea": "Learning analysis, professional learning, and research mentoring",
+    "tags": [
+      "Biggs",
+      "3P",
+      "presage process product",
+      "learning approaches",
+      "deep learning",
+      "surface learning"
+    ],
+    "summary": "Biggs’ 3P Model examines the relationships among presage conditions, learning processes, and learning products.",
+    "sections": {
+      "Model Overview": [
+        {
+          "type": "paragraph",
+          "text": "Biggs’ 3P Model examines the relationships among presage conditions, learning processes, and learning products. Prior knowledge and the learning context shape how people approach a task, and outcomes feed back into later learning. It is an analytical model rather than a teaching script (Biggs, 1993)."
+        }
+      ],
+      "When to Use It": [
+        {
+          "type": "list",
+          "items": [
+            "Use when similar instruction produces different learning experiences and outcomes.",
+            "Use to examine mentoring or training in relation to participants’ starting conditions."
+          ]
+        }
+      ],
+      "Core Features": [
+        {
+          "type": "list",
+          "items": [
+            "Presage: learner and contextual conditions",
+            "Process: approaches and learning activities",
+            "Product: outcomes and understanding",
+            "Interacting relationships and feedback"
+          ]
+        }
+      ],
+      "Baseline Data Needed": [
+        {
+          "type": "list",
+          "items": [
+            "Prior knowledge and experience",
+            "Task demands, time, and learning conditions",
+            "Initial performance and learning approaches"
+          ]
+        }
+      ],
+      "How to Use It": [
+        {
+          "type": "paragraph",
+          "text": "Map a specific learning situation using the three components. Describe observable conditions and activities rather than assigning permanent labels such as a “surface learner.”"
+        },
+        {
+          "type": "paragraph",
+          "text": "Select one change that could support more meaningful engagement, such as a clearer task or improved feedback. Examine how processes and outcomes change and how those results inform the next learning cycle."
+        }
+      ],
+      "Action Research Application": [
+        {
+          "type": "paragraph",
+          "text": "Suggested study: How do mentoring conditions and learning activities relate to the quality of teachers’ research proposals?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Combine starting knowledge, participation evidence, interviews, and independently rated outputs. Treat associations as relationships; do not infer that presage variables caused outcomes without a design that supports that conclusion."
+        }
+      ],
+      "Implementation Flow": [
+        {
+          "type": "image",
+          "src": "assets/model-flows/biggs-three-p.png",
+          "alt": "Biggs’ Presage–Process–Product (3P) Model organizer. Presage: learner starting conditions; Presage: teaching and learning context; Process: approaches and learning activities; Product: understanding and performance; Feedback: revise conditions and learning processes",
+          "caption": "Conceptual organizer adapted from Biggs (1993); relationships inform successive learning cycles. School applications are illustrative."
+        }
+      ],
+      "Evidence From Related Studies": [
+        {
+          "type": "paragraph",
+          "text": "Biggs (1993) presents the systems account. Biggs et al. (2001) and Kember et al. (2004) developed instruments for learning approaches in higher and secondary education respectively. These studies support measurement discussions, not a guarantee of gains from drawing a 3P diagram."
+        },
+        {
+          "type": "paragraph",
+          "text": "Asis (2023), SIKHAY pp. 151–160, uses the model in research mentoring. Its local application is relevant to professional learning but should not be treated as a validation of every proposed 3P relationship."
+        }
+      ],
+      "Data to Gather": [
+        {
+          "type": "list",
+          "items": [
+            "Starting knowledge and contextual information",
+            "Learning activities and reflections",
+            "Quality of products and follow-up application"
+          ]
+        }
+      ],
+      "Indicators of Success": [
+        {
+          "type": "paragraph",
+          "text": "Set realistic targets from baseline results and the duration of implementation."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Better explanation of barriers and useful supports",
+            "Improved quality of independent outputs",
+            "Evidence-informed adjustments to mentoring"
+          ]
+        }
+      ],
+      "References": [
+        {
+          "type": "references",
+          "items": [
+            {
+              "segments": [
+                {
+                  "text": "Asis, E. M. (2023). "
+                },
+                {
+                  "text": "Enhancement of research capability of Master Teacher I and Science teachers through a mentoring program. ",
+                  "italic": false
+                },
+                {
+                  "text": "SIKHAY: The DepEd Bulacan Research Compendium, 1(1), 151–160. ",
+                  "italic": true
+                },
+                {
+                  "text": "https://drive.google.com/file/d/1ZCWd_5y7Ws7CbPX5orMNjkK8gmUnQP6W/view?usp=sharing"
+                }
+              ]
+            },
+            {
+              "segments": [
+                {
+                  "text": "Biggs, J. (1993). "
+                },
+                {
+                  "text": "From theory to practice: A cognitive systems approach. ",
+                  "italic": false
+                },
+                {
+                  "text": "Higher Education Research & Development, 12(1), 73–85. ",
+                  "italic": true
+                },
+                {
+                  "text": "https://doi.org/10.1080/0729436930120107"
+                }
+              ]
+            },
+            {
+              "segments": [
+                {
+                  "text": "Biggs, J., Kember, D., & Leung, D. Y. P. (2001). "
+                },
+                {
+                  "text": "The revised two-factor Study Process Questionnaire: R-SPQ-2F. ",
+                  "italic": false
+                },
+                {
+                  "text": "British Journal of Educational Psychology, 71(1), 133–149. ",
+                  "italic": true
+                },
+                {
+                  "text": "https://doi.org/10.1348/000709901158433"
+                }
+              ]
+            },
+            {
+              "segments": [
+                {
+                  "text": "Kember, D., Biggs, J., & Leung, D. Y. P. (2004). "
+                },
+                {
+                  "text": "Examining the multidimensionality of approaches to learning through the development of a revised version of the Learning Process Questionnaire. ",
+                  "italic": false
+                },
+                {
+                  "text": "British Journal of Educational Psychology, 74(2), 261–279. ",
+                  "italic": true
+                },
+                {
+                  "text": "https://doi.org/10.1348/000709904773839879"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "categories": [
+      "Research, Planning and Evaluation",
+      "Educational Leadership and Professional Learning"
+    ],
+    "searchTerms": [
+      "Biggs",
+      "3P",
+      "presage process product",
+      "learning approaches",
+      "deep learning",
+      "surface learning",
+      "presage",
+      "process",
+      "product",
+      "mentoring",
+      "learning context",
+      "professional development",
+      "school leadership",
+      "school management",
+      "research",
+      "pananaliksik",
+      "planning",
+      "evaluation"
+    ]
   }
 ];

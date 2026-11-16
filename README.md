@@ -1,59 +1,24 @@
-# Saliksik-Gabay — Complete Portal Backup
+# Saliksik-Gabay — 88 Models and Frameworks
 
-Backup date: 13 November 2026 (Philippines)
-Revision: models74 — replaces the earlier backup for future uploads.
+Prepared 16 November 2026. This package extends the supplied 74-entry backup, not a fresh export of the live GitHub site. It has not been published. Merge with any later live-site changes before upload.
 
-This is a complete, standalone copy of the latest portal package prepared in this conversation. It consolidates the earlier interface, feedback-link, proposal-builder, and Models and Frameworks updates. No earlier update ZIP is required.
+## Changes
+- 14 additions supported by online literature: six from BUKLOD and eight from SIKHAY.
+- Existing 74 entries retain their section content and graphic organizers.
+- 13 overlapping categories; models can appear in several relevant categories without duplicate entries.
+- Expanded keywords, common spelling variants, acronym and punctuation handling, full-content search, and shared search in the Proposal Builder.
+- Research Resources page with four descriptions, three supplied links, and LIKHAY marked Available Soon.
+- All Implementation Flow sections contain graphic organizers and source captions only.
 
-## Included
-- Home and introductory instructions
-- Models and Frameworks: 74 entries across 13 categories
-- Search, category filters, section navigation, and responsive layouts
-- Proposal Writing Process
-- Proposal Builder, research tips, browser saving, and Word export code
-- Research Management
-- Microsoft Forms feedback link
-- Shared styles, JavaScript, seals, all model figures, and third-party ZIP component license
-- Compatibility page for older research-guide.html links
-- SHA256SUMS.txt for file integrity checks
+## Publication
+The resource page is prepared for inclusion following the requested Division approval. This package does not change Drive sharing permissions or create author upload access. Arrange author-specific submission access separately from public viewer access.
 
-## Restore the portal
-1. Keep this ZIP unchanged as your master backup; extract a separate working copy.
-2. Upload all extracted portal files and the entire assets folder into the root of the existing saliksik-gabay-portal GitHub repository. Preserve filenames and folder structure. Upload the extracted contents, not the ZIP itself or a containing folder.
-3. Replace matching files and commit. No older update packages are needed.
-4. Confirm GitHub Pages publishes the branch/folder containing index.html; wait for deployment to finish.
-5. Open the portal, refresh the page (Ctrl+F5 if necessary), and check that Models and Frameworks shows 74 entries and 13 categories.
-6. Verify a new category, Proposal Builder, Word download, and Feedback and Evaluation link.
+Extract this archive and use its contents at the repository root. Preserve the assets directory. Deploy only after reconciling newer live changes and obtaining the requested resource approval. Test Models and Frameworks, category filters, search, Proposal Builder, resource links, and feedback after deployment.
 
-Existing portal: https://rbperez1701.github.io/saliksik-gabay-portal/
-Feedback: https://forms.cloud.microsoft/r/pqEk4NJqM2
+## Validation
+All 88 entries passed structural and renderer checks in a DOM simulation. Searches for acronyms, possessives, Filipino keywords and spelling variants passed. All original 74 section bodies were compared with the supplied backup. All new graphic organizers were visually inspected. Browser layout and the supplied Google Drive links’ public accessibility remain to be checked in the deployment environment.
 
-## What requires a separate backup
-This archive backs up the website files. It does not include Microsoft Forms ownership, the live form definition or responses, users' locally saved proposal drafts, GitHub account settings, or Git commit history. Keep Forms responses exported separately and ask users to download their proposal drafts. Restoring website files cannot recover a browser draft deleted from that device.
+See RESEARCH_REVIEW.md for the additions, category counts and selection rationale. Full references are inside each model in models.js.
 
-This is the latest prepared version from this conversation, not a fresh export of the live GitHub deployment. Creating this backup does not publish or alter the live portal.
-
-## File map
-index.html: Home
-teaching-models.html: Models and Frameworks (original filename retained for existing links)
-models.js: complete catalogue
-script.js: catalogue interaction
-flow-images.js: portable copies of all 74 flow diagrams
-proposal-process.html: Proposal Writing Process
-proposal-builder.html: current Proposal Builder
-research-guide.html: compatibility redirect
-research-guide-content.js: builder prompts and tips
-research-guide.js: builder interaction and local draft storage
-research-guide-word.js: Word export
-research-zip.min.js and research-zip-LICENSE.md: ZIP support and license
-research-management.html: Research Management
-styles.css and research-guide.css: presentation
-assets/: seals and figures
-
-The builder uses browser storage key saliksik-gabay-research-v1. Preserve that key in future updates to maintain draft compatibility.
-
-
-## Implementation flows
-All 74 diagrams are included in assets/model-flows and in flow-images.js. Upload flow-images.js together with models.js, script.js, and teaching-models.html. Entries with diagrams show the diagram without a duplicate text list. Each of the 16 new entries includes a diagram with source attribution. Implementation Flow contains graphic organizers and source captions only. The existing 58 graphic organizers are preserved.
-
-The 16 newest diagrams use readable vertical application flows with source captions. Implementation Flow contains graphics only. All 74 entries are retained.
+## Backup scope
+Website files only. Does not include Google Drive contents or permissions, Forms ownership or responses, browser-saved drafts, or Git history.

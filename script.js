@@ -1,7 +1,9 @@
 
 const categoryFilter = document.getElementById("categoryFilter");
-for (const category of [...new Set(MODELS.map(model => model.category))]) {
-  const option = document.createElement("option"); option.value = category; option.textContent = category; categoryFilter.appendChild(option);
+for (const category of CATEGORY_NAMES) {
+ const count=MODELS.filter(m=>modelCategories(m).includes(category)).length;
+ if(!count) continue;
+ const option=document.createElement('option');option.value=category;option.textContent=category+' ('+count+')';categoryFilter.appendChild(option);
 }
 const searchInput = document.getElementById("searchInput");
 const browseModels = document.getElementById("browseModels");
@@ -29,31 +31,7 @@ function setBrowserOpen(open) {
   browseModels.textContent = open ? "Hide models and frameworks" : "Browse models and frameworks";
 }
 
-function flattenForSearch(value) {
-  if (Array.isArray(value)) {
-    return value.map(flattenForSearch).join(" ");
-  }
-  if (value && typeof value === "object") {
-    return Object.values(value).map(flattenForSearch).join(" ");
-  }
-  return value ? String(value) : "";
-}
-
-function searchModels(query) {
-  const q = query.trim().toLowerCase();
-  
-
-  return MODELS.filter((model) => {
-    const joined = [
-      model.modelName, model.category,
-      model.learningArea,
-      model.summary,
-      ...(model.tags || []),
-      flattenForSearch(model.sections || {})
-    ].join(" ").toLowerCase();
-    return (!categoryFilter.value || model.category === categoryFilter.value) && joined.includes(q);
-  });
-}
+function searchModels(query) {return findModels(query,categoryFilter.value);}
 
 function renderModelList() {
   modelList.innerHTML = "";
@@ -103,7 +81,7 @@ function updateModelSelection() {
 function renderHeader(model) {
   modelName.textContent = model.modelName;
   modelSummary.textContent = model.summary;
-  learningArea.textContent = "Category: " + model.category + " · Context: " + model.learningArea;
+  learningArea.textContent = "Categories: " + modelCategories(model).join(" · ") + " · Context: " + model.learningArea;
 
   tagList.innerHTML = "";
   (model.tags || []).forEach((tag) => {
@@ -299,3 +277,5 @@ sectionSelect?.addEventListener("change", (event) => {
 
 renderModelList();
 if (initialModel) renderModel(initialModel);
+
+document.getElementById("clearFilters")?.addEventListener("click",()=>{searchInput.value="";categoryFilter.value="";applyFilters();searchInput.focus();});
