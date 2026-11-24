@@ -1,0 +1,17 @@
+.analysis-tracks { display:grid; grid-template-columns:repeat(auto-fit,minmax(min(100%,245px),1fr)); gap:16px; margin:18px 0 28px; }
+.analysis-tracks h3 { margin:0; color:var(--accent); }
+.analysis-tracks p { margin-bottom:0; }
+.analysis-back { display:inline-block; margin-bottom:12px; }
+.analysis-page a:focus-visible,.method summary:focus-visible { outline:3px solid var(--accent); outline-offset:3px; }
+.analysis-jumps { display:flex; flex-wrap:wrap; gap:8px; margin:18px 0 28px; }
+.analysis-jumps a { padding:8px 12px; border:1px solid var(--border); background:white; color:var(--accent); border-radius:8px; }
+.analysis-note { max-width:80ch; line-height:1.6; }
+.method-group { scroll-margin-top:12px; margin:26px 0; }
+.method-group h3 { font-size:1.25rem; }
+.method { background:white; border:1px solid var(--border); border-radius:12px; margin:8px 0; }
+.method summary { cursor:pointer; color:var(--accent); padding:14px 18px; line-height:1.5; font-weight:bold; }
+.method summary small { display:block; margin-left:1.1rem; color:var(--muted); font-size:.95rem; font-weight:normal; }
+.method[open] summary { border-bottom:1px solid var(--border); }
+.method dl,.method-source { margin:16px 22px; max-width:78ch; line-height:1.6; }
+.method dt { font-weight:bold; margin-top:12px; }
+.method dd { margin:2px 0 0; }
