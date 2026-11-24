@@ -57,3 +57,5 @@
 @media print {.guide-browser .sidebar,.guide-browser .browse-toggle,.guide-browser .section-navigation{display:none!important}.guide-browser .guide-paper:not([hidden]) .section-card[hidden]{display:block!important}}
 
 .beginner-intro{line-height:1.5;color:var(--muted);margin:0;font-size:1rem}
+
+.treatment-family{display:grid;gap:.4rem}.treatment-family h3{font-size:1rem;margin:.85rem 0 .25rem;color:var(--accent)}

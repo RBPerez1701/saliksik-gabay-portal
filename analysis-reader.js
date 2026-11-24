@@ -40,10 +40,12 @@
     const terms = search.value.toLocaleLowerCase().trim().split(/\s+/).filter(Boolean);
     let count = 0;
     for (const link of links) {
-      const text = link.textContent.toLocaleLowerCase();
+      const family = link.closest('.treatment-family')?.querySelector('h3')?.textContent || '';
+      const text = (link.textContent + ' ' + family).toLocaleLowerCase();
       link.hidden = !terms.every(term => text.includes(term));
       if (!link.hidden) count++;
     }
+    for (const family of root.querySelectorAll('.treatment-family')) family.hidden = !family.querySelector('.model-button:not([hidden])');
     find('modelCount').textContent = count + (count === 1 ? ' guide' : ' guides');
     find('empty').hidden = count !== 0;
     clear.disabled = terms.length === 0;
