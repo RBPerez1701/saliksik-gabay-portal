@@ -13,7 +13,8 @@
   }
   function select() {
     const target = find(location.hash.slice(1));
-    const paper = target?.closest('.guide-paper') || papers[0];
+    const legacyGuide = location.hash.match(/^#(guide-[0-9]+)-part-[0-9]+$/);
+    const paper = target?.closest('.guide-paper') || (legacyGuide && find(legacyGuide[1])) || papers[0];
     for (const item of papers) item.hidden = item !== paper;
     for (const link of links) {
       const active = link.hash === '#' + paper.id;

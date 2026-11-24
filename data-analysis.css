@@ -55,3 +55,5 @@
 .guide-browser:not(.enhanced) .section-navigation {display:none}
 @media(max-width:800px){.guide-browser .guide-paper{padding:16px}.guide-browser table{font-size:.94rem}}
 @media print {.guide-browser .sidebar,.guide-browser .browse-toggle,.guide-browser .section-navigation{display:none!important}.guide-browser .guide-paper:not([hidden]) .section-card[hidden]{display:block!important}}
+
+.beginner-intro{line-height:1.5;color:var(--muted);margin:0;font-size:1rem}
