@@ -15,3 +15,19 @@
 .method dl,.method-source { margin:16px 22px; max-width:78ch; line-height:1.6; }
 .method dt { font-weight:bold; margin-top:12px; }
 .method dd { margin:2px 0 0; }
+
+.guide-reader { max-width:68rem; }
+.guide-reader .page-intro { margin-bottom:1rem; }
+.guide-reader [hidden] { display:none; }
+.reader-controls,.guide-index { margin:1rem 0; padding:1rem; background:var(--accent-soft); border-radius:.75rem; }
+.reader-controls label { display:block; font-weight:bold; margin-bottom:.45rem; }
+.reader-controls select { max-width:100%; width:36rem; font:inherit; padding:.65rem; color:var(--text); background:white; border:1px solid var(--border); border-radius:.5rem; }
+.guide-paper { background:white; padding:clamp(1rem,4vw,2.5rem); border:1px solid var(--border); border-radius:1rem; margin:1rem 0; }
+.guide-paper h3 { color:var(--accent); font-size:clamp(1.4rem,3vw,2rem); line-height:1.2; margin:0 0 .8rem; }
+.guide-paper h4 { font-size:1.2rem; margin:0 0 .45rem; }
+.guide-paper section { border-top:1px solid var(--border); padding-top:1rem; margin-top:1.5rem; scroll-margin-top:1rem; }
+.guide-paper p,.guide-paper li { max-width:80ch; line-height:1.65; margin:.45rem 0; }
+.guide-paper ol,.guide-paper ul { padding-left:1.5rem; }
+.reader-contents { display:flex; gap:.4rem .8rem; flex-wrap:wrap; margin-top:1rem; }
+.reader-contents a { font-size:.9375rem; padding:.25rem 0; }
+@media print { .reader-controls,.reader-contents,.analysis-back,.portal-nav,.portal-feedback { display:none; } .guide-paper { border:0; } }
