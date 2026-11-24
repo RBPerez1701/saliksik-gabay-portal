@@ -31,3 +31,27 @@
 .reader-contents { display:flex; gap:.4rem .8rem; flex-wrap:wrap; margin-top:1rem; }
 .reader-contents a { font-size:.9375rem; padding:.25rem 0; }
 @media print { .reader-controls,.reader-contents,.analysis-back,.portal-nav,.portal-feedback { display:none; } .guide-paper { border:0; } }
+
+.guide-browser [hidden] {display:none!important}
+.guide-browser .guide-paper {margin:0; border:1px solid var(--border); padding:22px}
+.guide-browser .guide-paper section {margin:0; border:0; padding-top:0}
+.guide-browser .guide-paper h3 {font-size:1.45rem;margin:1.2rem 0 .7rem;color:var(--text)}
+.guide-browser .guide-paper h4 {margin:1.25rem 0 .4rem;color:var(--accent);font-size:1.1rem}
+.guide-browser .section-card p,.guide-browser .section-card li {max-width:78ch;line-height:1.65}
+.guide-browser .model-button,.guide-browser .tab-button {text-decoration:none}
+.guide-browser .tab-button {display:inline-flex;align-items:center}
+.guide-browser .ref {padding-left:1.7rem;text-indent:-1.7rem;overflow-wrap:anywhere;margin:0 0 .9rem}
+.guide-browser .ref em {font-style:italic}
+.guide-browser .data-preview {max-width:100%;overflow:auto;margin:.8rem 0}
+.guide-browser table {border-collapse:collapse;font-size:1rem;min-width:65%}
+.guide-browser td,.guide-browser th {border:1px solid var(--border);text-align:left;vertical-align:top;padding:.55rem}
+.guide-browser th {background:var(--accent-soft)}
+.guide-browser .plot {margin:1rem 0}
+.guide-browser .plot img {width:100%;max-width:760px;height:auto}
+.guide-browser .section-navigation {margin:1rem 0}
+.guide-browser .assumption {padding:0 0 .85rem;border-bottom:1px solid var(--border)}
+.guide-browser .back-library {padding:.4rem 0;font-weight:bold}
+.guide-browser:not(.enhanced) .paper-list {display:grid;gap:1rem}
+.guide-browser:not(.enhanced) .section-navigation {display:none}
+@media(max-width:800px){.guide-browser .guide-paper{padding:16px}.guide-browser table{font-size:.94rem}}
+@media print {.guide-browser .sidebar,.guide-browser .browse-toggle,.guide-browser .section-navigation{display:none!important}.guide-browser .guide-paper:not([hidden]) .section-card[hidden]{display:block!important}}
